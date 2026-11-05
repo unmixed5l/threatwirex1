@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:03:22.975451+00:00",
+ "updated": "2026-11-05T21:00:14.168246+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,46 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "835e42a20ded7d60",
+   "title": "Social media giants sue California to overturn law shielding kids 15 and under from compulsive use",
+   "url": "https://therecord.media/social-media-giants-sue-california-over-social-media-law",
+   "summary": "Google, Meta and TikTok each filed suit in federal court against an incoming California law that blocks platforms from deploying features considered “psychologically exploitative.”",
+   "source": "The Record",
+   "category": "exploit",
+   "date": "2026-11-05T20:48:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "58f4053a1bb932db",
+   "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+   "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+   "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-05T20:15:08+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "8b7832becd89f665",
+   "title": "US issues more sanctions against Prince Group scam center affiliates",
+   "url": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
+   "summary": "The sanctions target four people and 41 companies linked to the Prince Group — a Cambodian company accused of running a billion-dollar scam operation.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-05T20:11:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "8c41ea53568673e3",
+   "title": "APT29's Watering Holes Target Thousands of Mobile Users",
+   "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+   "summary": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
+   "source": "Dark Reading",
+   "category": "threat",
+   "date": "2026-11-05T20:05:39+00:00",
+   "brief_tries": 2
+  },
+  {
    "id": "7e637a2f9fd70ec8",
    "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
    "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
@@ -44,7 +84,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-05T19:24:26+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "dd39564224715dd3",
@@ -54,7 +94,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-05T19:15:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "235c91400cfbaf46",
@@ -75,16 +115,6 @@
    "category": "vuln",
    "date": "2026-11-05T18:26:37+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "8c41ea53568673e3",
-   "title": "APT29's Watering Holes Target Thousands of Mobile Users",
-   "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
-   "summary": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
-   "source": "Dark Reading",
-   "category": "threat",
-   "date": "2026-11-05T18:08:31+00:00",
-   "brief_tries": 1
   },
   {
    "id": "671b07a9ce2d4371",
@@ -155,6 +185,16 @@
    "category": "threat",
    "date": "2026-11-05T16:48:36+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "3239dc58a7c1eb3a",
+   "title": "Redact claims attack on Omni Hotels & Resorts",
+   "url": "https://www.ransomware.live/group/Redact",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T16:24:27.883719+00:00"
   },
   {
    "id": "5263a8e99f87686b",
@@ -314,7 +354,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-05T13:39:13+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2dacffdc48c87d16",
@@ -1083,7 +1123,8 @@
    "summary": "The Department of Justice said it identified two suspects in a case that dates back to 2016 and involved illicit cryptomining on the computers of U.S. educational institutions.",
    "source": "The Record",
    "category": "threat",
-   "date": "2026-11-04T19:17:00+00:00"
+   "date": "2026-11-04T19:17:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1413af0079f42d2d",
@@ -1092,7 +1133,8 @@
    "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords.",
    "source": "BleepingComputer",
    "category": "breach",
-   "date": "2026-11-04T19:05:19+00:00"
+   "date": "2026-11-04T19:05:19+00:00",
+   "brief_tries": 1
   },
   {
    "id": "462ec96575dae404",
@@ -1101,7 +1143,8 @@
    "summary": "Crédit Mutuel Arkéa said in a press notice that the attackers were able to make transfers using the bank’s own account after compromising an unnamed supplier.",
    "source": "The Record",
    "category": "threat",
-   "date": "2026-11-04T18:58:00+00:00"
+   "date": "2026-11-04T18:58:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "055027d5b5ab4694",
@@ -1110,7 +1153,8 @@
    "summary": "The Stable channel has been updated to 158.0.8127.18/.19 for Windows , Mac will be coming shortly as part of our early stable release to a small percentage of users. A full list of changes in this build is available in the log . You can find more details about early Stable…",
    "source": "Chrome Releases",
    "category": "patch",
-   "date": "2026-11-04T18:33:09.421000+00:00"
+   "date": "2026-11-04T18:33:09.421000+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d652964dcaf09db0",
@@ -1149,7 +1193,8 @@
    "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products.",
    "source": "BleepingComputer",
    "category": "threat",
-   "date": "2026-11-04T18:02:56+00:00"
+   "date": "2026-11-04T18:02:56+00:00",
+   "brief_tries": 1
   },
   {
    "id": "aab2ca15e6bbaf07",
@@ -1230,16 +1275,6 @@
    "category": "ransomware",
    "badge": "Dark web listing",
    "date": "2026-11-04T17:50:55.643740+00:00"
-  },
-  {
-   "id": "23db4a02cf7705d2",
-   "title": "Global Secret Group claims attack on Kontron North America",
-   "url": "https://www.ransomware.live/group/Global Secret Group",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T17:22:40.207149+00:00"
   },
   {
    "id": "3632eace057e58a0",
@@ -3843,9 +3878,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3861,18 +3896,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3882,6 +3908,15 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3906,33 +3941,6 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
    "id": "2ec5379b148e3a38",
    "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
@@ -3951,9 +3959,36 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3969,9 +4004,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
