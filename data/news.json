@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:28:24.074238+00:00",
+ "updated": "2026-11-05T19:09:44.805930+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -27,7 +27,7 @@
   "ESET WeLiveSecurity": "ok (100)",
   "Check Point Research": "ok (15)",
   "GitHub Security Blog": "ok (10)",
-  "Exploit-DB": "ok (50)",
+  "Exploit-DB": "failed: URLError",
   "Reddit r/netsec": "ok (25)",
   "Reddit r/cybersecurity": "failed: HTTPError",
   "CISA KEV": "ok (60)",
@@ -37,6 +37,46 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "235c91400cfbaf46",
+   "title": "Bring a tent, I've got the coffee: Lessons from it-sa",
+   "url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
+   "summary": "Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side.",
+   "source": "Cisco Talos",
+   "category": "threat",
+   "date": "2026-11-05T19:00:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "d94b4991c1aadca6",
+   "title": "Sogou Input Method update hijack installs DarkVigil backdoor; update to 16.10 (CVE-2026-120422)",
+   "url": "https://www.reddit.com/r/netsec/comments/1xoq81f/sogou_input_method_update_hijack_installs/",
+   "summary": "submitted by   /u/glatisantbeast [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "vuln",
+   "date": "2026-11-05T18:26:37+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "671b07a9ce2d4371",
+   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password.",
+   "source": "BleepingComputer",
+   "category": "vuln",
+   "date": "2026-11-05T17:45:29+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "3347a00667c50921",
+   "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+   "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+   "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.",
+   "source": "SecurityWeek",
+   "category": "exploit",
+   "date": "2026-11-05T17:32:37+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "7c4b9df2df4f8615",
    "title": "Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
    "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
@@ -44,6 +84,16 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-11-05T17:22:06+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "ccc66eb2563172ef",
+   "title": "New investments to reduce on-premises security risk",
+   "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
+   "summary": "We’re announcing a new on-premises security initiative, bringing together guidance, migration, and product investments.",
+   "source": "Microsoft Security Blog",
+   "category": "threat",
+   "date": "2026-11-05T17:10:14+00:00",
    "brief_tries": 1
   },
   {
@@ -52,6 +102,16 @@
    "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
    "summary": "Russian state-linked hackers targeted users in Ukraine, the United States and Europe in a campaign to steal sensitive information from iPhone and Android devices, researchers found.",
    "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-05T17:00:00+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "1a39a444dba6b797",
+   "title": "​​​​What’s new in Microsoft Security: November 2026",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+   "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management.",
+   "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-11-05T17:00:00+00:00",
    "brief_tries": 1
@@ -64,7 +124,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-05T16:48:36+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5263a8e99f87686b",
@@ -74,7 +134,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-05T16:24:26+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6b1d9cd5a096d574",
@@ -94,7 +154,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-11-05T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "63a4e5fb9a82406f",
@@ -154,7 +214,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-05T14:40:26+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bf77c28bacc97c68",
@@ -177,6 +237,26 @@
    "brief_tries": 2
   },
   {
+   "id": "cba1c58fab4aa869",
+   "title": "akira claims attack on David L Wade & Associates",
+   "url": "https://www.ransomware.live/group/akira",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T14:33:52.506679+00:00"
+  },
+  {
+   "id": "bc4645af9709a3f2",
+   "title": "akira claims attack on Source Energy Services",
+   "url": "https://www.ransomware.live/group/akira",
+   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T14:33:40.396921+00:00"
+  },
+  {
    "id": "2b47cf0babb2263d",
    "title": "ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration",
    "url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
@@ -185,6 +265,15 @@
    "category": "vuln",
    "date": "2026-11-05T14:00:11+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "a3f3a309bce64ade",
+   "title": "USN-7230-3: FRR regression",
+   "url": "https://ubuntu.com/security/notices/USN-7230-3",
+   "summary": "USN-7230-2 fixed vulnerabilities in FRR. Unfortunately, the fix for CVE-2024-55553 introduced a regression in RPKI support, causing FRR to stop processing RPKI updates after the first one, so routes were not revalidated when RPKI data changed. In Ubuntu 20.04 LTS, the BGP…",
+   "source": "Ubuntu Security Notices",
+   "category": "patch",
+   "date": "2026-11-05T13:39:13+00:00"
   },
   {
    "id": "2dacffdc48c87d16",
@@ -1588,26 +1677,6 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T12:27:58+00:00"
-  },
-  {
-   "id": "c498de19048103a6",
-   "title": "N0n claims attack on Company #132",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T12:25:49.819714+00:00"
-  },
-  {
-   "id": "a439e0e790607863",
-   "title": "N0n claims attack on Company #131",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T12:25:12.376076+00:00"
   },
   {
    "id": "62ad9c2a6bdda1cc",
@@ -3752,15 +3821,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "62182dce0f3b28b2",
    "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
@@ -3770,9 +3830,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3782,6 +3842,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3815,9 +3884,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3833,27 +3902,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3869,9 +3920,27 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
