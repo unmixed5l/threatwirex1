@@ -4,9 +4,15 @@ on:
   schedule:
     - cron: "17 * * * *"   # hourly
   workflow_dispatch:        # lets you run it manually from the Actions tab
+    inputs:
+      backfill:
+        description: "Also load older history (full CISA KEV list and breach list) into the archive"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  models: read      # lets the built-in token use GitHub Models (free AI)
 
 jobs:
   update:
@@ -16,10 +22,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_news.py
+      - run: python scripts/fetch_news.py ${{ inputs.backfill && '--backfill' || '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_MAX_PER_RUN: "12"            # new items summarized per run (free tier has daily limits)
+          # AI_MODEL: "openai/gpt-4o-mini"  # uncomment to pick another model from github.com/marketplace/models
       - name: Commit changes
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add data/news.json
+          git add data
           git diff --staged --quiet || (git commit -m "Update news" && git push)
