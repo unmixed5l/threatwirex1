@@ -16,19 +16,51 @@ MAX_ITEMS = 500
 MAX_AGE_DAYS = 30
 UA = "Mozilla/5.0 (compatible; CyberNewsBot/1.0)"
 
-# (name, url, default_category)
+# (name, url, category)
+# Category "news" = guess from keywords. Category starting with "=" = always use it
+# (good for advisory feeds where every item is the same kind of thing).
 RSS_SOURCES = [
+    # --- News sites ---
     ("BleepingComputer", "https://www.bleepingcomputer.com/feed/", "news"),
     ("The Hacker News", "https://feeds.feedburner.com/TheHackersNews", "news"),
     ("Krebs on Security", "https://krebsonsecurity.com/feed/", "news"),
     ("SecurityWeek", "https://feeds.feedburner.com/securityweek", "news"),
     ("The Record", "https://therecord.media/feed", "news"),
     ("Dark Reading", "https://www.darkreading.com/rss.xml", "news"),
+    ("Schneier on Security", "https://www.schneier.com/feed/atom/", "news"),
+    ("SANS Internet Storm Center", "https://isc.sans.edu/rssfeed.xml", "news"),
+    # --- Government and coordination centres ---
     ("CISA Advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml", "news"),
+    ("CERT/CC Vulnerability Notes", "https://www.kb.cert.org/vulfeed/", "=vuln"),
+    # --- Vendor advisories and patches ---
+    ("Microsoft Security Response Center", "https://api.msrc.microsoft.com/update-guide/rss", "=patch"),
+    ("Cisco Security Advisories", "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", "=vuln"),
+    ("Fortinet PSIRT", "https://filestore.fortinet.com/fortiguard/rss/ir.xml", "=vuln"),
+    ("Palo Alto Advisories", "https://security.paloaltonetworks.com/rss.xml", "=vuln"),
+    ("Ubuntu Security Notices", "https://ubuntu.com/security/notices/rss.xml", "=patch"),
+    ("Chrome Releases", "https://chromereleases.googleblog.com/feeds/posts/default", "=patch"),
+    # --- Threat research ---
+    ("Google Project Zero", "https://googleprojectzero.blogspot.com/feeds/posts/default", "=vuln"),
+    ("Google Threat Intelligence", "https://cloud.google.com/blog/topics/threat-intelligence/rss/", "threat"),
+    ("Microsoft Security Blog", "https://www.microsoft.com/en-us/security/blog/feed/", "threat"),
     ("Cisco Talos", "https://blog.talosintelligence.com/rss/", "news"),
     ("Unit 42", "https://unit42.paloaltonetworks.com/feed/", "news"),
-    ("Exploit-DB", "https://www.exploit-db.com/rss.xml", "exploit"),
+    ("CrowdStrike", "https://www.crowdstrike.com/en-us/blog/feed/", "news"),
+    ("Securelist", "https://securelist.com/feed/", "news"),
+    ("ESET WeLiveSecurity", "https://www.welivesecurity.com/en/feed/", "news"),
+    ("Check Point Research", "https://research.checkpoint.com/feed/", "news"),
+    ("GitHub Security Blog", "https://github.blog/security/feed/", "news"),
+    # --- Exploits ---
+    ("Exploit-DB", "https://www.exploit-db.com/rss.xml", "=exploit"),
+    # --- Community (Reddit may block GitHub's servers; failures are skipped) ---
+    ("Reddit r/netsec", "https://www.reddit.com/r/netsec/.rss", "news"),
+    ("Reddit r/cybersecurity", "https://www.reddit.com/r/cybersecurity/.rss", "news"),
 ]
+
+# Keep each source from crowding out the others
+DEFAULT_CAP = 40
+SOURCE_CAP = {"Ubuntu Security Notices": 15, "Microsoft Security Response Center": 20,
+              "Cisco Security Advisories": 20, "Chrome Releases": 10, "ransomware.live": 60}
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 HIBP_URL = "https://haveibeenpwned.com/api/v3/breaches"
@@ -54,10 +86,14 @@ def fetch(url, timeout=25):
 def clean(text, limit=280):
     text = re.sub(r"<[^>]+>", " ", text or "")
     text = html.unescape(re.sub(r"\s+", " ", text)).strip()
+    text = re.sub(r"\s*\[(\.\.\.|…|&#8230;)\]\s*$", "", text)
+    text = re.sub(r"\s*The post .{0,200}appeared first on .*$", "", text)
     return text if len(text) <= limit else text[: limit - 1].rsplit(" ", 1)[0] + "…"
 
 
 def categorize(title, summary, default):
+    if default.startswith("="):
+        return default[1:]
     blob = f"{title} {summary}".lower()
     for cat, pattern in CATEGORY_RULES:
         if re.search(pattern, blob):
@@ -214,7 +250,13 @@ def main():
         d = parse_date(it["date"])
         if it["id"] not in unique and d and d >= cutoff:
             unique[it["id"]] = it
-    items = sorted(unique.values(), key=lambda i: i["date"], reverse=True)[:MAX_ITEMS]
+    items, per_source = [], {}
+    for it in sorted(unique.values(), key=lambda i: i["date"], reverse=True):
+        n = per_source.get(it["source"], 0)
+        if n < SOURCE_CAP.get(it["source"], DEFAULT_CAP):
+            per_source[it["source"]] = n + 1
+            items.append(it)
+    items = items[:MAX_ITEMS]
 
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(
