@@ -119,6 +119,34 @@ main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20p
 
 .state { text-align: center; color: var(--muted); padding: 40px 16px; background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); }
 .more { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 10px 22px; cursor: pointer; justify-self: center; }
+
+/* Severity pill on cards and in the brief */
+.sev { border-radius: 999px; padding: 1px 9px; font-weight: 600; color: var(--sevc); background: color-mix(in srgb, var(--sevc) 14%, transparent); }
+.sev-critical, .sev-high { --sevc: var(--c-breach); }
+.sev-medium { --sevc: var(--c-vuln); }
+.sev-low { --sevc: var(--c-patch); }
+
+/* Brief sheet: centered card on desktop, bottom sheet on phones */
+body:has(dialog[open]) { overflow: hidden; }
+dialog { border: 0; padding: 0; background: var(--surface); color: var(--ink); width: min(660px, calc(100% - 32px)); max-height: 88vh; border-radius: 16px; box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35); }
+dialog[open] { display: flex; flex-direction: column; }
+dialog::backdrop { background: rgba(8, 12, 24, 0.6); }
+@media (max-width: 640px) {
+  dialog { margin: auto 0 0; width: 100%; max-width: 100%; max-height: 92vh; border-radius: 18px 18px 0 0; }
+}
+.sheet { padding: 20px 20px 4px; overflow-y: auto; flex: 1; }
+.sheet h2 { font-size: 1.25rem; line-height: 1.3; letter-spacing: -0.01em; margin: 8px 0 12px; overflow-wrap: anywhere; }
+.note { color: var(--muted); font-size: 0.82rem; margin: 0 0 16px; }
+.field { margin: 0 0 16px; }
+.field h3 { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin: 0 0 3px; }
+.field p { margin: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill { border: 1px solid var(--line); border-radius: 999px; padding: 2px 11px; font-size: 0.86rem; color: var(--ink); text-decoration: none; }
+a.pill:hover { border-color: var(--accent); }
+.actions { display: flex; gap: 10px; padding: 12px 20px calc(16px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); }
+.btn { font: inherit; font-weight: 600; border-radius: 999px; padding: 11px 18px; cursor: pointer; text-decoration: none; text-align: center; }
+.btn.primary { flex: 1; background: var(--ink); color: var(--bg); border: 1px solid var(--ink); }
+.btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
 footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 40px; color: var(--muted); font-size: 0.82rem; }
 </style>
 </head>
@@ -136,8 +164,13 @@ footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 40px; color: var(-
   <section class="feed" id="feed" aria-live="polite"></section>
 </main>
 
+<dialog id="sheet" aria-labelledby="sheetTitle">
+  <div class="sheet" id="sheetBody"></div>
+  <div class="actions" id="sheetActions"></div>
+</dialog>
+
 <footer>
-  Headlines and short summaries link to their original publishers. Ransomware listings are claims made by criminal groups and are not verified. No leaked data is hosted here.
+  Briefs are written by AI from the original article and can contain mistakes, so check the source before acting. Ransomware listings are claims made by criminal groups and are not verified. No leaked data is hosted here.
 </footer>
 
 <script>
@@ -212,9 +245,16 @@ function renderFeed() {
     const meta = el("div", "meta");
     meta.append(el("span", "tag", LABEL[i.category] || "News"));
     if (i.badge) meta.append(el("span", "badge", i.badge));
+    if (i.brief && i.brief.severity !== "unknown") meta.append(el("span", "sev sev-" + i.brief.severity, cap(i.brief.severity) + " severity"));
     meta.append(el("span", null, i.source), el("time", null, ago(i.date)));
+    const blurb = i.brief && i.brief.what !== "Not stated" ? i.brief.what : i.summary;
     a.append(meta, el("h2", null, i.title));
-    if (i.summary) a.append(el("p", null, i.summary));
+    if (blurb) a.append(el("p", null, blurb));
+    a.addEventListener("click", (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+      e.preventDefault();
+      openItem(i);
+    });
     feed.append(a);
   }
   if (list.length > shown) {
@@ -238,6 +278,69 @@ async function load() {
   renderFilters();
   renderFeed();
 }
+
+
+const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+const sheet = $("sheet");
+
+function field(label, content) {
+  const f = el("div", "field");
+  f.append(el("h3", null, label));
+  if (typeof content === "string") f.append(el("p", null, content));
+  else f.append(content);
+  return f;
+}
+
+function openItem(i) {
+  const body = $("sheetBody"), actions = $("sheetActions");
+  body.replaceChildren(); actions.replaceChildren();
+
+  const meta = el("div", "meta cat-" + i.category);
+  meta.append(el("span", "tag", LABEL[i.category] || "News"));
+  if (i.badge) meta.append(el("span", "badge", i.badge));
+  const b = i.brief;
+  if (b && b.severity !== "unknown") meta.append(el("span", "sev sev-" + b.severity, cap(b.severity) + " severity"));
+  meta.append(el("span", null, i.source), el("time", null, ago(i.date)));
+  const h = el("h2", null, i.title);
+  h.id = "sheetTitle";
+  body.append(meta, h);
+
+  if (b) {
+    body.append(el("p", "note", b.basis === "article"
+      ? "AI-generated from the article text. Check the original before acting."
+      : "AI-generated from the headline and excerpt only, so details may be missing. Check the original before acting."));
+    body.append(field("What happened", b.what), field("How it happened", b.how), field("Impact", b.impact));
+    if (b.platforms && b.platforms.length) {
+      const c = el("div", "chips");
+      b.platforms.forEach((p) => c.append(el("span", "pill", p)));
+      body.append(field("Platforms affected", c));
+    }
+    body.append(field("Connected risks", b.connected_risks), field("What to do", b.action));
+    if (b.cves && b.cves.length) {
+      const c = el("div", "chips");
+      b.cves.forEach((id) => {
+        const a = el("a", "pill", id);
+        a.href = "https://nvd.nist.gov/vuln/detail/" + id;
+        a.target = "_blank"; a.rel = "noopener noreferrer";
+        c.append(a);
+      });
+      body.append(field("CVE references", c));
+    }
+  } else {
+    body.append(el("p", "note", "No AI brief for this item. Showing the excerpt from the source."));
+    if (i.summary) body.append(el("p", null, i.summary));
+  }
+
+  const go = el("a", "btn primary", "Read original on " + i.source);
+  go.href = safeUrl(i.url); go.target = "_blank"; go.rel = "noopener noreferrer";
+  const close = el("button", "btn ghost", "Close");
+  close.type = "button";
+  close.onclick = () => sheet.close();
+  actions.append(go, close);
+  body.scrollTop = 0;
+  sheet.showModal();
+}
+sheet.addEventListener("click", (e) => { if (e.target === sheet) sheet.close(); });
 
 $("q").addEventListener("input", (e) => { query = e.target.value; shown = PAGE; renderFeed(); });
 load();
