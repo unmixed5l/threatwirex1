@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  models: read      # lets the built-in token use GitHub Models (free AI)
 
 jobs:
   update:
@@ -17,6 +18,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/fetch_news.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_MAX_PER_RUN: "12"            # new items summarized per run (free tier has daily limits)
+          # AI_MODEL: "openai/gpt-4o-mini"  # uncomment to pick another model from github.com/marketplace/models
       - name: Commit changes
         run: |
           git config user.name "news-bot"
