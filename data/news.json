@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:26:49.786678+00:00",
+ "updated": "2026-11-05T15:10:07.013875+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,36 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "bf77c28bacc97c68",
+   "title": "ThisBash Escape: Claude Dispatch Flaw Enables Browser Extensions RCE on the OS · Forever Security",
+   "url": "https://www.reddit.com/r/netsec/comments/1xokbbo/thisbash_escape_claude_dispatch_flaw_enables/",
+   "summary": "submitted by   /u/Content-Winter5328 [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "patch",
+   "date": "2026-11-05T14:40:21+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "cc0615d15f1d1c60",
+   "title": "The Confessions of an AI Fraud Kingpin",
+   "url": "https://www.reddit.com/r/netsec/comments/1xok9lh/the_confessions_of_an_ai_fraud_kingpin/",
+   "summary": "submitted by   /u/404mediaco [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-11-05T14:38:18+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "2b47cf0babb2263d",
+   "title": "ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration",
+   "url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
+   "summary": "Research by: Alexey Bukhteyev Key Takeaways Introduction Earlier this year, Check Point Research disclosed a security flaw in ChatGPT’s code-execution runtime that allowed sensitive conversation data to be silently exfiltrated to an attacker-controlled server through DNS…",
+   "source": "Check Point Research",
+   "category": "vuln",
+   "date": "2026-11-05T14:00:11+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "2dacffdc48c87d16",
    "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
    "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
@@ -44,7 +74,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-05T13:22:12+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "de901f787bb86742",
@@ -54,7 +84,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-05T13:00:14+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8384bfde04a0d7fe",
@@ -64,7 +94,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-05T12:58:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1779cfdf01411187",
@@ -74,6 +104,16 @@
    "source": "SecurityWeek",
    "category": "patch",
    "date": "2026-11-05T12:33:49+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "5d4d032693916d5d",
+   "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+   "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+   "summary": "A critical finding can move through several security tools and still leave the organization exposed.  The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers…",
+   "source": "The Hacker News",
+   "category": "vuln",
+   "date": "2026-11-05T12:25:00+00:00",
    "brief_tries": 1
   },
   {
@@ -104,7 +144,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-05T11:15:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a190c692796eb082",
@@ -165,6 +205,16 @@
    "category": "exploit",
    "date": "2026-11-05T10:00:11+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "798dfd0d45f7198b",
+   "title": "BYOD claims attack on First and Final Warning - IHG Hotels & Resorts (Estate)",
+   "url": "https://www.ransomware.live/group/BYOD",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T09:50:45.225354+00:00"
   },
   {
    "id": "da77af0f435fbc61",
@@ -264,7 +314,7 @@
    "source": "CrowdStrike",
    "category": "vuln",
    "date": "2026-11-05T06:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2a5b7d5a686a585d",
@@ -574,7 +624,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-04T21:31:18+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "71b12d48491a67a5",
@@ -584,7 +634,7 @@
    "source": "The Record",
    "category": "breach",
    "date": "2026-11-04T21:30:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2ee9dfd675ca2cbf",
@@ -1436,16 +1486,6 @@
    "category": "ransomware",
    "badge": "Dark web listing",
    "date": "2026-11-04T12:24:34.067511+00:00"
-  },
-  {
-   "id": "2b4aa342dea5cddd",
-   "title": "N0n claims attack on Company #129",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T12:23:54.766963+00:00"
   },
   {
    "id": "62ad9c2a6bdda1cc",
@@ -2393,15 +2433,6 @@
    "date": "2026-11-01T09:12:23+00:00"
   },
   {
-   "id": "c1c20131973afc74",
-   "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-   "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker…",
-   "source": "The Hacker News",
-   "category": "vuln",
-   "date": "2026-11-01T08:51:31+00:00"
-  },
-  {
    "id": "5be14df72cefaec0",
    "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
@@ -2490,6 +2521,15 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-30T19:46:08+00:00"
+  },
+  {
+   "id": "f2b6276f2a15ce37",
+   "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20%20October%202026%26vs_k=1",
+   "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:  CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-10-30T19:24:31+00:00"
   },
   {
    "id": "348edc2a7a7e598d",
@@ -3347,15 +3387,6 @@
    "date": "2026-10-21T18:23:55+00:00"
   },
   {
-   "id": "702fe91ea3a715b3",
-   "title": "Cisco Advance Notification for Publication of October 21, 2026, Security Advisories",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%2021,%202026,%20Security%20Advisories%26vs_k=1",
-   "summary": "On October 21, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories. To remediate the vulnerabilities that were disclosed on October 21, 2026, Cisco strongly recommends that customers upgrade to the fixed software that is indicated…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-10-21T16:09:19+00:00"
-  },
-  {
    "id": "24755a352d3db087",
    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
    "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -3617,15 +3648,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -3635,9 +3657,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3662,6 +3684,15 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "c993d0f62b81a9c4",
    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
@@ -3680,9 +3711,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3698,18 +3729,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3725,9 +3756,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3743,9 +3774,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
