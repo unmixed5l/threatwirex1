@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:54:55.499192+00:00",
+ "updated": "2026-11-05T11:11:34.601066+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,26 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "a190c692796eb082",
+   "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+   "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+   "summary": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-05T11:00:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "806a92e4d68ba1a6",
+   "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+   "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+   "summary": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.",
+   "source": "SecurityWeek",
+   "category": "exploit",
+   "date": "2026-11-05T10:56:41+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "68af6446b07c38b0",
    "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
    "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
@@ -44,7 +64,7 @@
    "source": "SecurityWeek",
    "category": "exploit",
    "date": "2026-11-05T10:37:13+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1981b067cd839e71",
@@ -54,7 +74,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-05T10:06:19+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "89af0224359d594b",
@@ -64,7 +84,7 @@
    "source": "SecurityWeek",
    "category": "exploit",
    "date": "2026-11-05T10:02:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9ad258b4d177e905",
@@ -74,7 +94,7 @@
    "source": "Securelist",
    "category": "exploit",
    "date": "2026-11-05T10:00:11+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "da77af0f435fbc61",
@@ -84,7 +104,7 @@
    "source": "BleepingComputer",
    "category": "vuln",
    "date": "2026-11-05T09:18:29+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "96a1ace9f58c677e",
@@ -94,7 +114,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-05T09:13:28+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4f9bb7c1ff8e1d8d",
@@ -104,7 +124,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-05T08:42:03+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a665869d02d25a6a",
@@ -114,7 +134,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-05T07:06:33+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "df6f86be76465cb7",
@@ -134,7 +154,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-05T05:17:04+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "44145c076b7cfe39",
@@ -164,7 +184,7 @@
    "source": "Krebs on Security",
    "category": "threat",
    "date": "2026-11-05T04:36:17+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "25c3eda20cfedcbc",
@@ -185,6 +205,15 @@
    "category": "vuln",
    "date": "2026-11-05T00:32:39+00:00",
    "brief_tries": 1
+  },
+  {
+   "id": "260025e601bbcf9c",
+   "title": "Ukraine fires two senior security officials amid corruption probe into scam call centers",
+   "url": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
+   "summary": "Ukraine's security service has fired two senior officials amid a corruption investigation into an alleged criminal network that bribed law enforcement officers to protect fraudulent call centers and other illegal operations.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-05T00:00:00+00:00"
   },
   {
    "id": "350327fdd7cd3bdb",
