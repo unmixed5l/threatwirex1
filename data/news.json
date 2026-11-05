@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:11:34.601066+00:00",
+ "updated": "2026-11-05T12:05:52.806040+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "0d5406532ceef353",
+   "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
+   "url": "https://isc.sans.edu/diary/rss/33490",
+   "summary": "",
+   "source": "SANS Internet Storm Center",
+   "category": "threat",
+   "date": "2026-11-05T11:25:11+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "a190c692796eb082",
    "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
    "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
@@ -44,7 +54,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-05T11:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "806a92e4d68ba1a6",
@@ -54,7 +64,7 @@
    "source": "SecurityWeek",
    "category": "exploit",
    "date": "2026-11-05T10:56:41+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "68af6446b07c38b0",
@@ -127,6 +137,16 @@
    "brief_tries": 2
   },
   {
+   "id": "df02934b09809688",
+   "title": "PixelLeaks claims attack on Disclosed",
+   "url": "https://www.ransomware.live/group/PixelLeaks",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T07:59:30.753699+00:00"
+  },
+  {
    "id": "a665869d02d25a6a",
    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
    "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
@@ -194,7 +214,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-05T04:31:16+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bc11b4ad3e741de6",
@@ -204,7 +224,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-11-05T00:32:39+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "260025e601bbcf9c",
@@ -213,7 +233,8 @@
    "summary": "Ukraine's security service has fired two senior officials amid a corruption investigation into an alleged criminal network that bribed law enforcement officers to protect fraudulent call centers and other illegal operations.",
    "source": "The Record",
    "category": "threat",
-   "date": "2026-11-05T00:00:00+00:00"
+   "date": "2026-11-05T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "350327fdd7cd3bdb",
@@ -222,7 +243,8 @@
    "summary": "Chainalysis, the blockchain analytics company, said Wednesday night that some information belonging to all its users — which its website says include those in the law enforcement and national security sectors — had been exposed in a cyberattack.",
    "source": "The Record",
    "category": "threat",
-   "date": "2026-11-05T00:00:00+00:00"
+   "date": "2026-11-05T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5b43a82d30e5d313",
@@ -431,7 +453,8 @@
    "summary": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-04T21:48:18+00:00"
+   "date": "2026-11-04T21:48:18+00:00",
+   "brief_tries": 1
   },
   {
    "id": "781415f3f0baa68b",
@@ -440,7 +463,8 @@
    "summary": "We just published our research on escaping Firecracker microVMs, coordinated with AWS. The interesting part is how a guest can end up accessing memory belonging to the Firecracker process running outside the VM. The vulnerability: When a microVM is restored from a snapshot…",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-11-04T21:47:44+00:00"
+   "date": "2026-11-04T21:47:44+00:00",
+   "brief_tries": 1
   },
   {
    "id": "65538afb362b9a7b",
@@ -449,7 +473,8 @@
    "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by  eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-11-04T21:44:44+00:00"
+   "date": "2026-11-04T21:44:44+00:00",
+   "brief_tries": 1
   },
   {
    "id": "de78875600613269",
@@ -458,7 +483,8 @@
    "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware.",
    "source": "BleepingComputer",
    "category": "threat",
-   "date": "2026-11-04T21:31:18+00:00"
+   "date": "2026-11-04T21:31:18+00:00",
+   "brief_tries": 1
   },
   {
    "id": "71b12d48491a67a5",
@@ -467,7 +493,8 @@
    "summary": "Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains platforms for flight reservation,…",
    "source": "The Record",
    "category": "breach",
-   "date": "2026-11-04T21:30:00+00:00"
+   "date": "2026-11-04T21:30:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2ee9dfd675ca2cbf",
@@ -1566,16 +1593,6 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-04T01:05:40+00:00"
-  },
-  {
-   "id": "f23f436ab40cdfc4",
-   "title": "Aoqin claims attack on SILIKO d.o.o.",
-   "url": "https://www.ransomware.live/group/Aoqin",
-   "summary": "Listed on a ransomware group's leak site (SI). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T00:54:26.315826+00:00"
   },
   {
    "id": "a5109a3aad982e54",
@@ -3540,15 +3557,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "1cf65875058c7cca",
    "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
@@ -3558,9 +3566,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3570,6 +3578,15 @@
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3603,9 +3620,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3621,18 +3638,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3648,18 +3656,27 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
