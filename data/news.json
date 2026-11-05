@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:58:21.316668+00:00",
+ "updated": "2026-11-05T23:53:42.184618+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,6 +44,16 @@
    "source": "The Record",
    "category": "ransomware",
    "date": "2026-11-05T22:08:00+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "9195d03813b76557",
+   "title": "Chrome for Android Update",
+   "url": "http://chromereleases.googleblog.com/feeds/4802561820831159558/comments/default",
+   "summary": "Hi, everyone! We've just released Chrome 157 (157.0.8103.46) for Android. It'll become available on Google Play over the next few days.  This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new…",
+   "source": "Chrome Releases",
+   "category": "patch",
+   "date": "2026-11-05T22:00:00+00:00",
    "brief_tries": 1
   },
   {
@@ -564,7 +574,7 @@
    "source": "CISA Advisories",
    "category": "threat",
    "date": "2026-11-05T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "09b518162789bda5",
@@ -574,7 +584,7 @@
    "source": "CISA Advisories",
    "category": "threat",
    "date": "2026-11-05T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "0d5406532ceef353",
@@ -1374,7 +1384,7 @@
    "source": "The Hacker News",
    "category": "vuln",
    "date": "2026-11-04T17:00:46+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1b9b96d402ef45a5",
@@ -1383,7 +1393,8 @@
    "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An…",
    "source": "The Hacker News",
    "category": "patch",
-   "date": "2026-11-04T17:00:38+00:00"
+   "date": "2026-11-04T17:00:38+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9c8bdd95a7d55ce7",
@@ -1392,7 +1403,8 @@
    "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data.",
    "source": "BleepingComputer",
    "category": "threat",
-   "date": "2026-11-04T16:58:46+00:00"
+   "date": "2026-11-04T16:58:46+00:00",
+   "brief_tries": 1
   },
   {
    "id": "36fed93c0ba08271",
@@ -1401,7 +1413,8 @@
    "summary": "It was discovered that Twisted's IMAP server mishandled wildcard patterns in mailbox list commands. An authenticated remote attacker could possibly use this issue to cause Twisted to use excessive resources, leading to a denial of service.",
    "source": "Ubuntu Security Notices",
    "category": "patch",
-   "date": "2026-11-04T16:24:47+00:00"
+   "date": "2026-11-04T16:24:47+00:00",
+   "brief_tries": 1
   },
   {
    "id": "99f6b8af600a59ae",
@@ -1410,7 +1423,8 @@
    "summary": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-04T16:24:08+00:00"
+   "date": "2026-11-04T16:24:08+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7881f7cab76d3523",
@@ -1419,7 +1433,8 @@
    "summary": "A suspected Russian cyberattack disrupted the website of The Kyiv Independent, one of Ukraine’s leading English-language news outlets.",
    "source": "The Record",
    "category": "threat",
-   "date": "2026-11-04T16:15:00+00:00"
+   "date": "2026-11-04T16:15:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "78de6ffe4e2d3ce4",
@@ -1428,7 +1443,8 @@
    "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by…",
    "source": "The Hacker News",
    "category": "threat",
-   "date": "2026-11-04T16:06:43+00:00"
+   "date": "2026-11-04T16:06:43+00:00",
+   "brief_tries": 1
   },
   {
    "id": "63ac614acb83e5db",
@@ -1437,7 +1453,8 @@
    "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-11-04T16:01:02+00:00"
+   "date": "2026-11-04T16:01:02+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4ba7cadb265aa20a",
@@ -2887,15 +2904,6 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-30T19:24:31+00:00"
-  },
-  {
-   "id": "b53fa50760da38ca",
-   "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
-   "url": "http://chromereleases.googleblog.com/feeds/2053011500319377614/comments/default",
-   "summary": "The ChromeOS Dev channel is being updated to OS version 16868.5.0 (Browser version 158.0.8127.5 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug Visit our ChromeOS communities General: Chromebook Help Community Beta…",
-   "source": "Chrome Releases",
-   "category": "patch",
-   "date": "2026-10-30T18:49:40.728000+00:00"
   },
   {
    "id": "ad4296e15ebcf305",
