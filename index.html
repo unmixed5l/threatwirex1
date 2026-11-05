@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Threatwire: cybersecurity news</title>
+<meta name="description" content="Breaches, attacks, vulnerabilities, exploits, patches and dark web leak claims, collected from open sources.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+<style>
+:root {
+  --bg: #eef1f6;
+  --surface: #ffffff;
+  --ink: #101828;
+  --muted: #5b6577;
+  --line: #dde2ec;
+  --accent: #2b50e6;
+  --c-breach: #d92d4b;
+  --c-ransomware: #c2410c;
+  --c-exploit: #a21caf;
+  --c-vuln: #b45309;
+  --c-patch: #15803d;
+  --c-threat: #2b50e6;
+  --radius: 12px;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1220;
+    --surface: #151c2e;
+    --ink: #e8ecf5;
+    --muted: #93a0b8;
+    --line: #26304a;
+    --accent: #7b96ff;
+    --c-breach: #ff6b83;
+    --c-ransomware: #ff9a62;
+    --c-exploit: #e879f9;
+    --c-vuln: #fbbf24;
+    --c-patch: #4ade80;
+    --c-threat: #7b96ff;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+/* Header */
+header {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.bar {
+  max-width: 1080px; margin: 0 auto; padding: 12px 16px;
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.brand { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; margin-right: auto; display: flex; align-items: center; gap: 10px; }
+.pulse { width: 10px; height: 10px; border-radius: 50%; background: var(--c-breach); box-shadow: 0 0 0 0 var(--c-breach); animation: pulse 2.4s ease-out infinite; }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--c-breach) 60%, transparent); } 70%, 100% { box-shadow: 0 0 0 10px transparent; } }
+@media (prefers-reduced-motion: reduce) { .pulse { animation: none; } html { scroll-behavior: auto; } }
+.updated { color: var(--muted); font-size: 0.85rem; }
+.search {
+  flex: 1 1 100%; order: 3;
+  font: inherit; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+  padding: 10px 16px;
+}
+.search::placeholder { color: var(--muted); }
+@media (min-width: 700px) { .search { flex: 0 1 280px; order: 0; } }
+
+/* Layout */
+main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20px; }
+@media (min-width: 900px) { main { grid-template-columns: 220px 1fr; align-items: start; } }
+
+/* Filters: scroll row on phones, sticky list on desktop */
+.filters { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.filters::-webkit-scrollbar { display: none; }
+.chip {
+  flex: 0 0 auto; display: flex; align-items: center; gap: 8px;
+  font: inherit; font-size: 0.92rem; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+  padding: 7px 14px; cursor: pointer;
+}
+.chip .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dot, var(--muted)); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: 0.7; }
+@media (min-width: 900px) {
+  .filters { flex-direction: column; overflow: visible; position: sticky; top: 76px; }
+  .chip { border-radius: 10px; width: 100%; }
+  .chip .n { margin-left: auto; }
+}
+
+/* Feed */
+.feed { display: grid; gap: 10px; min-width: 0; }
+.item {
+  display: block; text-decoration: none;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  border-left: 5px solid var(--cat, var(--muted));
+  padding: 14px 16px;
+}
+.item:hover { border-color: var(--cat, var(--muted)); }
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 0.82rem; color: var(--muted); }
+.tag { color: var(--cat); font-weight: 700; }
+.badge { background: color-mix(in srgb, var(--cat) 14%, transparent); color: var(--cat); border-radius: 999px; padding: 1px 9px; font-weight: 600; }
+.item h2 { font-size: 1.05rem; line-height: 1.35; margin: 6px 0 4px; letter-spacing: -0.01em; overflow-wrap: anywhere; }
+.item p { margin: 0; color: var(--muted); font-size: 0.93rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.cat-breach { --cat: var(--c-breach); } .cat-ransomware { --cat: var(--c-ransomware); }
+.cat-exploit { --cat: var(--c-exploit); } .cat-vuln { --cat: var(--c-vuln); }
+.cat-patch { --cat: var(--c-patch); }   .cat-threat { --cat: var(--c-threat); }
+
+.state { text-align: center; color: var(--muted); padding: 40px 16px; background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); }
+.more { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 10px 22px; cursor: pointer; justify-self: center; }
+footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 40px; color: var(--muted); font-size: 0.82rem; }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand"><span class="pulse" aria-hidden="true"></span>Threatwire</div>
+    <span class="updated" id="updated"></span>
+    <input class="search" id="q" type="search" placeholder="Search CVEs, companies, groups…" aria-label="Search news">
+  </div>
+</header>
+
+<main>
+  <nav class="filters" id="filters" aria-label="Filter by category"></nav>
+  <section class="feed" id="feed" aria-live="polite"></section>
+</main>
+
+<footer>
+  Headlines and short summaries link to their original publishers. Ransomware listings are claims made by criminal groups and are not verified. No leaked data is hosted here.
+</footer>
+
+<script>
+const CATS = [
+  { id: "all", label: "All" },
+  { id: "breach", label: "Breaches", color: "--c-breach" },
+  { id: "ransomware", label: "Ransomware", color: "--c-ransomware" },
+  { id: "exploit", label: "Exploits", color: "--c-exploit" },
+  { id: "vuln", label: "Vulnerabilities", color: "--c-vuln" },
+  { id: "patch", label: "Patches", color: "--c-patch" },
+  { id: "threat", label: "Threats", color: "--c-threat" },
+];
+const LABEL = { breach: "Breach", ransomware: "Ransomware", exploit: "Exploit", vuln: "Vulnerability", patch: "Patch", threat: "Threat" };
+const PAGE = 30;
+
+let items = [], active = "all", query = "", shown = PAGE;
+const $ = (id) => document.getElementById(id);
+
+function safeUrl(u) {
+  try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : "#"; } catch { return "#"; }
+}
+function ago(iso) {
+  const s = Math.max(0, (Date.now() - new Date(iso)) / 1000);
+  if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
+  if (s < 86400) return Math.round(s / 3600) + " h ago";
+  const d = Math.round(s / 86400);
+  return d === 1 ? "yesterday" : d + " days ago";
+}
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+function renderFilters() {
+  const nav = $("filters");
+  nav.replaceChildren();
+  for (const c of CATS) {
+    const n = c.id === "all" ? items.length : items.filter((i) => i.category === c.id).length;
+    const b = el("button", "chip");
+    b.type = "button";
+    b.setAttribute("aria-pressed", String(c.id === active));
+    if (c.color) { const d = el("span", "dot"); d.style.setProperty("--dot", `var(${c.color})`); b.append(d); }
+    b.append(el("span", null, c.label), el("span", "n", String(n)));
+    b.onclick = () => { active = c.id; shown = PAGE; renderFilters(); renderFeed(); };
+    nav.append(b);
+  }
+}
+
+function renderFeed() {
+  const feed = $("feed");
+  feed.replaceChildren();
+  const q = query.trim().toLowerCase();
+  const list = items.filter((i) =>
+    (active === "all" || i.category === active) &&
+    (!q || (i.title + " " + i.summary + " " + i.source).toLowerCase().includes(q)));
+
+  if (!items.length) {
+    feed.append(el("div", "state", "No news yet. In your repository, open Actions, choose Update news, and select Run workflow."));
+    return;
+  }
+  if (!list.length) {
+    feed.append(el("div", "state", "Nothing matches. Try a different search or category."));
+    return;
+  }
+  for (const i of list.slice(0, shown)) {
+    const a = el("a", "item cat-" + i.category);
+    a.href = safeUrl(i.url);
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    const meta = el("div", "meta");
+    meta.append(el("span", "tag", LABEL[i.category] || "News"));
+    if (i.badge) meta.append(el("span", "badge", i.badge));
+    meta.append(el("span", null, i.source), el("time", null, ago(i.date)));
+    a.append(meta, el("h2", null, i.title));
+    if (i.summary) a.append(el("p", null, i.summary));
+    feed.append(a);
+  }
+  if (list.length > shown) {
+    const m = el("button", "more", "Show more");
+    m.type = "button";
+    m.onclick = () => { shown += PAGE; renderFeed(); };
+    feed.append(m);
+  }
+}
+
+async function load() {
+  try {
+    const r = await fetch("data/news.json", { cache: "no-cache" });
+    const data = await r.json();
+    items = data.items || [];
+    if (data.updated) $("updated").textContent = "Updated " + ago(data.updated);
+  } catch (e) {
+    $("feed").append(el("div", "state", "Could not load the news data. If you opened this file directly, serve it with a local web server or view it on GitHub Pages."));
+    return;
+  }
+  renderFilters();
+  renderFeed();
+}
+
+$("q").addEventListener("input", (e) => { query = e.target.value; shown = PAGE; renderFeed(); });
+load();
+</script>
+</body>
+</html>
