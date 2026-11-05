@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T21:57:44.779030+00:00",
+ "updated": "2026-11-05T22:58:21.316668+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -9,7 +9,7 @@
   "Dark Reading": "ok (50)",
   "Schneier on Security": "ok (10)",
   "SANS Internet Storm Center": "ok (10)",
-  "CISA Advisories": "failed: HTTPError",
+  "CISA Advisories": "ok (30)",
   "CERT/CC Vulnerability Notes": "ok (15)",
   "Microsoft Security Response Center": "ok (5420)",
   "Cisco Security Advisories": "ok (50)",
@@ -37,6 +37,26 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "3189ce2b4e22a207",
+   "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+   "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+   "summary": "The library system, which has 66 branches serving the borough’s 2.3 million residents, published multiple alerts on Wednesday confirming that the disruption was caused by a ransomware attack.",
+   "source": "The Record",
+   "category": "ransomware",
+   "date": "2026-11-05T22:08:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "65538afb362b9a7b",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by  eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-05T21:58:10+00:00",
+   "brief_tries": 2
+  },
+  {
    "id": "c5d8bcb2d0573a49",
    "title": "US Government Email Systems Open to Abuse Thanks to Typos",
    "url": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
@@ -44,7 +64,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-05T21:35:05+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "886e9406677fab21",
@@ -54,7 +74,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-05T21:30:30+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3da2c4855b54aef0",
@@ -64,7 +84,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-11-05T21:24:03+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6ae54b5becb8074a",
@@ -74,7 +94,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-05T21:00:47+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "835e42a20ded7d60",
@@ -157,6 +177,56 @@
    "brief_tries": 2
   },
   {
+   "id": "8d577d7d799f9bf7",
+   "title": "N0n claims attack on Company #137",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T17:54:23.076846+00:00"
+  },
+  {
+   "id": "4e37258c0c62c9aa",
+   "title": "N0n claims attack on Company #136",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (DK). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T17:53:54.647350+00:00"
+  },
+  {
+   "id": "95a04dd6aaecb85e",
+   "title": "N0n claims attack on Company #135",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (ID). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T17:53:24.317409+00:00"
+  },
+  {
+   "id": "6031ade3d71a5ded",
+   "title": "N0n claims attack on Company #134",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T17:52:56.284326+00:00"
+  },
+  {
+   "id": "e8d78f208c544eda",
+   "title": "N0n claims attack on Company #133",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T17:52:27.636454+00:00"
+  },
+  {
    "id": "671b07a9ce2d4371",
    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
@@ -234,7 +304,7 @@
    "source": "The Hacker News",
    "category": "vuln",
    "date": "2026-11-05T16:42:46+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "306be99284dc169e",
@@ -244,7 +314,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-05T16:42:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3239dc58a7c1eb3a",
@@ -485,6 +555,26 @@
    "category": "exploit",
    "date": "2026-11-05T12:08:54+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "780955fd1e41f71d",
+   "title": "Post-Quantum Questions to Ask Your Vendors",
+   "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+   "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum…",
+   "source": "CISA Advisories",
+   "category": "threat",
+   "date": "2026-11-05T12:00:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "09b518162789bda5",
+   "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+   "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+   "summary": "Overview The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referred to as “the authoring…",
+   "source": "CISA Advisories",
+   "category": "threat",
+   "date": "2026-11-05T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "0d5406532ceef353",
@@ -967,16 +1057,6 @@
    "brief_tries": 2
   },
   {
-   "id": "65538afb362b9a7b",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by  eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-11-04T21:44:44+00:00",
-   "brief_tries": 2
-  },
-  {
    "id": "de78875600613269",
    "title": "Vercel rolls out new protection against stolen session cookie attacks",
    "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
@@ -1214,7 +1294,7 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-04T18:33:09.421000+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d652964dcaf09db0",
@@ -1254,7 +1334,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-04T18:02:56+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "aab2ca15e6bbaf07",
@@ -1287,63 +1367,14 @@
    "date": "2026-11-04T17:54:37.568793+00:00"
   },
   {
-   "id": "cfc6dfdd28ac9667",
-   "title": "safepay claims attack on ruscopackaging.com",
-   "url": "https://www.ransomware.live/group/safepay",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T17:53:53.403526+00:00"
-  },
-  {
-   "id": "0f9aaf75c1e80231",
-   "title": "safepay claims attack on valemany.com",
-   "url": "https://www.ransomware.live/group/safepay",
-   "summary": "Listed on a ransomware group's leak site (ES). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T17:53:16.311719+00:00"
-  },
-  {
-   "id": "4af2818d73bcca49",
-   "title": "safepay claims attack on titres-services.net",
-   "url": "https://www.ransomware.live/group/safepay",
-   "summary": "Listed on a ransomware group's leak site (BE). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T17:52:27.007798+00:00"
-  },
-  {
-   "id": "0501ede1b5edbc8f",
-   "title": "safepay claims attack on sportschule-steinbach.de",
-   "url": "https://www.ransomware.live/group/safepay",
-   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T17:51:37.376652+00:00"
-  },
-  {
-   "id": "f25ede6ef93ba6a2",
-   "title": "safepay claims attack on fuss-sprunggelenk.de",
-   "url": "https://www.ransomware.live/group/safepay",
-   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T17:50:55.643740+00:00"
-  },
-  {
    "id": "3632eace057e58a0",
    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
    "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
    "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November…",
    "source": "The Hacker News",
    "category": "vuln",
-   "date": "2026-11-04T17:00:46+00:00"
+   "date": "2026-11-04T17:00:46+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1b9b96d402ef45a5",
@@ -1823,6 +1854,15 @@
    "date": "2026-11-04T12:07:04+00:00"
   },
   {
+   "id": "eb87294c09885589",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability This type of vulnerability is a frequent attack vector for…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-04T12:00:00+00:00"
+  },
+  {
    "id": "de8bbdd0e39a7667",
    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
    "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
@@ -2280,6 +2320,24 @@
    "source": "Schneier on Security",
    "category": "exploit",
    "date": "2026-11-03T12:01:00+00:00"
+  },
+  {
+   "id": "496fbffc6e4d527f",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-119977 WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability This type of vulnerability is a frequent attack…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-03T12:00:00+00:00"
+  },
+  {
+   "id": "4ee243d9c309bcdc",
+   "title": "Subnet Solutions PowerSYSTEM Center",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The following versions of Subnet Solutions PowerSYSTEM Center are affected: PowerSYSTEM Center 2020…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-03T12:00:00+00:00"
   },
   {
    "id": "77f64f32faf59d10",
@@ -2894,6 +2952,15 @@
    "date": "2026-10-30T12:47:51+00:00"
   },
   {
+   "id": "4760f9242e3b5b83",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-30T12:00:00+00:00"
+  },
+  {
    "id": "3e5b06d3cd3d7dbe",
    "title": "Filter generation in practice: from algorithms to LLMs",
    "url": "https://securelist.com/practical-filter-generation/121697/",
@@ -3074,6 +3141,42 @@
    "date": "2026-10-29T14:00:00+00:00"
   },
   {
+   "id": "f726928be35569c1",
+   "title": "Hitachi Energy CoreTec Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+   "summary": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-29T12:00:00+00:00"
+  },
+  {
+   "id": "9b9000acef065c5e",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-97229 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability CVE-2026-76418 Cisco Secure…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-29T12:00:00+00:00"
+  },
+  {
+   "id": "58a4b860d2a79013",
+   "title": "Siemens Mendix SAML Module",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+   "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-29T12:00:00+00:00"
+  },
+  {
+   "id": "3f007ce8c8278493",
+   "title": "Hitachi Energy TRO600 series products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+   "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-29T12:00:00+00:00"
+  },
+  {
    "id": "196b1e60527b22e4",
    "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
    "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
@@ -3218,6 +3321,15 @@
    "date": "2026-10-28T14:37:52+00:00"
   },
   {
+   "id": "f28c390e8f2d693a",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-28T12:00:00+00:00"
+  },
+  {
    "id": "5ad5314f8c50f866",
    "title": "Studying Fraudulent North Korean IT Workers",
    "url": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
@@ -3344,6 +3456,33 @@
    "date": "2026-10-27T12:00:19+00:00"
   },
   {
+   "id": "9cfdf1956af8dc08",
+   "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-27T12:00:00+00:00"
+  },
+  {
+   "id": "9de4c840c98b45f4",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-27T12:00:00+00:00"
+  },
+  {
+   "id": "531d14aa47c04aa3",
+   "title": "EPICS Base",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code. The following versions of EPICS Base are affected: EPICS…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-27T12:00:00+00:00"
+  },
+  {
    "id": "6c05e107bb76f251",
    "title": "Hiding Capabilities in AI Models",
    "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
@@ -3425,6 +3564,15 @@
    "date": "2026-10-26T13:25:00+00:00"
   },
   {
+   "id": "a7bcfa86d46f0ae1",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching :   CVE-2026-109618 – PHP Memory Corruption Vulnerability  CVE-2026-109619 – PHP Stale Internal…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-26T12:00:00+00:00"
+  },
+  {
    "id": "217d727d090a0aa9",
    "title": "Bias in Qwen3-Coder Model",
    "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
@@ -3477,6 +3625,24 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-10-23T13:00:09+00:00"
+  },
+  {
+   "id": "57a05936dd7184ae",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+   "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-110447 Collabora Online – Built-in CODE Server OS Command Injection Vulnerability  This type of vulnerability is a frequent attack…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-23T12:00:00+00:00"
+  },
+  {
+   "id": "d887f828b4597a76",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114625 Arista VeloCloud Orchestrator SQL Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-23T12:00:00+00:00"
   },
   {
    "id": "2ce43354cd03a403",
@@ -3594,6 +3760,123 @@
    "source": "Schneier on Security",
    "category": "patch",
    "date": "2026-10-22T13:26:51+00:00"
+  },
+  {
+   "id": "08d39f89ecf028b4",
+   "title": "Siemens Industrial Edge Device Kit",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+   "summary": "View CSAF Summary Users of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information). Industrial Edge Device Kit contains multiple path traversal vulnerabilities that…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "badbefd5ca6d1768",
+   "title": "Siemens SIMATIC S7-1500 TM MFP",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+   "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "2e4435c7af875024",
+   "title": "Kiloview E3 NDI Encoder",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
+   "summary": "View CSAF Summary Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device. The following versions of Kiloview E3 NDI Encoder are affected: E3 Firmware <1.30 (CVE-2026-109122, CVE-2026-111100, CVE-2026-96616, CVE-2026-105265,…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "0772ceb52ebcb46d",
+   "title": "Siemens RUGGEDCOM CROSSBOW",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
+   "summary": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized operations such as…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "b3a5d9b4753994ea",
+   "title": "Siemens SENTRON 3NA COM Fuse",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+   "summary": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected network to be…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "5afddfa52052a684",
+   "title": "Siemens RUGGEDCOM APE1808 Devices",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+   "summary": "View CSAF Summary Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer support to receive patch and update…",
+   "source": "CISA Advisories",
+   "category": "patch",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "605d531ea389dc3f",
+   "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+   "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "236815939a0fb5dd",
+   "title": "Siemens WinCC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+   "summary": "View CSAF Summary Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "533ddb227bc5eec3",
+   "title": "Siemens Capital Embedded AR Classic",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
+   "summary": "View CSAF Summary The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embedded AR Classic R20-11 and recommends…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "27f18cf82b1dc88c",
+   "title": "InterSystems Corporation InterSystems IRIS for Health",
+   "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to view transmitted data and use that data to log into the device. The following versions of InterSystems Corporation InterSystems IRIS for Health are affected: InterSystems IRIS for Health…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "27602b8f8f6eea14",
+   "title": "Siemens SIMATIC IPCs",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
+   "summary": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled. Siemens has released new versions…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "68eaa2dc47131c00",
+   "title": "Siemens Software Center",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03",
+   "summary": "View CSAF Summary The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution…",
+   "source": "CISA Advisories",
+   "category": "threat",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "id": "f24c5287a98c0faf",
+   "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+   "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-10-22T12:00:00+00:00"
   },
   {
    "id": "4eda8a69789bd7de",
@@ -3911,15 +4194,6 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -3932,6 +4206,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3974,9 +4257,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3992,18 +4275,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4019,18 +4302,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4386,42 +4669,6 @@
    "source": "Microsoft Security Blog",
    "category": "vuln",
    "date": "2026-10-07T16:00:00+00:00"
-  },
-  {
-   "id": "4d0ab1e7dd597340",
-   "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-   "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-   "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the…",
-   "source": "Krebs on Security",
-   "category": "ransomware",
-   "date": "2026-10-07T13:48:45+00:00"
-  },
-  {
-   "id": "999ceca9b1cf268b",
-   "title": "Inside a brand deal scam targeting YouTube creators",
-   "url": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
-   "summary": "A plausible-sounding sponsorship offer could mask an attempt to compromise your Google account",
-   "source": "ESET WeLiveSecurity",
-   "category": "threat",
-   "date": "2026-10-07T09:00:00+00:00"
-  },
-  {
-   "id": "72e02fb46df03cce",
-   "title": "Double Counter breach: 274,922 accounts",
-   "url": "https://haveibeenpwned.com/PwnedWebsites#DoubleCounter",
-   "summary": "Exposed data: Email addresses, Geographic locations, Names, Usernames. In October 2026, the Discord server protection service Double Counter suffered a data breach attributed to a vulnerability in the Metabase analytics tool . In its disclosure notice, Double Counter…",
-   "source": "Have I Been Pwned",
-   "category": "breach",
-   "date": "2026-10-07T05:42:24+00:00"
-  },
-  {
-   "id": "9c0526a00fbdbebe",
-   "title": "Angel One breach: 6,765,054 accounts",
-   "url": "https://haveibeenpwned.com/PwnedWebsites#AngelOne",
-   "summary": "Exposed data: Bank account numbers, Dates of birth, Email addresses, Financial investments, Government issued IDs. In July 2024, the Indian stock brokerage firm Angel One confirmed that data leaked online related to a breach that occurred in April 2023 . The leaked data included 7.9M user records containing 6.8M…",
-   "source": "Have I Been Pwned",
-   "category": "breach",
-   "date": "2026-10-07T03:45:31+00:00"
   }
  ]
 }
