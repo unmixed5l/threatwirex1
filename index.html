@@ -120,6 +120,11 @@ main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20p
 .state { text-align: center; color: var(--muted); padding: 40px 16px; background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); }
 .more { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 10px 22px; cursor: pointer; justify-self: center; }
 
+.status { color: var(--muted); font-size: 0.85rem; margin: 0 2px; }
+.list { margin: 0; padding-left: 1.2em; }
+.list li { margin: 3px 0; }
+.pill.mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.8rem; overflow-wrap: anywhere; }
+
 /* Severity pill on cards and in the brief */
 .sev { border-radius: 999px; padding: 1px 9px; font-weight: 600; color: var(--sevc); background: color-mix(in srgb, var(--sevc) 14%, transparent); }
 .sev-critical, .sev-high { --sevc: var(--c-breach); }
@@ -155,7 +160,7 @@ footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 40px; color: var(-
   <div class="bar">
     <div class="brand"><span class="pulse" aria-hidden="true"></span>Threatwire</div>
     <span class="updated" id="updated"></span>
-    <input class="search" id="q" type="search" placeholder="Search CVEs, companies, groups…" aria-label="Search news">
+    <input class="search" id="q" type="search" placeholder="Search all news, CVEs, groups…" aria-label="Search news">
   </div>
 </header>
 
@@ -187,6 +192,8 @@ const LABEL = { breach: "Breach", ransomware: "Ransomware", exploit: "Exploit", 
 const PAGE = 30;
 
 let items = [], active = "all", query = "", shown = PAGE;
+let pool = new Map();                         // every item known (recent + archive), by id
+const archive = { state: "idle", done: 0, total: 0 };
 const $ = (id) => document.getElementById(id);
 
 function safeUrl(u) {
@@ -197,6 +204,7 @@ function ago(iso) {
   if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
   if (s < 86400) return Math.round(s / 3600) + " h ago";
   const d = Math.round(s / 86400);
+  if (d > 30) return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
   return d === 1 ? "yesterday" : d + " days ago";
 }
 function el(tag, cls, text) {
@@ -206,35 +214,61 @@ function el(tag, cls, text) {
   return e;
 }
 
+function blob(i) {
+  if (!i._b) {
+    const b = i.brief || {};
+    i._b = [i.title, i.summary, i.source, b.what, b.threat_actor, (b.platforms || []).join(" "), (b.cves || []).join(" ")]
+      .join(" ").toLowerCase();
+  }
+  return i._b;
+}
+const terms = () => query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+
+// With a search, look through everything we know (recent + archive); otherwise show recent news.
+function queryMatches() {
+  const t = terms();
+  if (!t.length) return items;
+  return [...pool.values()].filter((i) => t.every((w) => blob(i).includes(w)))
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
 function renderFilters() {
   const nav = $("filters");
   nav.replaceChildren();
+  const qm = queryMatches();
   for (const c of CATS) {
-    const n = c.id === "all" ? items.length : items.filter((i) => i.category === c.id).length;
+    const n = c.id === "all" ? qm.length : qm.filter((i) => i.category === c.id).length;
     const b = el("button", "chip");
     b.type = "button";
     b.setAttribute("aria-pressed", String(c.id === active));
     if (c.color) { const d = el("span", "dot"); d.style.setProperty("--dot", `var(${c.color})`); b.append(d); }
     b.append(el("span", null, c.label), el("span", "n", String(n)));
-    b.onclick = () => { active = c.id; shown = PAGE; renderFilters(); renderFeed(); };
+    b.onclick = () => { active = c.id; shown = PAGE; refresh(); };
     nav.append(b);
   }
+}
+
+function statusText(count) {
+  if (!terms().length) return "";
+  const r = count + (count === 1 ? " result" : " results");
+  if (archive.state === "loading") return `${r} so far. Searching older news (${archive.done} of ${archive.total} months)…`;
+  if (archive.state === "none") return `${r}. No older news is archived yet; the archive grows with every update.`;
+  return `${r}, including older news.`;
 }
 
 function renderFeed() {
   const feed = $("feed");
   feed.replaceChildren();
-  const q = query.trim().toLowerCase();
-  const list = items.filter((i) =>
-    (active === "all" || i.category === active) &&
-    (!q || (i.title + " " + i.summary + " " + i.source).toLowerCase().includes(q)));
+  const searching = terms().length > 0;
+  const list = queryMatches().filter((i) => active === "all" || i.category === active);
 
-  if (!items.length) {
+  if (!items.length && !searching) {
     feed.append(el("div", "state", "No news yet. In your repository, open Actions, choose Update news, and select Run workflow."));
     return;
   }
+  if (searching) feed.append(el("p", "status", statusText(list.length)));
   if (!list.length) {
-    feed.append(el("div", "state", "Nothing matches. Try a different search or category."));
+    feed.append(el("div", "state", archive.state === "loading" ? "Searching…" : "Nothing matches. Try a different search or category."));
     return;
   }
   for (const i of list.slice(0, shown)) {
@@ -265,18 +299,50 @@ function renderFeed() {
   }
 }
 
+function refresh() { renderFilters(); renderFeed(); }
+
+// Loads the monthly archive files (newest first) the first time someone searches.
+async function loadArchive() {
+  if (archive.state !== "idle") return;
+  archive.state = "loading";
+  try {
+    const r = await fetch("data/archive/index.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error("no archive");
+    const months = ((await r.json()).months || []).filter((m) => /^\d{4}-\d{2}$/.test(m.month));
+    if (!months.length) throw new Error("empty");
+    archive.total = months.length;
+    let next = 0;
+    const worker = async () => {
+      while (next < months.length) {
+        const m = months[next++];
+        try {
+          const d = await (await fetch(`data/archive/${m.month}.json`)).json();
+          for (const it of d.items || []) if (!pool.has(it.id)) pool.set(it.id, it);
+        } catch (e) { /* skip a month that fails to load */ }
+        archive.done++;
+        refresh();
+      }
+    };
+    await Promise.all([worker(), worker(), worker()]);
+    archive.state = "done";
+  } catch (e) {
+    archive.state = "none";
+  }
+  refresh();
+}
+
 async function load() {
   try {
     const r = await fetch("data/news.json", { cache: "no-cache" });
     const data = await r.json();
     items = data.items || [];
+    pool = new Map(items.map((i) => [i.id, i]));
     if (data.updated) $("updated").textContent = "Updated " + ago(data.updated);
   } catch (e) {
     $("feed").append(el("div", "state", "Could not load the news data. If you opened this file directly, serve it with a local web server or view it on GitHub Pages."));
     return;
   }
-  renderFilters();
-  renderFeed();
+  refresh();
 }
 
 
@@ -309,13 +375,21 @@ function openItem(i) {
     body.append(el("p", "note", b.basis === "article"
       ? "AI-generated from the article text. Check the original before acting."
       : "AI-generated from the headline and excerpt only, so details may be missing. Check the original before acting."));
-    body.append(field("What happened", b.what), field("How it happened", b.how), field("Impact", b.impact));
-    if (b.platforms && b.platforms.length) {
-      const c = el("div", "chips");
-      b.platforms.forEach((p) => c.append(el("span", "pill", p)));
-      body.append(field("Platforms affected", c));
+    const real = (v) => v && v !== "Not stated";
+    const bullets = (arr) => { const ul = el("ul", "list"); arr.forEach((x) => ul.append(el("li", null, x))); return ul; };
+    const chips = (arr, cls) => { const c = el("div", "chips"); arr.forEach((x) => c.append(el("span", "pill" + (cls ? " " + cls : ""), x))); return c; };
+    body.append(field("What happened", b.what));
+    if (real(b.how)) body.append(field("How it happened", b.how));
+    if (b.key_facts && b.key_facts.length) body.append(field("Key facts", bullets(b.key_facts)));
+    if (b.timeline && b.timeline.length) body.append(field("Timeline", bullets(b.timeline)));
+    if (real(b.impact)) body.append(field("Impact", b.impact));
+    if (real(b.threat_actor)) body.append(field("Threat actor", b.threat_actor));
+    if (b.platforms && b.platforms.length) body.append(field("Platforms affected", chips(b.platforms)));
+    if (real(b.connected_risks)) body.append(field("Connected risks", b.connected_risks));
+    if (Array.isArray(b.action) ? b.action.length : real(b.action)) {
+      body.append(field("What to do", Array.isArray(b.action) ? bullets(b.action) : b.action));
     }
-    body.append(field("Connected risks", b.connected_risks), field("What to do", b.action));
+    if (b.indicators && b.indicators.length) body.append(field("Indicators of compromise", chips(b.indicators, "mono")));
     if (b.cves && b.cves.length) {
       const c = el("div", "chips");
       b.cves.forEach((id) => {
@@ -342,7 +416,12 @@ function openItem(i) {
 }
 sheet.addEventListener("click", (e) => { if (e.target === sheet) sheet.close(); });
 
-$("q").addEventListener("input", (e) => { query = e.target.value; shown = PAGE; renderFeed(); });
+let typing;
+$("q").addEventListener("input", (e) => {
+  query = e.target.value; shown = PAGE;
+  clearTimeout(typing);
+  typing = setTimeout(() => { if (terms().length) loadArchive(); refresh(); }, 200);
+});
 load();
 </script>
 </body>
