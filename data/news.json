@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T15:10:07.013875+00:00",
+ "updated": "2026-11-05T16:17:20.758286+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,66 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "6b1d9cd5a096d574",
+   "title": "DigiCert data breach exposes customer information, identity documents",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents.",
+   "source": "BleepingComputer",
+   "category": "breach",
+   "date": "2026-11-05T16:12:46+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "63a4e5fb9a82406f",
+   "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+   "url": "https://isc.sans.edu/diary/rss/33492",
+   "summary": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still nothing new. I suspect…",
+   "source": "SANS Internet Storm Center",
+   "category": "exploit",
+   "date": "2026-11-05T15:29:08+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "bc11b4ad3e741de6",
+   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.  These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-05T15:22:45+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "dad53d7e3ed50329",
+   "title": "Closing the Identity Gap at the Service Desk",
+   "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+   "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can…",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-05T15:00:10+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "b8155df3223a1806",
+   "title": "USN-9001-1: ca-certificates update",
+   "url": "https://ubuntu.com/security/notices/USN-9001-1",
+   "summary": "It was discovered that the ca-certificates JKS integration was not working properly, resulting in CA certificates removed from the system bundle not being removed from the JKS keystore. This update corrects the feature and resyncs the keystore with the system CA certificates…",
+   "source": "Ubuntu Security Notices",
+   "category": "patch",
+   "date": "2026-11-05T14:46:13+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "59043a85553579c0",
+   "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find…",
+   "source": "The Hacker News",
+   "category": "vuln",
+   "date": "2026-11-05T14:41:10+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "bf77c28bacc97c68",
    "title": "ThisBash Escape: Claude Dispatch Flaw Enables Browser Extensions RCE on the OS · Forever Security",
    "url": "https://www.reddit.com/r/netsec/comments/1xokbbo/thisbash_escape_claude_dispatch_flaw_enables/",
@@ -44,7 +104,7 @@
    "source": "Reddit r/netsec",
    "category": "patch",
    "date": "2026-11-05T14:40:21+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "cc0615d15f1d1c60",
@@ -54,7 +114,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-05T14:38:18+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2b47cf0babb2263d",
@@ -64,7 +124,7 @@
    "source": "Check Point Research",
    "category": "vuln",
    "date": "2026-11-05T14:00:11+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2dacffdc48c87d16",
@@ -97,6 +157,16 @@
    "brief_tries": 2
   },
   {
+   "id": "ffe0ebb8efb4d5eb",
+   "title": "USN-8972-2: HAProxy regression",
+   "url": "https://ubuntu.com/security/notices/USN-8972-2",
+   "summary": "USN-8972-1 fixed vulnerabilities in HAProxy. On Ubuntu 22.04 LTS, the update caused a regression when processing certain chunked requests. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that HAProxy incorrectly…",
+   "source": "Ubuntu Security Notices",
+   "category": "patch",
+   "date": "2026-11-05T12:52:52+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "1779cfdf01411187",
    "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
    "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
@@ -114,7 +184,7 @@
    "source": "The Hacker News",
    "category": "vuln",
    "date": "2026-11-05T12:25:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "25c3eda20cfedcbc",
@@ -135,6 +205,16 @@
    "category": "threat",
    "date": "2026-11-05T11:25:11+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "cba6d7467c3635d1",
+   "title": "Aoqin claims attack on Sistel",
+   "url": "https://www.ransomware.live/group/Aoqin",
+   "summary": "Listed on a ransomware group's leak site (BR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T11:20:37.780181+00:00"
   },
   {
    "id": "bcd0f8e51ff42e7c",
@@ -354,16 +434,6 @@
    "source": "Krebs on Security",
    "category": "threat",
    "date": "2026-11-05T04:36:17+00:00",
-   "brief_tries": 2
-  },
-  {
-   "id": "bc11b4ad3e741de6",
-   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.  These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-11-05T00:32:39+00:00",
    "brief_tries": 2
   },
   {
@@ -693,7 +763,8 @@
    "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials.",
    "source": "BleepingComputer",
    "category": "exploit",
-   "date": "2026-11-04T20:58:19+00:00"
+   "date": "2026-11-04T20:58:19+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6d5a858eeecc3e40",
@@ -762,7 +833,8 @@
    "summary": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due to improper…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-11-04T19:56:22+00:00"
+   "date": "2026-11-04T19:56:22+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a7dda9470ca7ab3b",
@@ -1476,16 +1548,6 @@
    "category": "ransomware",
    "badge": "Dark web listing",
    "date": "2026-11-04T12:25:12.376076+00:00"
-  },
-  {
-   "id": "134cd90beeb79028",
-   "title": "N0n claims attack on Company #130",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T12:24:34.067511+00:00"
   },
   {
    "id": "62ad9c2a6bdda1cc",
@@ -2368,15 +2430,6 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-02T06:00:00+00:00"
-  },
-  {
-   "id": "9068a344a0358a19",
-   "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-   "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to…",
-   "source": "The Hacker News",
-   "category": "breach",
-   "date": "2026-11-02T05:51:07+00:00"
   },
   {
    "id": "c97a2c861bbd375a",
@@ -3648,9 +3701,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3666,9 +3719,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3678,15 +3740,6 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3720,6 +3773,15 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
    "id": "ab658e1b88cfcd0b",
    "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
@@ -3729,9 +3791,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3747,15 +3809,6 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
    "id": "b27aeca410b144b4",
    "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
@@ -3765,18 +3818,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4168,15 +4221,6 @@
    "source": "Have I Been Pwned",
    "category": "breach",
    "date": "2026-10-07T03:45:31+00:00"
-  },
-  {
-   "id": "7ccedc646e574dd0",
-   "title": "CISO perspectives on managing vulnerability risks in the age of AI",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
-   "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management.",
-   "source": "Microsoft Security Blog",
-   "category": "vuln",
-   "date": "2026-10-06T16:00:00+00:00"
   }
  ]
 }
