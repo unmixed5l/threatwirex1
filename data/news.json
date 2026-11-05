@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T21:00:14.168246+00:00",
+ "updated": "2026-11-05T21:57:44.779030+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,46 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "c5d8bcb2d0573a49",
+   "title": "US Government Email Systems Open to Abuse Thanks to Typos",
+   "url": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
+   "summary": "Erroneous or outdated DNS records can give attackers surprising powers over organizations' email systems.",
+   "source": "Dark Reading",
+   "category": "threat",
+   "date": "2026-11-05T21:35:05+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "886e9406677fab21",
+   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-05T21:30:30+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "3da2c4855b54aef0",
+   "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) - watchTowr Labs",
+   "url": "https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/",
+   "summary": "submitted by   /u/dx7r__ [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "vuln",
+   "date": "2026-11-05T21:24:03+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "6ae54b5becb8074a",
+   "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+   "url": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+   "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from an ill-conceived phishing simulation to a hacktivist attack on a US government agency.",
+   "source": "Dark Reading",
+   "category": "threat",
+   "date": "2026-11-05T21:00:47+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "835e42a20ded7d60",
    "title": "Social media giants sue California to overturn law shielding kids 15 and under from compulsive use",
    "url": "https://therecord.media/social-media-giants-sue-california-over-social-media-law",
@@ -44,7 +84,7 @@
    "source": "The Record",
    "category": "exploit",
    "date": "2026-11-05T20:48:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "58f4053a1bb932db",
@@ -54,7 +94,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-05T20:15:08+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8b7832becd89f665",
@@ -64,7 +104,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-05T20:11:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8c41ea53568673e3",
@@ -185,6 +225,26 @@
    "category": "threat",
    "date": "2026-11-05T16:48:36+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "3fe484f436f5a815",
+   "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+   "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH,…",
+   "source": "The Hacker News",
+   "category": "vuln",
+   "date": "2026-11-05T16:42:46+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "306be99284dc169e",
+   "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+   "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+   "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to…",
+   "source": "The Hacker News",
+   "category": "exploit",
+   "date": "2026-11-05T16:42:32+00:00",
+   "brief_tries": 1
   },
   {
    "id": "3239dc58a7c1eb3a",
@@ -1124,7 +1184,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-04T19:17:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1413af0079f42d2d",
@@ -1134,7 +1194,7 @@
    "source": "BleepingComputer",
    "category": "breach",
    "date": "2026-11-04T19:05:19+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "462ec96575dae404",
@@ -1144,7 +1204,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-04T18:58:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "055027d5b5ab4694",
@@ -2546,24 +2606,6 @@
    "date": "2026-11-02T11:30:00+00:00"
   },
   {
-   "id": "d596e3f2baced4c0",
-   "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-   "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-   "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain…",
-   "source": "The Hacker News",
-   "category": "threat",
-   "date": "2026-11-02T11:08:45+00:00"
-  },
-  {
-   "id": "87a25e1b557ba278",
-   "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-   "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-   "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and…",
-   "source": "The Hacker News",
-   "category": "threat",
-   "date": "2026-11-02T10:49:59+00:00"
-  },
-  {
    "id": "662466985d9efc92",
    "title": "When confusion reigns, trusted vendors must guide their SMB customers",
    "url": "https://www.welivesecurity.com/en/business-security/when-confusion-reigns-trusted-vendors-guide-smb-customers/",
@@ -3356,24 +3398,6 @@
    "date": "2026-10-26T22:45:54.629708+00:00"
   },
   {
-   "id": "5d6c647af36336af",
-   "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
-   "url": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
-   "summary": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
-   "source": "Dark Reading",
-   "category": "threat",
-   "date": "2026-10-26T21:44:33+00:00"
-  },
-  {
-   "id": "c25a5812afa3a3ff",
-   "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
-   "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
-   "summary": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
-   "source": "Dark Reading",
-   "category": "exploit",
-   "date": "2026-10-26T20:59:26+00:00"
-  },
-  {
    "id": "082795207170a149",
    "title": "VU#128947: COVESA vsomeip excessive memory allocation in reliable (TCP) endpoint buffer handling",
    "url": "https://kb.cert.org/vuls/id/128947",
@@ -3878,15 +3902,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "1cf65875058c7cca",
    "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
@@ -3905,9 +3920,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "7817524cf23d9091",
-   "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3917,6 +3932,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "7817524cf23d9091",
+   "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3941,36 +3965,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -3986,18 +3983,27 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4007,6 +4013,24 @@
    "id": "b1a3e44cbbf34a02",
    "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
    "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
