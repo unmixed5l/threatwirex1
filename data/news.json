@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:59:24.995769+00:00",
+ "updated": "2026-11-06T20:57:16.672409+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,36 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "65538afb362b9a7b",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by  eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-06T20:40:06+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "ba147c5fc5c98202",
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws.",
+   "source": "BleepingComputer",
+   "category": "exploit",
+   "date": "2026-11-06T20:24:19+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "bc11b4ad3e741de6",
+   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.  These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-06T20:17:59+00:00",
+   "brief_tries": 2
+  },
+  {
    "id": "ea6b9d64cfe5f3ca",
    "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
    "url": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
@@ -44,7 +74,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-06T19:06:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c5532d0fb1f05c44",
@@ -115,6 +145,16 @@
    "category": "threat",
    "date": "2026-11-06T16:53:00+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "cb30c0f099efb532",
+   "title": "SilentRansomGroup claims attack on B... law",
+   "url": "https://www.ransomware.live/group/SilentRansomGroup",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T16:36:19.921755+00:00"
   },
   {
    "id": "9fe769e3c933c11e",
@@ -727,16 +767,6 @@
    "brief_tries": 2
   },
   {
-   "id": "65538afb362b9a7b",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by  eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-11-05T21:58:10+00:00",
-   "brief_tries": 2
-  },
-  {
    "id": "c5d8bcb2d0573a49",
    "title": "US Government Email Systems Open to Abuse Thanks to Typos",
    "url": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
@@ -1054,16 +1084,6 @@
    "source": "SANS Internet Storm Center",
    "category": "exploit",
    "date": "2026-11-05T15:29:08+00:00",
-   "brief_tries": 2
-  },
-  {
-   "id": "bc11b4ad3e741de6",
-   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x.  These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-11-05T15:22:45+00:00",
    "brief_tries": 2
   },
   {
@@ -1777,16 +1797,6 @@
    "date": "2026-11-04T21:21:00.637460+00:00"
   },
   {
-   "id": "74097361370a3fdf",
-   "title": "play claims attack on StrucSure Home Warranty",
-   "url": "https://www.ransomware.live/group/play",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T21:20:25.704079+00:00"
-  },
-  {
    "id": "0fd87eaf33b4e085",
    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
@@ -2424,7 +2434,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-04T11:34:20+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8384c224e801ca20",
@@ -2434,7 +2444,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-04T11:24:31+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9726794b0c182f1c",
@@ -2444,7 +2454,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T10:54:48+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "493913be8a0574e6",
@@ -2454,7 +2464,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T10:38:46+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "76f398aa937ffa51",
@@ -2464,7 +2474,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T10:36:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a9c6a0863b5f39e8",
@@ -2473,7 +2483,8 @@
    "summary": "ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-11-04T09:55:00+00:00"
+   "date": "2026-11-04T09:55:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "955f969e9daedf25",
@@ -2482,7 +2493,8 @@
    "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals.",
    "source": "BleepingComputer",
    "category": "exploit",
-   "date": "2026-11-04T09:39:54+00:00"
+   "date": "2026-11-04T09:39:54+00:00",
+   "brief_tries": 1
   },
   {
    "id": "68960d2138ebf334",
@@ -2491,7 +2503,8 @@
    "summary": "In recent months, North Korea has accelerated its weapons tests in a likely bid to increase its leverage in potential diplomacy with the US. The post North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack appeared first on…",
    "source": "SecurityWeek",
    "category": "threat",
-   "date": "2026-11-04T09:23:22+00:00"
+   "date": "2026-11-04T09:23:22+00:00",
+   "brief_tries": 1
   },
   {
    "id": "40a5a2749a728f96",
@@ -2500,7 +2513,8 @@
    "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of…",
    "source": "The Hacker News",
    "category": "threat",
-   "date": "2026-11-04T08:17:11+00:00"
+   "date": "2026-11-04T08:17:11+00:00",
+   "brief_tries": 1
   },
   {
    "id": "32c90d2f095832b7",
@@ -2509,7 +2523,8 @@
    "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later,…",
    "source": "The Hacker News",
    "category": "patch",
-   "date": "2026-11-04T07:46:15+00:00"
+   "date": "2026-11-04T07:46:15+00:00",
+   "brief_tries": 1
   },
   {
    "id": "e2004bab4dfca6dd",
@@ -4618,18 +4633,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4663,9 +4678,18 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4675,6 +4699,15 @@
    "id": "66bd7aa357573a8e",
    "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4699,36 +4732,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
    "id": "b482ad73477457d9",
    "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4769,15 +4784,6 @@
    "source": "Cisco Talos",
    "category": "threat",
    "date": "2026-10-14T14:00:00+00:00"
-  },
-  {
-   "id": "331c99c8661b8f23",
-   "title": "VU#166125: Bisheng has authentication bypass vulnerabilities",
-   "url": "https://kb.cert.org/vuls/id/166125",
-   "summary": "Overview Bisheng contains three vulnerabilities: a pre-authentication account takeover mechanism via a legacy single sign-on (SSO) endpoint; an Insecure Direct Object Reference (IDOR) vulnerability that exposes cross-user workflow data; and prior to version 2.5.0, authenticated…",
-   "source": "CERT/CC Vulnerability Notes",
-   "category": "vuln",
-   "date": "2026-10-14T12:39:18.342128+00:00"
   }
  ]
 }
