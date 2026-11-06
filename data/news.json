@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:03:18.841659+00:00",
+ "updated": "2026-11-06T17:56:54.906319+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,26 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "c4daeac5c98ce27b",
+   "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+   "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain.",
+   "source": "BleepingComputer",
+   "category": "exploit",
+   "date": "2026-11-06T17:04:23+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "88525575b645fabc",
+   "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+   "url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+   "summary": "Patrick Steven Yaroch, 37, is facing up to 20 years in prison on wire fraud and money laundering charges after admitting to using his position on an FBI investigative squad to steal more than $2.4 million in cryptocurrency to cover his debts.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-06T16:53:00+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "9fe769e3c933c11e",
    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
    "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
@@ -44,7 +64,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-06T16:08:38+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "af6d1b8b9d253e74",
@@ -64,7 +84,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-06T15:21:49+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "30e4d2f202820eb6",
@@ -94,7 +114,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-06T14:58:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a5d2f46564bf550f",
@@ -175,6 +195,16 @@
    "category": "threat",
    "date": "2026-11-06T14:00:00+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "22ecba3e4f191527",
+   "title": "direwolf claims attack on Algonomy",
+   "url": "https://www.ransomware.live/group/direwolf",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T13:44:10.199376+00:00"
   },
   {
    "id": "3ae40aec285b06a4",
@@ -1697,16 +1727,6 @@
    "date": "2026-11-04T21:19:15.581427+00:00"
   },
   {
-   "id": "5fdbe8063a880587",
-   "title": "play claims attack on AVIR",
-   "url": "https://www.ransomware.live/group/play",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T21:18:41.753929+00:00"
-  },
-  {
    "id": "0fd87eaf33b4e085",
    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
@@ -2274,7 +2294,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-04T13:13:20+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2f5877591bfda5a4",
@@ -2283,7 +2303,8 @@
    "summary": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks.",
    "source": "SecurityWeek",
    "category": "threat",
-   "date": "2026-11-04T12:43:20+00:00"
+   "date": "2026-11-04T12:43:20+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9c2441032957c5c4",
@@ -2292,7 +2313,8 @@
    "summary": "A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency.",
    "source": "SecurityWeek",
    "category": "threat",
-   "date": "2026-11-04T12:27:58+00:00"
+   "date": "2026-11-04T12:27:58+00:00",
+   "brief_tries": 1
   },
   {
    "id": "62ad9c2a6bdda1cc",
@@ -2301,7 +2323,8 @@
    "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild.",
    "source": "BleepingComputer",
    "category": "exploit",
-   "date": "2026-11-04T12:11:05+00:00"
+   "date": "2026-11-04T12:11:05+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d013e25bf4065f18",
@@ -2310,7 +2333,8 @@
    "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1…",
    "source": "The Hacker News",
    "category": "vuln",
-   "date": "2026-11-04T12:07:04+00:00"
+   "date": "2026-11-04T12:07:04+00:00",
+   "brief_tries": 1
   },
   {
    "id": "eb87294c09885589",
@@ -2319,7 +2343,8 @@
    "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability This type of vulnerability is a frequent attack vector for…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-11-04T12:00:00+00:00"
+   "date": "2026-11-04T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "de8bbdd0e39a7667",
@@ -2328,7 +2353,8 @@
    "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known…",
    "source": "The Hacker News",
    "category": "patch",
-   "date": "2026-11-04T11:46:27+00:00"
+   "date": "2026-11-04T11:46:27+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ecf2013fdfbbaac4",
@@ -4741,24 +4767,6 @@
    "source": "Unit 42",
    "category": "threat",
    "date": "2026-10-13T22:00:04+00:00"
-  },
-  {
-   "id": "a24af62903adae24",
-   "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
-   "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-   "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
-   "source": "Cisco Talos",
-   "category": "patch",
-   "date": "2026-10-13T20:37:58+00:00"
-  },
-  {
-   "id": "09a1dbfd7d8838e4",
-   "title": "VU#456950: Komodo Periphery agent contains an OS command injection vulnerability",
-   "url": "https://kb.cert.org/vuls/id/456950",
-   "summary": "Overview Versions <= 2.2.0 of Periphery, an agent within the Komodo server management platform, is vulnerable to OS command injection due to missing validation of container names, through two vectors: container destruction and container log searches. This allows an…",
-   "source": "CERT/CC Vulnerability Notes",
-   "category": "vuln",
-   "date": "2026-10-13T19:24:10.004944+00:00"
   }
  ]
 }
