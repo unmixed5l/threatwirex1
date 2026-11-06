@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:15:56.042519+00:00",
+ "updated": "2026-11-06T12:03:36.424690+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,36 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "ef201551febe866d",
+   "title": "USN-9003-1: Linux kernel (NVIDIA) vulnerabilities",
+   "url": "https://ubuntu.com/security/notices/USN-9003-1",
+   "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of…",
+   "source": "Ubuntu Security Notices",
+   "category": "patch",
+   "date": "2026-11-06T11:30:38+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "6625b8a777d1a389",
+   "title": "The Flood is Coming And The Pipes Were Already Full",
+   "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+   "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what…",
+   "source": "The Hacker News",
+   "category": "threat",
+   "date": "2026-11-06T11:30:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "b7526a2f698c82a8",
+   "title": "USN-9002-1: Linux kernel (NVIDIA Tegra) vulnerabilities",
+   "url": "https://ubuntu.com/security/notices/USN-9002-1",
+   "summary": "It was discovered that the io_uring subsystem in the Linux kernel did not properly handle canceled task work when processing certain wait operations, leading to the operation being performed in the wrong task context. A local attacker could possibly use this to cause a denial…",
+   "source": "Ubuntu Security Notices",
+   "category": "patch",
+   "date": "2026-11-06T11:22:23+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "48d1766e5307a052",
    "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
    "url": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
@@ -44,7 +74,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-06T10:34:37+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4c3b7ebdb999ff3d",
@@ -64,7 +94,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-06T09:33:51+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3a8f9a3bb5fda75d",
@@ -185,6 +215,16 @@
    "category": "threat",
    "date": "2026-11-06T00:56:44+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "0da6cf00fb542a34",
+   "title": "EU accuses TikTok of trapping users in harmful ‘rabbit holes’",
+   "url": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
+   "summary": "The European Commission accused TikTok on Friday of failing to prevent its recommendation algorithm from drawing users into “rabbit holes” of content about sadness, self-harm and body image.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-06T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c0b462358d8f6faa",
@@ -487,21 +527,21 @@
    "brief_tries": 2
   },
   {
-   "id": "44c256844f1ea88a",
-   "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
-   "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
-   "summary": "Russian state-linked hackers targeted users in Ukraine, the United States and Europe in a campaign to steal sensitive information from iPhone and Android devices, researchers found.",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-05T17:00:00+00:00",
-   "brief_tries": 2
-  },
-  {
    "id": "1a39a444dba6b797",
    "title": "​​​​What’s new in Microsoft Security: November 2026",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
    "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management.",
    "source": "Microsoft Security Blog",
+   "category": "threat",
+   "date": "2026-11-05T17:00:00+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "44c256844f1ea88a",
+   "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
+   "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+   "summary": "Russian state-linked hackers targeted users in Ukraine, the United States and Europe in a campaign to steal sensitive information from iPhone and Android devices, researchers found.",
+   "source": "The Record",
    "category": "threat",
    "date": "2026-11-05T17:00:00+00:00",
    "brief_tries": 2
@@ -1964,7 +2004,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-04T14:17:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d771258417ff8ba5",
@@ -1974,7 +2014,7 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-04T14:13:32.334000+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1cb3088dd861e775",
@@ -1983,7 +2023,8 @@
    "summary": "The company will invest in agentic data security capabilities and expand its go-to-market organization.",
    "source": "SecurityWeek",
    "category": "threat",
-   "date": "2026-11-04T14:09:20+00:00"
+   "date": "2026-11-04T14:09:20+00:00",
+   "brief_tries": 1
   },
   {
    "id": "90d6fc2ed18025d0",
@@ -1992,7 +2033,8 @@
    "summary": "Max Justicz discovered that APT incorrectly handled hard links when encountering redirects and retrying package downloads. A remote on-path attacker could possibly use this issue to trick APT into installing an unverified package and achieve remote code execution with root…",
    "source": "Ubuntu Security Notices",
    "category": "patch",
-   "date": "2026-11-04T13:37:00+00:00"
+   "date": "2026-11-04T13:37:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7dcd83260d7cc003",
@@ -2001,7 +2043,8 @@
    "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables.…",
    "source": "SANS Internet Storm Center",
    "category": "breach",
-   "date": "2026-11-04T13:24:13+00:00"
+   "date": "2026-11-04T13:24:13+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1aedc3ffafe52536",
@@ -2010,7 +2053,8 @@
    "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency.",
    "source": "BleepingComputer",
    "category": "threat",
-   "date": "2026-11-04T13:13:20+00:00"
+   "date": "2026-11-04T13:13:20+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2f5877591bfda5a4",
@@ -2362,15 +2406,6 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-03T17:38:38+00:00"
-  },
-  {
-   "id": "b51d95323a6391f9",
-   "title": "USN-8991-1: rxvt-unicode vulnerability",
-   "url": "https://ubuntu.com/security/notices/USN-8991-1",
-   "summary": "It was discovered that rxvt-unicode incorrectly handled certain escape sequences. An attacker could possibly use this issue to execute arbitrary code if a user displayed specially crafted text in the terminal.",
-   "source": "Ubuntu Security Notices",
-   "category": "patch",
-   "date": "2026-11-03T17:37:49+00:00"
   },
   {
    "id": "86c38c1e82c9eaca",
@@ -2767,15 +2802,6 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-11-02T15:57:23+00:00"
-  },
-  {
-   "id": "948be6f589a74e52",
-   "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-   "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to…",
-   "source": "The Hacker News",
-   "category": "threat",
-   "date": "2026-11-02T15:50:26+00:00"
   },
   {
    "id": "37d67f74470829e2",
@@ -4362,9 +4388,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4380,18 +4406,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4401,6 +4418,15 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4434,45 +4460,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
    "id": "ab658e1b88cfcd0b",
    "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4488,9 +4478,45 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
    "id": "b482ad73477457d9",
    "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4708,24 +4734,6 @@
    "title": "Persistent Denial of Service in Admin Profile",
    "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-176",
    "summary": "CVSSv3 Score: 4.8 An Uncaught Exception vulnerability [CWE-248] in FortiSandbox may allow a privileged attacker to deny access to the GUI and CLI persistently via crafted HTTP requests. Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "63638131b2619abf",
-   "title": "SQL command injection in webmail",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-184",
-   "summary": "CVSSv3 Score: 7.7 An improper neutralization of special elements used in an SQL Command (\"SQL Injection\") vulnerability [CWE-89] in FortiMail webmail may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests. Revised on…",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "e449cf8a3019c170",
-   "title": "arbitrary command execution in fgfmsd daemon",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-177",
-   "summary": "CVSSv3 Score: 5.3 An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in FortiManager fgfmd daemon may allow a remote attacker impersonating a fortimanager cluster node to execute unauthorized code or commands via…",
    "source": "Fortinet PSIRT",
    "category": "vuln",
    "date": "2026-10-13T07:00:00+00:00"
