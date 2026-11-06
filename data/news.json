@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T04:03:46.758127+00:00",
+ "updated": "2026-11-06T05:10:02.605740+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,7 +44,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-06T03:03:29+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "449fb56315dc537c",
@@ -1594,7 +1594,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bba66d6e4fac6a17",
@@ -1604,7 +1604,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ccc0bc9feebad7ae",
@@ -1614,7 +1614,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "682d63dcd20c09b0",
@@ -1623,7 +1623,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "acfbc4d3a2fbdfdb",
@@ -1632,7 +1633,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "cfef7cf35a0f9f15",
@@ -1641,7 +1643,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9cbdbfbc8a08607e",
@@ -1650,7 +1653,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5250e7dde8e2ff8f",
@@ -1659,7 +1663,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "15f7ac3bee40dcd0",
@@ -1668,7 +1673,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "17250d13793fb790",
@@ -1677,7 +1683,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7c7d0982a3a9b10d",
@@ -1686,7 +1693,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "205d9b96d96da72c",
@@ -4254,15 +4262,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4272,9 +4271,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4299,6 +4298,15 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "c993d0f62b81a9c4",
    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
@@ -4317,9 +4325,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4335,18 +4343,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4362,9 +4370,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4380,9 +4388,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
