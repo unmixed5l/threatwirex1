@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T14:59:11.004316+00:00",
+ "updated": "2026-11-06T15:59:45.730221+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,36 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "af6d1b8b9d253e74",
+   "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+   "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+   "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-06T15:25:31+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "30e4d2f202820eb6",
+   "title": "USN-8952-2: Tornado regression",
+   "url": "https://ubuntu.com/security/notices/USN-8952-2",
+   "summary": "USN-8952-1 fixed vulnerabilities in Tornado. Unfortunately that update was incomplete due to an incomplete fix for CVE-2026-103263, which broke static file serving for applications that subclass Tornado's StaticFileHandler, such as Jupyter, and could introduce a regression.…",
+   "source": "Ubuntu Security Notices",
+   "category": "patch",
+   "date": "2026-11-06T15:04:17+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "3647bbef0072cccd",
+   "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+   "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+   "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-06T15:00:10+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "a5d2f46564bf550f",
    "title": "Pinpointing Location of Videos from Background Airplane Sounds",
    "url": "https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
@@ -44,7 +74,7 @@
    "source": "Schneier on Security",
    "category": "threat",
    "date": "2026-11-06T14:57:48+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3819f670736191ac",
@@ -54,16 +84,26 @@
    "source": "SecurityWeek",
    "category": "ransomware",
    "date": "2026-11-06T14:40:09+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "e34ca10a5a26ddf3",
-   "title": "CEO-spoofing scammers indicted for using AI to help steal more than $100 million",
+   "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
    "url": "https://therecord.media/ceo-spoofing-scammers-charged",
    "summary": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-06T14:30:00+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "24c9548ae7e1ffbe",
+   "title": "Chrome Dev for Android Update",
+   "url": "http://chromereleases.googleblog.com/feeds/2634158098541198219/comments/default",
+   "summary": "Hi everyone! We've just released Chrome Dev 159 (159.0.8144.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features, check out the Chromium blog , and for details on web platform updates, check…",
+   "source": "Chrome Releases",
+   "category": "patch",
+   "date": "2026-11-06T14:28:32.500000+00:00",
    "brief_tries": 1
   },
   {
@@ -74,7 +114,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-11-06T14:21:13+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f8e9629a67be56c3",
@@ -84,7 +124,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-06T14:17:07+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "28001d41675bc5dd",
@@ -94,7 +134,7 @@
    "source": "SecurityWeek",
    "category": "breach",
    "date": "2026-11-06T14:00:07+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5c794c08b581ac27",
@@ -104,7 +144,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-06T14:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3ae40aec285b06a4",
@@ -114,7 +154,7 @@
    "source": "SecurityWeek",
    "category": "exploit",
    "date": "2026-11-06T13:19:52+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3450626e318011d3",
@@ -215,6 +255,66 @@
    "category": "patch",
    "date": "2026-11-06T11:22:23+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "990728ff2d09153b",
+   "title": "akira claims attack on Boyle, Pecharich, Cline, Whittington andStallings",
+   "url": "https://www.ransomware.live/group/akira",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T11:05:40.077375+00:00"
+  },
+  {
+   "id": "c22a5adcc9b7c4aa",
+   "title": "N0n claims attack on Dompé Farmaceutici S.p.A.",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (IT). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T10:54:16.341380+00:00"
+  },
+  {
+   "id": "013439dcb38c4884",
+   "title": "N0n claims attack on Cogent Biosciences, Inc.",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T10:53:40.759861+00:00"
+  },
+  {
+   "id": "c32865b303e03ee0",
+   "title": "N0n claims attack on Chartboost LLC",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T10:53:06.138280+00:00"
+  },
+  {
+   "id": "2e45c71c72acee4f",
+   "title": "N0n claims attack on Centrepoint",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (SA). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T10:52:31.590721+00:00"
+  },
+  {
+   "id": "bd5f69d86edb403b",
+   "title": "N0n claims attack on Resource Consultants",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T10:51:56.709132+00:00"
   },
   {
    "id": "48d1766e5307a052",
@@ -1587,36 +1687,6 @@
    "date": "2026-11-04T20:29:14.845885+00:00"
   },
   {
-   "id": "4f2980a32c4a7377",
-   "title": "Dark Project claims attack on Food Bank of Central Louisiana",
-   "url": "https://www.ransomware.live/group/Dark Project",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T20:28:28.072534+00:00"
-  },
-  {
-   "id": "bcd7007df0f78526",
-   "title": "Dark Project claims attack on Simplehuman",
-   "url": "https://www.ransomware.live/group/Dark Project",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T20:27:47.756137+00:00"
-  },
-  {
-   "id": "0bd69fe2a6c5f447",
-   "title": "BrainCipher claims attack on hhjcpa.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T20:26:51.433036+00:00"
-  },
-  {
    "id": "795e2ecb9efb2c15",
    "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
@@ -1625,36 +1695,6 @@
    "category": "vuln",
    "date": "2026-11-04T19:56:22+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "a7dda9470ca7ab3b",
-   "title": "BrainCipher claims attack on prairieridge.net",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T19:23:48.416523+00:00"
-  },
-  {
-   "id": "0c9f18796716b85c",
-   "title": "BrainCipher claims attack on ciscocems.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T19:23:13.002766+00:00"
-  },
-  {
-   "id": "1f97fc53c0abb349",
-   "title": "BrainCipher claims attack on parkell.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T19:22:34.873760+00:00"
   },
   {
    "id": "ede1220cf0eb096b",
@@ -1750,7 +1790,7 @@
    "id": "99f6b8af600a59ae",
    "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
    "url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
-   "summary": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
+   "summary": "Android device manufacturer Videostrong allegedly ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-04T16:24:08+00:00",
@@ -2435,7 +2475,7 @@
    "id": "5ce5c8d2c37fde75",
    "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
    "url": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-   "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
+   "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing an important authentication gap. Plus: post-quantum YubiKey beta.",
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-04T01:05:40+00:00"
@@ -2504,15 +2544,6 @@
    "date": "2026-11-03T20:05:50+00:00"
   },
   {
-   "id": "26326424c7a215e6",
-   "title": "Chrome Stable for iOS Update",
-   "url": "http://chromereleases.googleblog.com/feeds/1146055299302255651/comments/default",
-   "summary": "Hi everyone! We've just released Chrome Stable 157 (157.0.8103.37) for iOS; it'll become available on App Store in the next few hours. This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new issue,…",
-   "source": "Chrome Releases",
-   "category": "patch",
-   "date": "2026-11-03T19:13:32.969000+00:00"
-  },
-  {
    "id": "9ca07b46843ba208",
    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
    "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
@@ -2547,15 +2578,6 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-03T17:38:49+00:00"
-  },
-  {
-   "id": "864af51da9a11589",
-   "title": "USN-8992-1: Shapelib vulnerability",
-   "url": "https://ubuntu.com/security/notices/USN-8992-1",
-   "summary": "It was discovered that the shpsort utility in Shapelib incorrectly handled certain inputs, leading to a double free. An attacker could possibly use this issue to cause a denial of service, or possibly execute arbitrary code.",
-   "source": "Ubuntu Security Notices",
-   "category": "patch",
-   "date": "2026-11-03T17:38:38+00:00"
   },
   {
    "id": "86c38c1e82c9eaca",
@@ -2948,7 +2970,7 @@
    "id": "6c5cf422a94bb03c",
    "title": "Microsoft's AI Risk Report Misses This Key Detail",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
-   "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
+   "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks, but it doesn't mention that they are broadly being targeted through Microsoft bugs.",
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-02T15:00:00+00:00"
@@ -4734,24 +4756,6 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-10-13T19:24:10.004944+00:00"
-  },
-  {
-   "id": "c5e34f49794e0390",
-   "title": "VU#382143: Lowcoder Query Library API contains cross-tenant authorization bypass allowing for data exfiltration",
-   "url": "https://kb.cert.org/vuls/id/382143",
-   "summary": "Overview Lowcoder, version 2.4.10, contains an authorization bypass vulnerability in its Query Library feature’s API. Authenticated users with an admin or dev role can access private library-query data from other organizations within a multi-tenant Lowcoder instance.…",
-   "source": "CERT/CC Vulnerability Notes",
-   "category": "vuln",
-   "date": "2026-10-13T19:21:56.387558+00:00"
-  },
-  {
-   "id": "439088a80f99cd80",
-   "title": "VU#573195: Go, OpenSSL, Apple, LibreSSL, pyca, wolfSSL Name-Constraint inconsistency in RFC 5280 implementation",
-   "url": "https://kb.cert.org/vuls/id/573195",
-   "summary": "Overview This note covers differences in how TLS libraries interpret X.509 Name Constraints. A certificate that one library accepts may be rejected by another. Some of those differences are defects; others follow from behavior that RFC 5280 does not fully specify. Description…",
-   "source": "CERT/CC Vulnerability Notes",
-   "category": "vuln",
-   "date": "2026-10-13T18:27:20.433572+00:00"
   }
  ]
 }
