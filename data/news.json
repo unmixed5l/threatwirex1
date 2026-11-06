@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:03:36.424690+00:00",
+ "updated": "2026-11-06T13:18:57.541011+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,76 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "3450626e318011d3",
+   "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+   "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+   "summary": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-06T13:02:26+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "8694430c3bcd5114",
+   "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+   "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+   "summary": "The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-06T12:47:55+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "d0b8b49f25cecdbc",
+   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches.",
+   "source": "BleepingComputer",
+   "category": "exploit",
+   "date": "2026-11-06T12:37:22+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "cc8d32ac462dd7fa",
+   "title": "Researchers Find Residential Proxies on White House Network",
+   "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+   "summary": "In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-06T12:16:13+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "222613d43ca7cb0b",
+   "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+   "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+   "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.",
+   "source": "SecurityWeek",
+   "category": "patch",
+   "date": "2026-11-06T12:07:42+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "649e0d8b078ebcc3",
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News…",
+   "source": "The Hacker News",
+   "category": "vuln",
+   "date": "2026-11-06T12:06:43+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "cea41b0360f6d357",
+   "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their…",
+   "source": "The Hacker News",
+   "category": "patch",
+   "date": "2026-11-06T12:06:35+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "ef201551febe866d",
    "title": "USN-9003-1: Linux kernel (NVIDIA) vulnerabilities",
    "url": "https://ubuntu.com/security/notices/USN-9003-1",
@@ -44,7 +114,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-06T11:30:38+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6625b8a777d1a389",
@@ -54,7 +124,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-06T11:30:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "b7526a2f698c82a8",
@@ -64,7 +134,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-06T11:22:23+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "48d1766e5307a052",
@@ -115,6 +185,16 @@
    "category": "threat",
    "date": "2026-11-06T09:00:00+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "7a608c182d8e84a1",
+   "title": "qilin claims attack on Rotstein & Shiffman",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (IL). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T08:42:39.282325+00:00"
   },
   {
    "id": "6facdf5f94dfdf61",
@@ -224,7 +304,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-06T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c0b462358d8f6faa",
@@ -1497,16 +1577,6 @@
    "date": "2026-11-04T19:22:34.873760+00:00"
   },
   {
-   "id": "4f77845d1254fd8c",
-   "title": "BrainCipher claims attack on tritonclaims.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T19:21:56.999583+00:00"
-  },
-  {
    "id": "ede1220cf0eb096b",
    "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
    "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
@@ -2024,7 +2094,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T14:09:20+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "90d6fc2ed18025d0",
@@ -2705,15 +2775,6 @@
    "date": "2026-11-03T05:34:41+00:00"
   },
   {
-   "id": "d4042f8de11d05d6",
-   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-   "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-   "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful…",
-   "source": "The Hacker News",
-   "category": "exploit",
-   "date": "2026-11-03T05:34:37+00:00"
-  },
-  {
    "id": "3b6a51103bfae25b",
    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
    "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
@@ -2775,15 +2836,6 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-02T19:16:42+00:00"
-  },
-  {
-   "id": "65afadf0cbc2316d",
-   "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-   "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-   "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions…",
-   "source": "The Hacker News",
-   "category": "threat",
-   "date": "2026-11-02T16:57:56+00:00"
   },
   {
    "id": "d8f9dce07e530ab0",
@@ -4388,9 +4440,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4406,9 +4458,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4418,15 +4479,6 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4460,9 +4512,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4478,18 +4530,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4505,18 +4557,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4689,51 +4741,6 @@
    "title": "Double free in signal handler",
    "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-182",
    "summary": "CVSSv3 Score: 2.1 A Double Free vulnerability [CWE-415] in FortiOS, FortiProxy and FortiSwitch may allow a local authenticated attacker to crash the newcli daemon via crafted CLI commands. Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "433eee60b66bb594",
-   "title": "Fabric API Authentication bypass",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-179",
-   "summary": "CVSSv3 Score: 4.9 A Use of Hard-coded Cryptographic Key [CWE-321] in FortiSandbox and FortiSandbox Cloud API may allow an unauthenticated attacker to access some endpoints via specially crafted HTTP requests Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "958e60aa00d1a79b",
-   "title": "GUI Denial of Service",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-181",
-   "summary": "CVSSv3 Score: 6.7 An Improper Locking vulnerability [CWE-667] in FortiOS may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via crafted HTTP requests. Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "b8d4c50865ed56fb",
-   "title": "Improper access control and session management in the web management interface",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-185",
-   "summary": "CVSSv3 Score: 9.6 An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] in FortiSandbox GUI may allow a remote unauthenticated attacker to bypass authentication via crafted HTTP requests. Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "5f82d0dc0823563a",
-   "title": "Multiple Arbitrary File Read/Write via SQL Injection",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
-   "summary": "CVSSv3 Score: 7.9 An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiAnalyzer, FortiManager, FortiManager Cloud and FortiAnalyzer Cloud may allow a low privileged user to execute arbitrary commands via crafted…",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "8bec02c6ad31931f",
-   "title": "Persistent Denial of Service in Admin Profile",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-176",
-   "summary": "CVSSv3 Score: 4.8 An Uncaught Exception vulnerability [CWE-248] in FortiSandbox may allow a privileged attacker to deny access to the GUI and CLI persistently via crafted HTTP requests. Revised on 2026-10-13 00:00:00",
    "source": "Fortinet PSIRT",
    "category": "vuln",
    "date": "2026-10-13T07:00:00+00:00"
