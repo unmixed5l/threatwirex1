@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:18:57.541011+00:00",
+ "updated": "2026-11-06T14:59:11.004316+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,86 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "a5d2f46564bf550f",
+   "title": "Pinpointing Location of Videos from Background Airplane Sounds",
+   "url": "https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html",
+   "summary": "This is fascinating : The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening. It works by looking at Doppler curves,…",
+   "source": "Schneier on Security",
+   "category": "threat",
+   "date": "2026-11-06T14:57:48+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "3819f670736191ac",
+   "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+   "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+   "summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands.",
+   "source": "SecurityWeek",
+   "category": "ransomware",
+   "date": "2026-11-06T14:40:09+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "e34ca10a5a26ddf3",
+   "title": "CEO-spoofing scammers indicted for using AI to help steal more than $100 million",
+   "url": "https://therecord.media/ceo-spoofing-scammers-charged",
+   "summary": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-06T14:30:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "348edc2a7a7e598d",
+   "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:  CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-06T14:21:13+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "f8e9629a67be56c3",
+   "title": "Chainalysis says breach exposed credentials for all customers",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+   "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-06T14:17:07+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "28001d41675bc5dd",
+   "title": "DigiCert Data Breach Impacts Business Customer Information",
+   "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+   "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses.",
+   "source": "SecurityWeek",
+   "category": "breach",
+   "date": "2026-11-06T14:00:07+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "5c794c08b581ac27",
+   "title": "Why Europe's Freezer Hacks Spread So Far, So Fast",
+   "url": "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
+   "summary": "Europe's supermarket freezer hacks show how security issues can cascade across an industry, disrupting supply chains at scale.",
+   "source": "Dark Reading",
+   "category": "threat",
+   "date": "2026-11-06T14:00:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "3ae40aec285b06a4",
+   "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+   "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+   "summary": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.",
+   "source": "SecurityWeek",
+   "category": "exploit",
+   "date": "2026-11-06T13:19:52+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "3450626e318011d3",
    "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
    "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
@@ -44,7 +124,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-06T13:02:26+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8694430c3bcd5114",
@@ -54,7 +134,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-06T12:47:55+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d0b8b49f25cecdbc",
@@ -64,7 +144,7 @@
    "source": "BleepingComputer",
    "category": "exploit",
    "date": "2026-11-06T12:37:22+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "cc8d32ac462dd7fa",
@@ -74,7 +154,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-06T12:16:13+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "222613d43ca7cb0b",
@@ -3117,15 +3197,6 @@
    "date": "2026-10-30T19:24:31+00:00"
   },
   {
-   "id": "348edc2a7a7e598d",
-   "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:  CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-10-30T19:24:31+00:00"
-  },
-  {
    "id": "ad4296e15ebcf305",
    "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
@@ -3673,15 +3744,6 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-27T17:43:07+00:00"
-  },
-  {
-   "id": "c64d4188c21b1cf3",
-   "title": "'Aokigahara' Stealer Targets 'Developer Keyrings' & AI Assistants",
-   "url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
-   "summary": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
-   "source": "Dark Reading",
-   "category": "threat",
-   "date": "2026-10-27T16:47:20+00:00"
   },
   {
    "id": "a55cb75244963bf3",
@@ -4690,60 +4752,6 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-10-13T18:27:20.433572+00:00"
-  },
-  {
-   "id": "2f19676ebac4d88e",
-   "title": "VU#157374: XSS vulnerability in Shopware 6 enables Admin Token Theft and RCE",
-   "url": "https://kb.cert.org/vuls/id/157374",
-   "summary": "Overview Shopware 6.7 contains a stored cross-site scripting (XSS) vulnerability in its media upload functionality that can lead to administrator credential compromise and remote code execution. Description Shopware is an open-source e-commerce platform used to build and manage…",
-   "source": "CERT/CC Vulnerability Notes",
-   "category": "vuln",
-   "date": "2026-10-13T18:14:02.229148+00:00"
-  },
-  {
-   "id": "22c6ef693aeebfce",
-   "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-   "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-   "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.",
-   "source": "GitHub Security Blog",
-   "category": "threat",
-   "date": "2026-10-13T17:56:33+00:00"
-  },
-  {
-   "id": "10fd6f7205bc32d0",
-   "title": "When LLM Gateways Go Wrong: Findings from LiteLLM",
-   "url": "https://research.checkpoint.com/2026/when-llm-gateways-go-wrong-findings-from-litellm/",
-   "summary": "TL;DR; Our security assessment of LiteLLM (v1.77.7), a widely used open-source LLM gateway, uncovered multiple high-impact vulnerabilities (tracked as CVE-2026-35029, CVE-2026-59823) which have been resolved as of LiteLLM version 1.83.9. The most significant issues stemmed from…",
-   "source": "Check Point Research",
-   "category": "vuln",
-   "date": "2026-10-13T14:30:26+00:00"
-  },
-  {
-   "id": "fe9a368f887d4fba",
-   "title": "Arbitrary file write in grpc phQueryMaster",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
-   "summary": "CVSSv3 Score: 9.4 An Improper limitation of a pathname to a restricted directory ('path traversal') [CWE-22] in FortiSIEM may allow an unauthenticated attacker to execute unauthorized code or commands via specially crafted packets. Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "596a8a4b3ee161e2",
-   "title": "Broken authorization",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-183",
-   "summary": "CVSSv3 Score: 3.4 A missing authorization vulnerability [CWE-862] in FortiSIEM GUI may allow an authenticated attacker to execute unauthorized code or commands via Specially crafted HTTP requests Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "f7543077281f0638",
-   "title": "Double free in signal handler",
-   "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-182",
-   "summary": "CVSSv3 Score: 2.1 A Double Free vulnerability [CWE-415] in FortiOS, FortiProxy and FortiSwitch may allow a local authenticated attacker to crash the newcli daemon via crafted CLI commands. Revised on 2026-10-13 00:00:00",
-   "source": "Fortinet PSIRT",
-   "category": "vuln",
-   "date": "2026-10-13T07:00:00+00:00"
   }
  ]
 }
