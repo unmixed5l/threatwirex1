@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:53:42.184618+00:00",
+ "updated": "2026-11-06T01:24:19.035972+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,26 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "97d7db0e7e4a0b1e",
+   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+   "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-06T00:56:44+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "c0b462358d8f6faa",
+   "title": "Chrome for Android Update",
+   "url": "http://chromereleases.googleblog.com/feeds/5975769723149184914/comments/default",
+   "summary": "Hello Everyone! We've just released Chrome 158 (158.0.8127.22) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about early Stable releases here . This release includes stability and performance…",
+   "source": "Chrome Releases",
+   "category": "patch",
+   "date": "2026-11-06T00:00:00+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "3189ce2b4e22a207",
    "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
    "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
@@ -54,7 +74,7 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-05T22:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "65538afb362b9a7b",
@@ -115,6 +135,16 @@
    "category": "exploit",
    "date": "2026-11-05T20:48:00+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "cf97391e3e31a671",
+   "title": "qilin claims attack on Insurance Audit Services",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T20:46:53.207943+00:00"
   },
   {
    "id": "58f4053a1bb932db",
@@ -1367,16 +1397,6 @@
    "date": "2026-11-04T17:55:15.432246+00:00"
   },
   {
-   "id": "b7270e1607e34109",
-   "title": "safepay claims attack on ehrenwall.de",
-   "url": "https://www.ransomware.live/group/safepay",
-   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T17:54:37.568793+00:00"
-  },
-  {
    "id": "3632eace057e58a0",
    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
    "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
@@ -1394,7 +1414,7 @@
    "source": "The Hacker News",
    "category": "patch",
    "date": "2026-11-04T17:00:38+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9c8bdd95a7d55ce7",
@@ -1404,7 +1424,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-04T16:58:46+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "36fed93c0ba08271",
@@ -1414,7 +1434,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-04T16:24:47+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "99f6b8af600a59ae",
@@ -1424,7 +1444,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-04T16:24:08+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "7881f7cab76d3523",
@@ -1434,7 +1454,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-04T16:15:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "78de6ffe4e2d3ce4",
@@ -1444,7 +1464,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-04T16:06:43+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "63ac614acb83e5db",
@@ -1454,7 +1474,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-11-04T16:01:02+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4ba7cadb265aa20a",
@@ -1463,7 +1483,8 @@
    "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database.",
    "source": "BleepingComputer",
    "category": "threat",
-   "date": "2026-11-04T16:00:18+00:00"
+   "date": "2026-11-04T16:00:18+00:00",
+   "brief_tries": 1
   },
   {
    "id": "e653b011f74bd9bf",
@@ -1472,7 +1493,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "3c00be12ba17cd1d",
@@ -2139,15 +2161,6 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-03T19:13:32.969000+00:00"
-  },
-  {
-   "id": "9772cebdb3b67567",
-   "title": "Extended Stable Update for Desktop",
-   "url": "http://chromereleases.googleblog.com/feeds/6536431338715314587/comments/default",
-   "summary": "The Extended Stable channel has been updated to 156.0.8078.88   for Windows and Mac which will roll out over the coming days/weeks. Security Fixes and Rewards Note: Access to bug details and links may be kept restricted until a majority of users are updated with a fix. We will…",
-   "source": "Chrome Releases",
-   "category": "patch",
-   "date": "2026-11-03T18:47:14.028000+00:00"
   },
   {
    "id": "9ca07b46843ba208",
@@ -4668,15 +4681,6 @@
    "source": "Unit 42",
    "category": "threat",
    "date": "2026-10-07T22:00:16+00:00"
-  },
-  {
-   "id": "13ead4d4034110c9",
-   "title": "3 lessons from frontier AI vulnerability research",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel.",
-   "source": "Microsoft Security Blog",
-   "category": "vuln",
-   "date": "2026-10-07T16:00:00+00:00"
   }
  ]
 }
