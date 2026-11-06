@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:56:54.906319+00:00",
+ "updated": "2026-11-06T19:05:24.139111+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,56 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "c5532d0fb1f05c44",
+   "title": "Certificate authority DigiCert reports data breach involving business customer info",
+   "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+   "summary": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account.",
+   "source": "The Record",
+   "category": "breach",
+   "date": "2026-11-06T18:56:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "a97be9095b72e1db",
+   "title": "Fake security tools on GitHub push backdoors and infostealers",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-06T18:46:52+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "d9a0f8bfa397c301",
+   "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+   "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+   "summary": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-06T18:28:41+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "3c3dad9eec40e4f3",
+   "title": "AI Gave Your Incident Archive a Second Job",
+   "url": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+   "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+   "source": "Dark Reading",
+   "category": "threat",
+   "date": "2026-11-06T18:27:30+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "f834ce3014f9d773",
+   "title": "Chrome Dev for Desktop Update",
+   "url": "http://chromereleases.googleblog.com/feeds/5458199997867866755/comments/default",
+   "summary": "The Dev channel has been updated to 159.0.8144.0 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you find a new issue, please let us know by filing a bug . The community help forum…",
+   "source": "Chrome Releases",
+   "category": "patch",
+   "date": "2026-11-06T17:28:33.341000+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "c4daeac5c98ce27b",
    "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
    "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
@@ -44,7 +94,7 @@
    "source": "BleepingComputer",
    "category": "exploit",
    "date": "2026-11-06T17:04:23+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "88525575b645fabc",
@@ -54,7 +104,7 @@
    "source": "The Record",
    "category": "threat",
    "date": "2026-11-06T16:53:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9fe769e3c933c11e",
@@ -2304,7 +2354,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T12:43:20+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9c2441032957c5c4",
@@ -2314,7 +2364,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T12:27:58+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "62ad9c2a6bdda1cc",
@@ -2324,7 +2374,7 @@
    "source": "BleepingComputer",
    "category": "exploit",
    "date": "2026-11-04T12:11:05+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d013e25bf4065f18",
@@ -2334,7 +2384,7 @@
    "source": "The Hacker News",
    "category": "vuln",
    "date": "2026-11-04T12:07:04+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "eb87294c09885589",
@@ -2344,7 +2394,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-11-04T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "de8bbdd0e39a7667",
@@ -2580,15 +2630,6 @@
    "source": "BleepingComputer",
    "category": "breach",
    "date": "2026-11-03T21:28:44+00:00"
-  },
-  {
-   "id": "f16edee0252e0f9c",
-   "title": "Stable Channel Update for Desktop",
-   "url": "http://chromereleases.googleblog.com/feeds/881706046432431947/comments/default",
-   "summary": "The Chrome team is delighted to announce the promotion of Chrome 157 to the stable channel for Windows, Mac and Linux. This will roll out over the coming days/weeks. Chrome 157.0.8103.38 (Linux)  157.0.8103.38/.39  Windows/Mac contains a number of fixes and improvements -- a…",
-   "source": "Chrome Releases",
-   "category": "patch",
-   "date": "2026-11-03T20:38:18.791000+00:00"
   },
   {
    "id": "317e8557e095955c",
@@ -3788,15 +3829,6 @@
    "date": "2026-10-27T19:58:06+00:00"
   },
   {
-   "id": "a8008ad652a3fd55",
-   "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
-   "url": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
-   "summary": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
-   "source": "Dark Reading",
-   "category": "threat",
-   "date": "2026-10-27T17:43:07+00:00"
-  },
-  {
    "id": "a55cb75244963bf3",
    "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Products%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
@@ -4553,18 +4585,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4580,9 +4612,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4616,18 +4648,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4643,27 +4666,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4679,9 +4684,36 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
    "id": "b482ad73477457d9",
    "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4740,33 +4772,6 @@
    "source": "ESET WeLiveSecurity",
    "category": "threat",
    "date": "2026-10-14T09:00:00+00:00"
-  },
-  {
-   "id": "b2888a2cc086507e",
-   "title": "Crunchbase breach: 559,908 accounts",
-   "url": "https://haveibeenpwned.com/PwnedWebsites#Crunchbase",
-   "summary": "Exposed data: Email addresses, Employers, Job titles, Names, Phone numbers. In January 2026, the private company intelligence platform Crunchbase was targeted in a ShinyHunters \"pay or leak\" extortion attempt . Data allegedly obtained from the company was subsequently…",
-   "source": "Have I Been Pwned",
-   "category": "breach",
-   "date": "2026-10-14T06:01:26+00:00"
-  },
-  {
-   "id": "83d130e7ba9f7dd1",
-   "title": "Microsoft Patches More Than 1,400 Security Flaws",
-   "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-   "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from…",
-   "source": "Krebs on Security",
-   "category": "patch",
-   "date": "2026-10-13T23:24:53+00:00"
-  },
-  {
-   "id": "53bfae4a0cf33888",
-   "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
-   "url": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
-   "summary": "Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats.",
-   "source": "Unit 42",
-   "category": "threat",
-   "date": "2026-10-13T22:00:04+00:00"
   }
  ]
 }
