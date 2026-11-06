@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:29:17.805968+00:00",
+ "updated": "2026-11-06T09:08:46.935188+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,26 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "67dcad13539027f3",
+   "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+   "url": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+   "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
+   "source": "Dark Reading",
+   "category": "threat",
+   "date": "2026-11-06T09:00:00+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "6facdf5f94dfdf61",
+   "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+   "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+   "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data…",
+   "source": "The Hacker News",
+   "category": "threat",
+   "date": "2026-11-06T08:04:49+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "ed60ea7fa41262b4",
    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
    "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
@@ -44,7 +64,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-06T05:58:54+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a382c3d13c65e931",
@@ -54,7 +74,7 @@
    "source": "The Hacker News",
    "category": "patch",
    "date": "2026-11-06T05:39:10+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5d7c1511e0dda8d0",
@@ -1764,7 +1784,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bf04f5470695fed3",
@@ -1774,7 +1794,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-04T15:49:54+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "aa1558247008ea5d",
@@ -1784,7 +1804,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-04T15:49:48+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ec55327f2746d18f",
@@ -1794,7 +1814,7 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-04T15:43:33.511000+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a2227ac92d74220c",
@@ -1804,7 +1824,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-04T15:32:22+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "12eaca456a31a27c",
@@ -1814,7 +1834,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-04T15:27:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4f749b11cfb80952",
@@ -1823,7 +1843,8 @@
    "summary": "It was discovered that Net-SNMP incorrectly handled newly accepted connections in the SMUX module. An unauthenticated remote attacker could possibly use this issue to cause Net-SNMP to block indefinitely, resulting in a denial of service.",
    "source": "Ubuntu Security Notices",
    "category": "patch",
-   "date": "2026-11-04T15:25:21+00:00"
+   "date": "2026-11-04T15:25:21+00:00",
+   "brief_tries": 1
   },
   {
    "id": "df11688809813364",
@@ -1832,7 +1853,8 @@
    "summary": "USN-7530-1 fixed a vulnerability in ADOdb. This update provides the corresponding updates for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. Original advisory details: It was discovered that ADOdb incorrectly handled SQL input. A…",
    "source": "Ubuntu Security Notices",
    "category": "patch",
-   "date": "2026-11-04T15:14:52+00:00"
+   "date": "2026-11-04T15:14:52+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9b7bbe5a6ba8da2e",
@@ -2735,15 +2757,6 @@
    "date": "2026-11-02T14:52:05+00:00"
   },
   {
-   "id": "39749d757eb1e130",
-   "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-   "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-   "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led…",
-   "source": "The Hacker News",
-   "category": "threat",
-   "date": "2026-11-02T14:46:05+00:00"
-  },
-  {
    "id": "96515b09df3bdba0",
    "title": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
@@ -3329,6 +3342,15 @@
    "date": "2026-10-29T08:00:00+00:00"
   },
   {
+   "id": "6da15508e5e8b26d",
+   "title": "XML Signature Wrapping authentication bypass in Moldova's MPass SAML NuGet library, fixed in 10.0.4 (CVE requested, CAN-2026-2041077)",
+   "url": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/",
+   "summary": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4: signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate,…",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-10-29T01:00:22+00:00"
+  },
+  {
    "id": "9291049cf24d1818",
    "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
@@ -3392,6 +3414,15 @@
    "date": "2026-10-28T16:00:00+00:00"
   },
   {
+   "id": "e89555bcd57e7443",
+   "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
+   "url": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
+   "summary": "submitted by   /u/Grand_Fan_9804 [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-10-28T15:36:25+00:00"
+  },
+  {
    "id": "c5cb56f9b754b3af",
    "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
    "url": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
@@ -3399,6 +3430,15 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-28T15:29:06+00:00"
+  },
+  {
+   "id": "15bc73e43bd6a926",
+   "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+   "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
+   "summary": "submitted by   /u/albinowax [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-10-28T14:58:48+00:00"
   },
   {
    "id": "70a17c1d3a5b4867",
@@ -3429,7 +3469,7 @@
   },
   {
    "id": "9f03b9c501b63676",
-   "title": "Lessons from Cybersecurity Black Week",
+   "title": "Lessons from cybersecurity Black Week",
    "url": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
    "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
    "source": "ESET WeLiveSecurity",
@@ -3444,6 +3484,15 @@
    "source": "Securelist",
    "category": "vuln",
    "date": "2026-10-28T10:00:18+00:00"
+  },
+  {
+   "id": "1383b1eca42b1ade",
+   "title": "A malicious game server can crash the Godot clients that join it",
+   "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
+   "summary": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.   submitted by   /u/bitbutter [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-10-28T09:57:22+00:00"
   },
   {
    "id": "4400201e3866f7fb",
@@ -3606,15 +3655,6 @@
    "source": "Google Project Zero",
    "category": "vuln",
    "date": "2026-10-27T07:00:00+00:00"
-  },
-  {
-   "id": "837fe1cef585dc8b",
-   "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
-   "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-   "summary": "Measuring artificial intelligence model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
-   "source": "Dark Reading",
-   "category": "threat",
-   "date": "2026-10-27T00:26:50+00:00"
   },
   {
    "id": "18fffeb57097c4c8",
@@ -4283,6 +4323,15 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4295,15 +4344,6 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4346,9 +4386,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4364,18 +4404,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4391,18 +4431,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4677,42 +4717,6 @@
    "source": "ESET WeLiveSecurity",
    "category": "breach",
    "date": "2026-10-12T09:00:00+00:00"
-  },
-  {
-   "id": "7f5dd566b2dd8d8c",
-   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-   "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-   "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple…",
-   "source": "Krebs on Security",
-   "category": "ransomware",
-   "date": "2026-10-10T00:17:42+00:00"
-  },
-  {
-   "id": "b136b00913c36d15",
-   "title": "Neogen breach: 435,963 accounts",
-   "url": "https://haveibeenpwned.com/PwnedWebsites#Neogen",
-   "summary": "Exposed data: Email addresses, Employers, Job titles, Names, Phone numbers. In August 2026, the food and animal safety organisation Neogen was the target of a ShinyHunters \"pay or leak\" extortion attempt . The group later published data it claimed had been obtained from…",
-   "source": "Have I Been Pwned",
-   "category": "breach",
-   "date": "2026-10-09T07:06:25+00:00"
-  },
-  {
-   "id": "2c6533f22f4450d4",
-   "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
-   "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness.",
-   "source": "Microsoft Security Blog",
-   "category": "threat",
-   "date": "2026-10-08T20:44:28+00:00"
-  },
-  {
-   "id": "7a914e084e89304d",
-   "title": "Making sure the checks get printed",
-   "url": "https://blog.talosintelligence.com/making-sure-the-checks-get-printed/",
-   "summary": "Pierre's debut newsletter explores the messy, real-world side of risk management and how to keep vital systems running when a perfect patch isn't an option.",
-   "source": "Cisco Talos",
-   "category": "patch",
-   "date": "2026-10-08T18:00:29+00:00"
   }
  ]
 }
