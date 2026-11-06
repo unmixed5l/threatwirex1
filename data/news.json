@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T09:08:46.935188+00:00",
+ "updated": "2026-11-06T10:15:21.411659+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
   "Krebs on Security": "ok (10)",
-  "SecurityWeek": "ok (10)",
+  "SecurityWeek": "failed: ParseError",
   "The Record": "ok (5)",
   "Dark Reading": "ok (50)",
   "Schneier on Security": "ok (10)",
@@ -37,6 +37,26 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "4c3b7ebdb999ff3d",
+   "title": "Virtualization security: attack layers and misconfiguration impact",
+   "url": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
+   "summary": "A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.",
+   "source": "Securelist",
+   "category": "ransomware",
+   "date": "2026-11-06T10:00:12+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "3a8f9a3bb5fda75d",
+   "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+   "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+   "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-06T09:22:28+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "67dcad13539027f3",
    "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
    "url": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
@@ -44,7 +64,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-06T09:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6facdf5f94dfdf61",
@@ -54,7 +74,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-06T08:04:49+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ed60ea7fa41262b4",
@@ -1844,7 +1864,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-04T15:25:21+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "df11688809813364",
@@ -1854,7 +1874,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-04T15:14:52+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9b7bbe5a6ba8da2e",
@@ -1863,7 +1883,8 @@
    "summary": "Hi everyone! We've just released Chrome Beta 158 (158.0.8127.13) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you find a new issue, please let us know by filing a bug . Chrome Release Team…",
    "source": "Chrome Releases",
    "category": "patch",
-   "date": "2026-11-04T15:13:33.229000+00:00"
+   "date": "2026-11-04T15:13:33.229000+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d6dd46466a93ebf8",
@@ -1872,7 +1893,8 @@
    "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down…",
    "source": "BleepingComputer",
    "category": "threat",
-   "date": "2026-11-04T15:00:10+00:00"
+   "date": "2026-11-04T15:00:10+00:00",
+   "brief_tries": 1
   },
   {
    "id": "63cdf286f06a4994",
@@ -1881,7 +1903,8 @@
    "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched.",
    "source": "BleepingComputer",
    "category": "patch",
-   "date": "2026-11-04T14:42:25+00:00"
+   "date": "2026-11-04T14:42:25+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6b6d8b64e2bfd03c",
@@ -1890,7 +1913,8 @@
    "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.",
    "source": "SecurityWeek",
    "category": "threat",
-   "date": "2026-11-04T14:34:44+00:00"
+   "date": "2026-11-04T14:34:44+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5e99d13bfbb2b68f",
@@ -1899,7 +1923,8 @@
    "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO…",
    "source": "The Hacker News",
    "category": "exploit",
-   "date": "2026-11-04T14:27:52+00:00"
+   "date": "2026-11-04T14:27:52+00:00",
+   "brief_tries": 1
   },
   {
    "id": "e17a54acdaac397a",
@@ -1908,7 +1933,8 @@
    "summary": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances.",
    "source": "SecurityWeek",
    "category": "vuln",
-   "date": "2026-11-04T14:24:54+00:00"
+   "date": "2026-11-04T14:24:54+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c09f6d942d38cbd4",
@@ -3469,7 +3495,7 @@
   },
   {
    "id": "9f03b9c501b63676",
-   "title": "Lessons from cybersecurity Black Week",
+   "title": "Lessons from Cybersecurity Black Week",
    "url": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
    "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
    "source": "ESET WeLiveSecurity",
@@ -4323,15 +4349,6 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4344,6 +4361,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4386,9 +4412,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4404,18 +4430,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4431,18 +4457,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4699,24 +4725,6 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-10-12T14:52:17.431997+00:00"
-  },
-  {
-   "id": "566c3bc04d9dc2e8",
-   "title": "12th October – Threat Intelligence Report",
-   "url": "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/",
-   "summary": "For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited…",
-   "source": "Check Point Research",
-   "category": "exploit",
-   "date": "2026-10-12T14:51:31+00:00"
-  },
-  {
-   "id": "57d7ee05b83fd99b",
-   "title": "What to do when a data breach notice doesn't say much",
-   "url": "https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/",
-   "summary": "Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.",
-   "source": "ESET WeLiveSecurity",
-   "category": "breach",
-   "date": "2026-10-12T09:00:00+00:00"
   }
  ]
 }
