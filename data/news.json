@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T03:01:04.919963+00:00",
+ "updated": "2026-11-06T04:03:46.758127+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "5d7c1511e0dda8d0",
+   "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+   "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+   "summary": "The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-06T03:03:29+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "449fb56315dc537c",
    "title": "Broken access control in Facer (10M+ installs): premium watch faces downloadable from a public CDN with zero authentication",
    "url": "https://www.reddit.com/r/netsec/comments/1xp11p7/broken_access_control_in_facer_10m_installs/",
@@ -44,7 +54,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-06T02:08:12+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6ed44c5da57ea2dc",
@@ -54,7 +64,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-11-06T02:00:02+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "97d7db0e7e4a0b1e",
@@ -84,7 +94,17 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-11-05T23:46:50+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
+  },
+  {
+   "id": "863c939579358817",
+   "title": "Vexy Ransomware claims attack on ZipAI",
+   "url": "https://www.ransomware.live/group/Vexy Ransomware",
+   "summary": "Listed on a ransomware group's leak site (VN). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-05T23:27:37.826356+00:00"
   },
   {
    "id": "be35d0d6711a62ca",
@@ -1407,16 +1427,6 @@
    "date": "2026-11-04T18:22:20.119805+00:00"
   },
   {
-   "id": "acf0590bd23b03d9",
-   "title": "BrainCipher claims attack on megastarfinancial.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T18:21:44.151633+00:00"
-  },
-  {
    "id": "801b944f5621a71c",
    "title": "Cyberattack disrupts blood storage refrigeration systems in France",
    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
@@ -1534,7 +1544,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "e95cf211ab44864b",
@@ -1544,7 +1554,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "02b7f35133069e7f",
@@ -1554,7 +1564,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "439690201da892ec",
@@ -1564,7 +1574,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "99a109e22411e44c",
@@ -1574,7 +1584,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "34bfa8b4b4447892",
@@ -1583,7 +1593,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "bba66d6e4fac6a17",
@@ -1592,7 +1603,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ccc0bc9feebad7ae",
@@ -1601,7 +1613,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "682d63dcd20c09b0",
@@ -3396,7 +3409,7 @@
   },
   {
    "id": "9f03b9c501b63676",
-   "title": "Lessons from Cybersecurity Black Week",
+   "title": "Lessons from cybersecurity Black Week",
    "url": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
    "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
    "source": "ESET WeLiveSecurity",
@@ -4250,15 +4263,6 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4271,6 +4275,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4313,9 +4326,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4331,18 +4344,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4358,18 +4371,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4680,15 +4693,6 @@
    "source": "Cisco Talos",
    "category": "patch",
    "date": "2026-10-08T18:00:29+00:00"
-  },
-  {
-   "id": "e98e25a5c1b75015",
-   "title": "How one bug bounty researcher chooses the features they investigate",
-   "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-   "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.",
-   "source": "GitHub Security Blog",
-   "category": "threat",
-   "date": "2026-10-08T17:02:52+00:00"
   }
  ]
 }
