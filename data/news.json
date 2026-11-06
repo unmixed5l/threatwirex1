@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T05:10:02.605740+00:00",
+ "updated": "2026-11-06T06:11:23.735600+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -65,6 +65,36 @@
    "category": "threat",
    "date": "2026-11-06T02:00:02+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "6d3240b991ce47a9",
+   "title": "N0n claims attack on Max Fashion",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (AE). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T01:24:03.243618+00:00"
+  },
+  {
+   "id": "6f37ac24462d23a1",
+   "title": "N0n claims attack on Hallmark Cards, Inc.",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T01:23:31.053366+00:00"
+  },
+  {
+   "id": "c45b03933a08207e",
+   "title": "N0n claims attack on Scry Analytics",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T01:22:59.334278+00:00"
   },
   {
    "id": "97d7db0e7e4a0b1e",
@@ -1357,16 +1387,6 @@
    "date": "2026-11-04T19:21:56.999583+00:00"
   },
   {
-   "id": "ffd124edffcf9a52",
-   "title": "BrainCipher claims attack on cadorath.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T19:21:18.416466+00:00"
-  },
-  {
    "id": "ede1220cf0eb096b",
    "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
    "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
@@ -1405,26 +1425,6 @@
    "category": "patch",
    "date": "2026-11-04T18:33:09.421000+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "d652964dcaf09db0",
-   "title": "BrainCipher claims attack on spearcenter.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T18:22:54.996694+00:00"
-  },
-  {
-   "id": "c6bdf2ec0324d07c",
-   "title": "BrainCipher claims attack on myronl.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T18:22:20.119805+00:00"
   },
   {
    "id": "801b944f5621a71c",
@@ -1624,7 +1624,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "acfbc4d3a2fbdfdb",
@@ -1634,7 +1634,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "cfef7cf35a0f9f15",
@@ -1644,7 +1644,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9cbdbfbc8a08607e",
@@ -1654,7 +1654,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5250e7dde8e2ff8f",
@@ -1664,7 +1664,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "15f7ac3bee40dcd0",
@@ -1674,7 +1674,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "17250d13793fb790",
@@ -1684,7 +1684,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "7c7d0982a3a9b10d",
@@ -1694,7 +1694,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "205d9b96d96da72c",
@@ -1703,7 +1703,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "647847d3a3ffdc8a",
@@ -1712,7 +1713,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "858a3f718c10aaf7",
@@ -1721,7 +1723,8 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
    "source": "Microsoft Security Response Center",
    "category": "patch",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "331c95675f856bd3",
@@ -1730,7 +1733,8 @@
    "summary": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4c7ab7942025d1ce",
@@ -3417,7 +3421,7 @@
   },
   {
    "id": "9f03b9c501b63676",
-   "title": "Lessons from cybersecurity Black Week",
+   "title": "Lessons from Cybersecurity Black Week",
    "url": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
    "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
    "source": "ESET WeLiveSecurity",
@@ -4262,15 +4266,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "1cf65875058c7cca",
    "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
@@ -4289,9 +4284,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "7817524cf23d9091",
-   "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4301,6 +4296,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "7817524cf23d9091",
+   "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4325,36 +4329,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4370,18 +4347,27 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4391,6 +4377,24 @@
    "id": "b1a3e44cbbf34a02",
    "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
    "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
