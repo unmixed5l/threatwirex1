@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T21:52:36.610760+00:00",
+ "updated": "2026-11-06T22:53:35.916462+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -27,8 +27,8 @@
   "ESET WeLiveSecurity": "ok (100)",
   "Check Point Research": "ok (15)",
   "GitHub Security Blog": "ok (10)",
-  "Exploit-DB": "failed: URLError",
-  "Reddit r/netsec": "failed: HTTPError",
+  "Exploit-DB": "ok (50)",
+  "Reddit r/netsec": "ok (25)",
   "Reddit r/cybersecurity": "failed: HTTPError",
   "CISA KEV": "ok (60)",
   "Have I Been Pwned": "ok (25)",
@@ -37,6 +37,26 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "b99b441690fc8bf8",
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company.",
+   "source": "BleepingComputer",
+   "category": "breach",
+   "date": "2026-11-06T22:27:25+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "46c76064dfebbdab",
+   "title": "Friday Squid Blogging: New Jurassic Squid Predecessors",
+   "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
+   "summary": "News story: “ Scientists discover a bizarre Jurassic ‘squid’ unlike anything ever seen .” Scientists have identified the “fattest” belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago. The exceptionally…",
+   "source": "Schneier on Security",
+   "category": "threat",
+   "date": "2026-11-06T22:05:12+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "b63212099f3b82aa",
    "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
    "url": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
@@ -44,7 +64,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-06T21:27:36+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ce2362fa272a2dc2",
@@ -54,7 +74,7 @@
    "source": "Unit 42",
    "category": "threat",
    "date": "2026-11-06T21:15:09+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "65538afb362b9a7b",
@@ -194,7 +214,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-06T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1cf7c31dd29ea88f",
@@ -474,7 +494,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-11-06T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ef201551febe866d",
@@ -794,7 +814,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-05T22:13:23+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3189ce2b4e22a207",
@@ -2574,7 +2594,7 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-04T06:16:07.626000+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c398452d61b2b595",
@@ -2583,7 +2603,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-04T06:00:00+00:00"
+   "date": "2026-11-04T06:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4be5b1b33e187ea6",
@@ -2592,7 +2613,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-04T06:00:00+00:00"
+   "date": "2026-11-04T06:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a4af9871b7ba054b",
@@ -2601,7 +2623,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-04T06:00:00+00:00"
+   "date": "2026-11-04T06:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "261b8d4aff9d4765",
@@ -2610,7 +2633,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-04T06:00:00+00:00"
+   "date": "2026-11-04T06:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "349817163ae57bfb",
@@ -4728,9 +4752,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4764,31 +4788,13 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "1b153897eb097baa",
-   "title": "VU#410595: Google BoringSSL Name Constraints bypass in SAN validation logic",
-   "url": "https://kb.cert.org/vuls/id/410595",
-   "summary": "Overview Five Name Constraints findings in BoringSSL (VU#410595.8–.12) describe cases where certificate names may not be constrained as intended. Records .8, .9, .10 and .12 concern the legacy crypto/x509 path; .11 concerns the newer pki path. Two have been fixed, one is…",
-   "source": "CERT/CC Vulnerability Notes",
-   "category": "vuln",
-   "date": "2026-10-14T15:11:33.058399+00:00"
   }
  ]
 }
