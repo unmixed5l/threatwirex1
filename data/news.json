@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:53:35.916462+00:00",
+ "updated": "2026-11-06T23:49:38.826885+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,7 +44,7 @@
    "source": "BleepingComputer",
    "category": "breach",
    "date": "2026-11-06T22:27:25+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "46c76064dfebbdab",
@@ -54,7 +54,7 @@
    "source": "Schneier on Security",
    "category": "threat",
    "date": "2026-11-06T22:05:12+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "b63212099f3b82aa",
@@ -107,6 +107,16 @@
    "brief_tries": 2
   },
   {
+   "id": "ede84c71642d2484",
+   "title": "incransom claims attack on https://www.sleep-clinic.ca/",
+   "url": "https://www.ransomware.live/group/incransom",
+   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T19:09:52.349424+00:00"
+  },
+  {
    "id": "ea6b9d64cfe5f3ca",
    "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
    "url": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
@@ -115,6 +125,26 @@
    "category": "threat",
    "date": "2026-11-06T19:06:00+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "89183609ad22ec59",
+   "title": "SilentRansomGroup claims attack on Tucker Ellis",
+   "url": "https://www.ransomware.live/group/SilentRansomGroup",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T18:58:03.015515+00:00"
+  },
+  {
+   "id": "0e9fd4fe3cc3d89a",
+   "title": "SilentRansomGroup claims attack on Wachtell, Lipton, Rosen & Katz",
+   "url": "https://www.ransomware.live/group/SilentRansomGroup",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-06T18:57:43.060629+00:00"
   },
   {
    "id": "c5532d0fb1f05c44",
@@ -1797,26 +1827,6 @@
    "date": "2026-11-04T22:01:53.026831+00:00"
   },
   {
-   "id": "dd6107e8de17bf17",
-   "title": "BrainCipher claims attack on fbc.ca",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T21:52:15.392074+00:00"
-  },
-  {
-   "id": "7bafc8a59c480a83",
-   "title": "BrainCipher claims attack on hamiltonhealthcenter.com",
-   "url": "https://www.ransomware.live/group/BrainCipher",
-   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T21:51:41.473873+00:00"
-  },
-  {
    "id": "1b4641ca37283c44",
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -1855,16 +1865,6 @@
    "category": "breach",
    "date": "2026-11-04T21:30:00+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "2ee9dfd675ca2cbf",
-   "title": "play claims attack on Aripack",
-   "url": "https://www.ransomware.live/group/play",
-   "summary": "Listed on a ransomware group's leak site (AR). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T21:21:00.637460+00:00"
   },
   {
    "id": "0fd87eaf33b4e085",
@@ -2604,7 +2604,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-04T06:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4be5b1b33e187ea6",
@@ -2614,7 +2614,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-04T06:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a4af9871b7ba054b",
@@ -2624,7 +2624,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-04T06:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "261b8d4aff9d4765",
@@ -2634,7 +2634,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-04T06:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "349817163ae57bfb",
@@ -2643,7 +2643,8 @@
    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score:…",
    "source": "The Hacker News",
    "category": "exploit",
-   "date": "2026-11-04T05:43:11+00:00"
+   "date": "2026-11-04T05:43:11+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c1c4164ece010333",
@@ -2652,7 +2653,8 @@
    "summary": "submitted by   /u/idnsec [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-11-04T05:28:24+00:00"
+   "date": "2026-11-04T05:28:24+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7aa5af4c407c8575",
@@ -2661,7 +2663,8 @@
    "summary": "",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-11-04T02:10:02+00:00"
+   "date": "2026-11-04T02:10:02+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ed421e39d30bdf97",
@@ -2670,7 +2673,8 @@
    "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
    "source": "Dark Reading",
    "category": "breach",
-   "date": "2026-11-04T02:00:00+00:00"
+   "date": "2026-11-04T02:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5ce5c8d2c37fde75",
@@ -2679,7 +2683,8 @@
    "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing an important authentication gap. Plus: post-quantum YubiKey beta.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-04T01:05:40+00:00"
+   "date": "2026-11-04T01:05:40+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a5109a3aad982e54",
@@ -2688,7 +2693,8 @@
    "summary": "Hi, everyone! We've just released Chrome 157 (157.0.8103.38) for Android. It'll become available on Google Play over the next few days.  This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new…",
    "source": "Chrome Releases",
    "category": "patch",
-   "date": "2026-11-03T23:13:00+00:00"
+   "date": "2026-11-03T23:13:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "b0a8ea5b69867de6",
@@ -4671,9 +4677,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4689,18 +4695,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4710,6 +4707,15 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4743,9 +4749,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4761,18 +4767,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4788,9 +4794,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
