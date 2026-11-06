@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T10:15:21.411659+00:00",
+ "updated": "2026-11-06T11:15:56.042519+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
   "Krebs on Security": "ok (10)",
-  "SecurityWeek": "failed: ParseError",
+  "SecurityWeek": "ok (10)",
   "The Record": "ok (5)",
   "Dark Reading": "ok (50)",
   "Schneier on Security": "ok (10)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "48d1766e5307a052",
+   "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
+   "url": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
+   "summary": "Many common web frameworks like Spring and Ruby on Rails trust the Forwarded header by default, even though most proxies don't actually have any support for it. This makes apps vulnerable to request hostname or client IP address spoofing in the default configurations. I've been…",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-11-06T10:34:37+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "4c3b7ebdb999ff3d",
    "title": "Virtualization security: attack layers and misconfiguration impact",
    "url": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
@@ -44,6 +54,16 @@
    "source": "Securelist",
    "category": "ransomware",
    "date": "2026-11-06T10:00:12+00:00",
+   "brief_tries": 2
+  },
+  {
+   "id": "3a73b8fccf35eceb",
+   "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+   "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+   "summary": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-06T09:33:51+00:00",
    "brief_tries": 1
   },
   {
@@ -54,7 +74,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-06T09:22:28+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "67dcad13539027f3",
@@ -1884,7 +1904,7 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-04T15:13:33.229000+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d6dd46466a93ebf8",
@@ -1894,7 +1914,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-04T15:00:10+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "63cdf286f06a4994",
@@ -1904,7 +1924,7 @@
    "source": "BleepingComputer",
    "category": "patch",
    "date": "2026-11-04T14:42:25+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6b6d8b64e2bfd03c",
@@ -1914,7 +1934,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-04T14:34:44+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5e99d13bfbb2b68f",
@@ -1924,7 +1944,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-04T14:27:52+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "e17a54acdaac397a",
@@ -1934,7 +1954,7 @@
    "source": "SecurityWeek",
    "category": "vuln",
    "date": "2026-11-04T14:24:54+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c09f6d942d38cbd4",
@@ -1943,7 +1963,8 @@
    "summary": "Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-04T14:17:00+00:00"
+   "date": "2026-11-04T14:17:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d771258417ff8ba5",
@@ -1952,7 +1973,8 @@
    "summary": "Hi everyone! We've just released Chrome Beta 158 (158.0.8127.22) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features, check out the Chromium blog , and for details on web platform updates, check…",
    "source": "Chrome Releases",
    "category": "patch",
-   "date": "2026-11-04T14:13:32.334000+00:00"
+   "date": "2026-11-04T14:13:32.334000+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1cb3088dd861e775",
@@ -3495,7 +3517,7 @@
   },
   {
    "id": "9f03b9c501b63676",
-   "title": "Lessons from Cybersecurity Black Week",
+   "title": "Lessons from cybersecurity Black Week",
    "url": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
    "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
    "source": "ESET WeLiveSecurity",
@@ -4340,18 +4362,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4367,9 +4389,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4403,36 +4425,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
    "id": "2ec5379b148e3a38",
    "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4448,6 +4443,15 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
    "id": "b1a3e44cbbf34a02",
    "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
    "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
@@ -4457,18 +4461,36 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4707,24 +4729,6 @@
    "source": "Fortinet PSIRT",
    "category": "vuln",
    "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "id": "cd2d9466e659c6be",
-   "title": "Sharecare breach: 318,185 accounts",
-   "url": "https://haveibeenpwned.com/PwnedWebsites#Sharecare",
-   "summary": "Exposed data: Dates of birth, Email addresses, Employers, Genders, Government issued IDs. In August 2026, the digital health company Sharecare was the target of a ShinyHunters \"pay or leak\" extortion campaign . The group subsequently published data it claimed was taken from Sharecare's…",
-   "source": "Have I Been Pwned",
-   "category": "breach",
-   "date": "2026-10-12T23:28:32+00:00"
-  },
-  {
-   "id": "c0159d091c41a157",
-   "title": "VU#162329: Multiple vulnerabilities in Thelia 2.6.0 and 2.6.1",
-   "url": "https://kb.cert.org/vuls/id/162329",
-   "summary": "Overview Thelia versions 2.6.0 and 2.6.1 contain multiple vulnerabilities relating to file management, Smarty templating, module installation, and administrative workflows. Successful exploitation of these issues could enable remote code execution (RCE), server-side template…",
-   "source": "CERT/CC Vulnerability Notes",
-   "category": "vuln",
-   "date": "2026-10-12T14:52:17.431997+00:00"
   }
  ]
 }
