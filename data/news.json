@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T06:11:23.735600+00:00",
+ "updated": "2026-11-06T07:29:17.805968+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -36,6 +36,26 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "ed60ea7fa41262b4",
+   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those…",
+   "source": "The Hacker News",
+   "category": "threat",
+   "date": "2026-11-06T05:58:54+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "a382c3d13c65e931",
+   "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+   "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+   "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on…",
+   "source": "The Hacker News",
+   "category": "patch",
+   "date": "2026-11-06T05:39:10+00:00",
+   "brief_tries": 1
+  },
   {
    "id": "5d7c1511e0dda8d0",
    "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
@@ -1704,7 +1724,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "647847d3a3ffdc8a",
@@ -1714,7 +1734,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "858a3f718c10aaf7",
@@ -1724,7 +1744,7 @@
    "source": "Microsoft Security Response Center",
    "category": "patch",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "331c95675f856bd3",
@@ -1734,7 +1754,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-11-04T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4c7ab7942025d1ce",
@@ -1743,7 +1763,8 @@
    "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-11-04T16:00:00+00:00"
+   "date": "2026-11-04T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "bf04f5470695fed3",
@@ -1752,7 +1773,8 @@
    "summary": "It was discovered that Pillow incorrectly handled map stride values when loading certain McIdas AREA images. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2026-54058) It was discovered that Pillow did not properly…",
    "source": "Ubuntu Security Notices",
    "category": "patch",
-   "date": "2026-11-04T15:49:54+00:00"
+   "date": "2026-11-04T15:49:54+00:00",
+   "brief_tries": 1
   },
   {
    "id": "aa1558247008ea5d",
@@ -1761,7 +1783,8 @@
    "summary": "Governments may retain the authority to police international finance, but the practical capability to identify, trace and interrupt illicit financial flows increasingly rests with privately held technology and financial sector companies. The latest RUSI Commentary examines the…",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-04T15:49:48+00:00"
+   "date": "2026-11-04T15:49:48+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ec55327f2746d18f",
@@ -1770,7 +1793,8 @@
    "summary": "The Beta channel has been updated to 158.0.8127.18 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you find a new issue, please let us know by filing a bug . The community help forum…",
    "source": "Chrome Releases",
    "category": "patch",
-   "date": "2026-11-04T15:43:33.511000+00:00"
+   "date": "2026-11-04T15:43:33.511000+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a2227ac92d74220c",
@@ -1779,7 +1803,8 @@
    "summary": "It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches.",
    "source": "Ubuntu Security Notices",
    "category": "patch",
-   "date": "2026-11-04T15:32:22+00:00"
+   "date": "2026-11-04T15:32:22+00:00",
+   "brief_tries": 1
   },
   {
    "id": "12eaca456a31a27c",
@@ -1788,7 +1813,8 @@
    "summary": "submitted by   /u/Doug_Vitale [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-04T15:27:32+00:00"
+   "date": "2026-11-04T15:27:32+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4f749b11cfb80952",
@@ -2734,24 +2760,6 @@
    "source": "Schneier on Security",
    "category": "vuln",
    "date": "2026-11-02T12:02:34+00:00"
-  },
-  {
-   "id": "ad2df65419af3471",
-   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-   "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-   "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0…",
-   "source": "The Hacker News",
-   "category": "vuln",
-   "date": "2026-11-02T11:50:00+00:00"
-  },
-  {
-   "id": "c477f18125888d9e",
-   "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-   "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-   "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still…",
-   "source": "The Hacker News",
-   "category": "threat",
-   "date": "2026-11-02T11:30:00+00:00"
   },
   {
    "id": "662466985d9efc92",
@@ -4275,15 +4283,6 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4296,6 +4295,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4338,9 +4346,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4356,18 +4364,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4383,18 +4391,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "b482ad73477457d9",
+   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b482ad73477457d9",
-   "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0318",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
