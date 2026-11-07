@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:56:58.601297+00:00",
+ "updated": "2026-11-07T19:52:54.469860+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -3764,7 +3764,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-29T15:44:04+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2489a89d87d1cb98",
@@ -3774,7 +3774,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-10-29T14:31:39+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "200f517219336f60",
@@ -3784,7 +3784,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-10-29T14:09:08+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c55d2f471fee4e60",
@@ -3794,7 +3794,7 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-10-29T14:08:46+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "552a56f49ede35a2",
@@ -3804,7 +3804,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-10-29T14:07:38+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d8346a01fb6e259f",
@@ -3814,7 +3814,7 @@
    "source": "Cisco Talos",
    "category": "ransomware",
    "date": "2026-10-29T14:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f726928be35569c1",
@@ -3823,7 +3823,8 @@
    "summary": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-29T12:00:00+00:00"
+   "date": "2026-10-29T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9b9000acef065c5e",
@@ -3832,7 +3833,8 @@
    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-97229 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability CVE-2026-76418 Cisco Secure…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-29T12:00:00+00:00"
+   "date": "2026-10-29T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "58a4b860d2a79013",
@@ -3841,7 +3843,8 @@
    "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-29T12:00:00+00:00"
+   "date": "2026-10-29T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "3f007ce8c8278493",
@@ -3850,7 +3853,8 @@
    "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-29T12:00:00+00:00"
+   "date": "2026-10-29T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "196b1e60527b22e4",
@@ -3859,7 +3863,8 @@
    "summary": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-29T10:00:00+00:00"
+   "date": "2026-10-29T10:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4faa48c4d2141f7b",
@@ -3868,7 +3873,8 @@
    "summary": "Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called “NIK C2.”",
    "source": "Cisco Talos",
    "category": "threat",
-   "date": "2026-10-29T10:00:00+00:00"
+   "date": "2026-10-29T10:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "fb20140aedd4eec7",
@@ -4861,15 +4867,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "1cf65875058c7cca",
    "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
@@ -4879,9 +4876,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4891,6 +4888,15 @@
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
