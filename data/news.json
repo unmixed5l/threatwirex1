@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:52:33.949775+00:00",
+ "updated": "2026-11-07T17:46:54.265055+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -55,6 +55,56 @@
    "category": "exploit",
    "date": "2026-11-07T14:10:19+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "466921d8504b048c",
+   "title": "rhysida claims attack on Tribunal de Justica do Estado de Minas Gerais",
+   "url": "https://www.ransomware.live/group/rhysida",
+   "summary": "Listed on a ransomware group's leak site (BR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T13:16:04.118621+00:00"
+  },
+  {
+   "id": "f8326b4db543c0ea",
+   "title": "payload claims attack on Autohaus Arnold",
+   "url": "https://www.ransomware.live/group/payload",
+   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T13:15:06.266313+00:00"
+  },
+  {
+   "id": "1b2fa9968e66a3ea",
+   "title": "payload claims attack on Brauco",
+   "url": "https://www.ransomware.live/group/payload",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T13:13:44.569461+00:00"
+  },
+  {
+   "id": "ad40cc7b67073e31",
+   "title": "payload claims attack on Schroers Ingenieure",
+   "url": "https://www.ransomware.live/group/payload",
+   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T13:12:23.416578+00:00"
+  },
+  {
+   "id": "8639d05873336c13",
+   "title": "payload claims attack on Otto Stops",
+   "url": "https://www.ransomware.live/group/payload",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T13:11:05.856725+00:00"
   },
   {
    "id": "d2d6b63d323d95f0",
@@ -1787,16 +1837,6 @@
    "brief_tries": 2
   },
   {
-   "id": "798dfd0d45f7198b",
-   "title": "BYOD claims attack on First and Final Warning - IHG Hotels & Resorts (Estate)",
-   "url": "https://www.ransomware.live/group/BYOD",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T09:50:45.225354+00:00"
-  },
-  {
    "id": "da77af0f435fbc61",
    "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
    "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
@@ -1805,16 +1845,6 @@
    "category": "vuln",
    "date": "2026-11-05T09:18:29+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "c8a34de82f6e7601",
-   "title": "qilin claims attack on Calvary Christian College",
-   "url": "https://www.ransomware.live/group/qilin",
-   "summary": "Listed on a ransomware group's leak site (AU). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T09:14:45.298141+00:00"
   },
   {
    "id": "96a1ace9f58c677e",
@@ -1827,26 +1857,6 @@
    "brief_tries": 2
   },
   {
-   "id": "3cc82bb398b8608b",
-   "title": "everstake claims attack on ne*****h.com",
-   "url": "https://www.ransomware.live/group/everstake",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T09:09:10.819816+00:00"
-  },
-  {
-   "id": "efa7aeee71f0c51d",
-   "title": "AuditTeam claims attack on kx***om",
-   "url": "https://www.ransomware.live/group/AuditTeam",
-   "summary": "Listed on a ransomware group's leak site (CN). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T08:50:34.763915+00:00"
-  },
-  {
    "id": "4f9bb7c1ff8e1d8d",
    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
    "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
@@ -1855,16 +1865,6 @@
    "category": "threat",
    "date": "2026-11-05T08:42:03+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "df02934b09809688",
-   "title": "PixelLeaks claims attack on Disclosed",
-   "url": "https://www.ransomware.live/group/PixelLeaks",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T07:59:30.753699+00:00"
   },
   {
    "id": "a665869d02d25a6a",
@@ -3644,7 +3644,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-10-30T03:30:17+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ebcdbd5897fe8878",
@@ -3654,7 +3654,7 @@
    "source": "Reddit r/netsec",
    "category": "exploit",
    "date": "2026-10-30T03:06:20+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2afe7336fd78c429",
@@ -3664,7 +3664,7 @@
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-29T23:54:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "15b9e222ab34310d",
@@ -3674,7 +3674,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-29T21:22:28+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "cbcc5cbaf6f622fa",
@@ -3684,7 +3684,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-29T21:21:56+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "68f0757a3373fe6a",
@@ -3694,7 +3694,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-29T20:15:37+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5553b245af75f973",
@@ -3703,7 +3703,8 @@
    "summary": "As artificial intelligence squeezes early-career learning opportunities, capture-the-flag contests could be one way to help pick up the slack.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-29T19:56:44+00:00"
+   "date": "2026-10-29T19:56:44+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2c3bc9054593866d",
@@ -3712,7 +3713,8 @@
    "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
    "source": "Dark Reading",
    "category": "exploit",
-   "date": "2026-10-29T18:15:59+00:00"
+   "date": "2026-10-29T18:15:59+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2810027585c5f3b5",
@@ -3721,7 +3723,8 @@
    "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.",
    "source": "Unit 42",
    "category": "vuln",
-   "date": "2026-10-29T18:00:34+00:00"
+   "date": "2026-10-29T18:00:34+00:00",
+   "brief_tries": 1
   },
   {
    "id": "27b4ee16aef66244",
@@ -3730,7 +3733,8 @@
    "summary": "In this edition of the Threat Source newsletter, William explores how PHP has taken over the conversation, Node.js has joined in, but underneath it all, there are still good people doing good work.",
    "source": "Cisco Talos",
    "category": "threat",
-   "date": "2026-10-29T18:00:00+00:00"
+   "date": "2026-10-29T18:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2e0675284202e329",
@@ -3739,7 +3743,8 @@
    "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean…",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-10-29T16:00:00+00:00"
+   "date": "2026-10-29T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "bd2cd3a550d66d6a",
@@ -3748,7 +3753,8 @@
    "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises.",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-10-29T16:00:00+00:00"
+   "date": "2026-10-29T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "efbb1c68eb20dd3a",
@@ -4849,18 +4855,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4876,9 +4882,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
