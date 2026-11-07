@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T03:00:24.807778+00:00",
+ "updated": "2026-11-07T04:00:25.507818+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -27,7 +27,7 @@
   "ESET WeLiveSecurity": "ok (100)",
   "Check Point Research": "ok (15)",
   "GitHub Security Blog": "ok (10)",
-  "Exploit-DB": "failed: URLError",
+  "Exploit-DB": "ok (50)",
   "Reddit r/netsec": "ok (25)",
   "Reddit r/cybersecurity": "failed: HTTPError",
   "CISA KEV": "ok (60)",
@@ -36,6 +36,16 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "e115b44724e254be",
+   "title": "ARTEX abuse expands as cybercriminals target financial sector",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+   "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.",
+   "source": "Microsoft Security Blog",
+   "category": "threat",
+   "date": "2026-11-07T02:44:34+00:00",
+   "brief_tries": 1
+  },
   {
    "id": "399692e66dc8f989",
    "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
@@ -2814,7 +2824,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-11-03T17:05:12+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "263a6ac2e13a9494",
@@ -2824,7 +2834,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-11-03T17:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "19a35a6714f91980",
@@ -2834,7 +2844,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-03T16:55:58+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bc96c130a163cdde",
@@ -2844,7 +2854,7 @@
    "source": "The Hacker News",
    "category": "vuln",
    "date": "2026-11-03T15:59:19+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4e5521a0cc2c4d43",
@@ -2854,7 +2864,7 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-11-03T15:42:35.704372+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "310fe7a6e4c306a2",
@@ -2864,7 +2874,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-03T15:41:53+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "47887f1443ada123",
@@ -2873,7 +2883,8 @@
    "summary": "Practical guidance on safer search, stronger login security, better executive protection, and other habits can reduce enterprise risk.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-03T15:38:20+00:00"
+   "date": "2026-11-03T15:38:20+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a32b51d8e1189629",
@@ -2882,7 +2893,8 @@
    "summary": "Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-03T15:35:50+00:00"
+   "date": "2026-11-03T15:35:50+00:00",
+   "brief_tries": 1
   },
   {
    "id": "63d055e30b4769da",
@@ -2891,7 +2903,8 @@
    "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard…",
    "source": "The Hacker News",
    "category": "threat",
-   "date": "2026-11-03T15:16:32+00:00"
+   "date": "2026-11-03T15:16:32+00:00",
+   "brief_tries": 1
   },
   {
    "id": "32d9541f85a86f1b",
@@ -2900,7 +2913,8 @@
    "summary": "TL;DR: Our research team at Era uncovered Greeter , an attack framework targeting Flowise, an AI development platform with 55,000+ GitHub stars. We deployed seven honeypots and captured 4,972 \"hello\" messages , each carrying malicious JavaScript through Flowise's overrideConfig…",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-03T15:11:53+00:00"
+   "date": "2026-11-03T15:11:53+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ccddb3cec5c858d3",
@@ -2909,7 +2923,8 @@
    "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-03T14:00:00+00:00"
+   "date": "2026-11-03T14:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "de9a8ddf286d759f",
@@ -4703,9 +4718,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4721,18 +4736,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "7817524cf23d9091",
-   "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4742,6 +4748,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "7817524cf23d9091",
+   "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4766,18 +4781,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4793,15 +4799,6 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
    "id": "66bd7aa357573a8e",
    "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
@@ -4811,9 +4808,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
