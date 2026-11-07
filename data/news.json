@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T09:57:37.851006+00:00",
+ "updated": "2026-11-07T10:54:15.095195+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "986edfc864db12c6",
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "summary": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.",
+   "source": "SecurityWeek",
+   "category": "exploit",
+   "date": "2026-11-07T10:16:23+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "167e26f3d167711b",
    "title": "The Exploit Was the Bottleneck",
    "url": "https://www.reddit.com/r/netsec/comments/1xq2ix1/the_exploit_was_the_bottleneck/",
@@ -44,7 +54,7 @@
    "source": "Reddit r/netsec",
    "category": "exploit",
    "date": "2026-11-07T09:38:30+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "67e46d8ffeb6e44b",
@@ -3234,7 +3244,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-02T15:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1d21aa666ff1fb83",
@@ -3244,7 +3254,7 @@
    "source": "SANS Internet Storm Center",
    "category": "vuln",
    "date": "2026-11-02T14:52:05+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "96515b09df3bdba0",
@@ -3254,7 +3264,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-02T14:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "fd515affb5396e7d",
@@ -3264,7 +3274,7 @@
    "source": "Schneier on Security",
    "category": "vuln",
    "date": "2026-11-02T12:02:34+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "662466985d9efc92",
@@ -3274,7 +3284,7 @@
    "source": "ESET WeLiveSecurity",
    "category": "threat",
    "date": "2026-11-02T09:55:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9ddc8c26e97ef450",
@@ -3283,7 +3293,8 @@
    "summary": "(May 2026) TL;DR: an email address like atouch${IFS}/tmp/ savane-rce-proof@attacker.example gave any registered user code execution on its backend. From there, we made our account a superuser, impersonated Bash’s maintainer, and confirmed we could add an SSH key with push…",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-11-02T09:43:15+00:00"
+   "date": "2026-11-02T09:43:15+00:00",
+   "brief_tries": 1
   },
   {
    "id": "22c92d038c8dbd1e",
@@ -3292,7 +3303,8 @@
    "summary": "submitted by   /u/lucidsparrow982 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-11-02T09:30:42+00:00"
+   "date": "2026-11-02T09:30:42+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1cb263a7e347d95b",
@@ -3301,7 +3313,8 @@
    "summary": "submitted by   /u/adrian_rt [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-11-02T09:11:50+00:00"
+   "date": "2026-11-02T09:11:50+00:00",
+   "brief_tries": 1
   },
   {
    "id": "749ada6f14739046",
@@ -3310,7 +3323,8 @@
    "summary": "We analyze a series of attacks on educational institutions that were fully automated during the post-exploitation phase using the CyberStrikeAI penetration testing framework.",
    "source": "Securelist",
    "category": "exploit",
-   "date": "2026-11-02T08:00:24+00:00"
+   "date": "2026-11-02T08:00:24+00:00",
+   "brief_tries": 1
   },
   {
    "id": "38258316d905e2bb",
@@ -3319,7 +3333,8 @@
    "summary": "CVSSv3 Score: 9.8 CVE-2026-98432:ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it. Another cpu can concurrently process a retransmitted SYN for the…",
    "source": "Fortinet PSIRT",
    "category": "vuln",
-   "date": "2026-11-02T08:00:00+00:00"
+   "date": "2026-11-02T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7abdf6ac5df22d88",
@@ -4789,18 +4804,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4834,18 +4849,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
