@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:54:15.095195+00:00",
+ "updated": "2026-11-07T11:51:10.081197+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "1dbb32a3e5b4977a",
+   "title": "unlocking any car from X brand in most of the world",
+   "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
+   "summary": "submitted by   /u/Mempodipper [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-11-07T11:10:50+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "986edfc864db12c6",
    "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
    "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
@@ -44,7 +54,7 @@
    "source": "SecurityWeek",
    "category": "exploit",
    "date": "2026-11-07T10:16:23+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "167e26f3d167711b",
@@ -3294,7 +3304,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-11-02T09:43:15+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "22c92d038c8dbd1e",
@@ -3304,7 +3314,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-11-02T09:30:42+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1cb263a7e347d95b",
@@ -3314,7 +3324,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-11-02T09:11:50+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "749ada6f14739046",
@@ -3324,7 +3334,7 @@
    "source": "Securelist",
    "category": "exploit",
    "date": "2026-11-02T08:00:24+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "38258316d905e2bb",
@@ -3334,7 +3344,7 @@
    "source": "Fortinet PSIRT",
    "category": "vuln",
    "date": "2026-11-02T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "7abdf6ac5df22d88",
@@ -3343,7 +3353,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-02T06:00:00+00:00"
+   "date": "2026-11-02T06:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c97a2c861bbd375a",
@@ -3352,7 +3363,8 @@
    "summary": "submitted by   /u/fagnerbrack [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-02T04:32:13+00:00"
+   "date": "2026-11-02T04:32:13+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d0dae30d7bd006a6",
@@ -3361,7 +3373,8 @@
    "summary": "",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-11-02T02:00:03+00:00"
+   "date": "2026-11-02T02:00:03+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f8af5060cb13d0ab",
@@ -3370,7 +3383,8 @@
    "summary": "Overview If you have open positions at your company for information security professionals and would like to hire from the /r/netsec user base, please leave a comment detailing any open job listings at your company. We would also like to encourage you to post internship…",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-01T17:19:31+00:00"
+   "date": "2026-11-01T17:19:31+00:00",
+   "brief_tries": 1
   },
   {
    "id": "481cc7d7b68b187c",
@@ -3379,7 +3393,8 @@
    "summary": "Questions regarding netsec and discussion related directly to netsec are welcome here, as is sharing tool links. Rules & Guidelines Always maintain civil discourse. Be awesome to one another - moderator intervention will occur if necessary. Avoid NSFW content unless absolutely…",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-01T14:29:24+00:00"
+   "date": "2026-11-01T14:29:24+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5aa5e3422f928342",
@@ -4804,18 +4819,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4849,18 +4864,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
