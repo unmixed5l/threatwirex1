@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T04:00:25.507818+00:00",
+ "updated": "2026-11-07T05:01:05.467583+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,7 +44,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-11-07T02:44:34+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "399692e66dc8f989",
@@ -55,6 +55,16 @@
    "category": "patch",
    "date": "2026-11-07T00:52:58.867000+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "e755af963931d054",
+   "title": "incransom claims attack on 1da9100e55aqf21eb651eNea",
+   "url": "https://www.ransomware.live/group/incransom",
+   "summary": "Listed on a ransomware group's leak site (AL). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T00:15:21.235992+00:00"
   },
   {
    "id": "ca1a9396bb6596ea",
@@ -1847,16 +1857,6 @@
    "date": "2026-11-04T22:20:33.635900+00:00"
   },
   {
-   "id": "d008db435d1edd88",
-   "title": "medusalocker claims attack on BCH",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:20:02.505131+00:00"
-  },
-  {
    "id": "1b4641ca37283c44",
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -2884,7 +2884,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-03T15:38:20+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a32b51d8e1189629",
@@ -2894,7 +2894,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-03T15:35:50+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "63d055e30b4769da",
@@ -2904,7 +2904,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-03T15:16:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "32d9541f85a86f1b",
@@ -2914,7 +2914,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-03T15:11:53+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ccddb3cec5c858d3",
@@ -2924,7 +2924,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-03T14:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "de9a8ddf286d759f",
@@ -2933,7 +2933,8 @@
    "summary": "Key Points Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles Check Point Research found a misconfigured webserver of a threat actor operating the Cobalt Strike framework. Besides an open Cobalt Strike server, whose logs showed the actor compromising…",
    "source": "Check Point Research",
    "category": "threat",
-   "date": "2026-11-03T13:57:04+00:00"
+   "date": "2026-11-03T13:57:04+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5558cceee1128d6e",
@@ -2942,7 +2943,8 @@
    "summary": "submitted by   /u/True_Mixture_309 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-03T12:35:06+00:00"
+   "date": "2026-11-03T12:35:06+00:00",
+   "brief_tries": 1
   },
   {
    "id": "dcae8bed3d42d0e1",
@@ -2951,7 +2953,8 @@
    "summary": "In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to…",
    "source": "Schneier on Security",
    "category": "exploit",
-   "date": "2026-11-03T12:01:00+00:00"
+   "date": "2026-11-03T12:01:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "496fbffc6e4d527f",
@@ -2960,7 +2963,8 @@
    "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-119977 WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability This type of vulnerability is a frequent attack…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-11-03T12:00:00+00:00"
+   "date": "2026-11-03T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4ee243d9c309bcdc",
@@ -2969,7 +2973,8 @@
    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The following versions of Subnet Solutions PowerSYSTEM Center are affected: PowerSYSTEM Center 2020…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-11-03T12:00:00+00:00"
+   "date": "2026-11-03T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "77f64f32faf59d10",
@@ -2978,7 +2983,8 @@
    "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular…",
    "source": "The Hacker News",
    "category": "patch",
-   "date": "2026-11-03T11:23:53+00:00"
+   "date": "2026-11-03T11:23:53+00:00",
+   "brief_tries": 1
   },
   {
    "id": "20c9c9965d29956a",
@@ -4736,18 +4742,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4781,18 +4787,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4808,18 +4805,27 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
