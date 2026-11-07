@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T14:52:31.944630+00:00",
+ "updated": "2026-11-07T15:50:07.716445+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "ded94754be202b29",
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-07T15:25:35+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "5a765cf499c2e694",
    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
    "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
@@ -44,7 +54,17 @@
    "source": "BleepingComputer",
    "category": "exploit",
    "date": "2026-11-07T14:10:19+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
+  },
+  {
+   "id": "5b2381a83bd5b4e1",
+   "title": "metaencryptor claims attack on Pekin Insurance",
+   "url": "https://www.ransomware.live/group/metaencryptor",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T11:39:07.795522+00:00"
   },
   {
    "id": "1dbb32a3e5b4977a",
@@ -55,6 +75,46 @@
    "category": "threat",
    "date": "2026-11-07T11:10:50+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "4a7a2bee8ac0f809",
+   "title": "N0n claims attack on Staples, Inc. / SBD Inc.",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T10:54:52.225186+00:00"
+  },
+  {
+   "id": "45d0d0a7841fe920",
+   "title": "N0n claims attack on Lampenwelt GmbH",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T10:54:16.886256+00:00"
+  },
+  {
+   "id": "a8f5d56df893d5dc",
+   "title": "N0n claims attack on Infutor Data Solutions",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T10:53:42.337245+00:00"
+  },
+  {
+   "id": "995212a95100e974",
+   "title": "N0n claims attack on Higginbotham",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T10:53:07.458379+00:00"
   },
   {
    "id": "986edfc864db12c6",
@@ -1867,56 +1927,6 @@
    "date": "2026-11-04T22:25:50.790256+00:00"
   },
   {
-   "id": "4bc1b3dc00346a7c",
-   "title": "medusalocker claims attack on Vinitgloves",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site (IN). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:25:19.459966+00:00"
-  },
-  {
-   "id": "dcb1fe7590ff9141",
-   "title": "medusalocker claims attack on Jatl",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:24:46.845711+00:00"
-  },
-  {
-   "id": "c43b13446a2b288a",
-   "title": "medusalocker claims attack on Geetees",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:24:15.472024+00:00"
-  },
-  {
-   "id": "94eb0459fb8d75f9",
-   "title": "medusalocker claims attack on Ruixiang Jidian",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:23:43.682060+00:00"
-  },
-  {
-   "id": "058755119d5e74e7",
-   "title": "medusalocker claims attack on Kde",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:23:12.502234+00:00"
-  },
-  {
    "id": "1b4641ca37283c44",
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -3534,7 +3544,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-30T19:24:31+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ad4296e15ebcf305",
@@ -3544,7 +3554,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-10-30T16:11:44+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "47e04300a3731174",
@@ -3554,7 +3564,7 @@
    "source": "Dark Reading",
    "category": "vuln",
    "date": "2026-10-30T15:39:54+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "7b310c119f825d95",
@@ -3564,7 +3574,7 @@
    "source": "Schneier on Security",
    "category": "threat",
    "date": "2026-10-30T15:20:02+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "e293edf88b4e6655",
@@ -3574,7 +3584,7 @@
    "source": "ESET WeLiveSecurity",
    "category": "threat",
    "date": "2026-10-30T15:03:14+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c5d4f7a3fa549cfa",
@@ -3583,7 +3593,8 @@
    "summary": "A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.",
    "source": "Dark Reading",
    "category": "patch",
-   "date": "2026-10-30T14:10:37+00:00"
+   "date": "2026-10-30T14:10:37+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c186283f1cdf80ee",
@@ -3592,7 +3603,8 @@
    "summary": "submitted by   /u/Alfrede81 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-10-30T12:47:51+00:00"
+   "date": "2026-10-30T12:47:51+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4760f9242e3b5b83",
@@ -3601,7 +3613,8 @@
    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-30T12:00:00+00:00"
+   "date": "2026-10-30T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "3e5b06d3cd3d7dbe",
@@ -3610,7 +3623,8 @@
    "summary": "We automate filter generation for security alerts using an algorithm, a large language model, and a group of LLM agents.",
    "source": "Securelist",
    "category": "threat",
-   "date": "2026-10-30T10:00:44+00:00"
+   "date": "2026-10-30T10:00:44+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f6a72b86d81b5ca2",
@@ -3619,7 +3633,8 @@
    "summary": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-30T08:00:00+00:00"
+   "date": "2026-10-30T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "208ac926eb0f63f6",
@@ -4828,9 +4843,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4846,18 +4861,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4873,6 +4879,15 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "c993d0f62b81a9c4",
    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
@@ -4880,15 +4895,6 @@
    "source": "Cisco Talos",
    "category": "exploit",
    "date": "2026-10-15T18:00:00+00:00"
-  },
-  {
-   "id": "f92c56fe800f3f5c",
-   "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
-   "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
-   "summary": "We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware.",
-   "source": "Unit 42",
-   "category": "exploit",
-   "date": "2026-10-14T22:00:44+00:00"
   }
  ]
 }
