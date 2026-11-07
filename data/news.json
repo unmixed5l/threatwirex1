@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:08:00.967971+00:00",
+ "updated": "2026-11-07T03:00:24.807778+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -27,7 +27,7 @@
   "ESET WeLiveSecurity": "ok (100)",
   "Check Point Research": "ok (15)",
   "GitHub Security Blog": "ok (10)",
-  "Exploit-DB": "ok (50)",
+  "Exploit-DB": "failed: URLError",
   "Reddit r/netsec": "ok (25)",
   "Reddit r/cybersecurity": "failed: HTTPError",
   "CISA KEV": "ok (60)",
@@ -44,7 +44,7 @@
    "source": "Chrome Releases",
    "category": "patch",
    "date": "2026-11-07T00:52:58.867000+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ca1a9396bb6596ea",
@@ -2764,7 +2764,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-03T18:46:38+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8afc2fab59660103",
@@ -2774,7 +2774,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-03T18:16:19+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "64de5c47f0d8e983",
@@ -2784,7 +2784,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-03T17:39:43+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "968622ca90ae8f68",
@@ -2794,7 +2794,7 @@
    "source": "Ubuntu Security Notices",
    "category": "patch",
    "date": "2026-11-03T17:38:49+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "86c38c1e82c9eaca",
@@ -2804,7 +2804,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-11-03T17:32:47+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "00b9246caf1f1c7e",
@@ -2813,7 +2813,8 @@
    "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system. This vulnerability is due to insufficient…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-11-03T17:05:12+00:00"
+   "date": "2026-11-03T17:05:12+00:00",
+   "brief_tries": 1
   },
   {
    "id": "263a6ac2e13a9494",
@@ -2822,7 +2823,8 @@
    "summary": "Read why Gartner named Microsoft a Leader in the inaugural 2026 Magic Quadrant for AI Agent Management Platforms.",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-11-03T17:00:00+00:00"
+   "date": "2026-11-03T17:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "19a35a6714f91980",
@@ -2831,7 +2833,8 @@
    "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social…",
    "source": "The Hacker News",
    "category": "threat",
-   "date": "2026-11-03T16:55:58+00:00"
+   "date": "2026-11-03T16:55:58+00:00",
+   "brief_tries": 1
   },
   {
    "id": "bc96c130a163cdde",
@@ -2840,7 +2843,8 @@
    "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass…",
    "source": "The Hacker News",
    "category": "vuln",
-   "date": "2026-11-03T15:59:19+00:00"
+   "date": "2026-11-03T15:59:19+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4e5521a0cc2c4d43",
@@ -2849,7 +2853,8 @@
    "summary": "Overview Multiple vulnerabilities have been identified in the Android application, BaseChat – Audio Dating App, version 9.8.1, which ultimately compromise the privacy of users’ personal data and activity. Description BaseChat is an online dating platform built in Flutter and…",
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
-   "date": "2026-11-03T15:42:35.704372+00:00"
+   "date": "2026-11-03T15:42:35.704372+00:00",
+   "brief_tries": 1
   },
   {
    "id": "310fe7a6e4c306a2",
@@ -2858,7 +2863,8 @@
    "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an…",
    "source": "The Hacker News",
    "category": "threat",
-   "date": "2026-11-03T15:41:53+00:00"
+   "date": "2026-11-03T15:41:53+00:00",
+   "brief_tries": 1
   },
   {
    "id": "47887f1443ada123",
@@ -4697,15 +4703,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4715,9 +4712,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4742,6 +4739,15 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "c993d0f62b81a9c4",
    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
    "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
@@ -4760,9 +4766,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4778,18 +4784,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4805,9 +4811,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
