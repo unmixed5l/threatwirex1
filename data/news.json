@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:12:42.022125+00:00",
+ "updated": "2026-11-07T09:00:38.779659+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "67e46d8ffeb6e44b",
+   "title": "Reproducing the GhostMap APK crash loop on Android 16/17, plus an offline check for the ZIP parser mismatch",
+   "url": "https://www.reddit.com/r/netsec/comments/1xq1jwj/reproducing_the_ghostmap_apk_crash_loop_on/",
+   "summary": "submitted by   /u/ImL1s [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-11-07T08:34:20+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "804a43c3361e7807",
    "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
    "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
@@ -44,7 +54,7 @@
    "source": "The Hacker News",
    "category": "threat",
    "date": "2026-11-07T06:44:17+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a37aeb198b9f4d02",
@@ -3114,7 +3124,7 @@
    "source": "Krebs on Security",
    "category": "threat",
    "date": "2026-11-03T02:24:31+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d67f6a348091431b",
@@ -3124,7 +3134,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-11-03T02:00:02+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "96d161c7d0e81fc4",
@@ -3134,7 +3144,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-02T23:15:36+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c033741926089d1a",
@@ -3144,7 +3154,7 @@
    "source": "Unit 42",
    "category": "ransomware",
    "date": "2026-11-02T23:00:45+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8158b1dc74164a8a",
@@ -3154,7 +3164,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-11-02T22:27:24+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "73b73a4735183c93",
@@ -3163,7 +3173,8 @@
    "summary": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius.",
    "source": "Microsoft Security Blog",
    "category": "exploit",
-   "date": "2026-11-02T20:20:59+00:00"
+   "date": "2026-11-02T20:20:59+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4b8019f92984e448",
@@ -3172,7 +3183,8 @@
    "summary": "submitted by   /u/nns_ee [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-02T19:16:42+00:00"
+   "date": "2026-11-02T19:16:42+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d8f9dce07e530ab0",
@@ -3181,7 +3193,8 @@
    "summary": "submitted by   /u/Much-Television-9449 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-02T16:25:38+00:00"
+   "date": "2026-11-02T16:25:38+00:00",
+   "brief_tries": 1
   },
   {
    "id": "882eca92e97cacf2",
@@ -3190,7 +3203,8 @@
    "summary": "For the latest discoveries in cyber research for the week of 2nd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Binance, a global cryptocurrency exchange, has suffered a cyberattack resulting in the theft of approximately $6.3 billion in…",
    "source": "Check Point Research",
    "category": "threat",
-   "date": "2026-11-02T15:57:23+00:00"
+   "date": "2026-11-02T15:57:23+00:00",
+   "brief_tries": 1
   },
   {
    "id": "37d67f74470829e2",
@@ -3199,7 +3213,8 @@
    "summary": "Overview INFINITT PACS installations using System Manager versions 3.0.11.3 and 3.0.11.5 contain vulnerabilities that may allow an attacker to execute arbitrary code. INFINITT Healthcare has remediated the issues in System Manager versions 3.0.12.3 and 3.0.12.5. Description…",
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
-   "date": "2026-11-02T15:38:19.438399+00:00"
+   "date": "2026-11-02T15:38:19.438399+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6c5cf422a94bb03c",
@@ -4741,18 +4756,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4768,9 +4783,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4804,18 +4819,9 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4831,18 +4837,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
