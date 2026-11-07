@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T13:58:45.061307+00:00",
+ "updated": "2026-11-07T14:52:31.944630+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -36,6 +36,16 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "5a765cf499c2e694",
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate…",
+   "source": "BleepingComputer",
+   "category": "exploit",
+   "date": "2026-11-07T14:10:19+00:00",
+   "brief_tries": 1
+  },
   {
    "id": "1dbb32a3e5b4977a",
    "title": "unlocking any car from X brand in most of the world",
@@ -3464,7 +3474,7 @@
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-31T03:15:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d6c6367093755380",
@@ -3474,7 +3484,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-10-31T01:02:57+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6e318dd1d1a3dce6",
@@ -3484,7 +3494,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-30T21:08:25+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "0a89691e7bed3ebc",
@@ -3494,7 +3504,7 @@
    "source": "Schneier on Security",
    "category": "threat",
    "date": "2026-10-30T21:04:36+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ac7367a35b670f91",
@@ -3504,7 +3514,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-30T20:05:58+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "983cd7433fe6494b",
@@ -3514,7 +3524,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-30T19:46:08+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f2b6276f2a15ce37",
@@ -3523,7 +3533,8 @@
    "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities:  CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-30T19:24:31+00:00"
+   "date": "2026-10-30T19:24:31+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ad4296e15ebcf305",
@@ -3532,7 +3543,8 @@
    "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos.",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-10-30T16:11:44+00:00"
+   "date": "2026-10-30T16:11:44+00:00",
+   "brief_tries": 1
   },
   {
    "id": "47e04300a3731174",
@@ -3541,7 +3553,8 @@
    "summary": "I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.",
    "source": "Dark Reading",
    "category": "vuln",
-   "date": "2026-10-30T15:39:54+00:00"
+   "date": "2026-10-30T15:39:54+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7b310c119f825d95",
@@ -3550,7 +3563,8 @@
    "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed…",
    "source": "Schneier on Security",
    "category": "threat",
-   "date": "2026-10-30T15:20:02+00:00"
+   "date": "2026-10-30T15:20:02+00:00",
+   "brief_tries": 1
   },
   {
    "id": "e293edf88b4e6655",
@@ -3559,7 +3573,8 @@
    "summary": "The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-10-30T15:03:14+00:00"
+   "date": "2026-10-30T15:03:14+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c5d4f7a3fa549cfa",
@@ -4874,15 +4889,6 @@
    "source": "Unit 42",
    "category": "exploit",
    "date": "2026-10-14T22:00:44+00:00"
-  },
-  {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
   }
  ]
 }
