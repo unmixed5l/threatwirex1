@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T05:01:05.467583+00:00",
+ "updated": "2026-11-07T05:57:54.985571+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -45,6 +45,36 @@
    "category": "threat",
    "date": "2026-11-07T02:44:34+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "1e7b6acca89b864d",
+   "title": "qilin claims attack on Acondistec",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T01:34:21.307146+00:00"
+  },
+  {
+   "id": "3d35e879f3768075",
+   "title": "anubis claims attack on Kahler Automation",
+   "url": "https://www.ransomware.live/group/anubis",
+   "summary": "Listed on a ransomware group's leak site (DE). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T01:08:56.613436+00:00"
+  },
+  {
+   "id": "f8fc87af3f10497a",
+   "title": "SilentRansomGroup claims attack on Benesch Law",
+   "url": "https://www.ransomware.live/group/SilentRansomGroup",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T01:07:11.580830+00:00"
   },
   {
    "id": "399692e66dc8f989",
@@ -1827,36 +1857,6 @@
    "date": "2026-11-04T22:22:08.338014+00:00"
   },
   {
-   "id": "ddd7a742131ee1b3",
-   "title": "medusalocker claims attack on Ulaval",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:21:35.811959+00:00"
-  },
-  {
-   "id": "8696cddf06bdad86",
-   "title": "medusalocker claims attack on On",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site (CH). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:21:04.571660+00:00"
-  },
-  {
-   "id": "956a06208be9ca43",
-   "title": "medusalocker claims attack on Hirschinjurylaw",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:20:33.635900+00:00"
-  },
-  {
    "id": "1b4641ca37283c44",
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -2934,7 +2934,7 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-11-03T13:57:04+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5558cceee1128d6e",
@@ -2944,7 +2944,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-03T12:35:06+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "dcae8bed3d42d0e1",
@@ -2954,7 +2954,7 @@
    "source": "Schneier on Security",
    "category": "exploit",
    "date": "2026-11-03T12:01:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "496fbffc6e4d527f",
@@ -2964,7 +2964,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-11-03T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4ee243d9c309bcdc",
@@ -2974,7 +2974,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-11-03T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "77f64f32faf59d10",
@@ -2984,7 +2984,7 @@
    "source": "The Hacker News",
    "category": "patch",
    "date": "2026-11-03T11:23:53+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "20c9c9965d29956a",
@@ -2993,7 +2993,8 @@
    "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure…",
    "source": "The Hacker News",
    "category": "exploit",
-   "date": "2026-11-03T11:18:20+00:00"
+   "date": "2026-11-03T11:18:20+00:00",
+   "brief_tries": 1
   },
   {
    "id": "3ce297811edf1174",
@@ -3002,7 +3003,8 @@
    "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law…",
    "source": "The Hacker News",
    "category": "exploit",
-   "date": "2026-11-03T11:00:45+00:00"
+   "date": "2026-11-03T11:00:45+00:00",
+   "brief_tries": 1
   },
   {
    "id": "185636633dfd84f4",
@@ -3011,7 +3013,8 @@
    "summary": "tl:dr; Contrary to popular belief among vendors, system integrators, and asset owners: network authentication in TETRA mission-critical radio networks does not provide authenticity & integrity guarantees at the individual message level. To make matters worse: base stations…",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-11-03T10:19:12+00:00"
+   "date": "2026-11-03T10:19:12+00:00",
+   "brief_tries": 1
   },
   {
    "id": "face46920f5fd2a7",
@@ -3020,7 +3023,8 @@
    "summary": "We explain how Kaspersky Industrial CyberSecurity for Networks uses Machine Learning Event Processor (MLEP) technology to help take inventory of assets and detect anomalies in industrial networks.",
    "source": "Securelist",
    "category": "threat",
-   "date": "2026-11-03T10:00:07+00:00"
+   "date": "2026-11-03T10:00:07+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9327bd5edc120368",
@@ -3029,7 +3033,8 @@
    "summary": "ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-11-03T09:50:00+00:00"
+   "date": "2026-11-03T09:50:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "07d9937fab38293a",
@@ -3038,7 +3043,8 @@
    "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found…",
    "source": "The Hacker News",
    "category": "exploit",
-   "date": "2026-11-03T08:31:48+00:00"
+   "date": "2026-11-03T08:31:48+00:00",
+   "brief_tries": 1
   },
   {
    "id": "44254febdab375da",
@@ -4742,18 +4748,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4787,9 +4793,18 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "id": "b27aeca410b144b4",
+   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ce7c6bc6ebe9d2c8",
+   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4805,27 +4820,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
    "id": "ab658e1b88cfcd0b",
    "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "b1a3e44cbbf34a02",
-   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "6bd6cda1f57769fb",
-   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
