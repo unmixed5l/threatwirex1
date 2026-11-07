@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T13:03:37.849975+00:00",
+ "updated": "2026-11-07T13:58:45.061307+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -3404,7 +3404,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-11-01T10:15:16+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ec58a4fc51d4e88b",
@@ -3414,7 +3414,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-11-01T09:12:23+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5be14df72cefaec0",
@@ -3424,7 +3424,7 @@
    "source": "Cisco Talos",
    "category": "threat",
    "date": "2026-10-31T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "db5a9a075d7b0323",
@@ -3434,7 +3434,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-10-31T10:52:53+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a97d89d20f5e7e65",
@@ -3444,7 +3444,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-10-31T10:48:17+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8a1ff85d598dea94",
@@ -3454,7 +3454,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-10-31T10:45:40+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "365366c8461e7f6a",
@@ -3463,7 +3463,8 @@
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
-   "date": "2026-10-31T03:15:00+00:00"
+   "date": "2026-10-31T03:15:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d6c6367093755380",
@@ -3472,7 +3473,8 @@
    "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-10-31T01:02:57+00:00"
+   "date": "2026-10-31T01:02:57+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6e318dd1d1a3dce6",
@@ -3481,7 +3483,8 @@
    "summary": "The cybersecurity market is difficult to predict, but a glimpse into the annual DataTribe Challenge shows what's trending and what's not.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-30T21:08:25+00:00"
+   "date": "2026-10-30T21:08:25+00:00",
+   "brief_tries": 1
   },
   {
    "id": "0a89691e7bed3ebc",
@@ -3490,7 +3493,8 @@
    "summary": "Neat video : The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news…",
    "source": "Schneier on Security",
    "category": "threat",
-   "date": "2026-10-30T21:04:36+00:00"
+   "date": "2026-10-30T21:04:36+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ac7367a35b670f91",
@@ -3499,7 +3503,8 @@
    "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-30T20:05:58+00:00"
+   "date": "2026-10-30T20:05:58+00:00",
+   "brief_tries": 1
   },
   {
    "id": "983cd7433fe6494b",
@@ -3508,7 +3513,8 @@
    "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-30T19:46:08+00:00"
+   "date": "2026-10-30T19:46:08+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f2b6276f2a15ce37",
@@ -4807,6 +4813,15 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "1cf65875058c7cca",
    "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
@@ -4828,15 +4843,6 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
