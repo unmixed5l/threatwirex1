@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T07:13:22.668985+00:00",
+ "updated": "2026-11-07T08:12:42.022125+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -36,6 +36,26 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "804a43c3361e7807",
+   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word,…",
+   "source": "The Hacker News",
+   "category": "threat",
+   "date": "2026-11-07T06:44:17+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "a37aeb198b9f4d02",
+   "title": "Whitearmor claims attack on maersk",
+   "url": "https://www.ransomware.live/group/Whitearmor",
+   "summary": "Listed on a ransomware group's leak site (DK). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T03:48:01.376268+00:00"
+  },
   {
    "id": "e115b44724e254be",
    "title": "ARTEX abuse expands as cybercriminals target financial sector",
@@ -1847,16 +1867,6 @@
    "date": "2026-11-04T22:22:41.115597+00:00"
   },
   {
-   "id": "fb9db333c5013a2d",
-   "title": "medusalocker claims attack on baeaqab",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:22:08.338014+00:00"
-  },
-  {
    "id": "1b4641ca37283c44",
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -3037,16 +3047,6 @@
    "brief_tries": 2
   },
   {
-   "id": "07d9937fab38293a",
-   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-   "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found…",
-   "source": "The Hacker News",
-   "category": "exploit",
-   "date": "2026-11-03T08:31:48+00:00",
-   "brief_tries": 2
-  },
-  {
    "id": "44254febdab375da",
    "title": "CrowdStrike Advances AI Security and Safety from Endpoint to Cloud",
    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/",
@@ -3054,7 +3054,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-03T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "914eba08ce82050c",
@@ -3064,7 +3064,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-03T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8370513f76c751de",
@@ -3074,7 +3074,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-03T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "b4a4900d73486af7",
@@ -3084,7 +3084,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-03T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "710937bcc980018a",
@@ -3094,7 +3094,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-03T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "e490b713dd04b419",
@@ -3104,7 +3104,7 @@
    "source": "Have I Been Pwned",
    "category": "breach",
    "date": "2026-11-03T07:24:50+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3b6a51103bfae25b",
@@ -3113,7 +3113,8 @@
    "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts…",
    "source": "Krebs on Security",
    "category": "threat",
-   "date": "2026-11-03T02:24:31+00:00"
+   "date": "2026-11-03T02:24:31+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d67f6a348091431b",
@@ -3122,7 +3123,8 @@
    "summary": "",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-11-03T02:00:02+00:00"
+   "date": "2026-11-03T02:00:02+00:00",
+   "brief_tries": 1
   },
   {
    "id": "96d161c7d0e81fc4",
@@ -3131,7 +3133,8 @@
    "summary": "Had a subscription in the past with them and received the following e-mail: Doesn't look like many sites have have picked up on this: Dear cPGuard customers and partners, An unidentified attacker targeted OPSSHIELD, gained unauthorized access to our licensing and update…",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-11-02T23:15:36+00:00"
+   "date": "2026-11-02T23:15:36+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c033741926089d1a",
@@ -3140,7 +3143,8 @@
    "summary": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows.",
    "source": "Unit 42",
    "category": "ransomware",
-   "date": "2026-11-02T23:00:45+00:00"
+   "date": "2026-11-02T23:00:45+00:00",
+   "brief_tries": 1
   },
   {
    "id": "8158b1dc74164a8a",
@@ -3149,7 +3153,8 @@
    "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-11-02T22:27:24+00:00"
+   "date": "2026-11-02T22:27:24+00:00",
+   "brief_tries": 1
   },
   {
    "id": "73b73a4735183c93",
@@ -4736,9 +4741,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4754,9 +4759,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4766,15 +4780,6 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4808,6 +4813,15 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
+   "id": "66bd7aa357573a8e",
+   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
    "id": "ab658e1b88cfcd0b",
    "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
@@ -4817,9 +4831,9 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
-   "id": "ce7c6bc6ebe9d2c8",
-   "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0311",
+   "id": "b1a3e44cbbf34a02",
+   "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4829,15 +4843,6 @@
    "id": "6bd6cda1f57769fb",
    "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "66bd7aa357573a8e",
-   "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
