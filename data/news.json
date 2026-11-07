@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:48:50.328750+00:00",
+ "updated": "2026-11-07T23:46:15.818317+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -11,7 +11,7 @@
   "SANS Internet Storm Center": "ok (10)",
   "CISA Advisories": "ok (30)",
   "CERT/CC Vulnerability Notes": "ok (15)",
-  "Microsoft Security Response Center": "ok (5388)",
+  "Microsoft Security Response Center": "ok (5377)",
   "Cisco Security Advisories": "ok (50)",
   "Fortinet PSIRT": "ok (50)",
   "Palo Alto Advisories": "ok (25)",
@@ -85,6 +85,16 @@
    "category": "ransomware",
    "badge": "Dark web listing",
    "date": "2026-11-07T17:25:22.021798+00:00"
+  },
+  {
+   "id": "13fd69411f6bbbec",
+   "title": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
+   "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
+   "summary": "Added an FAQ and updated the CVSS score. This is an informational change only.",
+   "source": "Microsoft Security Response Center",
+   "category": "patch",
+   "date": "2026-11-07T16:00:00+00:00",
+   "brief_tries": 2
   },
   {
    "id": "ded94754be202b29",
@@ -674,16 +684,6 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-06T16:08:38+00:00",
-   "brief_tries": 2
-  },
-  {
-   "id": "13fd69411f6bbbec",
-   "title": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
-   "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
-   "summary": "To comprehensively address the vulnerability identified by this CVE, Microsoft has released a new version of Paint with build version number 11.2609.401.0. Microsoft recommends installing this new version or ensuring that it was automatically updated.",
-   "source": "Microsoft Security Response Center",
-   "category": "patch",
-   "date": "2026-11-06T16:00:00+00:00",
    "brief_tries": 2
   },
   {
@@ -4004,7 +4004,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-10-28T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "e89555bcd57e7443",
@@ -4014,7 +4014,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-10-28T15:36:25+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c5cb56f9b754b3af",
@@ -4024,7 +4024,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-28T15:29:06+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "15bc73e43bd6a926",
@@ -4034,7 +4034,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-10-28T14:58:48+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "70a17c1d3a5b4867",
@@ -4044,7 +4044,7 @@
    "source": "Dark Reading",
    "category": "breach",
    "date": "2026-10-28T14:37:52+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f28c390e8f2d693a",
@@ -4054,7 +4054,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-28T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5ad5314f8c50f866",
@@ -4063,7 +4063,8 @@
    "summary": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
    "source": "Schneier on Security",
    "category": "threat",
-   "date": "2026-10-28T11:05:00+00:00"
+   "date": "2026-10-28T11:05:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9f03b9c501b63676",
@@ -4072,7 +4073,8 @@
    "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
    "source": "ESET WeLiveSecurity",
    "category": "breach",
-   "date": "2026-10-28T10:33:51+00:00"
+   "date": "2026-10-28T10:33:51+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c05a0e78d955d0ca",
@@ -4081,7 +4083,8 @@
    "summary": "During our research, we discovered a denial-of-service vulnerability that could affect millions of Intelbras IP camera systems built on the platform platform of a popular Chinese manufacturer.",
    "source": "Securelist",
    "category": "vuln",
-   "date": "2026-10-28T10:00:18+00:00"
+   "date": "2026-10-28T10:00:18+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1383b1eca42b1ade",
@@ -4090,7 +4093,8 @@
    "summary": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.   submitted by   /u/bitbutter [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-10-28T09:57:22+00:00"
+   "date": "2026-10-28T09:57:22+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4400201e3866f7fb",
@@ -4099,7 +4103,8 @@
    "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-10-28T09:45:00+00:00"
+   "date": "2026-10-28T09:45:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "271b83601f0c5aec",
@@ -4108,7 +4113,8 @@
    "summary": "Interpol's annual Operation Serengeti, now in its third iteration, led to 1,462 arrests across 20 African countries and the US, recovering $105 million in stolen funds.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-28T06:00:00+00:00"
+   "date": "2026-10-28T06:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2db299f6a19064cf",
@@ -4885,9 +4891,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4903,9 +4909,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4915,15 +4930,6 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
