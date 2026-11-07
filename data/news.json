@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:46:54.265055+00:00",
+ "updated": "2026-11-07T18:56:58.601297+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -45,6 +45,36 @@
    "category": "threat",
    "date": "2026-11-07T15:25:35+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "571210011a895cf5",
+   "title": "qilin claims attack on Oak Green School",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (GB). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T14:32:10.066717+00:00"
+  },
+  {
+   "id": "5d1cfc269af8e25b",
+   "title": "qilin claims attack on Gandol Doors",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (TR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T14:31:27.673985+00:00"
+  },
+  {
+   "id": "d6008d7e120b9c41",
+   "title": "qilin claims attack on Amber Management Ltd",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (GB). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T14:30:35.066447+00:00"
   },
   {
    "id": "5a765cf499c2e694",
@@ -1617,26 +1647,6 @@
    "brief_tries": 2
   },
   {
-   "id": "cba1c58fab4aa869",
-   "title": "akira claims attack on David L Wade & Associates",
-   "url": "https://www.ransomware.live/group/akira",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T14:33:52.506679+00:00"
-  },
-  {
-   "id": "bc4645af9709a3f2",
-   "title": "akira claims attack on Source Energy Services",
-   "url": "https://www.ransomware.live/group/akira",
-   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T14:33:40.396921+00:00"
-  },
-  {
    "id": "2b47cf0babb2263d",
    "title": "ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration",
    "url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
@@ -1755,16 +1765,6 @@
    "category": "threat",
    "date": "2026-11-05T11:25:11+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "cba6d7467c3635d1",
-   "title": "Aoqin claims attack on Sistel",
-   "url": "https://www.ransomware.live/group/Aoqin",
-   "summary": "Listed on a ransomware group's leak site (BR). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T11:20:37.780181+00:00"
   },
   {
    "id": "bcd0f8e51ff42e7c",
@@ -3704,7 +3704,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-29T19:56:44+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2c3bc9054593866d",
@@ -3714,7 +3714,7 @@
    "source": "Dark Reading",
    "category": "exploit",
    "date": "2026-10-29T18:15:59+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2810027585c5f3b5",
@@ -3724,7 +3724,7 @@
    "source": "Unit 42",
    "category": "vuln",
    "date": "2026-10-29T18:00:34+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "27b4ee16aef66244",
@@ -3734,7 +3734,7 @@
    "source": "Cisco Talos",
    "category": "threat",
    "date": "2026-10-29T18:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2e0675284202e329",
@@ -3744,7 +3744,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-10-29T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bd2cd3a550d66d6a",
@@ -3754,7 +3754,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-10-29T16:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "efbb1c68eb20dd3a",
@@ -3763,7 +3763,8 @@
    "summary": "A four-question exercise that CISOs can use to create a threat model that promises results, without a big spend.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-29T15:44:04+00:00"
+   "date": "2026-10-29T15:44:04+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2489a89d87d1cb98",
@@ -3772,7 +3773,8 @@
    "summary": "submitted by   /u/Content-Winter5328 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-10-29T14:31:39+00:00"
+   "date": "2026-10-29T14:31:39+00:00",
+   "brief_tries": 1
   },
   {
    "id": "200f517219336f60",
@@ -3781,7 +3783,8 @@
    "summary": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size…",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-10-29T14:09:08+00:00"
+   "date": "2026-10-29T14:09:08+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c55d2f471fee4e60",
@@ -3790,7 +3793,8 @@
    "summary": "Key findings On October 26, Cohere reported a puzzling incident involving Qwen3.8-Flash-Next, an open-weight model from Alibaba. The task was straightforward: write a detection rule for suspicious curl downloads followed by bash execution. Instead, the model produced a shell…",
    "source": "Check Point Research",
    "category": "threat",
-   "date": "2026-10-29T14:08:46+00:00"
+   "date": "2026-10-29T14:08:46+00:00",
+   "brief_tries": 1
   },
   {
    "id": "552a56f49ede35a2",
@@ -3799,7 +3803,8 @@
    "summary": "submitted by   /u/NewResearch1337 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-10-29T14:07:38+00:00"
+   "date": "2026-10-29T14:07:38+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d8346a01fb6e259f",
@@ -3808,7 +3813,8 @@
    "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
    "source": "Cisco Talos",
    "category": "ransomware",
-   "date": "2026-10-29T14:00:00+00:00"
+   "date": "2026-10-29T14:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f726928be35569c1",
