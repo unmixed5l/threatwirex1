@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T05:57:54.985571+00:00",
+ "updated": "2026-11-07T07:13:22.668985+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -2994,7 +2994,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-03T11:18:20+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3ce297811edf1174",
@@ -3004,7 +3004,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-03T11:00:45+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "185636633dfd84f4",
@@ -3014,7 +3014,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-11-03T10:19:12+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "face46920f5fd2a7",
@@ -3024,7 +3024,7 @@
    "source": "Securelist",
    "category": "threat",
    "date": "2026-11-03T10:00:07+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9327bd5edc120368",
@@ -3034,7 +3034,7 @@
    "source": "ESET WeLiveSecurity",
    "category": "threat",
    "date": "2026-11-03T09:50:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "07d9937fab38293a",
@@ -3044,7 +3044,7 @@
    "source": "The Hacker News",
    "category": "exploit",
    "date": "2026-11-03T08:31:48+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "44254febdab375da",
@@ -3053,7 +3053,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-03T08:00:00+00:00"
+   "date": "2026-11-03T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "914eba08ce82050c",
@@ -3062,7 +3063,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-03T08:00:00+00:00"
+   "date": "2026-11-03T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "8370513f76c751de",
@@ -3071,7 +3073,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-03T08:00:00+00:00"
+   "date": "2026-11-03T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "b4a4900d73486af7",
@@ -3080,7 +3083,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-03T08:00:00+00:00"
+   "date": "2026-11-03T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "710937bcc980018a",
@@ -3089,7 +3093,8 @@
    "summary": "",
    "source": "CrowdStrike",
    "category": "threat",
-   "date": "2026-11-03T08:00:00+00:00"
+   "date": "2026-11-03T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "e490b713dd04b419",
@@ -3098,7 +3103,8 @@
    "summary": "Exposed data: Charitable donations, Citizenship statuses, Dates of birth, Education levels, Email addresses. In November 2025, Harvard University suffered a data breach later linked to a ShinyHunters \"pay or leak\" extortion attempt . The data contained 851k unique email addresses relating to the…",
    "source": "Have I Been Pwned",
    "category": "breach",
-   "date": "2026-11-03T07:24:50+00:00"
+   "date": "2026-11-03T07:24:50+00:00",
+   "brief_tries": 1
   },
   {
    "id": "3b6a51103bfae25b",
@@ -4730,9 +4736,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4748,18 +4754,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4769,6 +4766,15 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4793,9 +4799,18 @@
    "date": "2026-10-14T22:00:44+00:00"
   },
   {
-   "id": "b27aeca410b144b4",
-   "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0313",
+   "id": "2ec5379b148e3a38",
+   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "id": "ab658e1b88cfcd0b",
+   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4811,27 +4826,18 @@
    "date": "2026-10-14T16:00:00+00:00"
   },
   {
+   "id": "6bd6cda1f57769fb",
+   "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0319",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-14T16:00:00+00:00"
+  },
+  {
    "id": "66bd7aa357573a8e",
    "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0315",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "2ec5379b148e3a38",
-   "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0312",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "id": "ab658e1b88cfcd0b",
-   "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0314",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
