@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:50:07.716445+00:00",
+ "updated": "2026-11-07T16:52:33.949775+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,7 +44,7 @@
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-07T15:25:35+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5a765cf499c2e694",
@@ -55,6 +55,66 @@
    "category": "exploit",
    "date": "2026-11-07T14:10:19+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "d2d6b63d323d95f0",
+   "title": "metaencryptor claims attack on Christie Digital Systems",
+   "url": "https://www.ransomware.live/group/metaencryptor",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T11:43:20.420722+00:00"
+  },
+  {
+   "id": "2905f2342b6d5ab7",
+   "title": "metaencryptor claims attack on Daeah E&C",
+   "url": "https://www.ransomware.live/group/metaencryptor",
+   "summary": "Listed on a ransomware group's leak site (KR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T11:42:38.227744+00:00"
+  },
+  {
+   "id": "7fdb4620f3be97f6",
+   "title": "metaencryptor claims attack on DAEWON Chemical",
+   "url": "https://www.ransomware.live/group/metaencryptor",
+   "summary": "Listed on a ransomware group's leak site (KR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T11:41:54.887663+00:00"
+  },
+  {
+   "id": "1cea85cd419a7fa7",
+   "title": "metaencryptor claims attack on Wooshin Systems",
+   "url": "https://www.ransomware.live/group/metaencryptor",
+   "summary": "Listed on a ransomware group's leak site (KR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T11:41:12.887935+00:00"
+  },
+  {
+   "id": "d8411b430441dd83",
+   "title": "metaencryptor claims attack on Proterial America, Ltd.",
+   "url": "https://www.ransomware.live/group/metaencryptor",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T11:40:31.917344+00:00"
+  },
+  {
+   "id": "4cc0f9d048f8ba7b",
+   "title": "metaencryptor claims attack on Hyundai E&C",
+   "url": "https://www.ransomware.live/group/metaencryptor",
+   "summary": "Listed on a ransomware group's leak site (KR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T11:39:48.069929+00:00"
   },
   {
    "id": "5b2381a83bd5b4e1",
@@ -1817,16 +1877,6 @@
    "brief_tries": 2
   },
   {
-   "id": "df6f86be76465cb7",
-   "title": "Dark Project claims attack on Custom Bakehouse",
-   "url": "https://www.ransomware.live/group/Dark Project",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T06:21:31.072294+00:00"
-  },
-  {
    "id": "f3ef8a4b5dc168c1",
    "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
    "url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
@@ -1845,26 +1895,6 @@
    "category": "exploit",
    "date": "2026-11-05T05:17:04+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "44145c076b7cfe39",
-   "title": "N0n claims attack on Delta Dental of Missouri",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T04:52:28.695264+00:00"
-  },
-  {
-   "id": "b32596bd32fc5013",
-   "title": "N0n claims attack on The Container Store",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T04:51:57.488255+00:00"
   },
   {
    "id": "49bf8b366c47018c",
@@ -1895,36 +1925,6 @@
    "category": "threat",
    "date": "2026-11-05T00:00:00+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "5b43a82d30e5d313",
-   "title": "lockbit5 claims attack on centratamagroup.com",
-   "url": "https://www.ransomware.live/group/lockbit5",
-   "summary": "Listed on a ransomware group's leak site (BR). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T23:14:32.813129+00:00"
-  },
-  {
-   "id": "20c8a5d09ea6793c",
-   "title": "medusalocker claims attack on Msn",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:27:24.873996+00:00"
-  },
-  {
-   "id": "9223c57a220e97e0",
-   "title": "medusalocker claims attack on baiapai",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:25:50.790256+00:00"
   },
   {
    "id": "1b4641ca37283c44",
@@ -3594,7 +3594,7 @@
    "source": "Dark Reading",
    "category": "patch",
    "date": "2026-10-30T14:10:37+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c186283f1cdf80ee",
@@ -3604,7 +3604,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-10-30T12:47:51+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4760f9242e3b5b83",
@@ -3614,7 +3614,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-30T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3e5b06d3cd3d7dbe",
@@ -3624,7 +3624,7 @@
    "source": "Securelist",
    "category": "threat",
    "date": "2026-10-30T10:00:44+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f6a72b86d81b5ca2",
@@ -3634,7 +3634,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-30T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "208ac926eb0f63f6",
@@ -3643,7 +3643,8 @@
    "summary": "",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-10-30T03:30:17+00:00"
+   "date": "2026-10-30T03:30:17+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ebcdbd5897fe8878",
@@ -3652,7 +3653,8 @@
    "summary": "I wanted to figure out just how exploitable php2shell and http2shell were in practice, so I've created two purposely vulnerable web apps: https://brotli2bitcoin.com & https://php2bitcoin.com with a standard production config -- pop an RCE and find the flag to claim the $1K BTC.…",
    "source": "Reddit r/netsec",
    "category": "exploit",
-   "date": "2026-10-30T03:06:20+00:00"
+   "date": "2026-10-30T03:06:20+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2afe7336fd78c429",
@@ -3661,7 +3663,8 @@
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
-   "date": "2026-10-29T23:54:00+00:00"
+   "date": "2026-10-29T23:54:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "15b9e222ab34310d",
@@ -3670,7 +3673,8 @@
    "summary": "A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device. This vulnerability is due to improper input validation for specific HTTP…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-29T21:22:28+00:00"
+   "date": "2026-10-29T21:22:28+00:00",
+   "brief_tries": 1
   },
   {
    "id": "cbcc5cbaf6f622fa",
@@ -3679,7 +3683,8 @@
    "summary": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-29T21:21:56+00:00"
+   "date": "2026-10-29T21:21:56+00:00",
+   "brief_tries": 1
   },
   {
    "id": "68f0757a3373fe6a",
@@ -3688,7 +3693,8 @@
    "summary": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation workforces on modern risks and emerging threats.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-29T20:15:37+00:00"
+   "date": "2026-10-29T20:15:37+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5553b245af75f973",
@@ -4843,6 +4849,15 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4852,9 +4867,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4873,15 +4888,6 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
