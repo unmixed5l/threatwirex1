@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T21:47:53.011769+00:00",
+ "updated": "2026-11-07T22:48:50.328750+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -36,6 +36,46 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "628a7af325a1b336",
+   "title": "qilin claims attack on BOSH Engineering Private Limited",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (SG). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T18:30:51.416814+00:00"
+  },
+  {
+   "id": "54af9b96a6e3346f",
+   "title": "qilin claims attack on J. J. Louro Pereira",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (PT). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T18:30:08.530851+00:00"
+  },
+  {
+   "id": "6ffaedb18bfa7d85",
+   "title": "qilin claims attack on Simply UK",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (GB). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T18:29:21.055812+00:00"
+  },
+  {
+   "id": "35769eabbfb3357e",
+   "title": "qilin claims attack on Roxfarma",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (BR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T18:28:27.314174+00:00"
+  },
   {
    "id": "aef5231d3fade6c0",
    "title": "qilin claims attack on AXE - EXPERTS",
@@ -1417,36 +1457,6 @@
    "date": "2026-11-05T17:53:54.647350+00:00"
   },
   {
-   "id": "95a04dd6aaecb85e",
-   "title": "N0n claims attack on Company #135",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (ID). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T17:53:24.317409+00:00"
-  },
-  {
-   "id": "6031ade3d71a5ded",
-   "title": "N0n claims attack on Company #134",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T17:52:56.284326+00:00"
-  },
-  {
-   "id": "e8d78f208c544eda",
-   "title": "N0n claims attack on Company #133",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T17:52:27.636454+00:00"
-  },
-  {
    "id": "671b07a9ce2d4371",
    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
@@ -1535,16 +1545,6 @@
    "category": "exploit",
    "date": "2026-11-05T16:42:32+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "3239dc58a7c1eb3a",
-   "title": "Redact claims attack on Omni Hotels & Resorts",
-   "url": "https://www.ransomware.live/group/Redact",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T16:24:27.883719+00:00"
   },
   {
    "id": "5263a8e99f87686b",
@@ -3944,7 +3944,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-28T21:54:35+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a4a98e0e7ba86643",
@@ -3954,7 +3954,7 @@
    "source": "Cisco Talos",
    "category": "exploit",
    "date": "2026-10-28T21:32:02+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "66d728b46d6b27f3",
@@ -3964,7 +3964,7 @@
    "source": "Reddit r/netsec",
    "category": "exploit",
    "date": "2026-10-28T21:24:39+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "89379326868d8969",
@@ -3974,7 +3974,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-28T19:39:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "36213559262ba9da",
@@ -3984,7 +3984,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-28T19:15:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "682371bfbe60c494",
@@ -3994,7 +3994,7 @@
    "source": "Unit 42",
    "category": "ransomware",
    "date": "2026-10-28T18:00:10+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "02f39348974c3f63",
@@ -4003,7 +4003,8 @@
    "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both.",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-10-28T16:00:00+00:00"
+   "date": "2026-10-28T16:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "e89555bcd57e7443",
@@ -4012,7 +4013,8 @@
    "summary": "submitted by   /u/Grand_Fan_9804 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-10-28T15:36:25+00:00"
+   "date": "2026-10-28T15:36:25+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c5cb56f9b754b3af",
@@ -4021,7 +4023,8 @@
    "summary": "Artificial intelligence is everywhere in healthcare, from doctors' intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-28T15:29:06+00:00"
+   "date": "2026-10-28T15:29:06+00:00",
+   "brief_tries": 1
   },
   {
    "id": "15bc73e43bd6a926",
@@ -4030,7 +4033,8 @@
    "summary": "submitted by   /u/albinowax [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-10-28T14:58:48+00:00"
+   "date": "2026-10-28T14:58:48+00:00",
+   "brief_tries": 1
   },
   {
    "id": "70a17c1d3a5b4867",
@@ -4039,7 +4043,8 @@
    "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
    "source": "Dark Reading",
    "category": "breach",
-   "date": "2026-10-28T14:37:52+00:00"
+   "date": "2026-10-28T14:37:52+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f28c390e8f2d693a",
@@ -4048,7 +4053,8 @@
    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-28T12:00:00+00:00"
+   "date": "2026-10-28T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5ad5314f8c50f866",
