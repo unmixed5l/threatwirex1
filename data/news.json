@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:51:10.081197+00:00",
+ "updated": "2026-11-07T13:03:37.849975+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,7 +44,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-07T11:10:50+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "986edfc864db12c6",
@@ -75,6 +75,16 @@
    "category": "threat",
    "date": "2026-11-07T08:34:20+00:00",
    "brief_tries": 2
+  },
+  {
+   "id": "265e40a8aea451df",
+   "title": "rhysida claims attack on Treuhand & Immobilien Abt AG",
+   "url": "https://www.ransomware.live/group/rhysida",
+   "summary": "Listed on a ransomware group's leak site (CH). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T08:18:16.664309+00:00"
   },
   {
    "id": "804a43c3361e7807",
@@ -1897,16 +1907,6 @@
    "date": "2026-11-04T22:23:12.502234+00:00"
   },
   {
-   "id": "bf5d9c12d3c3b9fa",
-   "title": "medusalocker claims attack on Jobmongers",
-   "url": "https://www.ransomware.live/group/medusalocker",
-   "summary": "Listed on a ransomware group's leak site (GB). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-04T22:22:41.115597+00:00"
-  },
-  {
    "id": "1b4641ca37283c44",
    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
    "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -3354,7 +3354,7 @@
    "source": "CrowdStrike",
    "category": "threat",
    "date": "2026-11-02T06:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c97a2c861bbd375a",
@@ -3364,7 +3364,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-02T04:32:13+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d0dae30d7bd006a6",
@@ -3374,7 +3374,7 @@
    "source": "SANS Internet Storm Center",
    "category": "threat",
    "date": "2026-11-02T02:00:03+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f8af5060cb13d0ab",
@@ -3384,7 +3384,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-01T17:19:31+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "481cc7d7b68b187c",
@@ -3394,7 +3394,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-01T14:29:24+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5aa5e3422f928342",
@@ -3403,7 +3403,8 @@
    "summary": "submitted by   /u/doit4everyone [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-11-01T10:15:16+00:00"
+   "date": "2026-11-01T10:15:16+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ec58a4fc51d4e88b",
@@ -3412,7 +3413,8 @@
    "summary": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-11-01T09:12:23+00:00"
+   "date": "2026-11-01T09:12:23+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5be14df72cefaec0",
@@ -3421,7 +3423,8 @@
    "summary": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
    "source": "Cisco Talos",
    "category": "threat",
-   "date": "2026-10-31T12:00:00+00:00"
+   "date": "2026-10-31T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "db5a9a075d7b0323",
@@ -3430,7 +3433,8 @@
    "summary": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-10-31T10:52:53+00:00"
+   "date": "2026-10-31T10:52:53+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a97d89d20f5e7e65",
@@ -3439,7 +3443,8 @@
    "summary": "YARA-X&#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-10-31T10:48:17+00:00"
+   "date": "2026-10-31T10:48:17+00:00",
+   "brief_tries": 1
   },
   {
    "id": "8a1ff85d598dea94",
@@ -3448,7 +3453,8 @@
    "summary": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
    "source": "SANS Internet Storm Center",
    "category": "threat",
-   "date": "2026-10-31T10:45:40+00:00"
+   "date": "2026-10-31T10:45:40+00:00",
+   "brief_tries": 1
   },
   {
    "id": "365366c8461e7f6a",
@@ -4801,15 +4807,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "1cf65875058c7cca",
    "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
@@ -4831,6 +4828,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
