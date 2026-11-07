@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:52:54.469860+00:00",
+ "updated": "2026-11-07T20:50:33.161350+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -3824,7 +3824,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-29T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9b9000acef065c5e",
@@ -3834,7 +3834,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-29T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "58a4b860d2a79013",
@@ -3844,7 +3844,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-29T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "3f007ce8c8278493",
@@ -3854,7 +3854,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-29T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "196b1e60527b22e4",
@@ -3864,7 +3864,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-29T10:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4faa48c4d2141f7b",
@@ -3874,7 +3874,7 @@
    "source": "Cisco Talos",
    "category": "threat",
    "date": "2026-10-29T10:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "fb20140aedd4eec7",
@@ -3883,7 +3883,8 @@
    "summary": "submitted by   /u/albinowax [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-10-29T09:15:54+00:00"
+   "date": "2026-10-29T09:15:54+00:00",
+   "brief_tries": 1
   },
   {
    "id": "be6cb0b79faf51bd",
@@ -3892,7 +3893,8 @@
    "summary": "submitted by   /u/Rare_Bicycle_5705 [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "vuln",
-   "date": "2026-10-29T08:45:46+00:00"
+   "date": "2026-10-29T08:45:46+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7db6fdf963feec19",
@@ -3901,7 +3903,8 @@
    "summary": "Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS.",
    "source": "Securelist",
    "category": "threat",
-   "date": "2026-10-29T08:00:15+00:00"
+   "date": "2026-10-29T08:00:15+00:00",
+   "brief_tries": 1
   },
   {
    "id": "75699bb6148a5fef",
@@ -3910,7 +3913,8 @@
    "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
    "source": "Dark Reading",
    "category": "vuln",
-   "date": "2026-10-29T08:00:00+00:00"
+   "date": "2026-10-29T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "39f07fa6d531f4e0",
@@ -3919,7 +3923,8 @@
    "summary": "The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-10-29T08:00:00+00:00"
+   "date": "2026-10-29T08:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6da15508e5e8b26d",
@@ -3928,7 +3933,8 @@
    "summary": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4: signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate,…",
    "source": "Reddit r/netsec",
    "category": "threat",
-   "date": "2026-10-29T01:00:22+00:00"
+   "date": "2026-10-29T01:00:22+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9291049cf24d1818",
@@ -4867,15 +4873,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "62182dce0f3b28b2",
    "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
@@ -4885,9 +4882,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4897,6 +4894,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
