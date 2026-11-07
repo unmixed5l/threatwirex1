@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:50:33.161350+00:00",
+ "updated": "2026-11-07T21:47:53.011769+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -36,6 +36,16 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "aef5231d3fade6c0",
+   "title": "qilin claims attack on AXE - EXPERTS",
+   "url": "https://www.ransomware.live/group/qilin",
+   "summary": "Listed on a ransomware group's leak site (FR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T17:25:22.021798+00:00"
+  },
   {
    "id": "ded94754be202b29",
    "title": "Hackers pull off $133 million French bank heist via service provider",
@@ -1575,16 +1585,6 @@
    "category": "exploit",
    "date": "2026-11-05T15:29:08+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "a60ee4f805788e20",
-   "title": "akira claims attack on Westboro Partners",
-   "url": "https://www.ransomware.live/group/akira",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T15:20:30.799838+00:00"
   },
   {
    "id": "dad53d7e3ed50329",
@@ -3884,7 +3884,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-10-29T09:15:54+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "be6cb0b79faf51bd",
@@ -3894,7 +3894,7 @@
    "source": "Reddit r/netsec",
    "category": "vuln",
    "date": "2026-10-29T08:45:46+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "7db6fdf963feec19",
@@ -3904,7 +3904,7 @@
    "source": "Securelist",
    "category": "threat",
    "date": "2026-10-29T08:00:15+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "75699bb6148a5fef",
@@ -3914,7 +3914,7 @@
    "source": "Dark Reading",
    "category": "vuln",
    "date": "2026-10-29T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "39f07fa6d531f4e0",
@@ -3924,7 +3924,7 @@
    "source": "ESET WeLiveSecurity",
    "category": "threat",
    "date": "2026-10-29T08:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6da15508e5e8b26d",
@@ -3934,7 +3934,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-10-29T01:00:22+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9291049cf24d1818",
@@ -3943,7 +3943,8 @@
    "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-28T21:54:35+00:00"
+   "date": "2026-10-28T21:54:35+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a4a98e0e7ba86643",
@@ -3952,7 +3953,8 @@
    "summary": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems to deploy KeyDrift.",
    "source": "Cisco Talos",
    "category": "exploit",
-   "date": "2026-10-28T21:32:02+00:00"
+   "date": "2026-10-28T21:32:02+00:00",
+   "brief_tries": 1
   },
   {
    "id": "66d728b46d6b27f3",
@@ -3961,7 +3963,8 @@
    "summary": "submitted by   /u/FILLABUSTA [link]   [comments]",
    "source": "Reddit r/netsec",
    "category": "exploit",
-   "date": "2026-10-28T21:24:39+00:00"
+   "date": "2026-10-28T21:24:39+00:00",
+   "brief_tries": 1
   },
   {
    "id": "89379326868d8969",
@@ -3970,7 +3973,8 @@
    "summary": "The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.",
    "source": "Dark Reading",
    "category": "threat",
-   "date": "2026-10-28T19:39:00+00:00"
+   "date": "2026-10-28T19:39:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "36213559262ba9da",
@@ -3979,7 +3983,8 @@
    "summary": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-28T19:15:00+00:00"
+   "date": "2026-10-28T19:15:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "682371bfbe60c494",
@@ -3988,7 +3993,8 @@
    "summary": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust.",
    "source": "Unit 42",
    "category": "ransomware",
-   "date": "2026-10-28T18:00:10+00:00"
+   "date": "2026-10-28T18:00:10+00:00",
+   "brief_tries": 1
   },
   {
    "id": "02f39348974c3f63",
@@ -4873,9 +4879,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4891,18 +4897,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4912,6 +4909,15 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
