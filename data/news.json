@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T03:00:36.675622+00:00",
+ "updated": "2026-11-08T04:02:09.659651+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,7 +44,7 @@
    "source": "Reddit r/netsec",
    "category": "threat",
    "date": "2026-11-08T01:31:04+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8ba77aca6c81ab0d",
@@ -4184,7 +4184,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-27T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9de4c840c98b45f4",
@@ -4194,7 +4194,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-27T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "531d14aa47c04aa3",
@@ -4204,7 +4204,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-27T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6c05e107bb76f251",
@@ -4214,7 +4214,7 @@
    "source": "Schneier on Security",
    "category": "threat",
    "date": "2026-10-27T11:01:26+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "aa36d77dd524cea8",
@@ -4224,7 +4224,7 @@
    "source": "Cisco Talos",
    "category": "threat",
    "date": "2026-10-27T10:00:21+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a495aedd8d8e7036",
@@ -4233,7 +4233,8 @@
    "summary": "Exposed data: Email addresses, Email messages. In September 2026, the German political party Alternative für Deutschland (AfD) suffered a data breach which exposed 345k unique email addresses. The following month, hundreds of gigabytes of data…",
    "source": "Have I Been Pwned",
    "category": "breach",
-   "date": "2026-10-27T07:01:06+00:00"
+   "date": "2026-10-27T07:01:06+00:00",
+   "brief_tries": 1
   },
   {
    "id": "843f0669e299ae9e",
@@ -4242,7 +4243,8 @@
    "summary": "Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep…",
    "source": "Google Project Zero",
    "category": "vuln",
-   "date": "2026-10-27T07:00:00+00:00"
+   "date": "2026-10-27T07:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "18fffeb57097c4c8",
@@ -4251,7 +4253,8 @@
    "summary": "Overview Fireblocks' mpc-lib library contains a cryptographic fail-open vulnerability in its BIP32 hardened derivation implementation in the case of a missing private parent key. This breaks the ancestor isolation property of hardened derivation, allowing an attacker with a…",
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
-   "date": "2026-10-26T22:45:54.629708+00:00"
+   "date": "2026-10-26T22:45:54.629708+00:00",
+   "brief_tries": 1
   },
   {
    "id": "082795207170a149",
@@ -4260,7 +4263,8 @@
    "summary": "Overview vsomeip, COVESA's open source implementation of the SOME/IP automotive communication middleware, contained a memory allocation vulnerability present in versions 3.7.3 and below. A vsomeip reliable (TCP) SOME/IP endpoint grows its receive buffer to an attacker-declared…",
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
-   "date": "2026-10-26T19:07:02.688776+00:00"
+   "date": "2026-10-26T19:07:02.688776+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1832014a561177a4",
@@ -4269,7 +4273,8 @@
    "summary": "For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its…",
    "source": "Check Point Research",
    "category": "threat",
-   "date": "2026-10-26T16:12:38+00:00"
+   "date": "2026-10-26T16:12:38+00:00",
+   "brief_tries": 1
   },
   {
    "id": "1d721fa902295cc1",
@@ -4278,7 +4283,8 @@
    "summary": "Here's the lowdown on CVE-2026-109618 and CVE-2026-109619, as well as what website owners and IT teams should do to stay safe – all in a little more than two minutes",
    "source": "ESET WeLiveSecurity",
    "category": "vuln",
-   "date": "2026-10-26T13:25:00+00:00"
+   "date": "2026-10-26T13:25:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a7bcfa86d46f0ae1",
