@@ -126,7 +126,7 @@ main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20p
 .sev-critical, .sev-high, .sev-act { --sevc: var(--c-breach); }
 .sev-medium, .sev-attend { --sevc: var(--c-vuln); }
 .sev-low, .sev-track { --sevc: var(--c-patch); }
-.ssvc { border-radius: 999px; padding: 1px 9px; font-weight: 700; border: 1px solid currentColor; font-size: 0.78rem; }
+.ssvc { color: var(--sevc, var(--muted)); border-radius: 999px; padding: 1px 9px; font-weight: 700; border: 1px solid currentColor; font-size: 0.78rem; }
 body:has(dialog[open]) { overflow: hidden; }
 dialog { border: 0; padding: 0; background: var(--surface); color: var(--ink); width: min(660px, calc(100% - 32px)); max-height: 88vh; border-radius: 16px; box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35); }
 dialog[open] { display: flex; flex-direction: column; }
@@ -215,7 +215,7 @@ function ago(iso) {
   if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
   if (s < 86400) return Math.round(s / 3600) + " h ago";
   const d = Math.round(s / 86400);
-  if (d < 30) return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+  if (d > 30) return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
   return d === 1 ? "yesterday" : d + " days ago";
 }
 function el(tag, cls, text) {
