@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T08:15:37.506191+00:00",
+ "updated": "2026-11-08T09:03:26.797841+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4474,7 +4474,7 @@
    "source": "GitHub Security Blog",
    "category": "threat",
    "date": "2026-10-22T17:21:30+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "101af1ca8d1b00b2",
@@ -4484,7 +4484,7 @@
    "source": "Unit 42",
    "category": "threat",
    "date": "2026-10-22T17:15:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ca5fc9dc16b17ee4",
@@ -4494,7 +4494,7 @@
    "source": "Unit 42",
    "category": "threat",
    "date": "2026-10-22T17:00:25+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ab875104cf1640af",
@@ -4504,7 +4504,7 @@
    "source": "Schneier on Security",
    "category": "patch",
    "date": "2026-10-22T13:26:51+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "236815939a0fb5dd",
@@ -4514,7 +4514,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "b3a5d9b4753994ea",
@@ -4524,7 +4524,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "0772ceb52ebcb46d",
@@ -4533,7 +4533,8 @@
    "summary": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized operations such as…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "17f5da59605d6aba",
@@ -4542,7 +4543,8 @@
    "summary": "View CSAF Summary SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s authorization. Siemens is…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5afddfa52052a684",
@@ -4551,7 +4553,8 @@
    "summary": "View CSAF Summary Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer support to receive patch and update…",
    "source": "CISA Advisories",
    "category": "patch",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "605d531ea389dc3f",
@@ -4560,7 +4563,8 @@
    "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "08d39f89ecf028b4",
@@ -4569,7 +4573,8 @@
    "summary": "View CSAF Summary Users of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information). Industrial Edge Device Kit contains multiple path traversal vulnerabilities that…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "badbefd5ca6d1768",
@@ -4578,7 +4583,8 @@
    "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "533ddb227bc5eec3",
@@ -4959,18 +4965,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
