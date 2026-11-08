@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Threatwire: cybersecurity news</title>
-<meta name="description" content="Breaches, attacks, vulnerabilities, exploits, patches and dark web leak claims, collected from open sources.">
+<title>Threatwire: cybersecurity news and vulnerability intel</title>
+<meta name="description" content="Breaches, exploited vulnerabilities, ransomware claims, exploits and patches, scored by CISA KEV and EPSS, collected from open sources.">
+<link rel="alternate" type="application/rss+xml" title="Threatwire" href="data/feed/all.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
 <style>
 :root {
@@ -52,7 +53,6 @@ body {
 }
 a { color: inherit; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
-/* Header */
 header {
   position: sticky; top: 0; z-index: 10;
   background: color-mix(in srgb, var(--bg) 88%, transparent);
@@ -75,11 +75,10 @@ header {
   padding: 10px 16px;
 }
 .search::placeholder { color: var(--muted); }
-@media (min-width: 700px) { .search { flex: 0 1 280px; order: 0; } }
-/* Layout */
+@media (min-width: 700px) { .search { flex: 0 1 260px; order: 0; } }
+.iconbtn { font: inherit; background: var(--surface); border: 1px solid var(--line); color: var(--ink); border-radius: 999px; padding: 8px 12px; cursor: pointer; }
 main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20px; }
 @media (min-width: 900px) { main { grid-template-columns: 220px 1fr; align-items: start; } }
-/* Filters: scroll row on phones, sticky list on desktop */
 .filters { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
 .filters::-webkit-scrollbar { display: none; }
 .chip {
@@ -92,12 +91,12 @@ main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20p
 .chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--dot, var(--muted)); }
 .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .chip[aria-pressed="true"] .n { color: inherit; opacity: 0.7; }
+.chip.mine { border-style: dashed; }
 @media (min-width: 900px) {
   .filters { flex-direction: column; overflow: visible; position: sticky; top: 76px; }
   .chip { border-radius: 10px; width: 100%; }
   .chip .n { margin-left: auto; }
 }
-/* Feed */
 .feed { display: grid; gap: 10px; min-width: 0; }
 .item {
   display: block; text-decoration: none;
@@ -106,11 +105,13 @@ main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20p
   padding: 14px 16px;
 }
 .item:hover { border-color: var(--cat, var(--muted)); }
+.item.hit { border-color: var(--c-patch); box-shadow: 0 0 0 1px var(--c-patch); }
 .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 0.82rem; color: var(--muted); }
 .tag { color: var(--cat); font-weight: 700; }
 .badge { background: color-mix(in srgb, var(--cat) 14%, transparent); color: var(--cat); border-radius: 999px; padding: 1px 9px; font-weight: 600; }
 .item h2 { font-size: 1.05rem; line-height: 1.35; margin: 6px 0 4px; letter-spacing: -0.01em; overflow-wrap: anywhere; }
 .item p { margin: 0; color: var(--muted); font-size: 0.93rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.also { margin: 8px 0 0; font-size: 0.82rem; color: var(--muted); }
 .cat-breach { --cat: var(--c-breach); } .cat-ransomware { --cat: var(--c-ransomware); }
 .cat-exploit { --cat: var(--c-exploit); } .cat-vuln { --cat: var(--c-vuln); }
 .cat-patch { --cat: var(--c-patch); }   .cat-threat { --cat: var(--c-threat); }
@@ -121,12 +122,11 @@ main { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; gap: 20p
 .list { margin: 0; padding-left: 1.2em; }
 .list li { margin: 3px 0; }
 .pill.mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.8rem; overflow-wrap: anywhere; }
-/* Severity pill on cards and in the brief */
 .sev { border-radius: 999px; padding: 1px 9px; font-weight: 600; color: var(--sevc); background: color-mix(in srgb, var(--sevc) 14%, transparent); }
-.sev-critical, .sev-high { --sevc: var(--c-breach); }
-.sev-medium { --sevc: var(--c-vuln); }
-.sev-low { --sevc: var(--c-patch); }
-/* Brief sheet: centered card on desktop, bottom sheet on phones */
+.sev-critical, .sev-high, .sev-act { --sevc: var(--c-breach); }
+.sev-medium, .sev-attend { --sevc: var(--c-vuln); }
+.sev-low, .sev-track { --sevc: var(--c-patch); }
+.ssvc { border-radius: 999px; padding: 1px 9px; font-weight: 700; border: 1px solid currentColor; font-size: 0.78rem; }
 body:has(dialog[open]) { overflow: hidden; }
 dialog { border: 0; padding: 0; background: var(--surface); color: var(--ink); width: min(660px, calc(100% - 32px)); max-height: 88vh; border-radius: 16px; box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35); }
 dialog[open] { display: flex; flex-direction: column; }
@@ -141,13 +141,19 @@ dialog::backdrop { background: rgba(8, 12, 24, 0.6); }
 .field h3 { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin: 0 0 3px; }
 .field p { margin: 0; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.pill { border: 1px solid var(--line); border-radius: 999px; padding: 2px 11px; font-size: 0.86rem; color: var(--ink); text-decoration: none; }
-a.pill:hover { border-color: var(--accent); }
+.pill { border: 1px solid var(--line); border-radius: 999px; padding: 2px 11px; font-size: 0.86rem; color: var(--ink); text-decoration: none; background: none; font-family: inherit; cursor: pointer; }
+a.pill:hover, button.pill:hover { border-color: var(--accent); }
 .actions { display: flex; gap: 10px; padding: 12px 20px calc(16px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); }
 .btn { font: inherit; font-weight: 600; border-radius: 999px; padding: 11px 18px; cursor: pointer; text-decoration: none; text-align: center; }
 .btn.primary { flex: 1; background: var(--ink); color: var(--bg); border: 1px solid var(--ink); }
 .btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.health { display: grid; gap: 2px; font-size: 0.82rem; }
+.health div { display: flex; justify-content: space-between; gap: 8px; }
+.health .bad { color: var(--c-breach); }
+.health .good { color: var(--c-patch); }
+textarea { width: 100%; min-height: 160px; font: inherit; padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
 footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 40px; color: var(--muted); font-size: 0.82rem; }
+footer a { color: var(--accent); }
 </style>
 </head>
 <body>
@@ -155,7 +161,8 @@ footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 40px; color: var(-
   <div class="bar">
     <div class="brand"><span class="pulse" aria-hidden="true"></span>Threatwire</div>
     <span class="updated" id="updated"></span>
-    <input class="search" id="q" type="search" placeholder="Search all news, CVEs, groups…" aria-label="Search news">
+    <input class="search" id="q" type="search" placeholder="Search news, CVEs, groups…  ( / )" aria-label="Search news">
+    <button class="iconbtn" id="export" type="button" title="Export what is on screen">Export</button>
   </div>
 </header>
 <main>
@@ -166,8 +173,21 @@ footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 40px; color: var(-
   <div class="sheet" id="sheetBody"></div>
   <div class="actions" id="sheetActions"></div>
 </dialog>
+<dialog id="stackDlg" aria-labelledby="stackTitle">
+  <div class="sheet">
+    <h2 id="stackTitle">My stack</h2>
+    <p class="note">One vendor, product, domain or keyword per line. Matching items are flagged and can be filtered. Stored only in this browser.</p>
+    <textarea id="stackText" aria-label="Watchlist entries"></textarea>
+  </div>
+  <div class="actions">
+    <button class="btn primary" id="stackSave" type="button">Save</button>
+    <button class="btn ghost" id="stackCancel" type="button">Cancel</button>
+  </div>
+</dialog>
 <footer>
-  Briefs are written by AI from the original article and can contain mistakes, so check the source before acting. Ransomware listings are claims made by criminal groups and are not verified. Forum posts and breach-catalogue entries are metadata only, taken from the linked source. No leaked data is hosted here.
+  <p>Briefs are written by AI from the original article and can contain mistakes, so check the source before acting. Ransomware listings are claims by criminal groups. EPSS scores come from FIRST, exploitation status from the CISA KEV catalogue, and SSVC decisions are a rough local calculation, not an authoritative assessment. Forum posts and breach-catalogue entries are metadata only. No leaked data is hosted here.</p>
+  <p>Subscribe: <a href="data/feed/all.xml">RSS</a> · <a href="data/feed/all.json">JSON Feed</a> · <a href="data/cve/index.json">CVE index</a> · <a href="data/sources.json">Source health</a></p>
+  <details><summary>Source status</summary><div class="health" id="health">Loading…</div></details>
 </footer>
 <script>
 const CATS = [
@@ -182,8 +202,9 @@ const CATS = [
 ];
 const LABEL = { breach: "Breach", ransomware: "Ransomware", exploit: "Exploit", vuln: "Vulnerability", patch: "Patch", threat: "Threat", underground: "Underground" };
 const PAGE = 30;
-let items = [], active = "all", query = "", shown = PAGE;
-let pool = new Map();                         // every item known (recent + archive), by id
+let items = [], active = "all", query = "", shown = PAGE, cursor = -1;
+let pool = new Map();
+let stack = (localStorage.getItem("tw-stack") || "").split("\n").map((s) => s.trim().toLowerCase()).filter(Boolean);
 const archive = { state: "idle", done: 0, total: 0 };
 const $ = (id) => document.getElementById(id);
 function safeUrl(u) {
@@ -206,26 +227,31 @@ function el(tag, cls, text) {
 function blob(i) {
   if (!i._b) {
     const b = i.brief || {};
-    i._b = [i.title, i.summary, i.source, b.what, b.threat_actor, (b.platforms || []).join(" "), (b.cves || []).join(" ")]
-      .join(" ").toLowerCase();
+    i._b = [i.title, i.summary, i.source, (i.cves || []).join(" "), b.what, b.threat_actor,
+      (b.platforms || []).join(" ")].join(" ").toLowerCase();
   }
   return i._b;
 }
 const terms = () => query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-// With a search, look through everything we know (recent + archive); otherwise show recent news.
+function matchesStack(i) { return stack.length > 0 && stack.some((s) => blob(i).includes(s)); }
 function queryMatches() {
   const t = terms();
-  if (!t.length) return items;
-  return [...pool.values()].filter((i) => t.every((w) => blob(i).includes(w)))
-    .sort((a, b) => b.date.localeCompare(a.date));
+  let list = t.length ? [...pool.values()].filter((i) => t.every((w) => blob(i).includes(w)))
+    : items;
+  if (active === "mine") list = list.filter(matchesStack);
+  else if (active !== "all") list = list.filter((i) => i.category === active);
+  return list.sort((a, b) => b.date.localeCompare(a.date));
 }
 function renderFilters() {
   const nav = $("filters");
   nav.replaceChildren();
-  const qm = queryMatches();
-  for (const c of CATS) {
-    const n = c.id === "all" ? qm.length : qm.filter((i) => i.category === c.id).length;
-    const b = el("button", "chip");
+  const base = terms().length ? [...pool.values()].filter((i) => terms().every((w) => blob(i).includes(w))) : items;
+  const chips = stack.length ? [{ id: "mine", label: "My stack", color: "--c-patch" }, ...CATS] : CATS;
+  for (const c of chips) {
+    const n = c.id === "all" ? base.length
+      : c.id === "mine" ? base.filter(matchesStack).length
+      : base.filter((i) => i.category === c.id).length;
+    const b = el("button", "chip" + (c.id === "mine" ? " mine" : ""));
     b.type = "button";
     b.setAttribute("aria-pressed", String(c.id === active));
     if (c.color) { const d = el("span", "dot"); d.style.setProperty("--dot", `var(${c.color})`); b.append(d); }
@@ -233,48 +259,59 @@ function renderFilters() {
     b.onclick = () => { active = c.id; shown = PAGE; refresh(); };
     nav.append(b);
   }
+  const edit = el("button", "chip mine", stack.length ? "Edit my stack" : "Set up my stack");
+  edit.type = "button";
+  edit.onclick = openStack;
+  nav.append(edit);
 }
 function statusText(count) {
   if (!terms().length) return "";
   const r = count + (count === 1 ? " result" : " results");
   if (archive.state === "loading") return `${r} so far. Searching older news (${archive.done} of ${archive.total} months)…`;
-  if (archive.state === "none") return `${r}. No older news is archived yet; the archive grows with every update.`;
+  if (archive.state === "none") return `${r}. No older news is archived yet.`;
   return `${r}, including older news.`;
 }
 function renderFeed() {
   const feed = $("feed");
   feed.replaceChildren();
   const searching = terms().length > 0;
-  const list = queryMatches().filter((i) => active === "all" || i.category === active);
+  const list = queryMatches();
   if (!items.length && !searching) {
     feed.append(el("div", "state", "No news yet. In your repository, open Actions, choose Update news, and select Run workflow."));
     return;
   }
   if (searching) feed.append(el("p", "status", statusText(list.length)));
   if (!list.length) {
-    feed.append(el("div", "state", archive.state === "loading" ? "Searching…" : "Nothing matches. Try a different search or category."));
+    feed.append(el("div", "state", archive.state === "loading" ? "Searching…" : "Nothing matches."));
     return;
   }
-  for (const i of list.slice(0, shown)) {
-    const a = el("a", "item cat-" + i.category);
+  list.slice(0, shown).forEach((i, n) => {
+    const a = el("a", "item cat-" + i.category + (matchesStack(i) ? " hit" : ""));
     a.href = safeUrl(i.url);
     a.target = "_blank";
     a.rel = "noopener noreferrer";
+    a.dataset.n = String(n);
     const meta = el("div", "meta");
     meta.append(el("span", "tag", LABEL[i.category] || "News"));
-    if (i.badge) meta.append(el("span", "badge", i.badge));
-    if (i.brief && i.brief.severity !== "unknown") meta.append(el("span", "sev sev-" + i.brief.severity, cap(i.brief.severity) + " severity"));
+    if (i.kev) meta.append(el("span", "badge", "Actively exploited"));
+    else if (i.badge) meta.append(el("span", "badge", i.badge));
+    if (i.ssvc && i.ssvc !== "Track") meta.append(el("span", "ssvc sev-" + i.ssvc.toLowerCase().replace("*", ""), "SSVC " + i.ssvc));
+    if (typeof i.epss === "number" && i.epss >= 0.01) meta.append(el("span", null, "EPSS " + Math.round(i.epss * 100) + "%"));
+    if (i.brief && i.brief.severity !== "unknown") meta.append(el("span", "sev sev-" + i.brief.severity, cap(i.brief.severity)));
     meta.append(el("span", null, i.source), el("time", null, ago(i.date)));
     const blurb = i.brief && i.brief.what !== "Not stated" ? i.brief.what : i.summary;
     a.append(meta, el("h2", null, i.title));
     if (blurb) a.append(el("p", null, blurb));
+    if (i.also_in && i.also_in.length) {
+      a.append(el("p", "also", "Also reported by " + i.also_in.map((x) => x.source).join(", ")));
+    }
     a.addEventListener("click", (e) => {
       if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
       e.preventDefault();
       openItem(i);
     });
     feed.append(a);
-  }
+  });
   if (list.length > shown) {
     const m = el("button", "more", "Show more");
     m.type = "button";
@@ -283,7 +320,6 @@ function renderFeed() {
   }
 }
 function refresh() { renderFilters(); renderFeed(); }
-// Loads the monthly archive files (newest first) the first time someone searches.
 async function loadArchive() {
   if (archive.state !== "idle") return;
   archive.state = "loading";
@@ -300,7 +336,7 @@ async function loadArchive() {
         try {
           const d = await (await fetch(`data/archive/${m.month}.json`)).json();
           for (const it of d.items || []) if (!pool.has(it.id)) pool.set(it.id, it);
-        } catch (e) { /* skip a month that fails to load */ }
+        } catch (e) { /* skip a month that fails */ }
         archive.done++;
         refresh();
       }
@@ -312,6 +348,19 @@ async function loadArchive() {
   }
   refresh();
 }
+async function loadHealth() {
+  try {
+    const d = await (await fetch("data/sources.json", { cache: "no-cache" })).json();
+    const box = $("health");
+    box.replaceChildren();
+    (d.sources || []).slice(0, 25).forEach((s) => {
+      const row = el("div");
+      row.append(el("span", null, s.source),
+        el("span", s.reliability >= 80 ? "good" : "bad", s.reliability + "%"));
+      box.append(row);
+    });
+  } catch (e) { $("health").textContent = "Source health is not published yet."; }
+}
 async function load() {
   try {
     const r = await fetch("data/news.json", { cache: "no-cache" });
@@ -320,10 +369,11 @@ async function load() {
     pool = new Map(items.map((i) => [i.id, i]));
     if (data.updated) $("updated").textContent = "Updated " + ago(data.updated);
   } catch (e) {
-    $("feed").append(el("div", "state", "Could not load the news data. If you opened this file directly, serve it with a local web server or view it on GitHub Pages."));
+    $("feed").append(el("div", "state", "Could not load the news data. Serve the folder with a local web server or view it on GitHub Pages."));
     return;
   }
   refresh();
+  loadHealth();
 }
 const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
 const sheet = $("sheet");
@@ -334,18 +384,31 @@ function field(label, content) {
   else f.append(content);
   return f;
 }
+function cveChips(cves) {
+  const c = el("div", "chips");
+  cves.forEach((id) => {
+    const b = el("button", "pill mono", id);
+    b.type = "button";
+    b.onclick = () => openCve(id);
+    c.append(b);
+  });
+  return c;
+}
 function openItem(i) {
   const body = $("sheetBody"), actions = $("sheetActions");
   body.replaceChildren(); actions.replaceChildren();
   const meta = el("div", "meta cat-" + i.category);
   meta.append(el("span", "tag", LABEL[i.category] || "News"));
-  if (i.badge) meta.append(el("span", "badge", i.badge));
-  const b = i.brief;
-  if (b && b.severity !== "unknown") meta.append(el("span", "sev sev-" + b.severity, cap(b.severity) + " severity"));
+  if (i.kev) meta.append(el("span", "badge", "Actively exploited"));
+  else if (i.badge) meta.append(el("span", "badge", i.badge));
+  if (i.ssvc) meta.append(el("span", "ssvc sev-" + i.ssvc.toLowerCase().replace("*", ""), "SSVC " + i.ssvc));
+  if (typeof i.epss === "number" && i.epss >= 0.01) meta.append(el("span", null, "EPSS " + Math.round(i.epss * 100) + "%"));
   meta.append(el("span", null, i.source), el("time", null, ago(i.date)));
   const h = el("h2", null, i.title);
   h.id = "sheetTitle";
   body.append(meta, h);
+  if (i.first_seen && i.first_seen !== i.date) body.append(el("p", "note", "First seen " + ago(i.first_seen) + "."));
+  const b = i.brief;
   if (b) {
     body.append(el("p", "note", b.basis === "article"
       ? "AI-generated from the article text. Check the original before acting."
@@ -365,19 +428,19 @@ function openItem(i) {
       body.append(field("What to do", Array.isArray(b.action) ? bullets(b.action) : b.action));
     }
     if (b.indicators && b.indicators.length) body.append(field("Indicators of compromise", chips(b.indicators, "mono")));
-    if (b.cves && b.cves.length) {
-      const c = el("div", "chips");
-      b.cves.forEach((id) => {
-        const a = el("a", "pill", id);
-        a.href = "https://nvd.nist.gov/vuln/detail/" + id;
-        a.target = "_blank"; a.rel = "noopener noreferrer";
-        c.append(a);
-      });
-      body.append(field("CVE references", c));
-    }
   } else {
     body.append(el("p", "note", "No AI brief for this item. Showing the excerpt from the source."));
     if (i.summary) body.append(el("p", null, i.summary));
+  }
+  if (i.cves && i.cves.length) body.append(field("CVE references", cveChips(i.cves)));
+  if (i.also_in && i.also_in.length) {
+    const c = el("div", "chips");
+    i.also_in.forEach((x) => {
+      const a = el("a", "pill", x.source);
+      a.href = safeUrl(x.url); a.target = "_blank"; a.rel = "noopener noreferrer";
+      c.append(a);
+    });
+    body.append(field("Also reported by", c));
   }
   const go = el("a", "btn primary", "Read original on " + i.source);
   go.href = safeUrl(i.url); go.target = "_blank"; go.rel = "noopener noreferrer";
@@ -388,10 +451,91 @@ function openItem(i) {
   body.scrollTop = 0;
   sheet.showModal();
 }
+async function openCve(id) {
+  const body = $("sheetBody"), actions = $("sheetActions");
+  body.replaceChildren(); actions.replaceChildren();
+  const h = el("h2", null, id);
+  h.id = "sheetTitle";
+  body.append(h, el("p", "note", "Loading score and related reports…"));
+  if (!sheet.open) sheet.showModal();
+  try {
+    const d = await (await fetch("data/cve/" + id + ".json", { cache: "no-cache" })).json();
+    body.replaceChildren(h);
+    const meta = el("div", "meta");
+    if (d.kev) meta.append(el("span", "badge", "In CISA KEV" + (d.kev_date ? " since " + d.kev_date : "")));
+    if (d.ssvc) meta.append(el("span", "ssvc", "SSVC " + d.ssvc));
+    meta.append(el("span", null, "EPSS " + Math.round((d.epss || 0) * 100) + "%"));
+    if (d.cvss) meta.append(el("span", null, "CVSS " + d.cvss));
+    body.append(meta);
+    body.append(el("p", "note", "EPSS is the probability of exploitation in the next 30 days (FIRST). SSVC is a local heuristic: Act means patch now."));
+    body.append(field("Reports", (() => {
+      const ul = el("ul", "list");
+      (d.items || []).forEach((x) => {
+        const li = el("li");
+        const a = el("a", null, x.title + " (" + x.source + ")");
+        a.href = safeUrl(x.url); a.target = "_blank"; a.rel = "noopener noreferrer";
+        li.append(a);
+        ul.append(li);
+      });
+      return ul;
+    })()));
+    const nvd = el("a", "btn primary", "Open on NVD");
+    nvd.href = "https://nvd.nist.gov/vuln/detail/" + id;
+    nvd.target = "_blank"; nvd.rel = "noopener noreferrer";
+    const close = el("button", "btn ghost", "Close");
+    close.type = "button";
+    close.onclick = () => sheet.close();
+    actions.replaceChildren(nvd, close);
+  } catch (e) {
+    body.append(el("p", "note", "No local record for this CVE yet."));
+  }
+}
+function openStack() {
+  $("stackText").value = stack.join("\n");
+  $("stackDlg").showModal();
+}
+$("stackSave").onclick = () => {
+  stack = $("stackText").value.split("\n").map((s) => s.trim().toLowerCase()).filter(Boolean);
+  localStorage.setItem("tw-stack", stack.join("\n"));
+  $("stackDlg").close();
+  if (active === "mine" && !stack.length) active = "all";
+  refresh();
+};
+$("stackCancel").onclick = () => $("stackDlg").close();
+$("export").onclick = () => {
+  const list = queryMatches().slice(0, shown);
+  const objects = list.map((i) => ({
+    type: "indicator", spec_version: "2.1",
+    id: "indicator--" + i.id.padEnd(36, "0").slice(0, 36),
+    created: i.date, name: i.title, description: i.summary,
+    external_references: [{ source_name: i.source, url: i.url }],
+    labels: [i.category], x_cves: i.cves || [],
+  }));
+  const text = JSON.stringify({ type: "bundle", id: "bundle--threatwire",
+    objects: objects.concat((list.flatMap((i) => i.cves || []))
+      .filter((v, n, a) => a.indexOf(v) === n)
+      .map((cve) => ({ type: "vulnerability", name: cve }))) }, null, 1);
+  navigator.clipboard.writeText(text).then(
+    () => { $("export").textContent = "Copied"; setTimeout(() => { $("export").textContent = "Export"; }, 1500); },
+    () => { $("export").textContent = "Copy failed"; });
+};
 sheet.addEventListener("click", (e) => { if (e.target === sheet) sheet.close(); });
+document.addEventListener("keydown", (e) => {
+  if (e.target.matches("input, textarea") && e.key !== "Escape") return;
+  const cards = [...document.querySelectorAll(".item")];
+  if (e.key === "/") { e.preventDefault(); $("q").focus(); }
+  else if (e.key === "j" || e.key === "k") {
+    e.preventDefault();
+    cursor = Math.min(cards.length - 1, Math.max(0, cursor + (e.key === "j" ? 1 : -1)));
+    cards.forEach((c) => c.classList.remove("hit"));
+    const c = cards[cursor];
+    if (c) { c.classList.add("hit"); c.scrollIntoView({ block: "center" }); }
+  } else if (e.key === "o" && cards[cursor]) { cards[cursor].click(); }
+  else if (e.key === "Escape" && sheet.open) sheet.close();
+});
 let typing;
 $("q").addEventListener("input", (e) => {
-  query = e.target.value; shown = PAGE;
+  query = e.target.value; shown = PAGE; cursor = -1;
   clearTimeout(typing);
   typing = setTimeout(() => { if (terms().length) loadArchive(); refresh(); }, 200);
 });
