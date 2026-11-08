@@ -1,35 +1,65 @@
 name: Update news
-
 on:
   schedule:
-    - cron: "17 * * * *"   # hourly
+    - cron: "17 * * * *"   # hourly; GitHub may delay this under load
   workflow_dispatch:        # lets you run it manually from the Actions tab
     inputs:
       backfill:
         description: "Also load older history (full CISA KEV list and breach list) into the archive"
         type: boolean
         default: false
-
 permissions:
   contents: write
   models: read      # lets the built-in token use GitHub Models (free AI)
-
+# One run at a time, so a manual trigger never collides with the cron push
+concurrency:
+  group: update-news
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_news.py ${{ inputs.backfill && '--backfill' || '' }}
+      - name: Fetch news
+        run: python scripts/fetch_news.py ${{ inputs.backfill && '--backfill' || '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AI_MAX_PER_RUN: "12"            # new items summarized per run (free tier has daily limits)
+          # Public URL of the site. Used for sitemap.xml, robots.txt and feed links.
+          # Project page: https://USER.github.io/REPO   User page: https://USER.github.io
+          SITE_URL: "https://USER.github.io/REPO"
+          AI_MAX_PER_RUN: "8"              # new items summarized per run; hourly runs share a daily quota
+          FETCH_WORKERS: "8"               # parallel source fetches
+          # TOR_GATEWAY: ""                # uncomment to skip Dread entirely
+          # NVD_API_KEY: ${{ secrets.NVD_API_KEY }}   # optional, enables CVSS scores
           # AI_MODEL: "openai/gpt-4o-mini"  # uncomment to pick another model from github.com/marketplace/models
+      - name: Verify output
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          d = json.loads(pathlib.Path("data/news.json").read_text())
+          assert d["schema_version"] >= 2, "stale schema"
+          assert isinstance(d["items"], list)
+          print(f'{len(d["items"])} items, schema v{d["schema_version"]}')
+          PY
       - name: Commit changes
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add data
-          git diff --staged --quiet || (git commit -m "Update news" && git push)
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Update news $(date -u +%FT%TZ)"
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Push failed after 3 attempts" >&2
+          exit 1
