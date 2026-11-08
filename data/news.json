@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:58:53.360127+00:00",
+ "updated": "2026-11-08T07:15:59.887913+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4354,7 +4354,7 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-10-23T13:00:09+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "57a05936dd7184ae",
@@ -4364,7 +4364,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-23T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d887f828b4597a76",
@@ -4374,7 +4374,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-23T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2ce43354cd03a403",
@@ -4384,7 +4384,7 @@
    "source": "Schneier on Security",
    "category": "threat",
    "date": "2026-10-23T11:04:22+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "38c1e82271d69b1b",
@@ -4394,7 +4394,7 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-10-22T22:23:51.159697+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "40a7d912697b401a",
@@ -4404,7 +4404,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-22T19:03:31+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "209a1f00b6f9fd9d",
@@ -4413,7 +4413,8 @@
    "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-22T19:03:30+00:00"
+   "date": "2026-10-22T19:03:30+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6a4e0421ac4153eb",
@@ -4422,7 +4423,8 @@
    "summary": "Multiple Cisco products are affected by vulnerabilities in the Snort 3 Detection Engine that could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart unexpectedly, resulting in a denial of service (DoS) condition. For more information…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-22T19:03:28+00:00"
+   "date": "2026-10-22T19:03:28+00:00",
+   "brief_tries": 1
   },
   {
    "id": "8f63837e265de513",
@@ -4431,7 +4433,8 @@
    "summary": "Multiple Cisco products are affected by a vulnerability in the generic routing encapsulation (GRE) tunnel decapsulation feature of the Snort 3 Detection Engine that could allow an unauthenticated, remote attacker to cause an unexpected restart of the Snort 3 Detection Engine.…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-22T19:03:27+00:00"
+   "date": "2026-10-22T19:03:27+00:00",
+   "brief_tries": 1
   },
   {
    "id": "111e3388051f0bf9",
@@ -4440,7 +4443,8 @@
    "summary": "Multiple Cisco products are affected by a vulnerability in the Snort 3 Detection Engine that could allow an unauthenticated, remote attacker to cause the detection engine to unexpectedly restart, resulting in a denial of service (DoS) condition. The vulnerability is due to a…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-22T19:03:26+00:00"
+   "date": "2026-10-22T19:03:26+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4b1f05f3b5838e47",
@@ -4449,7 +4453,8 @@
    "summary": "A vulnerability in the Snort 3 Visual Basic for Applications (VBA) Decompression Engine of multiple Cisco products could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart unexpectedly, resulting in a denial of service (DoS) condition.  …",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-22T19:03:25+00:00"
+   "date": "2026-10-22T19:03:25+00:00",
+   "brief_tries": 1
   },
   {
    "id": "49c1ab7af418cae2",
@@ -4458,7 +4463,8 @@
    "summary": "The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.",
    "source": "Cisco Talos",
    "category": "vuln",
-   "date": "2026-10-22T18:04:32+00:00"
+   "date": "2026-10-22T18:04:32+00:00",
+   "brief_tries": 1
   },
   {
    "id": "09be57be38cc6ef0",
@@ -4938,6 +4944,15 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
@@ -4950,15 +4965,6 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
