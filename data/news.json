@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T10:54:51.383561+00:00",
+ "updated": "2026-11-08T11:50:44.145353+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4654,7 +4654,7 @@
    "source": "ESET WeLiveSecurity",
    "category": "threat",
    "date": "2026-10-22T08:45:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "0b85f8ae4b7ce69d",
@@ -4664,7 +4664,7 @@
    "source": "Securelist",
    "category": "exploit",
    "date": "2026-10-22T06:00:48+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "74561c4ec3159631",
@@ -4674,7 +4674,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-22T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "52e40e7e7ea6b259",
@@ -4684,7 +4684,7 @@
    "source": "Cisco Talos",
    "category": "threat",
    "date": "2026-10-21T20:43:29+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "80aac9868cd30e6c",
@@ -4694,7 +4694,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-10-21T18:23:55+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "24755a352d3db087",
@@ -4704,7 +4704,7 @@
    "source": "Krebs on Security",
    "category": "vuln",
    "date": "2026-10-21T15:26:07+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bb6dba2465a6fa41",
@@ -4713,7 +4713,8 @@
    "summary": "We discuss the incident involving the leak of information about vulnerabilities CVE-2026-109618 and CVE-2026-109619. Kaspersky solutions detect the PHP2Shell exploit: we’ll walk you through examples using KEDR, KATA, and KES.",
    "source": "Securelist",
    "category": "exploit",
-   "date": "2026-10-21T15:18:04+00:00"
+   "date": "2026-10-21T15:18:04+00:00",
+   "brief_tries": 1
   },
   {
    "id": "95210f1a65abdba3",
@@ -4722,7 +4723,8 @@
    "summary": "Two critical remote code execution vulnerabilities in PHP core could have implications across its wider ecosystem. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset.",
    "source": "Cisco Talos",
    "category": "vuln",
-   "date": "2026-10-21T15:10:53+00:00"
+   "date": "2026-10-21T15:10:53+00:00",
+   "brief_tries": 1
   },
   {
    "id": "b96c0a11c50af1f6",
@@ -4731,7 +4733,8 @@
    "summary": "An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration.",
    "source": "Unit 42",
    "category": "exploit",
-   "date": "2026-10-21T14:00:24+00:00"
+   "date": "2026-10-21T14:00:24+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5cdc0ab0264aec10",
@@ -4740,7 +4743,8 @@
    "summary": "Adversaries are turning the tools businesses trust into delivery mechanisms for malicious activity. Cisco Talos observed abuse of more than 25 legitimate platforms over the past year, exploiting the built-in trust of collaboration, file-sharing, payment and other services to…",
    "source": "Cisco Talos",
    "category": "exploit",
-   "date": "2026-10-21T10:00:00+00:00"
+   "date": "2026-10-21T10:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d47f67afd7f6cddb",
@@ -4749,7 +4753,8 @@
    "summary": "CVSSv3 Score: 5.3 CVE-2026-109618PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an…",
    "source": "Fortinet PSIRT",
    "category": "vuln",
-   "date": "2026-10-21T07:00:00+00:00"
+   "date": "2026-10-21T07:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "59b99e2adbc9cf10",
@@ -4758,7 +4763,8 @@
    "summary": "pizzafy-1.0 - SQLi",
    "source": "Exploit-DB",
    "category": "exploit",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f84147b20adfdee7",
@@ -4959,18 +4965,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
