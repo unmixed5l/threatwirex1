@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T09:03:26.797841+00:00",
+ "updated": "2026-11-08T09:57:21.446241+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4534,7 +4534,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "17f5da59605d6aba",
@@ -4544,7 +4544,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5afddfa52052a684",
@@ -4554,7 +4554,7 @@
    "source": "CISA Advisories",
    "category": "patch",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "605d531ea389dc3f",
@@ -4564,7 +4564,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "08d39f89ecf028b4",
@@ -4574,7 +4574,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "badbefd5ca6d1768",
@@ -4584,7 +4584,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "533ddb227bc5eec3",
@@ -4593,7 +4593,8 @@
    "summary": "View CSAF Summary The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embedded AR Classic R20-11 and recommends…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "27f18cf82b1dc88c",
@@ -4602,7 +4603,8 @@
    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to view transmitted data and use that data to log into the device. The following versions of InterSystems Corporation InterSystems IRIS for Health are affected: InterSystems IRIS for Health…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "27602b8f8f6eea14",
@@ -4611,7 +4613,8 @@
    "summary": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled. Siemens has released new versions…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "68eaa2dc47131c00",
@@ -4620,7 +4623,8 @@
    "summary": "View CSAF Summary The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution…",
    "source": "CISA Advisories",
    "category": "threat",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2e4435c7af875024",
@@ -4629,7 +4633,8 @@
    "summary": "View CSAF Summary Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device. The following versions of Kiloview E3 NDI Encoder are affected: E3 Firmware <1.30 (CVE-2026-109122, CVE-2026-111100, CVE-2026-96616, CVE-2026-105265,…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f24c5287a98c0faf",
@@ -4638,7 +4643,8 @@
    "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "4eda8a69789bd7de",
@@ -4965,18 +4971,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
