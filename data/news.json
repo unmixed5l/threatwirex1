@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:59:02.268290+00:00",
+ "updated": "2026-11-08T14:51:27.923501+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4834,7 +4834,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8ed9d1a2bd47c6d1",
@@ -4844,7 +4844,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "b07fa0516ac00485",
@@ -4854,7 +4854,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "64831b0e50b2143a",
@@ -4864,7 +4864,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6bd6585835c42569",
@@ -4874,7 +4874,7 @@
    "source": "Unit 42",
    "category": "ransomware",
    "date": "2026-10-20T20:30:42+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ea87afd144a29da2",
@@ -4884,7 +4884,7 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-10-20T18:09:44.460556+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "79b4014f667cba1b",
@@ -4893,7 +4893,8 @@
    "summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from? And what does the future look like?",
    "source": "Cisco Talos",
    "category": "patch",
-   "date": "2026-10-20T15:31:22+00:00"
+   "date": "2026-10-20T15:31:22+00:00",
+   "brief_tries": 1
   },
   {
    "id": "818d1525c4085388",
@@ -4902,7 +4903,8 @@
    "summary": "Key Findings Introduction Antidetect browsers conceal their users’ digital identities, enabling a single operator or small team to simultaneously run thousands of isolated accounts across multiple platforms such as Facebook, Instagram, TikTok, YouTube, Twitter/X, Discord,…",
    "source": "Check Point Research",
    "category": "threat",
-   "date": "2026-10-20T14:17:23+00:00"
+   "date": "2026-10-20T14:17:23+00:00",
+   "brief_tries": 1
   },
   {
    "id": "b892b9f7a4b76dc0",
@@ -4911,7 +4913,8 @@
    "summary": "You can trust a social media platform and still get scammed by an ad running on it",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-10-20T09:00:00+00:00"
+   "date": "2026-10-20T09:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "22310d6c64fad732",
@@ -4920,7 +4923,8 @@
    "summary": "Exposed data: Dates of birth, Email addresses, Family members' names, Government issued IDs, Income levels. In September 2024, the French national pension fund Assurance Retraite suffered a data breach affecting approximately 370k assistance beneficiaries . The data included 70k unique email addresses…",
    "source": "Have I Been Pwned",
    "category": "breach",
-   "date": "2026-10-20T02:29:36+00:00"
+   "date": "2026-10-20T02:29:36+00:00",
+   "brief_tries": 1
   },
   {
    "id": "29509c095cffc231",
@@ -4929,7 +4933,8 @@
    "summary": "For the latest discoveries in cyber research for the week of 19th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES CenterPoint Energy, a US utility company serving Texas and several other states, has disclosed a data breach affecting more than…",
    "source": "Check Point Research",
    "category": "breach",
-   "date": "2026-10-19T14:54:40+00:00"
+   "date": "2026-10-19T14:54:40+00:00",
+   "brief_tries": 1
   },
   {
    "id": "5f2037864b2f69b1",
@@ -4938,7 +4943,8 @@
    "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity…",
    "source": "Krebs on Security",
    "category": "ransomware",
-   "date": "2026-10-19T13:48:56+00:00"
+   "date": "2026-10-19T13:48:56+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f4d53a8897809ff6",
@@ -4986,18 +4992,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -5013,9 +5019,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
