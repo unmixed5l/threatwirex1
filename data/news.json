@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:03:00.083562+00:00",
+ "updated": "2026-11-08T05:58:53.360127+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4294,7 +4294,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-26T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "217d727d090a0aa9",
@@ -4304,7 +4304,7 @@
    "source": "Schneier on Security",
    "category": "vuln",
    "date": "2026-10-26T11:03:31+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8474e0cfd37a9b48",
@@ -4314,7 +4314,7 @@
    "source": "Securelist",
    "category": "threat",
    "date": "2026-10-26T10:00:18+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "c455bb5b2c887f27",
@@ -4324,7 +4324,7 @@
    "source": "Fortinet PSIRT",
    "category": "vuln",
    "date": "2026-10-26T07:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9d407c505c1e9fd1",
@@ -4334,7 +4334,7 @@
    "source": "Schneier on Security",
    "category": "threat",
    "date": "2026-10-23T21:00:09+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "abfff6ba3917a252",
@@ -4344,7 +4344,7 @@
    "source": "Microsoft Security Blog",
    "category": "threat",
    "date": "2026-10-23T18:12:19+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "7349fc6afb73f184",
@@ -4353,7 +4353,8 @@
    "summary": "Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude,…",
    "source": "Check Point Research",
    "category": "threat",
-   "date": "2026-10-23T13:00:09+00:00"
+   "date": "2026-10-23T13:00:09+00:00",
+   "brief_tries": 1
   },
   {
    "id": "57a05936dd7184ae",
@@ -4362,7 +4363,8 @@
    "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-110447 Collabora Online – Built-in CODE Server OS Command Injection Vulnerability  This type of vulnerability is a frequent attack…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-23T12:00:00+00:00"
+   "date": "2026-10-23T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "d887f828b4597a76",
@@ -4371,7 +4373,8 @@
    "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114625 Arista VeloCloud Orchestrator SQL Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-23T12:00:00+00:00"
+   "date": "2026-10-23T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "2ce43354cd03a403",
@@ -4380,7 +4383,8 @@
    "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve…",
    "source": "Schneier on Security",
    "category": "threat",
-   "date": "2026-10-23T11:04:22+00:00"
+   "date": "2026-10-23T11:04:22+00:00",
+   "brief_tries": 1
   },
   {
    "id": "38c1e82271d69b1b",
@@ -4389,7 +4393,8 @@
    "summary": "Overview Two memory-related vulnerabilities have been identified in PHP versions prior to 8.2.35, 8.3.36, 8.4.27, and 8.5.12. An unauthenticated remote attacker with network access to PHP web services can exploit these vulnerabilities via specially crafted HTTP requests to…",
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
-   "date": "2026-10-22T22:23:51.159697+00:00"
+   "date": "2026-10-22T22:23:51.159697+00:00",
+   "brief_tries": 1
   },
   {
    "id": "40a7d912697b401a",
@@ -4398,7 +4403,8 @@
    "summary": "Multiple Cisco products are affected by a vulnerability in the Snort 3 SMTP MIME Decoder that could allow an unauthenticated, remote attacker to cause the Snort 3 Detection Engine to restart. This vulnerability is due to a lack of error checking when the MIME fields of the SMTP…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
-   "date": "2026-10-22T19:03:31+00:00"
+   "date": "2026-10-22T19:03:31+00:00",
+   "brief_tries": 1
   },
   {
    "id": "209a1f00b6f9fd9d",
