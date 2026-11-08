@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:03:49.252115+00:00",
+ "updated": "2026-11-08T13:59:02.268290+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -44,7 +44,7 @@
    "source": "SecurityWeek",
    "category": "threat",
    "date": "2026-11-08T12:14:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ba1c24f699845126",
@@ -4784,7 +4784,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "edc258d78e2b41fd",
@@ -4794,7 +4794,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "12734f5b1f1411c7",
@@ -4804,7 +4804,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d6b0057c89739a8d",
@@ -4814,7 +4814,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "7a5c96086267bc10",
@@ -4824,7 +4824,7 @@
    "source": "Exploit-DB",
    "category": "exploit",
    "date": "2026-10-21T00:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "ffff93f0b6db6b97",
@@ -4833,7 +4833,8 @@
    "summary": "Edimax BR-6478AC firmware v2.20 - authenticated command injection",
    "source": "Exploit-DB",
    "category": "exploit",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "8ed9d1a2bd47c6d1",
@@ -4842,7 +4843,8 @@
    "summary": "Exasol Database 7.1.30 - command execution",
    "source": "Exploit-DB",
    "category": "exploit",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "b07fa0516ac00485",
@@ -4851,7 +4853,8 @@
    "summary": "Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
    "source": "Exploit-DB",
    "category": "exploit",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "64831b0e50b2143a",
@@ -4860,7 +4863,8 @@
    "summary": "ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
    "source": "Exploit-DB",
    "category": "exploit",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6bd6585835c42569",
@@ -4869,7 +4873,8 @@
    "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.",
    "source": "Unit 42",
    "category": "ransomware",
-   "date": "2026-10-20T20:30:42+00:00"
+   "date": "2026-10-20T20:30:42+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ea87afd144a29da2",
@@ -4878,7 +4883,8 @@
    "summary": "Overview An authentication bypass vulnerability in the Xerj Console API allows sessions to bypass passkey-backed requirements during token issuance. By exploiting this flaw, an attacker with an existing valid token can create independent, persistent successor credentials…",
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
-   "date": "2026-10-20T18:09:44.460556+00:00"
+   "date": "2026-10-20T18:09:44.460556+00:00",
+   "brief_tries": 1
   },
   {
    "id": "79b4014f667cba1b",
