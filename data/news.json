@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-08T18:57:02.195641+00:00",
+ "updated": "2026-11-08T19:55:03.414079+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -74,6 +74,34 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "4e4f9eee0d97ac91",
+   "title": "NVIDIA and Ory Bring Defense-in-Depth Security to AI Agents",
+   "url": "https://www.scworld.com/native/nvidia-and-ory-bring-defense-in-depth-security-to-ai-agents",
+   "summary": "NVIDIA and Ory combine layered security controls to enforce least-privilege access for AI agents.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-08T19:41:05+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T19:41:05+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "1b9ef46393d46dcb",
+   "title": "How to Scale AI Agent Identity and Authentication Infrastructure",
+   "url": "https://www.scworld.com/native/how-to-scale-ai-agent-identity-and-authentication-infrastructure",
+   "summary": "Scaling AI agents requires distributed, stateless identity systems built for high-volume authentication.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-08T19:22:24+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T19:22:24+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
    "id": "94bf2b9a700d8710",
    "title": "Don’t Hand Propaganda a Gift: Reading the Brenner Base Tunnel SE Breach Calmly",
    "url": "https://securityaffairs.com/202691/cyber-crime/dont-hand-propaganda-a-gift-reading-the-brenner-base-tunnel-se-breach-calmly.html",
@@ -82,10 +110,10 @@
    "category": "threat",
    "date": "2026-11-08T17:46:16+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-08T17:46:16+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "d2d1efb09b3ea999",
@@ -200,6 +228,51 @@
    "seen_count": 1
   },
   {
+   "id": "8f913e234ef147de",
+   "title": "Deadlock claims attack on Trinity Custom Homes - USA",
+   "url": "https://www.ransomware.live/group/Deadlock",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "Deadlock",
+   "date": "2026-11-08T15:21:58.987917+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T15:21:58.987917+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "9464b26bbce5c49f",
+   "title": "Deadlock claims attack on Chonlatee",
+   "url": "https://www.ransomware.live/group/Deadlock",
+   "summary": "Listed on a ransomware group's leak site (TH). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "Deadlock",
+   "date": "2026-11-08T15:21:38.545972+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T15:21:38.545972+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "aeb8014eb42dbdcf",
+   "title": "Deadlock claims attack on Kadick",
+   "url": "https://www.ransomware.live/group/Deadlock",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "Deadlock",
+   "date": "2026-11-08T15:21:17.135662+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T15:21:17.135662+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "8022c55c517d8c8f",
    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 122",
    "url": "https://securityaffairs.com/202657/malware/security-affairs-malware-newsletter-round-122.html",
@@ -277,7 +350,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.640441+00:00",
+   "date": "2026-11-08T07:53:38.624406+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -291,7 +364,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.640441+00:00",
+   "date": "2026-11-08T07:53:38.624406+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -305,7 +378,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.640441+00:00",
+   "date": "2026-11-08T07:53:38.624406+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -319,7 +392,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.640441+00:00",
+   "date": "2026-11-08T07:53:38.624406+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -333,7 +406,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.640441+00:00",
+   "date": "2026-11-08T07:53:38.624406+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -347,7 +420,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.640441+00:00",
+   "date": "2026-11-08T07:53:38.624406+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -361,7 +434,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.305489+00:00",
+   "date": "2026-11-08T07:53:38.309229+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -375,7 +448,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.305489+00:00",
+   "date": "2026-11-08T07:53:38.309229+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -389,7 +462,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.305489+00:00",
+   "date": "2026-11-08T07:53:38.309229+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -403,7 +476,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.305489+00:00",
+   "date": "2026-11-08T07:53:38.309229+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -417,7 +490,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.305489+00:00",
+   "date": "2026-11-08T07:53:38.309229+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -431,79 +504,9 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.305489+00:00",
+   "date": "2026-11-08T07:53:38.309229+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "bc19616b086e5989",
-   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.294890+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "606d53923f4c9019",
-   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.294890+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "90b594e9b4c76d5c",
-   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.294890+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0c469036c8f8c41",
-   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.294890+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "74208a7acb26dbbb",
-   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.294890+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -515,7 +518,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.138009+00:00",
+   "date": "2026-11-08T07:53:38.048862+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -529,7 +532,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.138009+00:00",
+   "date": "2026-11-08T07:53:38.048862+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -543,7 +546,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.138009+00:00",
+   "date": "2026-11-08T07:53:38.048862+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -557,7 +560,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.138009+00:00",
+   "date": "2026-11-08T07:53:38.048862+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -571,7 +574,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.138009+00:00",
+   "date": "2026-11-08T07:53:38.048862+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -585,9 +588,79 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-08T06:55:38.138009+00:00",
+   "date": "2026-11-08T07:53:38.048862+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bc19616b086e5989",
+   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-08T07:53:38.044738+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "606d53923f4c9019",
+   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-08T07:53:38.044738+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "90b594e9b4c76d5c",
+   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-08T07:53:38.044738+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b0c469036c8f8c41",
+   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-08T07:53:38.044738+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "74208a7acb26dbbb",
+   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-08T07:53:38.044738+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1095,10 +1168,10 @@
    "category": "threat",
    "date": "2026-11-07T15:05:43+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-07T15:05:43+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "571210011a895cf5",
@@ -1551,10 +1624,10 @@
    "category": "threat",
    "date": "2026-11-07T02:27:57+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-07T02:27:57+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "1e7b6acca89b864d",
@@ -1623,10 +1696,10 @@
    "category": "threat",
    "date": "2026-11-07T00:29:52+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-07T00:29:52+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "e755af963931d054",
@@ -1652,10 +1725,10 @@
    "category": "patch",
    "date": "2026-11-07T00:05:50+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-07T00:05:50+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "0ec492f7360c2ffd",
@@ -1666,10 +1739,10 @@
    "category": "threat",
    "date": "2026-11-07T00:04:25+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-07T00:04:25+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "650a75616024f722",
@@ -1680,10 +1753,10 @@
    "category": "patch",
    "date": "2026-11-07T00:03:01+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-07T00:03:01+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "ca1a9396bb6596ea",
@@ -1722,6 +1795,7 @@
    "category": "threat",
    "date": "2026-11-06T22:17:34+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-06T22:17:34+00:00",
    "also_in": [
     {
@@ -1734,8 +1808,7 @@
     }
    ],
    "seen_count": 3,
-   "badge": "Corroborated",
-   "brief_tries": 1
+   "badge": "Corroborated"
   },
   {
    "id": "46c76064dfebbdab",
@@ -1760,10 +1833,10 @@
    "category": "threat",
    "date": "2026-11-06T22:00:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-06T22:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "b63212099f3b82aa",
@@ -1817,6 +1890,7 @@
    "category": "threat",
    "date": "2026-11-06T20:53:10+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-06T20:53:10+00:00",
    "also_in": [
     {
@@ -1825,8 +1899,7 @@
     }
    ],
    "seen_count": 2,
-   "badge": "Corroborated",
-   "brief_tries": 1
+   "badge": "Corroborated"
   },
   {
    "id": "5e6fd8b9892f46a3",
@@ -1837,10 +1910,10 @@
    "category": "threat",
    "date": "2026-11-06T20:50:32+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-06T20:50:32+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "a8dfbcf52d145c14",
@@ -2198,20 +2271,6 @@
    "seen_count": 1
   },
   {
-   "id": "42b57383c741ca9f",
-   "title": "akira claims attack on Houston Machine and Thread",
-   "url": "https://www.ransomware.live/group/akira",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T15:33:21.442182+00:00",
-   "cves": [],
-   "first_seen": "2026-11-06T15:33:21.442182+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "af6d1b8b9d253e74",
    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
    "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
@@ -2458,21 +2517,6 @@
    "seen_count": 1
   },
   {
-   "id": "22ecba3e4f191527",
-   "title": "direwolf claims attack on Algonomy",
-   "url": "https://www.ransomware.live/group/direwolf",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "direwolf",
-   "date": "2026-11-06T13:44:10.199376+00:00",
-   "cves": [],
-   "first_seen": "2026-11-06T13:44:10.199376+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "7e3066a9ad8c42d1",
    "title": "DigiCert data breach exposes customer information, identity documents",
    "url": "https://databreaches.net/2026/11/06/digicert-data-breach-exposes-customer-information-identity-documents/",
@@ -2549,20 +2593,6 @@
    "date": "2026-11-06T13:00:00+00:00",
    "cves": [],
    "first_seen": "2026-11-06T13:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "464e771028221705",
-   "title": "OBSOFT claims attack on Company #6",
-   "url": "https://www.ransomware.live/group/OBSOFT",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T12:52:45.209965+00:00",
-   "cves": [],
-   "first_seen": "2026-11-06T12:52:45.209965+00:00",
    "also_in": [],
    "seen_count": 1
   },
