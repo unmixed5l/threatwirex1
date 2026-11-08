@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T04:02:09.659651+00:00",
+ "updated": "2026-11-08T05:03:00.083562+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4234,7 +4234,7 @@
    "source": "Have I Been Pwned",
    "category": "breach",
    "date": "2026-10-27T07:01:06+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "843f0669e299ae9e",
@@ -4244,7 +4244,7 @@
    "source": "Google Project Zero",
    "category": "vuln",
    "date": "2026-10-27T07:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "18fffeb57097c4c8",
@@ -4254,7 +4254,7 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-10-26T22:45:54.629708+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "082795207170a149",
@@ -4264,7 +4264,7 @@
    "source": "CERT/CC Vulnerability Notes",
    "category": "vuln",
    "date": "2026-10-26T19:07:02.688776+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1832014a561177a4",
@@ -4274,7 +4274,7 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-10-26T16:12:38+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "1d721fa902295cc1",
@@ -4284,7 +4284,7 @@
    "source": "ESET WeLiveSecurity",
    "category": "vuln",
    "date": "2026-10-26T13:25:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a7bcfa86d46f0ae1",
@@ -4293,7 +4293,8 @@
    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching :   CVE-2026-109618 – PHP Memory Corruption Vulnerability  CVE-2026-109619 – PHP Stale Internal…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-26T12:00:00+00:00"
+   "date": "2026-10-26T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "217d727d090a0aa9",
@@ -4302,7 +4303,8 @@
    "summary": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s…",
    "source": "Schneier on Security",
    "category": "vuln",
-   "date": "2026-10-26T11:03:31+00:00"
+   "date": "2026-10-26T11:03:31+00:00",
+   "brief_tries": 1
   },
   {
    "id": "8474e0cfd37a9b48",
@@ -4311,7 +4313,8 @@
    "summary": "We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.",
    "source": "Securelist",
    "category": "threat",
-   "date": "2026-10-26T10:00:18+00:00"
+   "date": "2026-10-26T10:00:18+00:00",
+   "brief_tries": 1
   },
   {
    "id": "c455bb5b2c887f27",
@@ -4320,7 +4323,8 @@
    "summary": "CVSSv3 Score: 9.8 CVE-2026-105482 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105483 - (high)This vulnerability affects Node.js 26.x and 24.x.CVE-2026-106069 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-111497 - (high)A…",
    "source": "Fortinet PSIRT",
    "category": "vuln",
-   "date": "2026-10-26T07:00:00+00:00"
+   "date": "2026-10-26T07:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9d407c505c1e9fd1",
@@ -4329,7 +4333,8 @@
    "summary": "This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
    "source": "Schneier on Security",
    "category": "threat",
-   "date": "2026-10-23T21:00:09+00:00"
+   "date": "2026-10-23T21:00:09+00:00",
+   "brief_tries": 1
   },
   {
    "id": "abfff6ba3917a252",
@@ -4338,7 +4343,8 @@
    "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations.",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-10-23T18:12:19+00:00"
+   "date": "2026-10-23T18:12:19+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7349fc6afb73f184",
@@ -4917,18 +4923,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4944,9 +4950,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
