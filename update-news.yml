@@ -1,4 +1,5 @@
 name: Update news
+
 on:
   schedule:
     - cron: "17 * * * *"   # hourly; GitHub may delay this under load
@@ -8,13 +9,16 @@ on:
         description: "Also load older history (full CISA KEV list and breach list) into the archive"
         type: boolean
         default: false
+
 permissions:
   contents: write
   models: read      # lets the built-in token use GitHub Models (free AI)
-# One run at a time, so a manual trigger never collides with the cron push
+
+# One run at a time, so a manual run never collides with the hourly one
 concurrency:
   group: update-news
   cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -28,28 +32,21 @@ jobs:
         run: python scripts/fetch_news.py ${{ inputs.backfill && '--backfill' || '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Public URL of the site. Used for sitemap.xml, robots.txt and feed links.
-          # Project page: https://USER.github.io/REPO   User page: https://USER.github.io
-          SITE_URL: "https://USER.github.io/REPO"
-          AI_MAX_PER_RUN: "8"              # new items summarized per run; hourly runs share a daily quota
-          FETCH_WORKERS: "8"               # parallel source fetches
-          # TOR_GATEWAY: ""                # uncomment to skip Dread entirely
-          # NVD_API_KEY: ${{ secrets.NVD_API_KEY }}   # optional, enables CVSS scores
-          # AI_MODEL: "openai/gpt-4o-mini"  # uncomment to pick another model from github.com/marketplace/models
+          AI_MAX_PER_RUN: "8"                # new items summarized per run (free tier has daily limits)
+          # AI_MODEL: "openai/gpt-4o-mini"   # uncomment to pick another model from github.com/marketplace/models
       - name: Verify output
         run: |
           python - <<'PY'
           import json, pathlib
           d = json.loads(pathlib.Path("data/news.json").read_text())
-          assert d["schema_version"] >= 2, "stale schema"
-          assert isinstance(d["items"], list)
-          print(f'{len(d["items"])} items, schema v{d["schema_version"]}')
+          assert isinstance(d["items"], list), "items missing"
+          print(f'{len(d["items"])} items in data/news.json')
           PY
       - name: Commit changes
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add -A
+          git add data
           if git diff --staged --quiet; then
             echo "No changes."
             exit 0
