@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T14:51:27.923501+00:00",
+ "updated": "2026-11-08T15:49:13.130570+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -36,6 +36,26 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "4c6744ea789bbdc8",
+   "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+   "url": "https://isc.sans.edu/diary/rss/33498",
+   "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of…",
+   "source": "SANS Internet Storm Center",
+   "category": "exploit",
+   "date": "2026-11-08T15:44:33+00:00",
+   "brief_tries": 1
+  },
+  {
+   "id": "840fc9184c683327",
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-08T15:43:08+00:00",
+   "brief_tries": 1
+  },
   {
    "id": "9c037607d0d59f31",
    "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
@@ -4894,7 +4914,7 @@
    "source": "Cisco Talos",
    "category": "patch",
    "date": "2026-10-20T15:31:22+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "818d1525c4085388",
@@ -4904,7 +4924,7 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-10-20T14:17:23+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "b892b9f7a4b76dc0",
@@ -4914,7 +4934,7 @@
    "source": "ESET WeLiveSecurity",
    "category": "threat",
    "date": "2026-10-20T09:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "22310d6c64fad732",
@@ -4924,7 +4944,7 @@
    "source": "Have I Been Pwned",
    "category": "breach",
    "date": "2026-10-20T02:29:36+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "29509c095cffc231",
@@ -4934,7 +4954,7 @@
    "source": "Check Point Research",
    "category": "breach",
    "date": "2026-10-19T14:54:40+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "5f2037864b2f69b1",
@@ -4944,7 +4964,7 @@
    "source": "Krebs on Security",
    "category": "ransomware",
    "date": "2026-10-19T13:48:56+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f4d53a8897809ff6",
@@ -4953,7 +4973,8 @@
    "summary": "Exposed data: Booking details, Email addresses, Names, Phone numbers, Physical addresses. In May 2026, the French holiday rental network Gîtes de France suffered a data breach affecting some of its departmental branches. The incident exposed hundreds of thousands of customer records,…",
    "source": "Have I Been Pwned",
    "category": "breach",
-   "date": "2026-10-18T04:50:13+00:00"
+   "date": "2026-10-18T04:50:13+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a3c36e87a94b475a",
@@ -4962,7 +4983,8 @@
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
-   "date": "2026-10-17T00:55:00+00:00"
+   "date": "2026-10-17T00:55:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a273e26d1615cc31",
@@ -4971,7 +4993,8 @@
    "summary": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing",
    "source": "Unit 42",
    "category": "exploit",
-   "date": "2026-10-16T17:47:54+00:00"
+   "date": "2026-10-16T17:47:54+00:00",
+   "brief_tries": 1
   },
   {
    "id": "f2639c17d1047835",
@@ -4980,7 +5003,8 @@
    "summary": "If you’re suddenly being overwhelmed with sign-up emails, it could very well be a sign of something more serious",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-10-16T09:00:00+00:00"
+   "date": "2026-10-16T09:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "7b5a8b8caa1d77df",
@@ -4992,36 +5016,18 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "62182dce0f3b28b2",
    "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
