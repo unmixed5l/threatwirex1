@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T01:19:50.540373+00:00",
+ "updated": "2026-11-08T03:00:36.675622+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -37,6 +37,16 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "43914ed316f11eae",
+   "title": "ARTEX attack",
+   "url": "https://www.reddit.com/r/netsec/comments/1xqmhgk/artex_attack/",
+   "summary": "Has anyone heard of this? https://blog.gitguardian.com/the-agents-have-now-found-your-secrets-on-github-artex-is-abusing-public-secrets-right-now/   submitted by   /u/Important_Market961 [link]   [comments]",
+   "source": "Reddit r/netsec",
+   "category": "threat",
+   "date": "2026-11-08T01:31:04+00:00",
+   "brief_tries": 1
+  },
+  {
    "id": "8ba77aca6c81ab0d",
    "title": "I spent countless nights digging into PHP2Shell. Here's a deep dive into how it actually works, from memory to PHP internals to a real exploit.",
    "url": "https://www.reddit.com/r/netsec/comments/1xqlw37/i_spent_countless_nights_digging_into_php2shell/",
@@ -44,7 +54,107 @@
    "source": "Reddit r/netsec",
    "category": "exploit",
    "date": "2026-11-08T01:00:49+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
+  },
+  {
+   "id": "b495b0fd339c0230",
+   "title": "N0n claims attack on Company #147",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:30:05.102300+00:00"
+  },
+  {
+   "id": "e756a98ddae36062",
+   "title": "N0n claims attack on Company #146",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:29:29.587919+00:00"
+  },
+  {
+   "id": "d046402f58aa9cea",
+   "title": "N0n claims attack on Company #145",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:28:54.175017+00:00"
+  },
+  {
+   "id": "118dc76c8457c0ff",
+   "title": "N0n claims attack on Company #144",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:28:19.494267+00:00"
+  },
+  {
+   "id": "364b266eb41c482f",
+   "title": "N0n claims attack on Company #143",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:27:44.709856+00:00"
+  },
+  {
+   "id": "aad44f84b934b582",
+   "title": "N0n claims attack on Company #142",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (KR). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:27:09.983250+00:00"
+  },
+  {
+   "id": "96620532ef6f72e9",
+   "title": "N0n claims attack on Company #141",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:26:34.828856+00:00"
+  },
+  {
+   "id": "3c5718e6b0ad5919",
+   "title": "N0n claims attack on Company #140",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:25:59.003387+00:00"
+  },
+  {
+   "id": "b92656a544cf5931",
+   "title": "N0n claims attack on Company #139",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:25:24.510834+00:00"
+  },
+  {
+   "id": "a9b7455ba21745c4",
+   "title": "N0n claims attack on Company #138",
+   "url": "https://www.ransomware.live/group/N0n",
+   "summary": "Listed on a ransomware group's leak site (CA). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-07T21:24:49.353889+00:00"
   },
   {
    "id": "5d0e8e708c18edef",
@@ -1067,26 +1177,6 @@
    "date": "2026-11-06T10:53:06.138280+00:00"
   },
   {
-   "id": "2e45c71c72acee4f",
-   "title": "N0n claims attack on Centrepoint",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (SA). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T10:52:31.590721+00:00"
-  },
-  {
-   "id": "bd5f69d86edb403b",
-   "title": "N0n claims attack on Resource Consultants",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T10:51:56.709132+00:00"
-  },
-  {
    "id": "48d1766e5307a052",
    "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
    "url": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
@@ -1135,16 +1225,6 @@
    "category": "threat",
    "date": "2026-11-06T09:00:00+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "7a608c182d8e84a1",
-   "title": "qilin claims attack on Rotstein & Shiffman",
-   "url": "https://www.ransomware.live/group/qilin",
-   "summary": "Listed on a ransomware group's leak site (IL). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T08:42:39.282325+00:00"
   },
   {
    "id": "6facdf5f94dfdf61",
@@ -1207,36 +1287,6 @@
    "brief_tries": 2
   },
   {
-   "id": "6d3240b991ce47a9",
-   "title": "N0n claims attack on Max Fashion",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (AE). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T01:24:03.243618+00:00"
-  },
-  {
-   "id": "6f37ac24462d23a1",
-   "title": "N0n claims attack on Hallmark Cards, Inc.",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T01:23:31.053366+00:00"
-  },
-  {
-   "id": "c45b03933a08207e",
-   "title": "N0n claims attack on Scry Analytics",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T01:22:59.334278+00:00"
-  },
-  {
    "id": "97d7db0e7e4a0b1e",
    "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
    "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
@@ -1275,36 +1325,6 @@
    "category": "threat",
    "date": "2026-11-05T23:46:50+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "863c939579358817",
-   "title": "Vexy Ransomware claims attack on ZipAI",
-   "url": "https://www.ransomware.live/group/Vexy Ransomware",
-   "summary": "Listed on a ransomware group's leak site (VN). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T23:27:37.826356+00:00"
-  },
-  {
-   "id": "be35d0d6711a62ca",
-   "title": "SilentRansomGroup claims attack on Smith, Gambrell & Russell, LLP",
-   "url": "https://www.ransomware.live/group/SilentRansomGroup",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T22:35:25.898328+00:00"
-  },
-  {
-   "id": "dd6e46bc26806ec1",
-   "title": "SilentRansomGroup claims attack on W... R...",
-   "url": "https://www.ransomware.live/group/SilentRansomGroup",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T22:35:05.847835+00:00"
   },
   {
    "id": "7bee44827e17e9d7",
@@ -1385,16 +1405,6 @@
    "category": "exploit",
    "date": "2026-11-05T20:48:00+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "cf97391e3e31a671",
-   "title": "qilin claims attack on Insurance Audit Services",
-   "url": "https://www.ransomware.live/group/qilin",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-05T20:46:53.207943+00:00"
   },
   {
    "id": "58f4053a1bb932db",
@@ -4097,16 +4107,6 @@
    "brief_tries": 2
   },
   {
-   "id": "1383b1eca42b1ade",
-   "title": "A malicious game server can crash the Godot clients that join it",
-   "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
-   "summary": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.   submitted by   /u/bitbutter [link]   [comments]",
-   "source": "Reddit r/netsec",
-   "category": "threat",
-   "date": "2026-10-28T09:57:22+00:00",
-   "brief_tries": 2
-  },
-  {
    "id": "4400201e3866f7fb",
    "title": "ESET APT Activity Report Q2 2026–Q3 2026",
    "url": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/",
@@ -4134,7 +4134,7 @@
    "source": "Dark Reading",
    "category": "threat",
    "date": "2026-10-27T21:15:03+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "a55cb75244963bf3",
@@ -4144,7 +4144,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-27T14:46:44+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "cd1981bcbf83fd8e",
@@ -4154,7 +4154,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-27T14:45:16+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "d461c86958127bc5",
@@ -4164,7 +4164,7 @@
    "source": "Check Point Research",
    "category": "threat",
    "date": "2026-10-27T13:03:27+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "fde042953d304e71",
@@ -4174,7 +4174,7 @@
    "source": "Securelist",
    "category": "vuln",
    "date": "2026-10-27T12:00:19+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "9cfdf1956af8dc08",
@@ -4183,7 +4183,8 @@
    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-27T12:00:00+00:00"
+   "date": "2026-10-27T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "9de4c840c98b45f4",
@@ -4192,7 +4193,8 @@
    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-27T12:00:00+00:00"
+   "date": "2026-10-27T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "531d14aa47c04aa3",
@@ -4201,7 +4203,8 @@
    "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code. The following versions of EPICS Base are affected: EPICS…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-27T12:00:00+00:00"
+   "date": "2026-10-27T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "6c05e107bb76f251",
@@ -4210,7 +4213,8 @@
    "summary": "Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this…",
    "source": "Schneier on Security",
    "category": "threat",
-   "date": "2026-10-27T11:01:26+00:00"
+   "date": "2026-10-27T11:01:26+00:00",
+   "brief_tries": 1
   },
   {
    "id": "aa36d77dd524cea8",
@@ -4219,7 +4223,8 @@
    "summary": "What does it mean to be \"blue collar\" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.",
    "source": "Cisco Talos",
    "category": "threat",
-   "date": "2026-10-27T10:00:21+00:00"
+   "date": "2026-10-27T10:00:21+00:00",
+   "brief_tries": 1
   },
   {
    "id": "a495aedd8d8e7036",
@@ -4906,9 +4911,9 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4924,9 +4929,18 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4936,15 +4950,6 @@
    "id": "7817524cf23d9091",
    "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0316",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
