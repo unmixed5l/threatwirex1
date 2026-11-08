@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T07:15:59.887913+00:00",
+ "updated": "2026-11-08T08:15:37.506191+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -36,6 +36,66 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "ba1c24f699845126",
+   "title": "incransom claims attack on q-technicians.be",
+   "url": "https://www.ransomware.live/group/incransom",
+   "summary": "Listed on a ransomware group's leak site (BE). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-08T03:49:05.694674+00:00"
+  },
+  {
+   "id": "5680cf5ce71e763f",
+   "title": "incransom claims attack on bpcm.com",
+   "url": "https://www.ransomware.live/group/incransom",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-08T03:48:13.488273+00:00"
+  },
+  {
+   "id": "9fc7a663d595dea9",
+   "title": "incransom claims attack on www.bogard.com.mx",
+   "url": "https://www.ransomware.live/group/incransom",
+   "summary": "Listed on a ransomware group's leak site (MX). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-08T03:47:21.145552+00:00"
+  },
+  {
+   "id": "1bd207f2905a0c03",
+   "title": "Whitearmor claims attack on Clínica La Sagrada Familia (Colombia)",
+   "url": "https://www.ransomware.live/group/Whitearmor",
+   "summary": "Listed on a ransomware group's leak site (CO). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-08T03:33:23.256858+00:00"
+  },
+  {
+   "id": "b4e58519de197835",
+   "title": "BYOD claims attack on ???",
+   "url": "https://www.ransomware.live/group/BYOD",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-08T03:21:11.775480+00:00"
+  },
+  {
+   "id": "a0e02a8e99405310",
+   "title": "BYOD claims attack on Twitter",
+   "url": "https://www.ransomware.live/group/BYOD",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "date": "2026-11-08T03:20:51.920702+00:00"
+  },
   {
    "id": "43914ed316f11eae",
    "title": "ARTEX attack",
@@ -1077,26 +1137,6 @@
    "brief_tries": 2
   },
   {
-   "id": "6d71ddcb4cd4fcab",
-   "title": "akira claims attack on Hudson & Hudson SignProducts",
-   "url": "https://www.ransomware.live/group/akira",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T12:01:13.271975+00:00"
-  },
-  {
-   "id": "f0d13b02dd1cf1c2",
-   "title": "Shiba claims attack on Istituto Borgo",
-   "url": "https://www.ransomware.live/group/Shiba",
-   "summary": "Listed on a ransomware group's leak site (IT). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T12:00:26.537597+00:00"
-  },
-  {
    "id": "c776d35c062b8b00",
    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
    "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -1135,46 +1175,6 @@
    "category": "patch",
    "date": "2026-11-06T11:22:23+00:00",
    "brief_tries": 2
-  },
-  {
-   "id": "990728ff2d09153b",
-   "title": "akira claims attack on Boyle, Pecharich, Cline, Whittington andStallings",
-   "url": "https://www.ransomware.live/group/akira",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T11:05:40.077375+00:00"
-  },
-  {
-   "id": "c22a5adcc9b7c4aa",
-   "title": "N0n claims attack on Dompé Farmaceutici S.p.A.",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (IT). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T10:54:16.341380+00:00"
-  },
-  {
-   "id": "013439dcb38c4884",
-   "title": "N0n claims attack on Cogent Biosciences, Inc.",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T10:53:40.759861+00:00"
-  },
-  {
-   "id": "c32865b303e03ee0",
-   "title": "N0n claims attack on Chartboost LLC",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "date": "2026-11-06T10:53:06.138280+00:00"
   },
   {
    "id": "48d1766e5307a052",
@@ -4414,7 +4414,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-22T19:03:30+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "6a4e0421ac4153eb",
@@ -4424,7 +4424,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-22T19:03:28+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "8f63837e265de513",
@@ -4434,7 +4434,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-22T19:03:27+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "111e3388051f0bf9",
@@ -4444,7 +4444,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-22T19:03:26+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4b1f05f3b5838e47",
@@ -4454,7 +4454,7 @@
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-10-22T19:03:25+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "49c1ab7af418cae2",
@@ -4464,7 +4464,7 @@
    "source": "Cisco Talos",
    "category": "vuln",
    "date": "2026-10-22T18:04:32+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "09be57be38cc6ef0",
@@ -4473,7 +4473,8 @@
    "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.",
    "source": "GitHub Security Blog",
    "category": "threat",
-   "date": "2026-10-22T17:21:30+00:00"
+   "date": "2026-10-22T17:21:30+00:00",
+   "brief_tries": 1
   },
   {
    "id": "101af1ca8d1b00b2",
@@ -4482,7 +4483,8 @@
    "summary": "Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide.",
    "source": "Unit 42",
    "category": "threat",
-   "date": "2026-10-22T17:15:32+00:00"
+   "date": "2026-10-22T17:15:32+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ca5fc9dc16b17ee4",
@@ -4491,7 +4493,8 @@
    "summary": "Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments.",
    "source": "Unit 42",
    "category": "threat",
-   "date": "2026-10-22T17:00:25+00:00"
+   "date": "2026-10-22T17:00:25+00:00",
+   "brief_tries": 1
   },
   {
    "id": "ab875104cf1640af",
@@ -4500,7 +4503,8 @@
    "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all…",
    "source": "Schneier on Security",
    "category": "patch",
-   "date": "2026-10-22T13:26:51+00:00"
+   "date": "2026-10-22T13:26:51+00:00",
+   "brief_tries": 1
   },
   {
    "id": "236815939a0fb5dd",
@@ -4509,7 +4513,8 @@
    "summary": "View CSAF Summary Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several…",
    "source": "CISA Advisories",
    "category": "vuln",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "b3a5d9b4753994ea",
@@ -4518,7 +4523,8 @@
    "summary": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected network to be…",
    "source": "CISA Advisories",
    "category": "exploit",
-   "date": "2026-10-22T12:00:00+00:00"
+   "date": "2026-10-22T12:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "0772ceb52ebcb46d",
@@ -4935,15 +4941,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "1cf65875058c7cca",
-   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "62182dce0f3b28b2",
    "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
@@ -4953,9 +4950,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "f44356c1205ac2c1",
-   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "id": "1cf65875058c7cca",
+   "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4965,6 +4962,15 @@
    "id": "8c33cbdc2e47b46d",
    "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "f44356c1205ac2c1",
+   "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
