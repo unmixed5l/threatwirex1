@@ -3,14 +3,8 @@
 Standard library only, so the GitHub Action needs no pip install.
 Each source is fetched independently: one failing source never breaks the run.
 
-Sources fall into four groups:
-  * RSS/Atom feeds (news, advisories, research, forums)
-  * JSON endpoints (CISA KEV, Have I Been Pwned, ransomware trackers)
-  * Breach-catalogue metadata (DeHashed, Snusbase, Leak-Lookup, BreachDirectory)
-  * Best-effort Tor-only sources (Dread) through a gateway
-
-Feeds that answer with a bot-challenge page instead of XML are retried through a
-plain-text proxy before being marked failed.
+Pipeline: fetch -> dedupe/cluster -> CVE enrich (KEV + EPSS + SSVC) -> brief -> publish.
+Outputs news.json, per-CVE index, outbound RSS/JSON feeds, source health, robots and sitemap.
 """
 import json, re, sys, html, hashlib, os, time
 import urllib.request, urllib.error
@@ -21,10 +15,19 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote
 
+SCHEMA_VERSION = 2
 OUT = Path(__file__).resolve().parent.parent / "data" / "news.json"
-MAX_ITEMS = 500
+DATA = OUT.parent
+ARCHIVE = DATA / "archive"
+CVE_DIR = DATA / "cve"
+FEED_DIR = DATA / "feed"
+MAX_ITEMS = 800
 MAX_AGE_DAYS = 30
+CLUSTER_WINDOW = timedelta(hours=72)
+CLUSTER_THRESHOLD = 0.55
+MAX_CVES = 400
 UA = "Mozilla/5.0 (compatible; CyberNewsBot/1.0)"
+SITE = os.environ.get("SITE_URL", "").rstrip("/")
 
 # How many sources are fetched at once. Lower it if a host starts rate-limiting you.
 FETCH_WORKERS = int(os.environ.get("FETCH_WORKERS", "12"))
@@ -115,6 +118,22 @@ RSS_SOURCES = [
     ("Reddit r/cybersecurity", "https://www.reddit.com/r/cybersecurity/.rss", "news"),
 ]
 
+# Trust tier used to pick the primary card when one story appears in several places.
+# 1 = government / vendor primary, 2 = original research, 3 = press, 4 = aggregator or forum.
+SOURCE_TIER = {"CISA KEV": 1, "CISA Advisories": 1, "CISA News": 1, "NCSC UK": 1,
+               "CERT/CC Vulnerability Notes": 1, "Microsoft Security Response Center": 1,
+               "Cisco Security Advisories": 1, "Fortinet PSIRT": 1, "Palo Alto Advisories": 1,
+               "Ubuntu Security Notices": 1, "Chrome Releases": 1, "Have I Been Pwned": 1,
+               "Google Project Zero": 2, "Google Threat Intelligence": 2, "Microsoft Security Blog": 2,
+               "Cisco Talos": 2, "Unit 42": 2, "Securelist": 2, "ESET WeLiveSecurity": 2,
+               "Check Point Research": 2, "SentinelLabs": 2, "Trend Micro Research": 2,
+               "The DFIR Report": 2, "watchTowr Labs": 2, "VulnCheck": 2, "GitHub Security Blog": 2,
+               "Exploit-DB": 2, "Full Disclosure": 2, "CVEfeed": 3, "GitHub Advisory Database": 1,
+               "DeHashed": 4, "Snusbase": 4, "Leak-Lookup": 4, "BreachDirectory": 4,
+               "ransomware.live": 4, "ransomwatch": 4, "BreachForums (breached.st)": 4,
+               "XSS.is": 4, "Exploit.in": 4, "Dread (Tor gateway)": 4,
+               "Reddit r/netsec": 4, "Reddit r/cybersecurity": 4}
+
 # Keep each source from crowding out the others
 DEFAULT_CAP = 40
 SOURCE_CAP = {"Ubuntu Security Notices": 15, "Microsoft Security Response Center": 20,
@@ -127,6 +146,9 @@ KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulner
 HIBP_URL = "https://haveibeenpwned.com/api/v3/breaches"
 RANSOMWARE_URL = "https://api.ransomware.live/v2/recentvictims"
 RANSOMWATCH_URL = "https://raw.githubusercontent.com/joshhighet/ransomwatch/main/posts.json"
+EPSS_URL = "https://api.first.org/data/v1/epss?cve="
+NVD_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId="
+NVD_KEY = os.environ.get("NVD_API_KEY", "").strip()
 
 # Breach-catalogue metadata. Names, counts and index dates only, no leaked records.
 DATASET_BASE = "https://raw.githubusercontent.com/notdls/known-breaches/main/datasets/"
@@ -147,7 +169,12 @@ CATEGORY_RULES = [
     ("vuln", r"cve-\d{4}-\d+|vulnerabilit|\bflaw|\brce\b|remote code execution"),
     ("threat", r"malware|botnet|phishing|\bapt\d*|backdoor|trojan|spyware|campaign|threat actor|attack"),
 ]
+STOP = set("the a an and or of in on for to with from by at as is are was were be been will has "
+           "have had new how why what its it's this that than then more most into over under".split())
 
+# ---------------------------------------------------------------------------
+# HTTP helpers
+# ---------------------------------------------------------------------------
 def onion_route(url):
     """Rewrite a .onion URL through TOR_GATEWAY. Returns None if onion is disabled."""
     if ".onion" not in url:
@@ -158,8 +185,10 @@ def onion_route(url):
         return TOR_GATEWAY + quote(url, safe="")
     return url.replace(".onion", "." + TOR_GATEWAY.strip("."))
 
-def fetch(url, timeout=25):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+def fetch(url, timeout=25, headers=None):
+    h = {"User-Agent": UA, "Accept": "*/*"}
+    h.update(headers or {})
+    req = urllib.request.Request(url, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
@@ -184,6 +213,9 @@ def fetch_feed(url):
             return alt
     return data   # let the XML parser produce the error
 
+# ---------------------------------------------------------------------------
+# Text helpers
+# ---------------------------------------------------------------------------
 def clean(text, limit=280):
     text = re.sub(r"<[^>]+>", " ", text or "")
     text = html.unescape(re.sub(r"\s+", " ", text)).strip()
@@ -234,6 +266,12 @@ def make_id(*parts):
 def local(tag):
     return tag.rsplit("}", 1)[-1]
 
+def cves_in(text):
+    return sorted(set(re.findall(r"CVE-\d{4}-\d{4,}", text or "")))
+
+# ---------------------------------------------------------------------------
+# Feeds and APIs
+# ---------------------------------------------------------------------------
 def parse_feed(xml_bytes, source, default_kind):
     root = ET.fromstring(xml_bytes)
     items = []
@@ -262,26 +300,31 @@ def parse_feed(xml_bytes, source, default_kind):
             "source": source,
             "category": categorize(title, summary, default_kind),
             "date": (date or datetime.now(timezone.utc)).isoformat(),
+            "cves": cves_in(f"{title} {summary}"),
         })
     return items
 
-def from_kev(limit=60):
-    data = json.loads(fetch(KEV_URL))
+def kev_catalog():
+    data = json.loads(fetch(KEV_URL, timeout=45))
+    return {v["cveID"]: v.get("dateAdded")
+            for v in data.get("vulnerabilities", []) if v.get("cveID")}
+
+def from_kev(catalog, limit=60):
+    rows = sorted(catalog.items(), key=lambda kv: kv[1] or "", reverse=True)
     items = []
-    vulns = data.get("vulnerabilities", [])
-    for v in (vulns[-limit:] if limit else vulns):
-        cve = v.get("cveID", "")
-        date = parse_date(v.get("dateAdded"))
-        desc = clean(v.get("shortDescription", ""))
+    for cve, added in (rows[:limit] if limit else rows):
         items.append({
             "id": make_id("kev", cve),
-            "title": f"{cve}: {v.get('vulnerabilityName', '')} ({v.get('vendorProject', '')} {v.get('product', '')})",
+            "title": f"{cve} added to CISA KEV",
             "url": f"https://nvd.nist.gov/vuln/detail/{cve}",
-            "summary": desc,
+            "summary": "CISA confirms this vulnerability is exploited in the wild and requires "
+                       "federal remediation. Treat as actively exploited.",
             "source": "CISA KEV",
             "category": "exploit",
             "badge": "Actively exploited",
-            "date": (date or datetime.now(timezone.utc)).isoformat(),
+            "kev": True,
+            "cves": [cve],
+            "date": (parse_date(added) or datetime.now(timezone.utc)).isoformat(),
         })
     return items
 
@@ -301,6 +344,7 @@ def from_hibp(limit=25):
             "source": "Have I Been Pwned",
             "category": "breach",
             "date": (date or datetime.now(timezone.utc)).isoformat(),
+            "cves": [],
         })
     return items
 
@@ -325,7 +369,9 @@ def from_ransomware():
             "source": "ransomware.live",
             "category": "ransomware",
             "badge": "Dark web listing",
+            "group": group,
             "date": (date or datetime.now(timezone.utc)).isoformat(),
+            "cves": [],
         })
     return items
 
@@ -348,7 +394,9 @@ def from_ransomwatch():
             "source": "ransomwatch",
             "category": "ransomware",
             "badge": "Dark web listing",
+            "group": group,
             "date": (date or datetime.now(timezone.utc)).isoformat(),
+            "cves": [],
         })
     return items
 
@@ -397,11 +445,156 @@ def from_dataset(service, filename, limit=6):
             "category": "breach",
             "badge": "Breach catalogue",
             "date": stamp,
+            "cves": [],
         })
     return items
 
 # ---------------------------------------------------------------------------
-# AI briefs (optional). Needs the ANTHROPIC_API_KEY secret; without it this is skipped.
+# Cross-source clustering: one card per story, duplicates folded into "also_in"
+# ---------------------------------------------------------------------------
+def signature(title):
+    words = re.findall(r"[a-z0-9][a-z0-9.+-]{3,}", (title or "").lower())
+    return {w for w in words if w not in STOP}
+
+def jaccard(a, b):
+    return len(a & b) / len(a | b) if a and b else 0.0
+
+def cluster(items):
+    """Fold near-identical stories from different sources into one primary card."""
+    clusters = []
+    for it in items:
+        sig = signature(it["title"])
+        it["_sig"] = sig
+        when = parse_date(it["date"])
+        match = None
+        for c in clusters:
+            if c["primary"]["source"] == it["source"] and not it["cves"]:
+                continue
+            near = when and abs((when - c["when"]).total_seconds()) <= CLUSTER_WINDOW.total_seconds()
+            if not near:
+                continue
+            if set(c["primary"]["cves"]) & set(it["cves"]) or jaccard(sig, c["sig"]) >= CLUSTER_THRESHOLD:
+                match = c
+                break
+        if match is None:
+            clusters.append({"primary": it, "sig": sig, "when": when, "also": []})
+            continue
+        p = match["primary"]
+        if SOURCE_TIER.get(it["source"], 3) < SOURCE_TIER.get(p["source"], 3):
+            match["also"].append(p)
+            match["primary"] = it
+        else:
+            match["also"].append(it)
+    out = []
+    for c in clusters:
+        p = c["primary"]
+        seen = [{"source": a["source"], "url": a["url"]} for a in c["also"]]
+        p["also_in"] = seen
+        p["seen_count"] = 1 + len(seen)
+        if seen:
+            p["badge"] = p.get("badge") or "Corroborated"
+        out.append(p)
+    return out
+
+# ---------------------------------------------------------------------------
+# CVE enrichment: KEV, EPSS, SSVC decision
+# ---------------------------------------------------------------------------
+def epss_lookup(cves):
+    out = {}
+    for n in range(0, len(cves), 100):
+        chunk = cves[n:n + 100]
+        try:
+            data = json.loads(fetch(EPSS_URL + ",".join(chunk), timeout=30))
+        except Exception:
+            continue
+        for row in data.get("data", []):
+            try:
+                out[row["cve"]] = float(row["epss"])
+            except (KeyError, TypeError, ValueError):
+                pass
+    return out
+
+def nvd_cvss(cve):
+    if not NVD_KEY:
+        return None
+    try:
+        data = json.loads(fetch(NVD_URL + cve, timeout=30, headers={"apiKey": NVD_KEY}))
+        metrics = data["vulnerabilities"][0]["cve"]["metrics"]
+        for key in ("cvssMetricV40", "cvssMetricV31", "cvssMetricV30", "cvssMetricV2"):
+            if metrics.get(key):
+                return float(metrics[key][0]["cvssData"]["baseScore"])
+    except Exception:
+        return None
+    return None
+
+def ssvc(active, epss, blob):
+    """Minimal SSVC decision from Exploitation, Automatable and Exposure."""
+    exploitation = "active" if active else ("poc" if epss >= 0.1 else "none")
+    automatable = bool(re.search(r"\brce\b|remote code|unauthenticated|pre-auth|wormable|mass exploit", blob))
+    exposure = "open" if re.search(r"internet[- ]facing|\bedge\b|\bvpn\b|gateway|public[- ]facing|"
+                                   r"web server|exposed to the internet", blob) else "controlled"
+    if exploitation == "active":
+        return ("Act" if automatable or exposure == "open" else "Attend"), exploitation
+    if epss >= 0.1:
+        return "Track*", exploitation
+    return "Track", exploitation
+
+def enrich(items, kev):
+    blob = {i["id"]: f"{i['title']} {i.get('summary','')}".lower() for i in items}
+    wanted = sorted({c for i in items for c in i.get("cves", [])})[:MAX_CVES]
+    scores = epss_lookup(wanted)
+    index = {}
+    for it in items:
+        if not it.get("cves"):
+            continue
+        best, exploit, active = 0.0, "none", False
+        for cve in it["cves"]:
+            score = scores.get(cve, 0.0)
+            hit = cve in kev
+            decision, state = ssvc(hit, score, blob[it["id"]])
+            it.setdefault("cve_detail", {})[cve] = {
+                "epss": round(score, 4), "kev": hit, "kev_date": kev.get(cve),
+                "cvss": nvd_cvss(cve) if NVD_KEY else None, "ssvc": decision}
+            best = max(best, score)
+            if state == "active":
+                active = True
+            if state != "none":
+                exploit = state
+            if decision in ("Act", "Attend") and active:
+                it["ssvc"] = decision
+            else:
+                it.setdefault("ssvc", decision)
+        it["epss"] = round(best, 4)
+        it["exploitation"] = exploit
+        if active:
+            it["kev"] = True
+            it["badge"] = "Actively exploited"
+            it["category"] = "exploit"
+        elif it.get("ssvc") in ("Act", "Attend") and it["category"] in ("news", "threat", "vuln"):
+            it["category"] = "vuln"
+    write_cve_index(items)
+
+def write_cve_index(items):
+    CVE_DIR.mkdir(parents=True, exist_ok=True)
+    by_cve = {}
+    for it in items:
+        for cve, detail in (it.get("cve_detail") or {}).items():
+            row = by_cve.setdefault(cve, {"cve": cve, **detail, "items": []})
+            row["items"].append({"id": it["id"], "title": it["title"],
+                                 "source": it["source"], "url": it["url"], "date": it["date"]})
+    for cve, row in by_cve.items():
+        row["items"].sort(key=lambda i: i["date"], reverse=True)
+        row["first_seen"] = min(i["date"] for i in row["items"])
+        (CVE_DIR / f"{cve}.json").write_text(json.dumps(row, ensure_ascii=False, indent=1))
+    summary = sorted(by_cve.values(), key=lambda r: (r["kev"], r["epss"]), reverse=True)
+    (CVE_DIR / "index.json").write_text(json.dumps(
+        {"updated": datetime.now(timezone.utc).isoformat(),
+         "cves": [{k: r[k] for k in ("cve", "epss", "kev", "ssvc", "cvss", "first_seen")} |
+                  {"items": len(r["items"])} for r in summary]}, ensure_ascii=False, indent=1))
+    return by_cve
+
+# ---------------------------------------------------------------------------
+# AI briefs (optional). Needs a token; without one this is skipped.
 # ---------------------------------------------------------------------------
 # Free by default: GitHub Models, using the GITHUB_TOKEN every Actions run already has.
 # If you ever add an ANTHROPIC_API_KEY secret, that is used instead.
@@ -544,8 +737,6 @@ def add_briefs(items):
 # ---------------------------------------------------------------------------
 # Archive: every item ever collected, one file per month, so the site can search old news.
 # ---------------------------------------------------------------------------
-ARCHIVE = OUT.parent / "archive"
-
 def read_month(path):
     try:
         return {i["id"]: i for i in json.loads(path.read_text()).get("items", [])}
@@ -571,6 +762,7 @@ def archive_update(pool_items):
             old = merged.get(it["id"], {})
             if "brief" not in entry and "brief" in old:
                 entry["brief"] = old["brief"]
+            entry["first_seen"] = old.get("first_seen", it.get("first_seen", it["date"]))
             merged[it["id"]] = entry
         write_month(path, month, list(merged.values()))
     months = [{"month": f.stem, "count": len(read_month(f))}
@@ -580,7 +772,8 @@ def archive_update(pool_items):
 def backfill():
     """One-time: load the full CISA KEV catalogue and the full breach list into the archive."""
     got = []
-    for name, job in (("CISA KEV", lambda: from_kev(limit=0)), ("Have I Been Pwned", lambda: from_hibp(limit=0))):
+    for name, job in (("CISA KEV", lambda: from_kev(kev_catalog(), limit=0)),
+                      ("Have I Been Pwned", lambda: from_hibp(limit=0))):
         try:
             part = job()
             got += part
@@ -588,6 +781,97 @@ def backfill():
         except Exception as e:
             print(f"Backfill {name}: failed ({type(e).__name__})")
     archive_update(got)
+
+# ---------------------------------------------------------------------------
+# Publishing: outbound feeds, health history, robots and sitemap
+# ---------------------------------------------------------------------------
+def write_feeds(items):
+    """Re-publish the feed so people and tools can subscribe by category."""
+    FEED_DIR.mkdir(parents=True, exist_ok=True)
+    now = datetime.now(timezone.utc)
+    groups = {"all": items}
+    for it in items:
+        groups.setdefault(it["category"], []).append(it)
+    for name, rows in groups.items():
+        body = "".join(
+            f"<item><title>{html.escape(i['title'])}</title>"
+            f"<link>{html.escape(i['url'])}</link>"
+            f"<guid isPermaLink=\"false\">{i['id']}</guid>"
+            f"<pubDate>{parsedate_from_iso(i['date'])}</pubDate>"
+            f"<description>{html.escape(i.get('summary', ''))}</description>"
+            f"<category>{html.escape(i['source'])}</category></item>"
+            for i in rows[:100])
+        (FEED_DIR / f"{name}.xml").write_text(
+            '<?xml version="1.0" encoding="utf-8"?>\n<rss version="2.0"><channel>'
+            f"<title>Threatwire: {name}</title>"
+            f"<link>{html.escape(SITE)}</link><description>{name} items</description>"
+            f"<lastBuildDate>{parsedate_from_iso(now.isoformat())}</lastBuildDate>{body}</channel></rss>")
+    (FEED_DIR / "all.json").write_text(json.dumps({
+        "version": "https://jsonfeed.org/version/1.1",
+        "title": "Threatwire", "home_page_url": SITE, "feed_url": f"{SITE}/data/feed/all.json",
+        "items": [{"id": i["id"], "url": i["url"], "title": i["title"],
+                   "content_text": i.get("summary", ""), "date_published": i["date"],
+                   "tags": [i["category"], i["source"]] + i.get("cves", [])[:3]}
+                  for i in items[:100]]}, ensure_ascii=False, indent=1))
+
+def parsedate_from_iso(iso):
+    dt = parse_date(iso) or datetime.now(timezone.utc)
+    return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+def write_health(status):
+    path = DATA / "health.json"
+    try:
+        health = json.loads(path.read_text())
+    except Exception:
+        health = {}
+    now = datetime.now(timezone.utc).isoformat()
+    for name, result in status.items():
+        row = health.setdefault(name, {"ok": 0, "failed": 0, "history": []})
+        ok = result.startswith("ok")
+        row["ok" if ok else "failed"] += 1
+        row["last_ok" if ok else "last_error"] = now
+        row["history"] = (row["history"] + [{"t": now, "r": result}])[-20:]
+    path.write_text(json.dumps(health, indent=1, sort_keys=True))
+    rows = [{"source": k, "ok": v["ok"], "failed": v["failed"],
+             "reliability": round(v["ok"] / max(1, v["ok"] + v["failed"]) * 100),
+             "last_ok": v.get("last_ok"), "last_error": v.get("last_error")}
+            for k, v in health.items()]
+    rows.sort(key=lambda r: (r["reliability"], r["source"]))
+    (DATA / "sources.json").write_text(json.dumps(
+        {"updated": now, "sources": rows}, indent=1))
+
+def write_static():
+    root = OUT.parent.parent
+    if SITE:
+        (root / "robots.txt").write_text(
+            f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+        (root / "sitemap.xml").write_text(
+            '<?xml version="1.0" encoding="utf-8"?>\n<urlset xmlns="http://www.sitemaps.org/'
+            'schemas/sitemap/0.9">\n'
+            f"<url><loc>{SITE}/</loc><changefreq>hourly</changefreq></url>\n"
+            "</urlset>\n")
+
+# ---------------------------------------------------------------------------
+# Validation, so a broken build fails loudly instead of publishing junk
+# ---------------------------------------------------------------------------
+def validate(payload):
+    errors = []
+    seen = set()
+    for n, it in enumerate(payload["items"]):
+        for key in ("id", "title", "url", "source", "category", "date"):
+            if not it.get(key):
+                errors.append(f"item {n}: missing {key}")
+        if it.get("id") in seen:
+            errors.append(f"item {n}: duplicate id {it.get('id')}")
+        seen.add(it.get("id"))
+        if not str(it.get("url", "")).startswith(("http://", "https://")):
+            errors.append(f"item {n}: bad url {it.get('url')}")
+        if not parse_date(it.get("date")):
+            errors.append(f"item {n}: bad date {it.get('date')}")
+        if it.get("category") not in ("breach", "ransomware", "exploit", "vuln", "patch",
+                                      "threat", "underground"):
+            errors.append(f"item {n}: unknown category {it.get('category')}")
+    return errors
 
 def run_job(name, job):
     try:
@@ -601,10 +885,17 @@ def main():
     collected, status = [], {}
     jobs = [(name, (lambda u=url, n=name, k=kind: parse_feed(fetch_feed(u), n, k)))
             for name, url, kind in RSS_SOURCES]
-    jobs += [("CISA KEV", from_kev), ("Have I Been Pwned", from_hibp),
+    jobs += [("Have I Been Pwned", from_hibp),
              ("ransomware.live", from_ransomware), ("ransomwatch", from_ransomwatch)]
     jobs += [(service, (lambda s=service, f=filename: from_dataset(s, f)))
              for service, filename in DATASET_SOURCES]
+    kev = {}
+    try:
+        kev = kev_catalog()
+        collected += from_kev(kev)
+        status["CISA KEV"] = "ok (catalogue)"
+    except Exception as e:
+        status["CISA KEV"] = f"failed: {type(e).__name__}"
 
     with ThreadPoolExecutor(max_workers=max(1, FETCH_WORKERS)) as pool:
         for name, got, err in pool.map(lambda j: run_job(*j), jobs):
@@ -626,32 +917,41 @@ def main():
         d = parse_date(it["date"])
         if not (d and d >= cutoff):
             continue
-        if it["id"] not in unique:
+        it.setdefault("cves", cves_in(f"{it['title']} {it.get('summary','')}"))
+        keep = unique.get(it["id"])
+        if keep is None:
             unique[it["id"]] = it
-        else:
-            keep = unique[it["id"]]
-            for k in ("brief", "brief_tries"):
-                if k in it and k not in keep:
-                    keep[k] = it[k]
+            continue
+        for k in ("brief", "brief_tries", "first_seen", "kev", "group"):
+            if k in it and k not in keep:
+                keep[k] = it[k]
+        keep["first_seen"] = min(keep.get("first_seen", keep["date"]), it.get("first_seen", it["date"]))
     items, per_source = [], {}
     for it in sorted(unique.values(), key=lambda i: i["date"], reverse=True):
         n = per_source.get(it["source"], 0)
         if n < SOURCE_CAP.get(it["source"], DEFAULT_CAP):
             per_source[it["source"]] = n + 1
+            it.setdefault("first_seen", it["date"])
             items.append(it)
-    items = items[:MAX_ITEMS]
+    items = cluster(items[:MAX_ITEMS])
+    enrich(items, kev)
     all_failed = all(v.startswith("failed") for v in status.values())
     ai_status = add_briefs(items)
     archive_update(collected + items)   # items last, so fresh briefs win
-    OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps(
-        {"updated": datetime.now(timezone.utc).isoformat(), "sources": status,
-         "ai": ai_status, "items": items},
-        ensure_ascii=False, indent=1))
+    payload = {"schema_version": SCHEMA_VERSION, "updated": datetime.now(timezone.utc).isoformat(),
+               "sources": status, "ai": ai_status, "items": items}
+    errors = validate(payload)
+    DATA.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1))
+    write_feeds(items)
+    write_health(status)
+    write_static()
     for k, v in status.items():
         print(f"{k}: {v}")
     print(f"AI briefs: {ai_status}")
-    print(f"Wrote {len(items)} items")
+    print(f"Wrote {len(items)} items after clustering")
+    if errors:
+        print("Validation problems:\n  " + "\n  ".join(errors[:20]))
     if all_failed:
         sys.exit(1)
 
