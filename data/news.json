@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T09:57:21.446241+00:00",
+ "updated": "2026-11-08T10:54:51.383561+00:00",
  "sources": {
   "BleepingComputer": "ok (15)",
   "The Hacker News": "ok (50)",
@@ -4594,7 +4594,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "27f18cf82b1dc88c",
@@ -4604,7 +4604,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "27602b8f8f6eea14",
@@ -4614,7 +4614,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "68eaa2dc47131c00",
@@ -4624,7 +4624,7 @@
    "source": "CISA Advisories",
    "category": "threat",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "2e4435c7af875024",
@@ -4634,7 +4634,7 @@
    "source": "CISA Advisories",
    "category": "exploit",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "f24c5287a98c0faf",
@@ -4644,7 +4644,7 @@
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-10-22T12:00:00+00:00",
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "4eda8a69789bd7de",
@@ -4653,7 +4653,8 @@
    "summary": "ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm",
    "source": "ESET WeLiveSecurity",
    "category": "threat",
-   "date": "2026-10-22T08:45:00+00:00"
+   "date": "2026-10-22T08:45:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "0b85f8ae4b7ce69d",
@@ -4662,7 +4663,8 @@
    "summary": "Kaspersky GReAT experts discovered a new UEFI bootkit, BlackX. It exploits the Baton Drop vulnerability (CVE-2022-21894) and is similar to the BlackLotus bootkit.",
    "source": "Securelist",
    "category": "exploit",
-   "date": "2026-10-22T06:00:48+00:00"
+   "date": "2026-10-22T06:00:48+00:00",
+   "brief_tries": 1
   },
   {
    "id": "74561c4ec3159631",
@@ -4671,7 +4673,8 @@
    "summary": "PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
    "source": "Exploit-DB",
    "category": "exploit",
-   "date": "2026-10-22T00:00:00+00:00"
+   "date": "2026-10-22T00:00:00+00:00",
+   "brief_tries": 1
   },
   {
    "id": "52e40e7e7ea6b259",
@@ -4680,7 +4683,8 @@
    "summary": "Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra.",
    "source": "Cisco Talos",
    "category": "threat",
-   "date": "2026-10-21T20:43:29+00:00"
+   "date": "2026-10-21T20:43:29+00:00",
+   "brief_tries": 1
   },
   {
    "id": "80aac9868cd30e6c",
@@ -4689,7 +4693,8 @@
    "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments.",
    "source": "Microsoft Security Blog",
    "category": "threat",
-   "date": "2026-10-21T18:23:55+00:00"
+   "date": "2026-10-21T18:23:55+00:00",
+   "brief_tries": 1
   },
   {
    "id": "24755a352d3db087",
@@ -4698,7 +4703,8 @@
    "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working…",
    "source": "Krebs on Security",
    "category": "vuln",
-   "date": "2026-10-21T15:26:07+00:00"
+   "date": "2026-10-21T15:26:07+00:00",
+   "brief_tries": 1
   },
   {
    "id": "bb6dba2465a6fa41",
@@ -4953,15 +4959,6 @@
    "date": "2026-10-15T22:00:09+00:00"
   },
   {
-   "id": "62182dce0f3b28b2",
-   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-10-15T18:30:00+00:00"
-  },
-  {
    "id": "1cf65875058c7cca",
    "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0320",
@@ -4971,9 +4968,9 @@
    "date": "2026-10-15T18:30:00+00:00"
   },
   {
-   "id": "8c33cbdc2e47b46d",
-   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
+   "id": "62182dce0f3b28b2",
+   "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
@@ -4983,6 +4980,15 @@
    "id": "f44356c1205ac2c1",
    "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0321",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-10-15T18:30:00+00:00"
+  },
+  {
+   "id": "8c33cbdc2e47b46d",
+   "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0317",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
