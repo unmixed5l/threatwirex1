@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-18T16:14:37.636713+00:00",
+ "updated": "2026-11-18T17:19:48.493040+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -74,18 +74,196 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "4d21e756021aad15",
+   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-18T16:58:42+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:58:42+00:00",
+   "also_in": [
+    {
+     "source": "SC Media",
+     "url": "https://www.scworld.com/brief/microsoft-agent-framework-package-compromised-to-steal-credentials"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+    }
+   ],
+   "seen_count": 3,
+   "badge": "Corroborated",
+   "brief_tries": 1
+  },
+  {
+   "id": "830c2e13c09821d1",
+   "title": "Five Critical Vulnerabilities Found in World's Most Widely Used Open-Source Web Server",
+   "url": "https://www.infosecurity-magazine.com/news/five-critical-vulnerabilities/",
+   "summary": "Five critical NGINX vulnerabilities could allow unauthenticated attackers to remotely execute code and potentially take control of affected servers",
+   "source": "Infosecurity Magazine",
+   "category": "vuln",
+   "date": "2026-11-18T16:55:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:55:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "03bfba8ed46b931b",
+   "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+   "summary": "Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems.",
+   "source": "Dark Reading",
+   "category": "vuln",
+   "date": "2026-11-18T16:54:52+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:54:52+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "f966089b968f3ca3",
+   "title": "Russian cyber espionage group Cold Relic leverages cloud compromises for linked intrusions",
+   "url": "https://www.scworld.com/brief/russian-cyber-espionage-group-cold-relic-leverages-cloud-compromises-for-linked-intrusions",
+   "summary": "The Russia-linked cyber espionage group Cold Relic has been observed weaponizing single cloud compromises into launchpads for a series of linked intrusions, as first reported by The Hacker News.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-18T16:53:36+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:53:36+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "b2eb4f305b708a27",
+   "title": "Researchers find attackers exploit leaked credentials in docker hub images within seconds",
+   "url": "https://www.scworld.com/brief/researchers-find-attackers-exploit-leaked-credentials-in-docker-hub-images-within-seconds",
+   "summary": "As noted by Bleeping Computer, attackers are rapidly exploiting credentials and access secrets exposed in public Docker Hub images, with some instances occurring in less than eight seconds after publication.",
+   "source": "SC Media",
+   "category": "breach",
+   "date": "2026-11-18T16:52:11+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:52:11+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "2d4652f602101788",
+   "title": "What a GitHub Actions Cache Can Expose to Anyone Who Opens a Pull Request",
+   "url": "https://hackread.com/what-github-actions-cache-expose-to-pull-request/",
+   "summary": "GitHub Actions caches can expose credentials to attackers through forked pull requests. Learn how secrets leak and how developers can prevent it.",
+   "source": "Hackread",
+   "category": "threat",
+   "date": "2026-11-18T16:51:11+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:51:11+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "4c74cd8d71b2174f",
+   "title": "Autonomous orchestration addresses rising cloud costs for AI agents",
+   "url": "https://www.scworld.com/brief/autonomous-orchestration-addresses-rising-cloud-costs-for-ai-agents",
+   "summary": "Autonomous orchestration is emerging as a critical solution for managing the unpredictable resource demands of AI agents, as first reported by Silicon Angle.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-18T16:51:01+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:51:01+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "23f98c422bb584da",
+   "title": "Lessons learned from the recent critical PHP vulnerabilities",
+   "url": "https://www.scworld.com/brief/lessons-learned-from-the-recent-critical-php-vulnerabilities",
+   "summary": "Critical vulnerabilities in the PHP programming language recently triggered a global security scramble, forcing organizations to rapidly patch systems or take them offline to prevent potential remote code execution, according to a recent report by IT Pro.",
+   "source": "SC Media",
+   "category": "patch",
+   "date": "2026-11-18T16:48:22+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:48:22+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "db99608c5b8bf893",
+   "title": "Google addresses false reports of gmail service outage",
+   "url": "https://www.scworld.com/brief/google-addresses-false-reports-of-gmail-service-outage",
+   "summary": "Google confirmed that its Gmail service is operating normally following social media speculation regarding a potential disruption, according to a recent report by TechCrunch.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-18T16:47:03+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:47:03+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "b79709a0b0413a49",
+   "title": "Accelerating DFIR: How agentic AI changes the investigation",
+   "url": "https://www.scworld.com/resource/accelerating-dfir-how-agentic-ai-changes-the-investigation",
+   "summary": "Here's what agentic AI means for digital forensics and incident response, and why humans still need to be in charge.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-18T16:36:18+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:36:18+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "0ae8a2103c79e939",
+   "title": "Why did attackers target refrigerators this fall?",
+   "url": "https://www.scworld.com/perspective/why-are-attackers-targeting-refrigerators",
+   "summary": "While authorities tie the refrigerator attacks to Iran, we still don't know the broader end goal.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-18T16:33:30+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:33:30+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "e798ab68d19f6e21",
+   "title": "NSA continues response to interruptions in classified internal network",
+   "url": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+   "summary": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-18T16:19:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:19:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
    "id": "7ac97e42315d67b9",
    "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations.  For more information about these vulnerabilities, see the  Details  section of this…",
+   "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the  Details  section of this…",
    "source": "Cisco Security Advisories",
    "category": "vuln",
    "date": "2026-11-18T16:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T16:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "5e770780f62defe8",
@@ -98,6 +276,7 @@
    "cves": [
     "CVE-2026-114938"
    ],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T16:00:00+00:00",
    "also_in": [
     {
@@ -129,6 +308,10 @@
      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
     },
     {
+     "source": "Fortinet PSIRT",
+     "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278"
+    },
+    {
      "source": "Cisco Talos",
      "url": "https://blog.talosintelligence.com/java4shell/"
     },
@@ -145,7 +328,7 @@
      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
     }
    ],
-   "seen_count": 12,
+   "seen_count": 13,
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-114938": {
@@ -158,8 +341,7 @@
    },
    "ssvc": "Track",
    "epss": 0.0073,
-   "exploitation": "none",
-   "brief_tries": 1
+   "exploitation": "none"
   },
   {
    "id": "25d8d8d5e8c90e89",
@@ -170,10 +352,10 @@
    "category": "threat",
    "date": "2026-11-18T15:54:02+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:54:02+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "c17617028ee70a87",
@@ -184,10 +366,10 @@
    "category": "threat",
    "date": "2026-11-18T15:33:31+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:33:31+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "e3a6088647bf1639",
@@ -198,10 +380,10 @@
    "category": "threat",
    "date": "2026-11-18T15:32:37+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:32:37+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "9c4ee0f21528bd66",
@@ -212,10 +394,10 @@
    "category": "threat",
    "date": "2026-11-18T15:32:24+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:32:24+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "4007647799e11809",
@@ -226,10 +408,10 @@
    "category": "threat",
    "date": "2026-11-18T15:30:42+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:30:42+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "467b84f5cca8fd9e",
@@ -240,10 +422,10 @@
    "category": "breach",
    "date": "2026-11-18T15:24:33+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:24:33+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "8d5ff285d4dca010",
@@ -254,10 +436,10 @@
    "category": "ransomware",
    "date": "2026-11-18T15:24:24+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:24:24+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "96111808951c976e",
@@ -268,10 +450,10 @@
    "category": "threat",
    "date": "2026-11-18T15:15:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T15:15:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "8e8debc4b233d460",
@@ -636,6 +818,21 @@
    "epss": 1.0,
    "exploitation": "active",
    "badge": "Actively exploited"
+  },
+  {
+   "id": "e2ef5472c8aec53a",
+   "title": "HYFLOCK claims attack on Colombian Real Estate",
+   "url": "https://www.ransomware.live/group/HYFLOCK",
+   "summary": "Listed on a ransomware group's leak site (CO). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "HYFLOCK",
+   "date": "2026-11-18T12:51:35.268174+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T12:51:35.268174+00:00",
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "7aa694effe302302",
@@ -1231,20 +1428,6 @@
    "seen_count": 1
   },
   {
-   "id": "1df53018af16af50",
-   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-   "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-   "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published…",
-   "source": "The Hacker News",
-   "category": "threat",
-   "date": "2026-11-18T06:45:26+00:00",
-   "cves": [],
-   "brief_tries": 1,
-   "first_seen": "2026-11-18T06:45:26+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "5f52b6105156dfb9",
    "title": "PixelLeaks claims attack on FAIR Health, Inc. (fairhealth.com)",
    "url": "https://www.ransomware.live/group/PixelLeaks",
@@ -1284,6 +1467,19 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T06:00:03+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "aee65bc8ab681b47",
+   "title": "CrowdStrike Brings the Human Advantage to AI Detection and Response",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/",
+   "summary": "",
+   "source": "CrowdStrike",
+   "category": "threat",
+   "date": "2026-11-18T06:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T06:00:00+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1346,20 +1542,6 @@
    "seen_count": 1
   },
   {
-   "id": "889fd7cae88e367e",
-   "title": "Fraudsters feed the right face into identity checks through virtual cameras",
-   "url": "https://www.helpnetsecurity.com/2026/11/18/entrust-document-verification-fraud-report/",
-   "summary": "Document fraud remains the largest attack category in Entrust’s The Professionalization of Fraud: 2027 Identity Fraud Report, with criminals combining physical counterfeits, digital manipulation and impersonation to target online services. The document fraud rate fell 19% year…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-18T05:00:34+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T05:00:34+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "ea192d81222fb65a",
    "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
    "url": "https://dehashed.com/",
@@ -1367,7 +1549,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.239353+00:00",
+   "date": "2026-11-18T05:18:29.784929+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1381,7 +1563,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.239353+00:00",
+   "date": "2026-11-18T05:18:29.784929+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1395,7 +1577,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.239353+00:00",
+   "date": "2026-11-18T05:18:29.784929+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1409,7 +1591,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.239353+00:00",
+   "date": "2026-11-18T05:18:29.784929+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1423,7 +1605,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.239353+00:00",
+   "date": "2026-11-18T05:18:29.784929+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1437,79 +1619,9 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.239353+00:00",
+   "date": "2026-11-18T05:18:29.784929+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "bc19616b086e5989",
-   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.089586+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "606d53923f4c9019",
-   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.089586+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "90b594e9b4c76d5c",
-   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.089586+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0c469036c8f8c41",
-   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.089586+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "74208a7acb26dbbb",
-   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.089586+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1521,7 +1633,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.058259+00:00",
+   "date": "2026-11-18T05:18:29.564798+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1535,7 +1647,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.058259+00:00",
+   "date": "2026-11-18T05:18:29.564798+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1549,7 +1661,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.058259+00:00",
+   "date": "2026-11-18T05:18:29.564798+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1563,7 +1675,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.058259+00:00",
+   "date": "2026-11-18T05:18:29.564798+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1577,7 +1689,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.058259+00:00",
+   "date": "2026-11-18T05:18:29.564798+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1591,9 +1703,79 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:18.058259+00:00",
+   "date": "2026-11-18T05:18:29.564798+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bc19616b086e5989",
+   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T05:18:29.392178+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "606d53923f4c9019",
+   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T05:18:29.392178+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "90b594e9b4c76d5c",
+   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T05:18:29.392178+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b0c469036c8f8c41",
+   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T05:18:29.392178+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "74208a7acb26dbbb",
+   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T05:18:29.392178+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1605,7 +1787,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:17.998056+00:00",
+   "date": "2026-11-18T05:18:29.273802+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1619,7 +1801,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:17.998056+00:00",
+   "date": "2026-11-18T05:18:29.273802+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1633,7 +1815,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:17.998056+00:00",
+   "date": "2026-11-18T05:18:29.273802+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1647,7 +1829,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:17.998056+00:00",
+   "date": "2026-11-18T05:18:29.273802+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1661,7 +1843,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:17.998056+00:00",
+   "date": "2026-11-18T05:18:29.273802+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1675,9 +1857,23 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T04:13:17.998056+00:00",
+   "date": "2026-11-18T05:18:29.273802+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "889fd7cae88e367e",
+   "title": "Fraudsters feed the right face into identity checks through virtual cameras",
+   "url": "https://www.helpnetsecurity.com/2026/11/18/entrust-document-verification-fraud-report/",
+   "summary": "Document fraud remains the largest attack category in Entrust’s The Professionalization of Fraud: 2027 Identity Fraud Report, with criminals combining physical counterfeits, digital manipulation and impersonation to target online services. The document fraud rate fell 19% year…",
+   "source": "Help Net Security",
+   "category": "threat",
+   "date": "2026-11-18T05:00:34+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-18T05:00:34+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -4983,21 +5179,6 @@
    "seen_count": 1
   },
   {
-   "id": "4a1c9200242543ce",
-   "title": "Inception claims attack on Cigna Healthcare",
-   "url": "https://www.ransomware.live/group/Inception",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Inception",
-   "date": "2026-11-17T08:14:58.686938+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T08:14:58.686938+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "e8de38078ddac041",
    "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 2",
    "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
@@ -5277,76 +5458,6 @@
    "seen_count": 1
   },
   {
-   "id": "493c98f7942a2705",
-   "title": "LearnWorlds platform exploited to distribute phishing emails",
-   "url": "https://www.scworld.com/brief/learnworlds-platform-exploited-to-distribute-phishing-emails",
-   "summary": "LearnWorlds, a software and learning course platform, recently faced a security incident where an attacker utilized automated tools to send 13,000 phishing emails to external recipients, based on information published by The Register.",
-   "source": "SC Media",
-   "category": "exploit",
-   "date": "2026-11-17T01:25:52+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T01:25:52+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "dbbffc8bb87d9e69",
-   "title": "Google Project Zero updates vulnerability disclosure policy",
-   "url": "https://www.scworld.com/brief/google-project-zero-updates-vulnerability-disclosure-policy",
-   "summary": "Following insights from Infosecurity Magazine, Google Project Zero has replaced its long-standing disclosure policy with a new framework titled Full X. This shift responds to the rapid increase in vulnerability discovery driven by artificial intelligence.",
-   "source": "SC Media",
-   "category": "vuln",
-   "date": "2026-11-17T01:23:08+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T01:23:08+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b50e173f3fcc1233",
-   "title": "Security researcher identifies critical NoisyTCP vulnerability in Linux kernel",
-   "url": "https://www.scworld.com/brief/security-researcher-identifies-critical-noisytcp-vulnerability-in-linux-kernel",
-   "summary": "A critical Linux kernel vulnerability known as NoisyTCP allows remote attackers to crash servers without requiring authentication, based on information published by The Register.",
-   "source": "SC Media",
-   "category": "vuln",
-   "date": "2026-11-17T01:15:59+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T01:15:59+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "47273f45d82b8ca3",
-   "title": "Anthropic updates Claude models with enhanced cybersecurity capabilities",
-   "url": "https://www.scworld.com/brief/anthropic-updates-claude-models-with-enhanced-cybersecurity-capabilities",
-   "summary": "Following insights from Bleeping Computer, Anthropic has released Claude Mythos 5.2 and Fable 5.2, introducing significant advancements in coding, reasoning and cybersecurity research.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-17T01:12:23+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T01:12:23+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ed5b4cbaba5b4f80",
-   "title": "Fandango Media reports data breach involving payment card information",
-   "url": "https://www.scworld.com/brief/fandango-media-reports-data-breach-involving-payment-card-information",
-   "summary": "As outlined in Bleeping Computer, Fandango Media is notifying customers of a data breach that exposed sensitive payment card details entered on its checkout pages. The incident occurred between Oct. 8 and Oct. 11, 2026, affecting users who made purchases through the company's…",
-   "source": "SC Media",
-   "category": "breach",
-   "date": "2026-11-17T01:06:55+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T01:06:55+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "0003d77433aa99fa",
    "title": "USN-9131-1: CRaC JDK 25 vulnerabilities",
    "url": "https://ubuntu.com/security/notices/USN-9131-1",
@@ -5373,20 +5484,6 @@
    "ssvc": "Track",
    "epss": 0.0025,
    "exploitation": "none"
-  },
-  {
-   "id": "403fb2e66cee4536",
-   "title": "Security breach reported at Fugaku supercomputer facility",
-   "url": "https://www.scworld.com/brief/security-breach-reported-at-fugaku-supercomputer-facility",
-   "summary": "In a report by SDx Central, the Fugaku supercomputer, developed by Riken and Fujitsu, has experienced a security breach involving unauthorized access.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-17T01:03:55+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T01:03:55+00:00",
-   "also_in": [],
-   "seen_count": 1
   },
   {
    "id": "9c072c28300acdb2",
@@ -5433,34 +5530,6 @@
    "date": "2026-11-17T00:51:34+00:00",
    "cves": [],
    "first_seen": "2026-11-17T00:51:34+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "07f9c3f94e04a758",
-   "title": "Security researchers uncover large-scale domain squatting campaign targeting AI brands",
-   "url": "https://www.scworld.com/brief/security-researchers-uncover-large-scale-domain-squatting-campaign-targeting-ai-brands",
-   "summary": "Security researchers have identified a widespread domain squatting campaign that impersonates popular artificial intelligence platforms to distribute malware, based on information published by Tech Radar.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-17T00:49:04+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T00:49:04+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "2e0805807c3fff89",
-   "title": "Phishing attacks target luxury hotel reservation systems",
-   "url": "https://www.scworld.com/brief/phishing-attacks-target-luxury-hotel-reservation-systems",
-   "summary": "Phishing attacks targeting luxury hotel reservation systems highlight critical vulnerabilities in hospitality security protocols, as first reported by Schneier on Security.",
-   "source": "SC Media",
-   "category": "vuln",
-   "date": "2026-11-17T00:47:01+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T00:47:01+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -8798,20 +8867,6 @@
    "seen_count": 1
   },
   {
-   "id": "293c69c9ee5ba956",
-   "title": "Microsoft says November security updates cause printing issues",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-   "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting.",
-   "source": "BleepingComputer",
-   "category": "patch",
-   "date": "2026-11-13T12:27:40+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-13T12:27:40+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "527326996071aa8d",
    "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
    "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
@@ -10816,13 +10871,8 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-10T19:09:32+00:00",
-   "also_in": [
-    {
-     "source": "Rapid7 Blog",
-     "url": "https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026"
-    }
-   ],
-   "seen_count": 2,
+   "also_in": [],
+   "seen_count": 1,
    "badge": "Corroborated"
   },
   {
@@ -11301,20 +11351,6 @@
    "seen_count": 1
   },
   {
-   "id": "2b63f8aad1bf2186",
-   "title": "Poland shuts down government services platform ePUAP following cyberattack",
-   "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
-   "summary": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-11T13:18:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T13:18:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "823f70a14924336f",
    "title": "TinstaPorn Android Malware Poses as Casino App to Collect User Data",
    "url": "https://hackread.com/tinstaporn-android-malware-casino-app-collect-user-data/",
@@ -11606,62 +11642,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-10T22:26:51+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "549a822a72f8ad8c",
-   "title": "Supabase Security findings why RLS is only 25% of the issues",
-   "url": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
-   "summary": "submitted by   /u/1thirteenthirtyseven [link]   [comments]",
-   "source": "Reddit r/netsec",
-   "category": "threat",
-   "date": "2026-11-10T22:21:14+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-10T22:21:14+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "9364f9baac682a40",
-   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-   "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-   "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and…",
-   "source": "Krebs on Security",
-   "category": "exploit",
-   "date": "2026-11-10T21:55:03+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-10T21:55:03+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "7824da2660082e5d",
-   "title": "The US wants its quantum lead to turn into factories and supply chains",
-   "url": "https://cyberscoop.com/us-quantum-computing-industry-manufacturing-push/",
-   "summary": "There’s bipartisan support for further investment in the U.S. quantum industry, along with worries that America’s industrial capacity won’t keep up with demand.",
-   "source": "CyberScoop",
-   "category": "threat",
-   "date": "2026-11-10T21:50:46+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-10T21:50:46+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "605ee75e7e51ba59",
-   "title": "Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday",
-   "url": "https://cyberscoop.com/microsoft-patch-tuesday-november-2026/",
-   "summary": "Microsoft’s November security update addresses roughly 1,090 vulnerabilities across Windows, Office, Azure and the company’s other product lines, the second consecutive monthly release to exceed the totals of all previous years. The release formally lists 1,094 CVEs, with…",
-   "source": "CyberScoop",
-   "category": "patch",
-   "date": "2026-11-10T21:47:01+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-10T21:47:01+00:00",
    "also_in": [],
    "seen_count": 1
   }
