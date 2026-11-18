@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-18T15:10:16.678194+00:00",
+ "updated": "2026-11-18T16:14:37.636713+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -74,6 +74,206 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "7ac97e42315d67b9",
+   "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations.  For more information about these vulnerabilities, see the  Details  section of this…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-18T16:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "5e770780f62defe8",
+   "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-18T16:00:00+00:00",
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "first_seen": "2026-11-18T16:00:00+00:00",
+   "also_in": [
+    {
+     "source": "Cyble",
+     "url": "https://cyble.com/blog/java4shell-cve-2026-114938-bug/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    },
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/"
+    },
+    {
+     "source": "Security Affairs",
+     "url": "https://securityaffairs.com/203387/hacking/65-characters-to-rce-inside-the-java4shell-vulnerability.html"
+    },
+    {
+     "source": "SOCRadar",
+     "url": "https://socradar.io/blog/java4shell-cve-2026-114938-openjdk-rce/"
+    },
+    {
+     "source": "Hackread",
+     "url": "https://hackread.com/java4shell-flaw-run-code-java-servers-logging-in/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+    },
+    {
+     "source": "Cisco Talos",
+     "url": "https://blog.talosintelligence.com/java4shell/"
+    },
+    {
+     "source": "Rapid7 Blog",
+     "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+    },
+    {
+     "source": "CISA Advisories",
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
+    }
+   ],
+   "seen_count": 12,
+   "badge": "Corroborated",
+   "cve_detail": {
+    "CVE-2026-114938": {
+     "epss": 0.0073,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0073,
+   "exploitation": "none",
+   "brief_tries": 1
+  },
+  {
+   "id": "25d8d8d5e8c90e89",
+   "title": "British National Sentenced to 6 Years in Federal Prison for Hacking into Companies and Stealing at Least $11 Million in Virtual Currency",
+   "url": "https://databreaches.net/2026/11/18/british-national-sentenced-to-6-years-in-federal-prison-for-hacking-into-companies-and-stealing-at-least-11-million-in-virtual-currency/",
+   "summary": "Note: The following is a press release from the U.S. Department of Justice. While some news sites are reporting the $11M figure, DataBreaches points out that that figure was only for U.S. victims’ virtual currency losses, not the total for all of his victims’ virtual currency…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-18T15:54:02+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:54:02+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "c17617028ee70a87",
+   "title": "SC: SLED, Charleston County investigating after ‘cybersecurity incident’ on county network",
+   "url": "https://databreaches.net/2026/11/18/sc-sled-charleston-county-investigating-after-cybersecurity-incident-on-county-network/",
+   "summary": "ABC News reports: Charleston County IT staff and the South Carolina Law Enforcement Division are investigating a “cybersecurity incident” that took place Monday evening. A county official confirmed that “data was removed from [the county’s] systems” but the nature and extent of…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-18T15:33:31+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:33:31+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "e3a6088647bf1639",
+   "title": "Fake GTA 6 PC Downloads Spread Malware Targeting Crypto Wallets and Passwords",
+   "url": "https://databreaches.net/2026/11/18/fake-gta-6-pc-downloads-spread-malware-targeting-crypto-wallets-and-passwords/",
+   "summary": "From the this-was-predictable-wasn’t-it dept: A campaign distributing malware through websites offering a supposed free PC version of Grand Theft Auto VI has been confirmed, with the software designed to steal passwords, browser data and cryptocurrency information. The game is…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-18T15:32:37+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:32:37+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "9c4ee0f21528bd66",
+   "title": "A month after Richmond Public School cyberattack, schools are far from normal",
+   "url": "https://databreaches.net/2026/11/18/a-month-after-richmond-public-school-cyberattack-schools-are-far-from-normal/",
+   "summary": "Sabrina Moreno reports: School staff calling parents to verify who can pick up their children. Students huddling around tiny computers to see lessons. Teachers relying on personal devices to keep classes running. That’s how several RPS educators described to Axios the four…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-18T15:32:24+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:32:24+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "4007647799e11809",
+   "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+   "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+   "summary": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-18T15:30:42+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:30:42+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "467b84f5cca8fd9e",
+   "title": "Japan to postpone launch of sex offense check system over data leak risk",
+   "url": "https://databreaches.net/2026/11/18/japan-to-postpone-launch-of-sex-offense-check-system-over-data-leak-risk/",
+   "summary": "The Mainichi reports: Japan decided to postpone the planned Dec. 25 launch of a new system to check the sex offense histories of people working with children after vulnerabilities were found, the minister in charge of child policy said Wednesday. Hiroshi Nakatsuka apologized…",
+   "source": "DataBreaches.net",
+   "category": "breach",
+   "date": "2026-11-18T15:24:33+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:24:33+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "8d5ff285d4dca010",
+   "title": "IL: Wilmington School District 209U Reports Ransomware Attack And Possible Data Breach",
+   "url": "https://databreaches.net/2026/11/18/il-wilmington-school-district-209u-reports-ransomware-attack-and-possible-data-breach/",
+   "summary": "WJOL reports: Officials in Wilmington are investigating a possible ransomware attack and data breach at Wilmington School District 209U. There was a message sent to district staff and student families from Superintendent Kevin Feeney that said cybersecurity experts are…",
+   "source": "DataBreaches.net",
+   "category": "ransomware",
+   "date": "2026-11-18T15:24:24+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:24:24+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "96111808951c976e",
+   "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+   "url": "https://therecord.media/russia-cyber-espionage-google",
+   "summary": "Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks against people in their victims' professional networks, according to new research.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-18T15:15:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T15:15:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
    "id": "8e8debc4b233d460",
    "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
    "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
@@ -82,10 +282,10 @@
    "category": "threat",
    "date": "2026-11-18T15:00:10+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T15:00:10+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "d56e350274591a1f",
@@ -96,10 +296,23 @@
    "category": "threat",
    "date": "2026-11-18T15:00:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T15:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
+  },
+  {
+   "id": "1d0a30cec42f79b3",
+   "title": "Norwegian Gas Giant Equinor Says It’s Under Cyberattack",
+   "url": "https://databreaches.net/2026/11/18/norwegian-gas-giant-equinor-says-its-under-cyberattack/",
+   "summary": "Pierluigi Paganini reports: Equinor, Europe’s largest gas supplier, said on 17 November it had detected an ongoing cyberattack against some IT systems. The Norwegian company said the attack had not affected operations and production, and it had taken steps to neutralise it.…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-18T14:58:52+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T14:58:52+00:00",
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "69958fa42ac429e6",
@@ -110,10 +323,10 @@
    "category": "threat",
    "date": "2026-11-18T14:48:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:48:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "4f7936fd956ec9a6",
@@ -124,10 +337,10 @@
    "category": "threat",
    "date": "2026-11-18T14:46:34+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:46:34+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "e2a24e43ecaa9dbd",
@@ -138,10 +351,10 @@
    "category": "threat",
    "date": "2026-11-18T14:38:55+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:38:55+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "ae8a45c47c7a4c88",
@@ -152,10 +365,10 @@
    "category": "threat",
    "date": "2026-11-18T14:24:37+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:24:37+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "55016e2da81bf79e",
@@ -166,10 +379,10 @@
    "category": "threat",
    "date": "2026-11-18T14:11:28+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:11:28+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "58153ef076cf714b",
@@ -180,10 +393,10 @@
    "category": "threat",
    "date": "2026-11-18T14:02:06+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:02:06+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "8368f9805644f450",
@@ -194,10 +407,10 @@
    "category": "vuln",
    "date": "2026-11-18T14:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "cbfae60454052722",
@@ -208,10 +421,10 @@
    "category": "threat",
    "date": "2026-11-18T14:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "0659e2489161c5d8",
@@ -222,10 +435,10 @@
    "category": "threat",
    "date": "2026-11-18T14:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T14:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "98d24ce7e396ea0e",
@@ -236,10 +449,37 @@
    "category": "threat",
    "date": "2026-11-18T13:58:11+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T13:58:11+00:00",
    "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "7918b8a639b8200f",
+   "title": "CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)",
+   "url": "https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed",
+   "summary": "Overview Today, both Rapid7 and F5 are disclosing CVE-2026-123007 , a critical integer underflow vulnerability affecting nginx HTTP/2, which can allow for unauthenticated remote code execution (RCE) against affected servers under certain conditions. CVE ID Description CWE…",
+   "source": "Rapid7 Blog",
+   "category": "vuln",
+   "date": "2026-11-18T13:56:42+00:00",
+   "cves": [
+    "CVE-2026-123007"
+   ],
+   "first_seen": "2026-11-18T13:56:42+00:00",
+   "also_in": [],
    "seen_count": 1,
-   "brief_tries": 1
+   "cve_detail": {
+    "CVE-2026-123007": {
+     "epss": 0.0,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0,
+   "exploitation": "none"
   },
   {
    "id": "7c4e0f733b748dc5",
@@ -347,103 +587,17 @@
    "seen_count": 1
   },
   {
-   "id": "04fced3604e31ac8",
-   "title": "Critical Java Vulnerability Requires Immediate Patching",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-   "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM),…",
-   "source": "CISA Advisories",
-   "category": "patch",
-   "date": "2026-11-17T12:00:00+00:00",
-   "cves": [
-    "CVE-2026-114938"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T12:00:00+00:00",
-   "also_in": [
-    {
-     "source": "SC Media",
-     "url": "https://www.scworld.com/brief/cisa-urges-immediate-patching-of-critical-java-vulnerability"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Corroborated",
-   "cve_detail": {
-    "CVE-2026-114938": {
-     "epss": 0.0073,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0073,
-   "exploitation": "none"
-  },
-  {
-   "id": "d365ad8c28621b79",
-   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK Java",
-   "url": "https://blog.talosintelligence.com/java4shell/",
-   "summary": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
-   "source": "Cisco Talos",
+   "id": "9089ead52778d66d",
+   "title": "CISA urges immediate patching of critical Java vulnerability",
+   "url": "https://www.scworld.com/brief/cisa-urges-immediate-patching-of-critical-java-vulnerability",
+   "summary": "",
+   "source": "SC Media",
    "category": "vuln",
-   "date": "2026-11-18T01:53:03+00:00",
-   "cves": [
-    "CVE-2026-114938"
-   ],
-   "first_seen": "2026-11-18T01:53:03+00:00",
-   "also_in": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
-    },
-    {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/"
-    },
-    {
-     "source": "Security Affairs",
-     "url": "https://securityaffairs.com/203387/hacking/65-characters-to-rce-inside-the-java4shell-vulnerability.html"
-    },
-    {
-     "source": "SOCRadar",
-     "url": "https://socradar.io/blog/java4shell-cve-2026-114938-openjdk-rce/"
-    },
-    {
-     "source": "Hackread",
-     "url": "https://hackread.com/java4shell-flaw-run-code-java-servers-logging-in/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
-    },
-    {
-     "source": "Cyble",
-     "url": "https://cyble.com/blog/java4shell-cve-2026-114938-bug/"
-    },
-    {
-     "source": "Rapid7 Blog",
-     "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
-    }
-   ],
-   "seen_count": 10,
-   "badge": "Corroborated",
-   "cve_detail": {
-    "CVE-2026-114938": {
-     "epss": 0.0073,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0073,
-   "exploitation": "none"
+   "date": "2026-11-18T13:18:24+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T13:18:24+00:00",
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "fd3ae36f2435620f",
@@ -994,7 +1148,7 @@
   },
   {
    "id": "c5f6c87fa0f7f386",
-   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+   "title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
    "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
    "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work",
    "source": "SecurityWeek",
@@ -1213,7 +1367,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.864325+00:00",
+   "date": "2026-11-18T04:13:18.239353+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1227,7 +1381,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.864325+00:00",
+   "date": "2026-11-18T04:13:18.239353+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1241,7 +1395,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.864325+00:00",
+   "date": "2026-11-18T04:13:18.239353+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1255,7 +1409,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.864325+00:00",
+   "date": "2026-11-18T04:13:18.239353+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1269,7 +1423,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.864325+00:00",
+   "date": "2026-11-18T04:13:18.239353+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1283,93 +1437,9 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.864325+00:00",
+   "date": "2026-11-18T04:13:18.239353+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "506b0b188be54fee",
-   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.732150+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0605d9432b66f404",
-   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.732150+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "349f9013bb8b6e4a",
-   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.732150+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e25396af911d2368",
-   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.732150+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "2ff978abd6712dff",
-   "title": "se.com: 52,861 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.732150+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e2a80984c014f211",
-   "title": "books24.gr: 43,851 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.732150+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1381,7 +1451,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.661320+00:00",
+   "date": "2026-11-18T04:13:18.089586+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1395,7 +1465,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.661320+00:00",
+   "date": "2026-11-18T04:13:18.089586+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1409,7 +1479,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.661320+00:00",
+   "date": "2026-11-18T04:13:18.089586+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1423,7 +1493,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.661320+00:00",
+   "date": "2026-11-18T04:13:18.089586+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1437,9 +1507,93 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.661320+00:00",
+   "date": "2026-11-18T04:13:18.089586+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "506b0b188be54fee",
+   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T04:13:18.058259+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0605d9432b66f404",
+   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T04:13:18.058259+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "349f9013bb8b6e4a",
+   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T04:13:18.058259+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e25396af911d2368",
+   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T04:13:18.058259+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "2ff978abd6712dff",
+   "title": "se.com: 52,861 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T04:13:18.058259+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e2a80984c014f211",
+   "title": "books24.gr: 43,851 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T04:13:18.058259+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1451,7 +1605,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.518217+00:00",
+   "date": "2026-11-18T04:13:17.998056+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1465,7 +1619,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.518217+00:00",
+   "date": "2026-11-18T04:13:17.998056+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1479,7 +1633,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.518217+00:00",
+   "date": "2026-11-18T04:13:17.998056+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1493,7 +1647,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.518217+00:00",
+   "date": "2026-11-18T04:13:17.998056+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1507,7 +1661,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.518217+00:00",
+   "date": "2026-11-18T04:13:17.998056+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1521,7 +1675,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-18T03:08:53.518217+00:00",
+   "date": "2026-11-18T04:13:17.998056+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -8899,20 +9053,6 @@
    "brief_tries": 2
   },
   {
-   "id": "e4df5d0ce341c2b5",
-   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-   "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
-   "summary": "Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame.",
-   "source": "SecurityWeek",
-   "category": "threat",
-   "date": "2026-11-13T10:48:40+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-13T10:48:40+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "499cd78db2478beb",
    "title": "Agentic Finance Has an Accountability Gap, and KYA Aims to Close It",
    "url": "https://hackread.com/agentic-finance-accountability-gap-kya-aims-close-it/",
@@ -9543,34 +9683,6 @@
    "seen_count": 1
   },
   {
-   "id": "1a83d13d4a67e8ea",
-   "title": "Resource: DysruptionHub’s Cyber Incident Registry completes its historical backfill",
-   "url": "https://databreaches.net/2026/11/12/resource-dysruptionhubs-cyber-incident-registry-completes-its-historical-backfill/",
-   "summary": "More than 600 researched profiles now connect past coverage with ongoing follow-up, alongside new ways for Sustainers to follow the reporting. Joseph Topping reports: DysruptionHub’s Cyber Incident Registry now contains more than 600 researched profiles, all free to read,…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-12T21:25:56+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T21:25:56+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "17cc5115889acc48",
-   "title": "Ransomware Without Data Theft Can Still Trigger Mandatory Breach Reporting Under India’s DPDP Law: K7 CyberSecurity",
-   "url": "https://databreaches.net/2026/11/12/ransomware-without-data-theft-can-still-trigger-mandatory-breach-reporting-under-indias-dpdp-law-k7-cybersecurity/",
-   "summary": "CXO Today reports: A ransomware attack that locks up corporate systems can legally qualify as a reportable personal data breach in India—even if hackers never steal a single file. According to a media background briefing released by K7 CyberSecurity on November 12, 2026,…",
-   "source": "DataBreaches.net",
-   "category": "ransomware",
-   "date": "2026-11-12T21:19:09+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T21:19:09+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "39360acccba04a84",
    "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
    "url": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
@@ -9907,49 +10019,6 @@
    "seen_count": 1
   },
   {
-   "id": "20d86bf867d2bc82",
-   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-   "url": "https://databreaches.net/2026/11/12/police-dismantle-gootloader-castlerat-stealc-malware-infrastructure/",
-   "summary": "Sergiu Gatlan reports: Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. Gootloader is a malware loader active since 2020, StealC is an infostealer that helps…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-12T15:45:24+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T15:45:24+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "badge": "Corroborated"
-  },
-  {
-   "id": "a679392f6321ec50",
-   "title": "Hong Kong Sogo data breach puts personal information of 820,000 members at risk",
-   "url": "https://databreaches.net/2026/11/12/hong-kong-sogo-data-breach-puts-personal-information-of-820000-members-at-risk/",
-   "summary": "Danny Mok reports: Major Hong Kong retailers Sogo and Chow Sang Sang have disclosed separate data breaches after unauthorised parties accessed their systems, potentially exposing the personal information of customers, including that of up to 820,000 Sogo loyalty members. The…",
-   "source": "DataBreaches.net",
-   "category": "breach",
-   "date": "2026-11-12T15:42:32+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T15:42:32+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0aad57d93e667100",
-   "title": "Unocoin Goes Dark As 81,000 Wallets Show Zero Holdings",
-   "url": "https://databreaches.net/2026/11/12/unocoin-goes-dark-as-81000-wallets-show-zero-holdings/",
-   "summary": "Damilola Esebame reports: Indian cryptocurrency exchange Unocoin said it discovered unauthorized access to its servers on 9 November and temporarily disabled user logins while its security team investigated. In its public notice, the exchange said its team was investigating the…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-12T15:40:24+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T15:40:24+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "b6cd1d92c2adabec",
    "title": "WhiteArmor gang claims responsibility for latest cyber attack on shipping giant Maersk",
    "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk",
@@ -10184,34 +10253,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-12T13:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0eb4e98326c1906a",
-   "title": "Study Provides Insights into Impact of Cyberattacks on Hospital Care",
-   "url": "https://databreaches.net/2026/11/12/study-provides-insights-into-impact-of-cyberattacks-on-hospital-care/",
-   "summary": "Steve Alder reports: A recent analysis by The Health Management Academy of cyberattacks on U.S. hospitals provides insights into the extent to which patient care is being disrupted by cyberattacks. A growing body of research shows an increase in medical complications and poorer…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-12T12:40:40+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T12:40:40+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "df87eb1335ad4f27",
-   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-   "url": "https://databreaches.net/2026/11/12/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-   "summary": "Lawrence Abrams reports: ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. As part of its investigation, ConnectWise has…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-12T12:37:30+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T12:37:30+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -11274,20 +11315,6 @@
    "seen_count": 1
   },
   {
-   "id": "424f8e5ef5ac7fc4",
-   "title": "Britain, France set out first guidelines for commercial hacking firms",
-   "url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
-   "summary": "The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses.",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-11T13:11:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T13:11:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "823f70a14924336f",
    "title": "TinstaPorn Android Malware Poses as Casino App to Collect User Data",
    "url": "https://hackread.com/tinstaporn-android-malware-casino-app-collect-user-data/",
@@ -11635,48 +11662,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-10T21:47:01+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "2acbf7b0a1f13e80",
-   "title": "U.S. CISA adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-   "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added IBM, SignalWire FreeSwitch, OpenSSH,…",
-   "source": "Security Affairs",
-   "category": "exploit",
-   "date": "2026-11-10T21:31:24+00:00",
-   "cves": [],
-   "first_seen": "2026-11-10T21:31:24+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
-  },
-  {
-   "id": "c9d200a425c20993",
-   "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-   "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
-   "source": "Dark Reading",
-   "category": "threat",
-   "date": "2026-11-10T21:01:14+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-10T21:01:14+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "6922144e7a8d86cd",
-   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
-   "url": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
-   "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.",
-   "source": "Dark Reading",
-   "category": "threat",
-   "date": "2026-11-10T20:41:45+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-10T20:41:45+00:00",
    "also_in": [],
    "seen_count": 1
   }
