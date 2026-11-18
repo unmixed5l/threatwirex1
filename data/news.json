@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-18T20:11:47.584802+00:00",
+ "updated": "2026-11-18T21:06:37.183123+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -74,6 +74,132 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "f83f4afbf79de25c",
+   "title": "Consensus mounts that tech outages were fueled by patching of AI-discovered vulnerabilities",
+   "url": "https://cyberscoop.com/tech-outages-ai-vulnerability-patching/",
+   "summary": "But cyberattacks aren’t directly to blame, Trump administration officials said.",
+   "source": "CyberScoop",
+   "category": "vuln",
+   "date": "2026-11-18T20:56:55+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:56:55+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "ede0adf4c578028e",
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-18T20:49:32+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:49:32+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "cebfa689962e40ae",
+   "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+   "url": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+   "summary": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
+   "source": "Dark Reading",
+   "category": "threat",
+   "date": "2026-11-18T20:45:49+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:45:49+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "33f8f6aa43e26574",
+   "title": "Judge signs off on sale of Spirit Airlines’ data to Google",
+   "url": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
+   "summary": "Google can take possession of defunct Spirit Airlines' data for $10 million, a federal bankruptcy judge has ruled. The tech giant agreed to protections as it plans to use the data in AI projects.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-18T20:39:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:39:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "27e5f548c7a1914c",
+   "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+   "url": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+   "summary": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
+   "source": "Dark Reading",
+   "category": "ransomware",
+   "date": "2026-11-18T20:38:42+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:38:42+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "309bb04de6518ebc",
+   "title": "Java4Shell flaw: Attackers probe critical JVM vulnerability",
+   "url": "https://www.scworld.com/news/java4shell-flaw-attackers-probe-critical-jvm-vulnerability",
+   "summary": "Attackers probe critical Java4Shell flaw as experts warn exploitation is likely and urge patching.",
+   "source": "SC Media",
+   "category": "exploit",
+   "date": "2026-11-18T20:16:24+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:16:24+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "012eeaa79a3fa866",
+   "title": "Russian national indicted for allegedly acting as a foreign agent targeting Silicon Valley tech and defense firm",
+   "url": "https://databreaches.net/2026/11/18/russian-national-indicted-for-allegedly-acting-as-a-foreign-agent-targeting-silicon-valley-tech-and-defense-firm/",
+   "summary": "SAN FRANCISCO – A federal grand jury has indicted Igor D’iu, a Russian national, on charges of conspiring to act as an agent of a foreign government, acting as an agent of a foreign government without notice to the Attorney General, interstate stalking, and fraud in connection…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-18T20:09:05+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:09:05+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "db1d82795c0b0074",
+   "title": "Trump administration officials size-up a bad stretch for tech",
+   "url": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
+   "summary": "Homeland Security Secretary Markwayne Mullin said the administration will reach out to industry to get companies to share more information about big patches before they take effect.",
+   "source": "The Record",
+   "category": "patch",
+   "date": "2026-11-18T20:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T20:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "ab37adcdb2bf6806",
+   "title": "North Carolina Arrests 2 involved in business email compromise scam of hospital",
+   "url": "https://databreaches.net/2026/11/18/north-carolina-arrests-2-involved-in-business-email-compromise-scam-of-hospital/",
+   "summary": "November 16 – The West Jefferson Police Department and the North Carolina State Bureau of Investigation (SBI) have arrested two men in a multi-state fraud investigation that began when Ashe Memorial Hospital lost more than $196,000 to a business email scam. Investigators say…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-18T19:58:40+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T19:58:40+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
    "id": "ea9ba29c00155fe8",
    "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
    "url": "https://isc.sans.edu/diary/rss/33532",
@@ -82,10 +208,10 @@
    "category": "vuln",
    "date": "2026-11-18T19:54:50+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T19:54:50+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "9f639cd35360f889",
@@ -96,10 +222,10 @@
    "category": "breach",
    "date": "2026-11-18T19:39:33+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T19:39:33+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "d5acfeb860fe36bb",
@@ -110,10 +236,10 @@
    "category": "threat",
    "date": "2026-11-18T19:16:11+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T19:16:11+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "f7e2b10e71948ef4",
@@ -124,10 +250,10 @@
    "category": "breach",
    "date": "2026-11-18T19:14:57+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T19:14:57+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "1336631baf90a7a0",
@@ -138,10 +264,23 @@
    "category": "threat",
    "date": "2026-11-18T19:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T19:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
+  },
+  {
+   "id": "2ad954584119feac",
+   "title": "Early Stable Update for Desktop",
+   "url": "http://chromereleases.googleblog.com/feeds/2393803926580133070/comments/default",
+   "summary": "The Stable channel has been updated to 159.0.8154.13/.14 for Windows , Mac as part of our early stable release to a small percentage of users. A full list of changes in this build is available in the log . You can find more details about early Stable releases here . Interested…",
+   "source": "Chrome Releases",
+   "category": "patch",
+   "date": "2026-11-18T18:58:35.648000+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T18:58:35.648000+00:00",
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "ad35669340d43217",
@@ -168,6 +307,7 @@
    "cves": [
     "CVE-2026-123007"
    ],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T18:31:17+00:00",
    "also_in": [
     {
@@ -188,8 +328,20 @@
    },
    "ssvc": "Track",
    "epss": 0.0,
-   "exploitation": "none",
-   "brief_tries": 1
+   "exploitation": "none"
+  },
+  {
+   "id": "262ae13d96639a3a",
+   "title": "Chrome Beta for Desktop Update",
+   "url": "http://chromereleases.googleblog.com/feeds/5545125925923610960/comments/default",
+   "summary": "The Beta channel has been updated to 159.0.8154.13 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you find a new issue, please let us know by filing a bug . The community help forum…",
+   "source": "Chrome Releases",
+   "category": "patch",
+   "date": "2026-11-18T18:28:33.180000+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T18:28:33.180000+00:00",
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "484d35e7e883f42f",
@@ -214,10 +366,10 @@
    "category": "vuln",
    "date": "2026-11-18T18:15:39+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T18:15:39+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "e2c1e055832b185a",
@@ -244,6 +396,7 @@
    "cves": [
     "CVE-2026-129448"
    ],
+   "brief_tries": 1,
    "first_seen": "2026-11-18T17:10:45+00:00",
    "also_in": [],
    "seen_count": 1,
@@ -258,8 +411,7 @@
    },
    "ssvc": "Track",
    "epss": 0.0164,
-   "exploitation": "none",
-   "brief_tries": 1
+   "exploitation": "none"
   },
   {
    "id": "4d21e756021aad15",
@@ -370,6 +522,21 @@
    "seen_count": 1
   },
   {
+   "id": "0555b5251216891b",
+   "title": "Curious Worm claims attack on eo***r******y.com",
+   "url": "https://www.ransomware.live/group/Curious Worm",
+   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "Curious Worm",
+   "date": "2026-11-18T16:50:42.306001+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:50:42.306001+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "23f98c422bb584da",
    "title": "Lessons learned from the recent critical PHP vulnerabilities",
    "url": "https://www.scworld.com/brief/lessons-learned-from-the-recent-critical-php-vulnerabilities",
@@ -435,6 +602,81 @@
    "date": "2026-11-18T16:28:32.710000+00:00",
    "cves": [],
    "first_seen": "2026-11-18T16:28:32.710000+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0a13c08d3176a767",
+   "title": "lockbit5 claims attack on primecareofmi.com",
+   "url": "https://www.ransomware.live/group/lockbit5",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "lockbit5",
+   "date": "2026-11-18T16:24:20.858819+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:24:20.858819+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "3b5340dd5f07f0f0",
+   "title": "lockbit5 claims attack on softlinefurniture.com",
+   "url": "https://www.ransomware.live/group/lockbit5",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "lockbit5",
+   "date": "2026-11-18T16:22:40.935082+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:22:40.935082+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "f11a89d2c96cc074",
+   "title": "lockbit5 claims attack on laguarda.com.ec",
+   "url": "https://www.ransomware.live/group/lockbit5",
+   "summary": "Listed on a ransomware group's leak site (EC). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "lockbit5",
+   "date": "2026-11-18T16:21:59.673919+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:21:59.673919+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "cd28d4eb8105a436",
+   "title": "lockbit5 claims attack on umraocashmere.com",
+   "url": "https://www.ransomware.live/group/lockbit5",
+   "summary": "Listed on a ransomware group's leak site (IN). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "lockbit5",
+   "date": "2026-11-18T16:21:16.680279+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:21:16.680279+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b7dfe06267d785f5",
+   "title": "lockbit5 claims attack on cih.com.vn",
+   "url": "https://www.ransomware.live/group/lockbit5",
+   "summary": "Listed on a ransomware group's leak site (VN). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "lockbit5",
+   "date": "2026-11-18T16:19:16.431131+00:00",
+   "cves": [],
+   "first_seen": "2026-11-18T16:19:16.431131+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1238,6 +1480,56 @@
    "seen_count": 1
   },
   {
+   "id": "122413bd849f4f44",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.  CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-18T12:00:00+00:00",
+   "cves": [
+    "CVE-2024-10441",
+    "CVE-2026-40217"
+   ],
+   "first_seen": "2026-11-18T12:00:00+00:00",
+   "also_in": [
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+    },
+    {
+     "source": "CISA Advisories",
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+    }
+   ],
+   "seen_count": 4,
+   "badge": "Actively exploited",
+   "cve_detail": {
+    "CVE-2024-10441": {
+     "epss": 0.0125,
+     "kev": true,
+     "kev_date": "2026-11-18",
+     "cvss": null,
+     "ssvc": "Attend"
+    },
+    "CVE-2026-40217": {
+     "epss": 0.1702,
+     "kev": true,
+     "kev_date": "2026-11-18",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.1702,
+   "exploitation": "active",
+   "kev": true
+  },
+  {
    "id": "57cf485fa9212e04",
    "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
    "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
@@ -1376,19 +1668,19 @@
    "seen_count": 1
   },
   {
-   "id": "f49e9f798bfe645f",
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "summary": "CISA has added one new vulnerability to its  Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack…",
-   "source": "CISA Advisories",
+   "id": "6d4c0d1d7e625746",
+   "title": "CVE-2026-115731 added to CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
+   "source": "CISA KEV",
    "category": "exploit",
-   "date": "2026-11-17T12:00:00+00:00",
+   "badge": "Actively exploited",
+   "kev": true,
    "cves": [
     "CVE-2026-115731"
    ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T12:00:00+00:00",
-   "kev": true,
+   "date": "2026-11-17T00:00:00+00:00",
+   "first_seen": "2026-11-17T00:00:00+00:00",
    "also_in": [
     {
      "source": "Security Affairs",
@@ -1397,14 +1689,9 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
     }
    ],
-   "seen_count": 4,
-   "badge": "Actively exploited",
+   "seen_count": 3,
    "cve_detail": {
     "CVE-2026-115731": {
      "epss": 0.0069,
@@ -1579,6 +1866,328 @@
    "seen_count": 1
   },
   {
+   "id": "506b0b188be54fee",
+   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.685050+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0605d9432b66f404",
+   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.685050+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "349f9013bb8b6e4a",
+   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.685050+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e25396af911d2368",
+   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.685050+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "2ff978abd6712dff",
+   "title": "se.com: 52,861 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.685050+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e2a80984c014f211",
+   "title": "books24.gr: 43,851 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.685050+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bc19616b086e5989",
+   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.665683+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "606d53923f4c9019",
+   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.665683+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "90b594e9b4c76d5c",
+   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.665683+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b0c469036c8f8c41",
+   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.665683+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "74208a7acb26dbbb",
+   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.665683+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "ea192d81222fb65a",
+   "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 21,273,739 records, listed Apr 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.639264+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "594b4d233a9ea11e",
+   "title": "CarGurus.com: 26,326,362 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 26,326,362 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.639264+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "80bb9916f750dedd",
+   "title": "Odido: 15,058,063 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 15,058,063 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.639264+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0ecde22c04a470b8",
+   "title": "PaneraBread.com: 9,189,762 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 9,189,762 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.639264+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "1be6b236c49fd49b",
+   "title": "Instagram: 17,017,038 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 17,017,038 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.639264+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "36618eebd9639158",
+   "title": "SoundCloud: 29,892,460 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 29,892,460 records, listed Dec 2025. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.639264+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b997dafa2d8fa046",
+   "title": "http://bbgpoint.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.384816+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "4c4ff139d55aa58e",
+   "title": "http://deepsearch.onion: 1,694 records in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: 1,694 records, hacking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.384816+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0dd7237b7194007f",
+   "title": "http://koeitecmoeurope.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.384816+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "ea93f55bed1a3d2b",
+   "title": "http://sonicbirds.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, booking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.384816+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "02f91575b8cd5eab",
+   "title": "http://peatix.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, events sector, listed Nov 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.384816+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "627b2553f5b8e456",
+   "title": "http://animaljam.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Oct 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-18T09:05:10.384816+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "fb5cecfd17b131fd",
    "title": "Ubuntu AI security patches are here, if you’re willing to test them yourself",
    "url": "https://www.helpnetsecurity.com/2026/11/18/ubuntu-ai-security-patches-edge-archive/",
@@ -1646,328 +2255,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T08:24:18+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "506b0b188be54fee",
-   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.503963+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0605d9432b66f404",
-   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.503963+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "349f9013bb8b6e4a",
-   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.503963+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e25396af911d2368",
-   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.503963+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "2ff978abd6712dff",
-   "title": "se.com: 52,861 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.503963+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e2a80984c014f211",
-   "title": "books24.gr: 43,851 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.503963+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ea192d81222fb65a",
-   "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 21,273,739 records, listed Apr 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.450639+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "594b4d233a9ea11e",
-   "title": "CarGurus.com: 26,326,362 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 26,326,362 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.450639+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "80bb9916f750dedd",
-   "title": "Odido: 15,058,063 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 15,058,063 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.450639+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0ecde22c04a470b8",
-   "title": "PaneraBread.com: 9,189,762 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 9,189,762 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.450639+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "1be6b236c49fd49b",
-   "title": "Instagram: 17,017,038 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 17,017,038 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.450639+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "36618eebd9639158",
-   "title": "SoundCloud: 29,892,460 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 29,892,460 records, listed Dec 2025. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.450639+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "bc19616b086e5989",
-   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.261216+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "606d53923f4c9019",
-   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.261216+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "90b594e9b4c76d5c",
-   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.261216+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0c469036c8f8c41",
-   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.261216+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "74208a7acb26dbbb",
-   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.261216+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b997dafa2d8fa046",
-   "title": "http://bbgpoint.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.049887+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "4c4ff139d55aa58e",
-   "title": "http://deepsearch.onion: 1,694 records in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: 1,694 records, hacking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.049887+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0dd7237b7194007f",
-   "title": "http://koeitecmoeurope.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.049887+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ea93f55bed1a3d2b",
-   "title": "http://sonicbirds.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, booking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.049887+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "02f91575b8cd5eab",
-   "title": "http://peatix.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, events sector, listed Nov 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.049887+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "627b2553f5b8e456",
-   "title": "http://animaljam.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Oct 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-18T08:10:27.049887+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -2480,64 +2767,6 @@
    "first_seen": "2026-11-18T00:15:28+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "7e81e02c48f57075",
-   "title": "CVE-2024-10441 added to CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
-   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
-   "source": "CISA KEV",
-   "category": "exploit",
-   "badge": "Actively exploited",
-   "kev": true,
-   "cves": [
-    "CVE-2024-10441"
-   ],
-   "date": "2026-11-18T00:00:00+00:00",
-   "first_seen": "2026-11-18T00:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2024-10441": {
-     "epss": 0.0125,
-     "kev": true,
-     "kev_date": "2026-11-18",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0125,
-   "exploitation": "active"
-  },
-  {
-   "id": "0e7c700b1934181d",
-   "title": "CVE-2026-40217 added to CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
-   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
-   "source": "CISA KEV",
-   "category": "exploit",
-   "badge": "Actively exploited",
-   "kev": true,
-   "cves": [
-    "CVE-2026-40217"
-   ],
-   "date": "2026-11-18T00:00:00+00:00",
-   "first_seen": "2026-11-18T00:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-40217": {
-     "epss": 0.1702,
-     "kev": true,
-     "kev_date": "2026-11-18",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.1702,
-   "exploitation": "active"
   },
   {
    "id": "0b824d10b2b3a20b",
@@ -4341,36 +4570,6 @@
    "seen_count": 1
   },
   {
-   "id": "4331a40535956af2",
-   "title": "Booba Project claims attack on Greater Elgin Family Care Center",
-   "url": "https://www.ransomware.live/group/Booba Project",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Booba Project",
-   "date": "2026-11-17T14:22:00.099749+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T14:22:00.099749+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ba5ecdcf9f7ab5ac",
-   "title": "Booba Project claims attack on Windcrest Fire Department",
-   "url": "https://www.ransomware.live/group/Booba Project",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Booba Project",
-   "date": "2026-11-17T14:21:39.240718+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T14:21:39.240718+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "c79301ae7765bbe1",
    "title": "Kaspersky warns of Telegram widget vulnerability linked to WebRAT malware",
    "url": "https://www.scworld.com/brief/kaspersky-warns-of-telegram-widget-vulnerability-linked-to-webrat-malware",
@@ -4385,21 +4584,6 @@
    "seen_count": 1
   },
   {
-   "id": "27bb62a2f177c109",
-   "title": "Booba Project claims attack on Cardinal Cushing Centers",
-   "url": "https://www.ransomware.live/group/Booba Project",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Booba Project",
-   "date": "2026-11-17T14:21:18.395020+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T14:21:18.395020+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "d0b04d089c00d170",
    "title": "New variant of Coffeeloader malware utilizes updated armoury packer",
    "url": "https://www.scworld.com/brief/new-variant-of-coffeeloader-malware-utilizes-updated-armoury-packer",
@@ -4410,36 +4594,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-17T14:21:05+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e2e8471e0a764f7f",
-   "title": "Booba Project claims attack on Botelho & Rodrigues",
-   "url": "https://www.ransomware.live/group/Booba Project",
-   "summary": "Listed on a ransomware group's leak site (PT). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Booba Project",
-   "date": "2026-11-17T14:20:57.552294+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T14:20:57.552294+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "7a43407205464dfa",
-   "title": "Booba Project claims attack on Clinton Assessors Board",
-   "url": "https://www.ransomware.live/group/Booba Project",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Booba Project",
-   "date": "2026-11-17T14:20:36.605283+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T14:20:36.605283+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -4627,21 +4781,6 @@
    "date": "2026-11-17T13:53:29+00:00",
    "cves": [],
    "first_seen": "2026-11-17T13:53:29+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "9d0ac1666a21a17e",
-   "title": "rhysida claims attack on KK Technologies Inc.",
-   "url": "https://www.ransomware.live/group/rhysida",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "rhysida",
-   "date": "2026-11-17T13:51:04.763619+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T13:51:04.763619+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -5371,20 +5510,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-17T10:15:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "657760e507364191",
-   "title": "Zero Trust Basics for Complex Modern Systems - Rob Allen - ASW #409",
-   "url": "https://www.scworld.com/podcast-segment/15138-zero-trust-basics-for-complex-modern-systems-rob-allen-asw-409",
-   "summary": "",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-17T10:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T10:00:00+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -8694,21 +8819,6 @@
    "seen_count": 1
   },
   {
-   "id": "b297d876237ef144",
-   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-   "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-   "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts.",
-   "source": "BleepingComputer",
-   "category": "threat",
-   "date": "2026-11-13T16:21:43+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-13T16:21:43+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "badge": "Corroborated"
-  },
-  {
    "id": "162be0ba5917897b",
    "title": "ChatGPT Wallet lets agents pay without seeing your card number",
    "url": "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
@@ -8929,34 +9039,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-13T14:47:26+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "d9d770fe986966fb",
-   "title": "Microsoft Outage 2026: What Happened and What the Law Says",
-   "url": "https://databreaches.net/2026/11/13/microsoft-outage-2026-what-happened-and-what-the-law-says/",
-   "summary": "While many are still focused on Microsoft’s global outage and Microsoft is still working on recovery, there is already a legal perspective. Edmarverson A. Santos of Diplomacy & Law writes: The Microsoft outage 2026 began on November 12, disrupting Exchange Online and several…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-13T14:47:17+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-13T14:47:17+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "af568f0b41b86683",
-   "title": "Over 144,000 Norwegian and Widerøe passengers affected by data breach",
-   "url": "https://databreaches.net/2026/11/13/over-144000-norwegian-and-wideroe-passengers-affected-by-data-breach/",
-   "summary": "The following is an automated translation of an article that originally appeared in Norwegian. Helge Aadland Carlsen and Martin Gundersen report: Information about 144,249 passengers at Norwegian and Widerøe has been leaked in connection with the data breach at the Spanish IT…",
-   "source": "DataBreaches.net",
-   "category": "breach",
-   "date": "2026-11-13T14:46:54+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-13T14:46:54+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -9900,20 +9982,6 @@
    "seen_count": 1
   },
   {
-   "id": "ab6f75b221b6962f",
-   "title": "Chrome for Android Update",
-   "url": "http://chromereleases.googleblog.com/feeds/6201514411391858397/comments/default",
-   "summary": "Hello Everyone! We've just released Chrome 158 (158.0.8127.36) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about early Stable releases here . This release includes stability and performance…",
-   "source": "Chrome Releases",
-   "category": "patch",
-   "date": "2026-11-12T23:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T23:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "aff3d68de6bc9bad",
    "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
    "url": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
@@ -9980,20 +10048,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-12T21:42:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0402f3549070fa7",
-   "title": "Early Stable Update for Desktop",
-   "url": "http://chromereleases.googleblog.com/feeds/8431039273737876800/comments/default",
-   "summary": "The Stable channel has been updated to 158.0.8127.36/.37 for Windows , Mac will be coming shortly as part of our early stable release to a small percentage of users. A full list of changes in this build is available in the log . You can find more details about early Stable…",
-   "source": "Chrome Releases",
-   "category": "patch",
-   "date": "2026-11-12T21:30:51.410000+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T21:30:51.410000+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -10488,20 +10542,6 @@
    "seen_count": 1
   },
   {
-   "id": "5209bb0904e312f1",
-   "title": "Romania says it stopped Russian cyberattack targeting government emails",
-   "url": "https://therecord.media/romania-russia-cyberattack-emails",
-   "summary": "Romania's intelligence agency said it stopped a cyber-espionage campaign by Russian state-linked hackers before the group exfiltrated sensitive data.",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-12T13:30:00+00:00",
-   "cves": [],
-   "first_seen": "2026-11-12T13:30:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
-  },
-  {
    "id": "bd85b9e49fe10da1",
    "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
    "url": "https://hackread.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
@@ -10512,20 +10552,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-12T13:15:03+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e447c2de7d90e5c8",
-   "title": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
-   "url": "https://therecord.media/kazakhstan-hackers-central-asia",
-   "summary": "Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-12T13:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T13:00:00+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -10621,20 +10647,6 @@
    "exploitation": "active"
   },
   {
-   "id": "3fea90422b4e52d4",
-   "title": "Siemens RUGGEDCOM APE1808",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
-   "summary": "View CSAF Summary Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the…",
-   "source": "CISA Advisories",
-   "category": "vuln",
-   "date": "2026-11-12T12:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-12T12:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "0b6d9bcd8811c95a",
    "title": "Siemens Building Automation and Energy Products",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
@@ -10671,6 +10683,20 @@
    "epss": 1.0,
    "exploitation": "active",
    "badge": "Actively exploited"
+  },
+  {
+   "id": "3fea90422b4e52d4",
+   "title": "Siemens RUGGEDCOM APE1808",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+   "summary": "View CSAF Summary Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-11-12T12:00:00+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-12T12:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "6b1c381ae9eb3b48",
@@ -11121,104 +11147,6 @@
    "seen_count": 1
   },
   {
-   "id": "bd00695af2e4eb16",
-   "title": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0325",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-11-11T17:00:00+00:00",
-   "cves": [
-    "CVE-2026-0325"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T17:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-0325": {
-     "epss": 0.0036,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0036,
-   "exploitation": "none"
-  },
-  {
-   "id": "708bd4136a4e0eef",
-   "title": "CVE-2026-0327 PAN-OS: Privilege Escalation Vulnerability in GlobalProtect (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0327",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-11-11T17:00:00+00:00",
-   "cves": [
-    "CVE-2026-0327"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T17:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-0327": {
-     "epss": 0.0037,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0037,
-   "exploitation": "none"
-  },
-  {
-   "id": "2f72fd954d6e0f45",
-   "title": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0331",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-11-11T17:00:00+00:00",
-   "cves": [
-    "CVE-2026-0331"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T17:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-0331": {
-     "epss": 0.0056,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0056,
-   "exploitation": "none"
-  },
-  {
-   "id": "52beed68275b7da3",
-   "title": "PAN-SA-2026-0014 Chromium: Monthly Vulnerability Update (November 2026) (Severity: HIGH)",
-   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0014",
-   "summary": "",
-   "source": "Palo Alto Advisories",
-   "category": "vuln",
-   "date": "2026-11-11T17:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T17:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "115085998c5315b3",
    "title": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0328",
@@ -11247,23 +11175,37 @@
    "exploitation": "none"
   },
   {
-   "id": "cd8aff4ae5587ae6",
-   "title": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0323",
+   "id": "52beed68275b7da3",
+   "title": "PAN-SA-2026-0014 Chromium: Monthly Vulnerability Update (November 2026) (Severity: HIGH)",
+   "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0014",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-11-11T17:00:00+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-11T17:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bd00695af2e4eb16",
+   "title": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0325",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-11-11T17:00:00+00:00",
    "cves": [
-    "CVE-2026-0323"
+    "CVE-2026-0325"
    ],
    "brief_tries": 2,
    "first_seen": "2026-11-11T17:00:00+00:00",
    "also_in": [],
    "seen_count": 1,
    "cve_detail": {
-    "CVE-2026-0323": {
-     "epss": 0.0015,
+    "CVE-2026-0325": {
+     "epss": 0.0036,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -11271,7 +11213,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0015,
+   "epss": 0.0036,
    "exploitation": "none"
   },
   {
@@ -11303,6 +11245,34 @@
    "exploitation": "none"
   },
   {
+   "id": "708bd4136a4e0eef",
+   "title": "CVE-2026-0327 PAN-OS: Privilege Escalation Vulnerability in GlobalProtect (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0327",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-11-11T17:00:00+00:00",
+   "cves": [
+    "CVE-2026-0327"
+   ],
+   "brief_tries": 2,
+   "first_seen": "2026-11-11T17:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-0327": {
+     "epss": 0.0037,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0037,
+   "exploitation": "none"
+  },
+  {
    "id": "9a3cd62d9a157405",
    "title": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
    "url": "https://security.paloaltonetworks.com/CVE-2026-0329",
@@ -11328,6 +11298,62 @@
    },
    "ssvc": "Track",
    "epss": 0.0043,
+   "exploitation": "none"
+  },
+  {
+   "id": "8e7f9f6027da7b45",
+   "title": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0326",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-11-11T17:00:00+00:00",
+   "cves": [
+    "CVE-2026-0326"
+   ],
+   "brief_tries": 2,
+   "first_seen": "2026-11-11T17:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-0326": {
+     "epss": 0.0043,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0043,
+   "exploitation": "none"
+  },
+  {
+   "id": "2f72fd954d6e0f45",
+   "title": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0331",
+   "summary": "",
+   "source": "Palo Alto Advisories",
+   "category": "vuln",
+   "date": "2026-11-11T17:00:00+00:00",
+   "cves": [
+    "CVE-2026-0331"
+   ],
+   "brief_tries": 2,
+   "first_seen": "2026-11-11T17:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-0331": {
+     "epss": 0.0056,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0056,
    "exploitation": "none"
   },
   {
@@ -11359,23 +11385,23 @@
    "exploitation": "none"
   },
   {
-   "id": "8e7f9f6027da7b45",
-   "title": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
-   "url": "https://security.paloaltonetworks.com/CVE-2026-0326",
+   "id": "cd8aff4ae5587ae6",
+   "title": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+   "url": "https://security.paloaltonetworks.com/CVE-2026-0323",
    "summary": "",
    "source": "Palo Alto Advisories",
    "category": "vuln",
    "date": "2026-11-11T17:00:00+00:00",
    "cves": [
-    "CVE-2026-0326"
+    "CVE-2026-0323"
    ],
    "brief_tries": 2,
    "first_seen": "2026-11-11T17:00:00+00:00",
    "also_in": [],
    "seen_count": 1,
    "cve_detail": {
-    "CVE-2026-0326": {
-     "epss": 0.0043,
+    "CVE-2026-0323": {
+     "epss": 0.0015,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -11383,7 +11409,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0043,
+   "epss": 0.0015,
    "exploitation": "none"
   },
   {
@@ -11649,63 +11675,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-11T10:42:36+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "d89d645c245f23ab",
-   "title": "November 2026 Patch Tuesday: 1,094 Flaws, One Exploited",
-   "url": "https://socradar.io/blog/november-2026-patch-tuesday-zero-day/",
-   "summary": "Microsoft’s November 2026 Patch Tuesday, released on November 10, 2026, fixes 1,094 vulnerabilities across Windows, Office, SQL Server, Exchange Server, SharePoint, Azure services, and developer tools. The total falls below October’s Patch Tuesday (1,413 flaws) but still makes…",
-   "source": "SOCRadar",
-   "category": "exploit",
-   "date": "2026-11-11T10:40:28+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T10:40:28+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "badge": "Corroborated"
-  },
-  {
-   "id": "4e594d410ebb9bad",
-   "title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
-   "url": "https://securelist.com/citrus-ransomware/121879/",
-   "summary": "We break down the Citrus Ransomware group's attacks: the attackers' TTPs and tooling, including VLESS traffic tunneling and LLM use, plus their links to Toy Ghouls.",
-   "source": "Securelist",
-   "category": "ransomware",
-   "date": "2026-11-11T10:00:25+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T10:00:25+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "01482f865beae0e3",
-   "title": "OT Incidents Hit a Third of Industrial Organizations, SANS Finds",
-   "url": "https://www.infosecurity-magazine.com/news/ot-incidents-third-industrial/",
-   "summary": "SANS Institute records largest single-year jump in ICS/OT cyber incidents",
-   "source": "Infosecurity Magazine",
-   "category": "threat",
-   "date": "2026-11-11T10:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T10:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "8bbf06293ad7dd5d",
-   "title": "Microsoft Fixes 1235 Flaws in Another Record Patch Tuesday",
-   "url": "https://www.infosecurity-magazine.com/news/microsoft-fixes-1235-flaws-record/",
-   "summary": "Microsoft patched a record-breaking 1235 CVEs in November’s Patch Tuesday",
-   "source": "Infosecurity Magazine",
-   "category": "patch",
-   "date": "2026-11-11T09:15:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-11T09:15:00+00:00",
    "also_in": [],
    "seen_count": 1
   }
