@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-21T20:54:44.271490+00:00",
+ "updated": "2026-11-21T21:54:40.444396+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -26,7 +26,7 @@
   "NCSC UK": "ok (20)",
   "CERT/CC Vulnerability Notes": "ok (15)",
   "Microsoft Security Response Center": "ok (5781)",
-  "Cisco Security Advisories": "failed: URLError",
+  "Cisco Security Advisories": "ok (50)",
   "Fortinet PSIRT": "ok (50)",
   "Palo Alto Advisories": "ok (25)",
   "Ubuntu Security Notices": "ok (10)",
@@ -50,7 +50,7 @@
   "Cyble": "ok (10)",
   "SOCRadar": "ok (10)",
   "Dark Web Informer": "ok (15)",
-  "Exploit-DB": "ok (50)",
+  "Exploit-DB": "failed: HTTPError",
   "Packet Storm": "failed: ParseError",
   "Full Disclosure": "ok (15)",
   "CVEfeed": "failed: ParseError",
@@ -112,6 +112,36 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-20T16:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "002416ec6b05cd55",
+   "title": "osiris claims attack on Kang Chiao International School (Linkou)",
+   "url": "https://www.ransomware.live/group/osiris",
+   "summary": "Listed on a ransomware group's leak site (TW). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "osiris",
+   "date": "2026-11-21T17:23:07.745050+00:00",
+   "cves": [],
+   "first_seen": "2026-11-21T17:23:07.745050+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "5245f6443777cb6f",
+   "title": "incransom claims attack on Regions Behavioral Hospital",
+   "url": "https://www.ransomware.live/group/incransom",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "incransom",
+   "date": "2026-11-21T17:20:46.157162+00:00",
+   "cves": [],
+   "first_seen": "2026-11-21T17:20:46.157162+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -362,20 +392,6 @@
    "seen_count": 1
   },
   {
-   "id": "e308213d41986638",
-   "title": "Fake GTA VI Streaming Client Installs Data-Stealing Malware on Windows PCs",
-   "url": "https://hackread.com/fake-gta-vi-streaming-client-malware-windows-pc/",
-   "summary": "Bitdefender warns of an active GTA VI streaming scam targeting Windows gamers with malware that can steal stored passwords and cryptocurrency wallets.",
-   "source": "Hackread",
-   "category": "threat",
-   "date": "2026-11-21T08:57:36+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T08:57:36+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "ea192d81222fb65a",
    "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
    "url": "https://dehashed.com/",
@@ -383,7 +399,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.320577+00:00",
+   "date": "2026-11-21T09:53:03.031626+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -397,7 +413,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.320577+00:00",
+   "date": "2026-11-21T09:53:03.031626+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -411,7 +427,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.320577+00:00",
+   "date": "2026-11-21T09:53:03.031626+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -425,7 +441,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.320577+00:00",
+   "date": "2026-11-21T09:53:03.031626+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -439,7 +455,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.320577+00:00",
+   "date": "2026-11-21T09:53:03.031626+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -453,7 +469,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.320577+00:00",
+   "date": "2026-11-21T09:53:03.031626+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -467,7 +483,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.106077+00:00",
+   "date": "2026-11-21T09:53:02.886823+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -481,7 +497,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.106077+00:00",
+   "date": "2026-11-21T09:53:02.886823+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -495,7 +511,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.106077+00:00",
+   "date": "2026-11-21T09:53:02.886823+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -509,7 +525,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.106077+00:00",
+   "date": "2026-11-21T09:53:02.886823+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -523,7 +539,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.106077+00:00",
+   "date": "2026-11-21T09:53:02.886823+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -537,7 +553,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.106077+00:00",
+   "date": "2026-11-21T09:53:02.886823+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -551,7 +567,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.002993+00:00",
+   "date": "2026-11-21T09:53:02.830067+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -565,7 +581,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.002993+00:00",
+   "date": "2026-11-21T09:53:02.830067+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -579,7 +595,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.002993+00:00",
+   "date": "2026-11-21T09:53:02.830067+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -593,7 +609,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.002993+00:00",
+   "date": "2026-11-21T09:53:02.830067+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -607,7 +623,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:16.002993+00:00",
+   "date": "2026-11-21T09:53:02.830067+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -621,7 +637,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:15.923176+00:00",
+   "date": "2026-11-21T09:53:02.771651+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -635,7 +651,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:15.923176+00:00",
+   "date": "2026-11-21T09:53:02.771651+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -649,7 +665,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:15.923176+00:00",
+   "date": "2026-11-21T09:53:02.771651+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -663,7 +679,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:15.923176+00:00",
+   "date": "2026-11-21T09:53:02.771651+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -677,7 +693,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:15.923176+00:00",
+   "date": "2026-11-21T09:53:02.771651+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -691,9 +707,23 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T08:53:15.923176+00:00",
+   "date": "2026-11-21T09:53:02.771651+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e308213d41986638",
+   "title": "Fake GTA VI Streaming Client Installs Data-Stealing Malware on Windows PCs",
+   "url": "https://hackread.com/fake-gta-vi-streaming-client-malware-windows-pc/",
+   "summary": "Bitdefender warns of an active GTA VI streaming scam targeting Windows gamers with malware that can steal stored passwords and cryptocurrency wallets.",
+   "source": "Hackread",
+   "category": "threat",
+   "date": "2026-11-21T08:57:36+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-21T08:57:36+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -4809,36 +4839,6 @@
    "seen_count": 1
   },
   {
-   "id": "bf3c6511a58a517c",
-   "title": "SoulGroup claims attack on Merritt Woodwork",
-   "url": "https://www.ransomware.live/group/SoulGroup",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "SoulGroup",
-   "date": "2026-11-19T14:09:08.472616+00:00",
-   "cves": [],
-   "first_seen": "2026-11-19T14:09:08.472616+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "588b39972470332c",
-   "title": "SoulGroup claims attack on Laempe Reich",
-   "url": "https://www.ransomware.live/group/SoulGroup",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "SoulGroup",
-   "date": "2026-11-19T14:08:22.773878+00:00",
-   "cves": [],
-   "first_seen": "2026-11-19T14:08:22.773878+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "8ba163b7a11bb8b8",
    "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
    "url": "https://hackread.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
@@ -6781,10 +6781,10 @@
    "category": "threat",
    "date": "2026-11-18T10:00:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T10:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "9f62b2f4e8a2aa0b",
@@ -6963,10 +6963,10 @@
    "category": "threat",
    "date": "2026-11-18T06:00:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T06:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "f0ed0fdc40d96a21",
@@ -6977,10 +6977,10 @@
    "category": "threat",
    "date": "2026-11-18T06:00:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-18T06:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "ee9a23761ba06bf0",
@@ -7107,6 +7107,7 @@
     "CVE-2026-90817"
    ],
    "date": "2026-11-18T00:00:00+00:00",
+   "brief_tries": 2,
    "first_seen": "2026-11-18T00:00:00+00:00",
    "also_in": [],
    "seen_count": 1,
@@ -7121,8 +7122,7 @@
    },
    "ssvc": "Attend",
    "epss": 0.334,
-   "exploitation": "active",
-   "brief_tries": 1
+   "exploitation": "active"
   },
   {
    "id": "05040e73f0cf013b",
@@ -7137,6 +7137,7 @@
     "CVE-2026-90436"
    ],
    "date": "2026-11-18T00:00:00+00:00",
+   "brief_tries": 2,
    "first_seen": "2026-11-18T00:00:00+00:00",
    "also_in": [
     {
@@ -7156,8 +7157,7 @@
    },
    "ssvc": "Attend",
    "epss": 0.0381,
-   "exploitation": "active",
-   "brief_tries": 1
+   "exploitation": "active"
   },
   {
    "id": "c36817af9a4b18e2",
@@ -7171,7 +7171,7 @@
    "first_seen": "2026-11-18T00:00:00+00:00",
    "also_in": [],
    "seen_count": 1,
-   "brief_tries": 1
+   "brief_tries": 2
   },
   {
    "id": "bc11b4ad3e741de6",
@@ -7238,10 +7238,10 @@
    "category": "ransomware",
    "date": "2026-11-17T22:01:28+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-17T22:01:28+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "ddec81ba80b1014f",
@@ -7664,7 +7664,8 @@
    },
    "ssvc": "Track*",
    "epss": 0.4564,
-   "exploitation": "poc"
+   "exploitation": "poc",
+   "brief_tries": 1
   },
   {
    "id": "a2076d4177b97094",
@@ -7773,7 +7774,7 @@
    "category": "threat",
    "date": "2026-11-17T16:51:49+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-17T16:51:49+00:00",
    "also_in": [],
    "seen_count": 1
@@ -7843,7 +7844,7 @@
    "category": "vuln",
    "date": "2026-11-17T15:30:00+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-17T15:30:00+00:00",
    "also_in": [],
    "seen_count": 1
@@ -7859,7 +7860,8 @@
    "cves": [],
    "first_seen": "2026-11-17T15:17:28+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "6e6dc720e11fedbc",
@@ -7870,7 +7872,7 @@
    "category": "threat",
    "date": "2026-11-17T15:13:38+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-17T15:13:38+00:00",
    "also_in": [],
    "seen_count": 1
