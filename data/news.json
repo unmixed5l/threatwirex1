@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-21T14:11:41.026567+00:00",
+ "updated": "2026-11-21T15:01:04.859273+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -73,6 +73,20 @@
  },
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
+  {
+   "id": "efef5bd50b96f7db",
+   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies.",
+   "source": "BleepingComputer",
+   "category": "breach",
+   "date": "2026-11-21T14:26:04+00:00",
+   "cves": [],
+   "first_seen": "2026-11-21T14:26:04+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
   {
    "id": "21520cce0b83a7ba",
    "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
@@ -312,105 +326,6 @@
    "seen_count": 1
   },
   {
-   "id": "dfb59f3db2f64602",
-   "title": "Inception claims attack on Lucid Motors",
-   "url": "https://www.ransomware.live/group/Inception",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Inception",
-   "date": "2026-11-21T02:51:53.714936+00:00",
-   "cves": [],
-   "first_seen": "2026-11-21T02:51:53.714936+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "506b0b188be54fee",
-   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.230537+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0605d9432b66f404",
-   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.230537+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "349f9013bb8b6e4a",
-   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.230537+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e25396af911d2368",
-   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.230537+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "2ff978abd6712dff",
-   "title": "se.com: 52,861 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.230537+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e2a80984c014f211",
-   "title": "books24.gr: 43,851 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.230537+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "ea192d81222fb65a",
    "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
    "url": "https://dehashed.com/",
@@ -418,7 +333,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.155452+00:00",
+   "date": "2026-11-21T02:59:41.663154+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -432,7 +347,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.155452+00:00",
+   "date": "2026-11-21T02:59:41.663154+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -446,7 +361,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.155452+00:00",
+   "date": "2026-11-21T02:59:41.663154+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -460,7 +375,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.155452+00:00",
+   "date": "2026-11-21T02:59:41.663154+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -474,7 +389,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.155452+00:00",
+   "date": "2026-11-21T02:59:41.663154+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -488,9 +403,93 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:17.155452+00:00",
+   "date": "2026-11-21T02:59:41.663154+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "506b0b188be54fee",
+   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-21T02:59:41.475045+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0605d9432b66f404",
+   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-21T02:59:41.475045+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "349f9013bb8b6e4a",
+   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-21T02:59:41.475045+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e25396af911d2368",
+   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-21T02:59:41.475045+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "2ff978abd6712dff",
+   "title": "se.com: 52,861 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-21T02:59:41.475045+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e2a80984c014f211",
+   "title": "books24.gr: 43,851 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-21T02:59:41.475045+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -502,7 +501,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.975349+00:00",
+   "date": "2026-11-21T02:59:41.438723+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -516,7 +515,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.975349+00:00",
+   "date": "2026-11-21T02:59:41.438723+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -530,7 +529,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.975349+00:00",
+   "date": "2026-11-21T02:59:41.438723+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -544,7 +543,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.975349+00:00",
+   "date": "2026-11-21T02:59:41.438723+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -558,7 +557,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.975349+00:00",
+   "date": "2026-11-21T02:59:41.438723+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -572,7 +571,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.942839+00:00",
+   "date": "2026-11-21T02:59:41.352915+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -586,7 +585,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.942839+00:00",
+   "date": "2026-11-21T02:59:41.352915+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -600,7 +599,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.942839+00:00",
+   "date": "2026-11-21T02:59:41.352915+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -614,7 +613,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.942839+00:00",
+   "date": "2026-11-21T02:59:41.352915+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -628,7 +627,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.942839+00:00",
+   "date": "2026-11-21T02:59:41.352915+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -642,9 +641,24 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T02:10:16.942839+00:00",
+   "date": "2026-11-21T02:59:41.352915+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "dfb59f3db2f64602",
+   "title": "Inception claims attack on Lucid Motors",
+   "url": "https://www.ransomware.live/group/Inception",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "Inception",
+   "date": "2026-11-21T02:51:53.714936+00:00",
+   "cves": [],
+   "first_seen": "2026-11-21T02:51:53.714936+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -875,23 +889,23 @@
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-123007": {
-     "epss": 0.0603,
+     "epss": 0.2986,
      "kev": false,
      "kev_date": null,
      "cvss": null,
-     "ssvc": "Track"
+     "ssvc": "Track*"
     },
     "CVE-2026-123633": {
-     "epss": 0.0609,
+     "epss": 0.1752,
      "kev": false,
      "kev_date": null,
      "cvss": null,
-     "ssvc": "Track"
+     "ssvc": "Track*"
     }
    },
-   "ssvc": "Track",
-   "epss": 0.0609,
-   "exploitation": "none"
+   "ssvc": "Track*",
+   "epss": 0.2986,
+   "exploitation": "poc"
   },
   {
    "id": "3096395bb6b739c9",
@@ -1024,7 +1038,7 @@
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-23871": {
-     "epss": 0.0,
+     "epss": 0.0048,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -1032,7 +1046,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0,
+   "epss": 0.0048,
    "exploitation": "none"
   },
   {
@@ -1320,16 +1334,16 @@
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-114938": {
-     "epss": 0.0091,
+     "epss": 0.4564,
      "kev": false,
      "kev_date": null,
      "cvss": null,
-     "ssvc": "Track"
+     "ssvc": "Track*"
     }
    },
-   "ssvc": "Track",
-   "epss": 0.0091,
-   "exploitation": "none"
+   "ssvc": "Track*",
+   "epss": 0.4564,
+   "exploitation": "poc"
   },
   {
    "id": "02bffd6ce662caf0",
@@ -2164,7 +2178,7 @@
    "seen_count": 5,
    "cve_detail": {
     "CVE-2026-123890": {
-     "epss": 0.0084,
+     "epss": 0.0299,
      "kev": true,
      "kev_date": "2026-11-20",
      "cvss": null,
@@ -2172,7 +2186,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0084,
+   "epss": 0.0299,
    "exploitation": "active"
   },
   {
@@ -2431,14 +2445,14 @@
    "badge": "Actively exploited",
    "cve_detail": {
     "CVE-2025-42884": {
-     "epss": 0.0028,
+     "epss": 0.0071,
      "kev": true,
      "kev_date": "2026-11-20",
      "cvss": null,
      "ssvc": "Attend"
     },
     "CVE-2026-76466": {
-     "epss": 0.0042,
+     "epss": 0.0219,
      "kev": true,
      "kev_date": "2026-11-20",
      "cvss": null,
@@ -2446,7 +2460,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0042,
+   "epss": 0.0219,
    "exploitation": "active"
   },
   {
@@ -2494,7 +2508,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-99312": {
-     "epss": 0.0015,
+     "epss": 0.0019,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -2502,7 +2516,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0015,
+   "epss": 0.0019,
    "exploitation": "none"
   },
   {
@@ -2593,7 +2607,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-126714": {
-     "epss": 0.1759,
+     "epss": 0.131,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -2601,7 +2615,7 @@
     }
    },
    "ssvc": "Track*",
-   "epss": 0.1759,
+   "epss": 0.131,
    "exploitation": "poc"
   },
   {
@@ -2683,7 +2697,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-132825": {
-     "epss": 0.0019,
+     "epss": 0.0198,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -2691,7 +2705,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0019,
+   "epss": 0.0198,
    "exploitation": "none"
   },
   {
@@ -3096,7 +3110,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-125283": {
-     "epss": 0.0045,
+     "epss": 0.0138,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -3104,7 +3118,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0045,
+   "epss": 0.0138,
    "exploitation": "none"
   },
   {
@@ -3124,7 +3138,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-114939": {
-     "epss": 0.003,
+     "epss": 0.0031,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -3132,7 +3146,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.003,
+   "epss": 0.0031,
    "exploitation": "none"
   },
   {
@@ -3230,7 +3244,7 @@
    "seen_count": 2,
    "cve_detail": {
     "CVE-2026-129448": {
-     "epss": 0.0119,
+     "epss": 0.0546,
      "kev": true,
      "kev_date": "2026-11-20",
      "cvss": null,
@@ -3238,7 +3252,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0119,
+   "epss": 0.0546,
    "exploitation": "active"
   },
   {
@@ -4343,7 +4357,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-115560": {
-     "epss": 0.5643,
+     "epss": 0.7112,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -4351,7 +4365,7 @@
     }
    },
    "ssvc": "Track*",
-   "epss": 0.5643,
+   "epss": 0.7112,
    "exploitation": "poc"
   },
   {
@@ -4945,7 +4959,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-125132": {
-     "epss": 0.0,
+     "epss": 0.0084,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -4953,7 +4967,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0,
+   "epss": 0.0084,
    "exploitation": "none"
   },
   {
@@ -5246,10 +5260,10 @@
    "category": "threat",
    "date": "2026-11-19T09:31:26+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-19T09:31:26+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "7aba46b2e297d42b",
@@ -5262,7 +5276,8 @@
    "cves": [],
    "first_seen": "2026-11-19T09:23:21+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "bfadadb8ef76265d",
@@ -5275,7 +5290,8 @@
    "cves": [],
    "first_seen": "2026-11-19T09:21:19+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "c31168ebf53521e3",
@@ -5288,7 +5304,8 @@
    "cves": [],
    "first_seen": "2026-11-19T09:20:00+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "ce554e89b4049973",
@@ -5299,7 +5316,7 @@
    "category": "exploit",
    "date": "2026-11-19T09:10:58+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T09:10:58+00:00",
    "also_in": [],
    "seen_count": 1
@@ -5313,7 +5330,7 @@
    "category": "threat",
    "date": "2026-11-19T08:55:45+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T08:55:45+00:00",
    "also_in": [],
    "seen_count": 1
@@ -5327,7 +5344,7 @@
    "category": "exploit",
    "date": "2026-11-19T08:42:11+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T08:42:11+00:00",
    "also_in": [],
    "seen_count": 1
@@ -5341,7 +5358,7 @@
    "category": "ransomware",
    "date": "2026-11-19T08:21:15+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T08:21:15+00:00",
    "also_in": [],
    "seen_count": 1
@@ -5355,7 +5372,7 @@
    "category": "exploit",
    "date": "2026-11-19T08:14:00+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T08:14:00+00:00",
    "also_in": [],
    "seen_count": 1
@@ -5371,7 +5388,8 @@
    "cves": [],
    "first_seen": "2026-11-19T08:00:00+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "59d3b792db480830",
@@ -5382,7 +5400,7 @@
    "category": "threat",
    "date": "2026-11-19T08:00:00+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T08:00:00+00:00",
    "also_in": [],
    "seen_count": 1
@@ -6481,14 +6499,14 @@
    "badge": "Actively exploited",
    "cve_detail": {
     "CVE-2024-10441": {
-     "epss": 0.0242,
+     "epss": 0.0313,
      "kev": true,
      "kev_date": "2026-11-18",
      "cvss": null,
      "ssvc": "Attend"
     },
     "CVE-2026-40217": {
-     "epss": 0.689,
+     "epss": 0.78,
      "kev": true,
      "kev_date": "2026-11-18",
      "cvss": null,
@@ -6496,7 +6514,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.689,
+   "epss": 0.78,
    "exploitation": "active"
   },
   {
@@ -7016,7 +7034,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-90817": {
-     "epss": 0.2566,
+     "epss": 0.334,
      "kev": true,
      "kev_date": "2026-11-18",
      "cvss": null,
@@ -7024,7 +7042,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.2566,
+   "epss": 0.334,
    "exploitation": "active"
   },
   {
@@ -7050,7 +7068,7 @@
    "seen_count": 2,
    "cve_detail": {
     "CVE-2026-90436": {
-     "epss": 0.0183,
+     "epss": 0.0381,
      "kev": true,
      "kev_date": "2026-11-18",
      "cvss": null,
@@ -7058,7 +7076,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0183,
+   "epss": 0.0381,
    "exploitation": "active"
   },
   {
@@ -7385,14 +7403,14 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-76964": {
-     "epss": 0.0043,
+     "epss": 0.0084,
      "kev": false,
      "kev_date": null,
      "cvss": null,
      "ssvc": "Track"
     },
     "CVE-2026-89126": {
-     "epss": 0.0043,
+     "epss": 0.007,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -7400,7 +7418,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.0043,
+   "epss": 0.0084,
    "exploitation": "none"
   },
   {
@@ -7555,16 +7573,16 @@
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-114938": {
-     "epss": 0.0091,
+     "epss": 0.4564,
      "kev": false,
      "kev_date": null,
      "cvss": null,
-     "ssvc": "Track"
+     "ssvc": "Track*"
     }
    },
-   "ssvc": "Track",
-   "epss": 0.0091,
-   "exploitation": "none"
+   "ssvc": "Track*",
+   "epss": 0.4564,
+   "exploitation": "poc"
   },
   {
    "id": "a2076d4177b97094",
@@ -8433,7 +8451,7 @@
    "badge": "Actively exploited",
    "cve_detail": {
     "CVE-2026-111497": {
-     "epss": 0.8237,
+     "epss": 0.9993,
      "kev": true,
      "kev_date": "2026-10-27",
      "cvss": null,
@@ -8441,7 +8459,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.8237,
+   "epss": 0.9993,
    "exploitation": "active"
   },
   {
@@ -8885,20 +8903,6 @@
    "seen_count": 1
   },
   {
-   "id": "50204565d4ff3ec5",
-   "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-   "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-   "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and…",
-   "source": "BleepingComputer",
-   "category": "threat",
-   "date": "2026-11-17T02:12:17+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T02:12:17+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "e65b54b96a122d5a",
    "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
    "url": "https://isc.sans.edu/diary/rss/33524",
@@ -8958,7 +8962,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-115731": {
-     "epss": 0.0069,
+     "epss": 0.0123,
      "kev": true,
      "kev_date": "2026-11-17",
      "cvss": null,
@@ -8966,7 +8970,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0069,
+   "epss": 0.0123,
    "exploitation": "active"
   },
   {
@@ -9350,7 +9354,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-123158": {
-     "epss": 0.189,
+     "epss": 0.8768,
      "kev": true,
      "kev_date": "2026-11-09",
      "cvss": null,
@@ -9358,7 +9362,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.189,
+   "epss": 0.8768,
    "exploitation": "active",
    "badge": "Actively exploited"
   },
@@ -10853,16 +10857,16 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-119618": {
-     "epss": 0.0158,
+     "epss": 0.1582,
      "kev": false,
      "kev_date": null,
      "cvss": null,
-     "ssvc": "Track"
+     "ssvc": "Track*"
     }
    },
    "ssvc": "Track",
-   "epss": 0.0158,
-   "exploitation": "none"
+   "epss": 0.1582,
+   "exploitation": "poc"
   },
   {
    "id": "da110ad0aa4a88e1",
@@ -10934,14 +10938,14 @@
    "badge": "Actively exploited",
    "cve_detail": {
     "CVE-2026-114713": {
-     "epss": 0.0047,
+     "epss": 0.0115,
      "kev": true,
      "kev_date": "2026-11-13",
      "cvss": null,
      "ssvc": "Attend"
     },
     "CVE-2026-123039": {
-     "epss": 0.0194,
+     "epss": 0.0327,
      "kev": true,
      "kev_date": "2026-11-13",
      "cvss": null,
@@ -10949,7 +10953,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0194,
+   "epss": 0.0327,
    "exploitation": "active"
   },
   {
