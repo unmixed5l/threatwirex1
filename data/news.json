@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-21T13:11:51.185689+00:00",
+ "updated": "2026-11-21T14:11:41.026567+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -82,6 +82,7 @@
    "category": "patch",
    "date": "2026-11-21T12:59:16+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:59:16+00:00",
    "also_in": [
     {
@@ -90,8 +91,7 @@
     }
    ],
    "seen_count": 2,
-   "badge": "Corroborated",
-   "brief_tries": 1
+   "badge": "Corroborated"
   },
   {
    "id": "4265baf9dd064b62",
@@ -102,10 +102,10 @@
    "category": "threat",
    "date": "2026-11-21T12:54:31+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:54:31+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "08dc4192c03efe8f",
@@ -116,10 +116,10 @@
    "category": "threat",
    "date": "2026-11-21T12:37:22+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:37:22+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "6569893361d72dfa",
@@ -130,10 +130,10 @@
    "category": "threat",
    "date": "2026-11-21T12:37:13+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:37:13+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "3769e86da6daf2d9",
@@ -144,10 +144,10 @@
    "category": "breach",
    "date": "2026-11-21T12:37:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:37:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "4945b68dabbd339d",
@@ -158,10 +158,10 @@
    "category": "threat",
    "date": "2026-11-21T12:36:54+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:36:54+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "55e143d758f8f401",
@@ -172,6 +172,7 @@
    "category": "ransomware",
    "date": "2026-11-21T12:36:47+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:36:47+00:00",
    "also_in": [
     {
@@ -180,8 +181,7 @@
     }
    ],
    "seen_count": 2,
-   "badge": "Corroborated",
-   "brief_tries": 1
+   "badge": "Corroborated"
   },
   {
    "id": "6231e48f3bee97e2",
@@ -192,10 +192,10 @@
    "category": "exploit",
    "date": "2026-11-21T12:08:50+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T12:08:50+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "0ad755f2681c3730",
@@ -206,10 +206,10 @@
    "category": "threat",
    "date": "2026-11-21T11:53:07+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-21T11:53:07+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "761885e6c02d6550",
@@ -334,7 +334,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.142844+00:00",
+   "date": "2026-11-21T02:10:17.230537+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -348,7 +348,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.142844+00:00",
+   "date": "2026-11-21T02:10:17.230537+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -362,7 +362,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.142844+00:00",
+   "date": "2026-11-21T02:10:17.230537+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -376,7 +376,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.142844+00:00",
+   "date": "2026-11-21T02:10:17.230537+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -390,7 +390,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.142844+00:00",
+   "date": "2026-11-21T02:10:17.230537+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -404,7 +404,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.142844+00:00",
+   "date": "2026-11-21T02:10:17.230537+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -418,7 +418,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.126856+00:00",
+   "date": "2026-11-21T02:10:17.155452+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -432,7 +432,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.126856+00:00",
+   "date": "2026-11-21T02:10:17.155452+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -446,7 +446,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.126856+00:00",
+   "date": "2026-11-21T02:10:17.155452+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -460,7 +460,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.126856+00:00",
+   "date": "2026-11-21T02:10:17.155452+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -474,7 +474,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.126856+00:00",
+   "date": "2026-11-21T02:10:17.155452+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -488,7 +488,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:29.126856+00:00",
+   "date": "2026-11-21T02:10:17.155452+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -502,7 +502,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.879007+00:00",
+   "date": "2026-11-21T02:10:16.975349+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -516,7 +516,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.879007+00:00",
+   "date": "2026-11-21T02:10:16.975349+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -530,7 +530,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.879007+00:00",
+   "date": "2026-11-21T02:10:16.975349+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -544,7 +544,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.879007+00:00",
+   "date": "2026-11-21T02:10:16.975349+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -558,7 +558,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.879007+00:00",
+   "date": "2026-11-21T02:10:16.975349+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -572,7 +572,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.708011+00:00",
+   "date": "2026-11-21T02:10:16.942839+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -586,7 +586,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.708011+00:00",
+   "date": "2026-11-21T02:10:16.942839+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -600,7 +600,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.708011+00:00",
+   "date": "2026-11-21T02:10:16.942839+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -614,7 +614,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.708011+00:00",
+   "date": "2026-11-21T02:10:16.942839+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -628,7 +628,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.708011+00:00",
+   "date": "2026-11-21T02:10:16.942839+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -642,7 +642,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-21T01:10:28.708011+00:00",
+   "date": "2026-11-21T02:10:16.942839+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -4967,7 +4967,7 @@
    "cves": [
     "CVE-2026-126088"
    ],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T12:00:00+00:00",
    "also_in": [],
    "seen_count": 1,
@@ -5232,7 +5232,7 @@
    "category": "threat",
    "date": "2026-11-19T09:41:18+00:00",
    "cves": [],
-   "brief_tries": 1,
+   "brief_tries": 2,
    "first_seen": "2026-11-19T09:41:18+00:00",
    "also_in": [],
    "seen_count": 1
@@ -5248,7 +5248,8 @@
    "cves": [],
    "first_seen": "2026-11-19T09:31:26+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "7aba46b2e297d42b",
