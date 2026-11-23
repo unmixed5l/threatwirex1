@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-23T12:07:16.934568+00:00",
+ "updated": "2026-11-23T13:34:58.594548+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -74,18 +74,256 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "d8056211c41ea366",
+   "title": "US Lawmakers Propose CISA Board to Review Major Cyber Incidents",
+   "url": "https://www.infosecurity-magazine.com/news/us-lawmakers-bill-cisa-review/",
+   "summary": "Two Congressmen have proposed to establish a cyber incident review board within the US Cybersecurity and Infrastructure Security Agency",
+   "source": "Infosecurity Magazine",
+   "category": "threat",
+   "date": "2026-11-23T13:30:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T13:30:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "4be13f5936eab78f",
+   "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+   "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-23T13:28:45+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T13:28:45+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "851d3d22fd3bfffd",
+   "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+   "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+   "summary": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware.",
+   "source": "SecurityWeek",
+   "category": "vuln",
+   "date": "2026-11-23T13:26:22+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T13:26:22+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "dbf023aa772e626f",
+   "title": "President Trump appoints Pentagon official as national cyber director",
+   "url": "https://www.scworld.com/brief/president-trump-appoints-pentagon-official-as-national-cyber-director",
+   "summary": "",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-23T13:25:05+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T13:25:05+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "6fbe0c1fb6dc12e9",
+   "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/",
+   "summary": "Hackers breached e-commerce platform Cleverbridge and made off with payment card data stored on it, the company has confirmed. Cleverbridge handles purchases, payments and subscriptions for other businesses, and its website lists Red Hat, Sony, SUSE, Veeam, Tenable and Jamf…",
+   "source": "Help Net Security",
+   "category": "breach",
+   "date": "2026-11-23T13:00:14+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T13:00:14+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "2344145ae7e3b208",
+   "title": "FBI crime database reportedly hacked",
+   "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/fbi-crime-database-reportedly-hacked",
+   "summary": "The FBI is reportedly investigating a breach of the National Crime Information Center. What could this mean for you?",
+   "source": "Malwarebytes Labs",
+   "category": "threat",
+   "date": "2026-11-23T12:57:11+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T12:57:11+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "1b05051fde597631",
+   "title": "New York State Department of Financial Services Secures $6.75 Million in Cybersecurity Settlements with Rocket Mortgage and Mr. Cooper",
+   "url": "https://databreaches.net/2026/11/23/new-york-state-department-of-financial-services-secures-6-75-million-in-cybersecurity-settlements-with-rocket-mortgage-and-mr-cooper/",
+   "summary": "Settlements by NYSDFS with Rocket Mortgage and Mr. Cooper Highlight Importance of Effective Multi-Factor Authentication Controls and Timely Incident Reporting November 19, 2026 New York State Department of Financial Services Acting Superintendent Kaitlin Asrow today announced…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-23T12:45:40+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T12:45:40+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "000261bc0c29015b",
+   "title": "Peninsula Energy warns of disruption after Wyoming cyber incident",
+   "url": "https://databreaches.net/2026/11/23/peninsula-energy-warns-of-disruption-after-wyoming-cyber-incident/",
+   "summary": "DysruptionHub reports: Peninsula Energy said a cybersecurity incident at its Lance uranium project in Wyoming would temporarily affect operations as the company investigated a breach of its operating system. The Australian-listed company requested a trading halt to prepare an…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-23T12:45:27+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T12:45:27+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "6078bd158252748a",
+   "title": "CrowdStrike to acquire Zscaler for $43.9 billion",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/",
+   "summary": "CrowdStrike has agreed to acquire Zscaler in an all-stock deal with an enterprise value of about $43.9 billion. Deal terms Zscaler shareholders will receive 1.135 CrowdStrike shares for each Zscaler share. Based on CrowdStrike’s November 20, 2026 closing price, that implies…",
+   "source": "Help Net Security",
+   "category": "threat",
+   "date": "2026-11-23T12:41:18+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T12:41:18+00:00",
+   "also_in": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated",
+   "brief_tries": 1
+  },
+  {
+   "id": "33d65726f50ee8a4",
+   "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+   "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and…",
+   "source": "The Hacker News",
+   "category": "exploit",
+   "date": "2026-11-23T12:41:04+00:00",
+   "cves": [
+    "CVE-2026-84869"
+   ],
+   "first_seen": "2026-11-23T12:41:04+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-84869": {
+     "epss": 0.0117,
+     "kev": true,
+     "kev_date": "2026-09-11",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.0117,
+   "exploitation": "active",
+   "kev": true,
+   "badge": "Actively exploited",
+   "brief_tries": 1
+  },
+  {
+   "id": "759d50b40080dffe",
+   "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+   "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+   "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF)…",
+   "source": "The Hacker News",
+   "category": "vuln",
+   "date": "2026-11-23T12:28:09+00:00",
+   "cves": [
+    "CVE-2026-134624"
+   ],
+   "first_seen": "2026-11-23T12:28:09+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-134624": {
+     "epss": 0.0,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0,
+   "exploitation": "none",
+   "brief_tries": 1
+  },
+  {
+   "id": "d77f865b12d3f534",
+   "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/",
+   "summary": "Attackers have been spotted exploiting a critical vulnerability (CVE-2026-76466) in Cisco Expressway gateways to breach organizations, Russian security company F6 revealed late last week. The US Cybersecurity and Infrastructure Security Agency added the flaw to its Known…",
+   "source": "Help Net Security",
+   "category": "exploit",
+   "date": "2026-11-23T12:26:10+00:00",
+   "cves": [
+    "CVE-2026-76466"
+   ],
+   "first_seen": "2026-11-23T12:26:10+00:00",
+   "also_in": [
+    {
+     "source": "Infosecurity Magazine",
+     "url": "https://www.infosecurity-magazine.com/news/critical-cisco-expressway-flaw/"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Actively exploited",
+   "cve_detail": {
+    "CVE-2026-76466": {
+     "epss": 0.0219,
+     "kev": true,
+     "kev_date": "2026-11-20",
+     "cvss": null,
+     "ssvc": "Act"
+    }
+   },
+   "ssvc": "Act",
+   "epss": 0.0219,
+   "exploitation": "active",
+   "kev": true,
+   "brief_tries": 1
+  },
+  {
+   "id": "17e792aba6bb75ee",
+   "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+   "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+   "summary": "Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-23T12:16:20+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T12:16:20+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "f8665cc5b1ef467b",
    "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
    "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
-   "summary": "A Peruvian call center operator was sentenced to eight years in prison for stealing millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme.",
+   "summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme.",
    "source": "BleepingComputer",
    "category": "threat",
    "date": "2026-11-23T12:02:23+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T12:02:23+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "2a48f9c8ed410a5f",
@@ -96,10 +334,10 @@
    "category": "threat",
    "date": "2026-11-23T12:00:54+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T12:00:54+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "c412b57f8a94b4cf",
@@ -110,10 +348,10 @@
    "category": "threat",
    "date": "2026-11-23T11:44:18+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T11:44:18+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "82eb1e7bc2f57954",
@@ -124,10 +362,10 @@
    "category": "threat",
    "date": "2026-11-23T11:35:39+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T11:35:39+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "bc11c30f893ab623",
@@ -138,24 +376,10 @@
    "category": "exploit",
    "date": "2026-11-23T11:35:15+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T11:35:15+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
-  },
-  {
-   "id": "710e26685963f269",
-   "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
-   "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/",
-   "summary": "CrowdStrike expects the combined company to have more than $10 billion in annual recurring revenue.",
-   "source": "SecurityWeek",
-   "category": "threat",
-   "date": "2026-11-23T11:31:44+00:00",
-   "cves": [],
-   "first_seen": "2026-11-23T11:31:44+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "f1ae0c7fa7174d23",
@@ -166,10 +390,10 @@
    "category": "vuln",
    "date": "2026-11-23T11:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T11:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "1cfea13344026141",
@@ -183,6 +407,7 @@
     "CVE-2026-124251",
     "CVE-2026-57766"
    ],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T11:00:00+00:00",
    "also_in": [],
    "seen_count": 1,
@@ -204,8 +429,7 @@
    },
    "ssvc": "Track",
    "epss": 0.002,
-   "exploitation": "none",
-   "brief_tries": 1
+   "exploitation": "none"
   },
   {
    "id": "4b100c3be161ee94",
@@ -216,10 +440,10 @@
    "category": "breach",
    "date": "2026-11-23T10:55:57+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T10:55:57+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "ade3122cc9bd6da8",
@@ -230,10 +454,10 @@
    "category": "exploit",
    "date": "2026-11-23T10:49:38+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T10:49:38+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "e561a4b35863f029",
@@ -244,10 +468,10 @@
    "category": "breach",
    "date": "2026-11-23T10:45:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T10:45:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "1e1c6072e5e38b54",
@@ -258,6 +482,7 @@
    "category": "exploit",
    "date": "2026-11-23T10:34:01+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-23T10:34:01+00:00",
    "also_in": [
     {
@@ -266,8 +491,7 @@
     }
    ],
    "seen_count": 2,
-   "badge": "Corroborated",
-   "brief_tries": 1
+   "badge": "Corroborated"
   },
   {
    "id": "ca72045b083c31c9",
@@ -282,57 +506,6 @@
    "first_seen": "2026-11-23T10:00:43+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "925f615d574112f7",
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway…",
-   "source": "CISA Advisories",
-   "category": "exploit",
-   "date": "2026-11-20T12:00:00+00:00",
-   "cves": [
-    "CVE-2025-42884",
-    "CVE-2026-76466"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T12:00:00+00:00",
-   "kev": true,
-   "also_in": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
-    },
-    {
-     "source": "Infosecurity Magazine",
-     "url": "https://www.infosecurity-magazine.com/news/critical-cisco-expressway-flaw/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
-    }
-   ],
-   "seen_count": 4,
-   "badge": "Actively exploited",
-   "cve_detail": {
-    "CVE-2025-42884": {
-     "epss": 0.0071,
-     "kev": true,
-     "kev_date": "2026-11-20",
-     "cvss": null,
-     "ssvc": "Attend"
-    },
-    "CVE-2026-76466": {
-     "epss": 0.0219,
-     "kev": true,
-     "kev_date": "2026-11-20",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0219,
-   "exploitation": "active"
   },
   {
    "id": "019064fe1d169b65",
@@ -439,7 +612,7 @@
   },
   {
    "id": "80927b607c9d99a7",
-   "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+   "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
    "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
    "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in…",
    "source": "The Hacker News",
@@ -504,6 +677,19 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-23T07:44:44+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "5d81d8091009c293",
+   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild.",
+   "source": "BleepingComputer",
+   "category": "exploit",
+   "date": "2026-11-23T07:44:19+00:00",
+   "cves": [],
+   "first_seen": "2026-11-23T07:44:19+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1257,20 +1443,6 @@
    "seen_count": 1
   },
   {
-   "id": "9b531e94180b1d5e",
-   "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
-   "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
-   "summary": "Google lets enterprises put a checkpoint in front of an AI agent‘s actions. Semantic governance policies, in Preview on the Gemini platform, look at each tool call the agent’s model proposes and block it before it runs if the call doesn’t match the user’s request or breaks a…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-23T00:27:25+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-23T00:27:25+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "506b0b188be54fee",
    "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
    "url": "https://breachdirectory.org/",
@@ -1278,7 +1450,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.619743+00:00",
+   "date": "2026-11-23T01:33:33.719083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1292,7 +1464,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.619743+00:00",
+   "date": "2026-11-23T01:33:33.719083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1306,7 +1478,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.619743+00:00",
+   "date": "2026-11-23T01:33:33.719083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1320,7 +1492,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.619743+00:00",
+   "date": "2026-11-23T01:33:33.719083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1334,7 +1506,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.619743+00:00",
+   "date": "2026-11-23T01:33:33.719083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1348,7 +1520,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.619743+00:00",
+   "date": "2026-11-23T01:33:33.719083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1362,7 +1534,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.553784+00:00",
+   "date": "2026-11-23T01:33:33.683112+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1376,7 +1548,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.553784+00:00",
+   "date": "2026-11-23T01:33:33.683112+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1390,7 +1562,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.553784+00:00",
+   "date": "2026-11-23T01:33:33.683112+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1404,7 +1576,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.553784+00:00",
+   "date": "2026-11-23T01:33:33.683112+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1418,7 +1590,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.553784+00:00",
+   "date": "2026-11-23T01:33:33.683112+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1432,7 +1604,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.553784+00:00",
+   "date": "2026-11-23T01:33:33.683112+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1446,7 +1618,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.499581+00:00",
+   "date": "2026-11-23T01:33:33.487939+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1460,7 +1632,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.499581+00:00",
+   "date": "2026-11-23T01:33:33.487939+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1474,7 +1646,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.499581+00:00",
+   "date": "2026-11-23T01:33:33.487939+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1488,7 +1660,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.499581+00:00",
+   "date": "2026-11-23T01:33:33.487939+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1502,7 +1674,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.499581+00:00",
+   "date": "2026-11-23T01:33:33.487939+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1516,7 +1688,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.169932+00:00",
+   "date": "2026-11-23T01:33:33.234446+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1530,7 +1702,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.169932+00:00",
+   "date": "2026-11-23T01:33:33.234446+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1544,7 +1716,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.169932+00:00",
+   "date": "2026-11-23T01:33:33.234446+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1558,7 +1730,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.169932+00:00",
+   "date": "2026-11-23T01:33:33.234446+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1572,7 +1744,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.169932+00:00",
+   "date": "2026-11-23T01:33:33.234446+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1586,9 +1758,23 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-23T00:05:53.169932+00:00",
+   "date": "2026-11-23T01:33:33.234446+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "9b531e94180b1d5e",
+   "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+   "summary": "Google lets enterprises put a checkpoint in front of an AI agent‘s actions. Semantic governance policies, in Preview on the Gemini platform, look at each tool call the agent’s model proposes and block it before it runs if the call doesn’t match the user’s request or breaks a…",
+   "source": "Help Net Security",
+   "category": "threat",
+   "date": "2026-11-23T00:27:25+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-23T00:27:25+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -3018,10 +3204,6 @@
      "url": "https://socradar.io/blog/java4shell-cve-2026-114938-openjdk-rce/"
     },
     {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
-    },
-    {
      "source": "Fortinet PSIRT",
      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278"
     },
@@ -3030,7 +3212,7 @@
      "url": "https://blog.talosintelligence.com/java4shell/"
     }
    ],
-   "seen_count": 9,
+   "seen_count": 8,
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-114938": {
@@ -3626,20 +3808,6 @@
    "seen_count": 1
   },
   {
-   "id": "c5c3bf53d2076027",
-   "title": "UK financial regulators issue new cybersecurity guidance",
-   "url": "https://www.scworld.com/brief/uk-financial-regulators-issue-new-cybersecurity-guidance",
-   "summary": "According to IT Pro, UK financial regulators released draft cybersecurity guidance aimed at bolstering the resilience of banks, insurers and other financial services providers against evolving digital threats.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T15:28:52+00:00",
-   "cves": [],
-   "first_seen": "2026-11-20T15:28:52+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
-  },
-  {
    "id": "65538afb362b9a7b",
    "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
@@ -3933,6 +4101,65 @@
    "first_seen": "2026-11-20T12:00:00+00:00",
    "also_in": [],
    "seen_count": 1
+  },
+  {
+   "id": "925f615d574112f7",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-20T12:00:00+00:00",
+   "cves": [
+    "CVE-2025-42884",
+    "CVE-2026-76466"
+   ],
+   "brief_tries": 2,
+   "first_seen": "2026-11-20T12:00:00+00:00",
+   "kev": true,
+   "also_in": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+    },
+    {
+     "source": "CISA Advisories",
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+    },
+    {
+     "source": "CISA Advisories",
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+    }
+   ],
+   "seen_count": 6,
+   "badge": "Actively exploited",
+   "cve_detail": {
+    "CVE-2025-42884": {
+     "epss": 0.0071,
+     "kev": true,
+     "kev_date": "2026-11-20",
+     "cvss": null,
+     "ssvc": "Attend"
+    },
+    "CVE-2026-76466": {
+     "epss": 0.0219,
+     "kev": true,
+     "kev_date": "2026-11-20",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.0219,
+   "exploitation": "active"
   },
   {
    "id": "82d038c6d3891970",
@@ -4499,66 +4726,6 @@
    },
    "ssvc": "Attend",
    "epss": 0.0546,
-   "exploitation": "active"
-  },
-  {
-   "id": "ece4003cc3464df0",
-   "title": "CVE-2025-42884 added to CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
-   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
-   "source": "CISA KEV",
-   "category": "exploit",
-   "badge": "Actively exploited",
-   "kev": true,
-   "cves": [
-    "CVE-2025-42884"
-   ],
-   "date": "2026-11-20T00:00:00+00:00",
-   "brief_tries": 1,
-   "first_seen": "2026-11-20T00:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2025-42884": {
-     "epss": 0.0071,
-     "kev": true,
-     "kev_date": "2026-11-20",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0071,
-   "exploitation": "active"
-  },
-  {
-   "id": "81f109a284d436b6",
-   "title": "CVE-2026-76466 added to CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
-   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
-   "source": "CISA KEV",
-   "category": "exploit",
-   "badge": "Actively exploited",
-   "kev": true,
-   "cves": [
-    "CVE-2026-76466"
-   ],
-   "date": "2026-11-20T00:00:00+00:00",
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T00:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-76466": {
-     "epss": 0.0219,
-     "kev": true,
-     "kev_date": "2026-11-20",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0219,
    "exploitation": "active"
   },
   {
@@ -7434,57 +7601,6 @@
    "seen_count": 1
   },
   {
-   "id": "122413bd849f4f44",
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation.  CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM…",
-   "source": "CISA Advisories",
-   "category": "exploit",
-   "date": "2026-11-18T12:00:00+00:00",
-   "cves": [
-    "CVE-2024-10441",
-    "CVE-2026-40217"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T12:00:00+00:00",
-   "kev": true,
-   "also_in": [
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
-    },
-    {
-     "source": "CISA Advisories",
-     "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
-    }
-   ],
-   "seen_count": 4,
-   "badge": "Actively exploited",
-   "cve_detail": {
-    "CVE-2024-10441": {
-     "epss": 0.0313,
-     "kev": true,
-     "kev_date": "2026-11-18",
-     "cvss": null,
-     "ssvc": "Attend"
-    },
-    "CVE-2026-40217": {
-     "epss": 0.78,
-     "kev": true,
-     "kev_date": "2026-11-18",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.78,
-   "exploitation": "active"
-  },
-  {
    "id": "2df0fcea5ad6b106",
    "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
    "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
@@ -7737,20 +7853,6 @@
    "seen_count": 1
   },
   {
-   "id": "25f152a1b586a7e7",
-   "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-   "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing…",
-   "source": "The Hacker News",
-   "category": "exploit",
-   "date": "2026-11-18T08:24:31+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T08:24:31+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "0ad69605a84900f7",
    "title": "British Scattered Spider hacker sentenced to 6 years in prison",
    "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
@@ -7877,34 +7979,6 @@
    "seen_count": 1
   },
   {
-   "id": "2aee2c1d61e27281",
-   "title": "Product showcase: iVerify Basic helps users check device security and improve privacy",
-   "url": "https://www.helpnetsecurity.com/2026/11/18/product-showcase-iverify-basic/",
-   "summary": "iVerify Basic is a mobile security app for individuals who want to check their devices for signs of compromise and improve their security settings. It is available for iOS and Android, including tablets. Device security checks The Device tab puts scan controls and security…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-18T05:30:11+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T05:30:11+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "889fd7cae88e367e",
-   "title": "Fraudsters feed the right face into identity checks through virtual cameras",
-   "url": "https://www.helpnetsecurity.com/2026/11/18/entrust-document-verification-fraud-report/",
-   "summary": "Document fraud remains the largest attack category in Entrust’s The Professionalization of Fraud: 2027 Identity Fraud Report, with criminals combining physical counterfeits, digital manipulation and impersonation to target online services. The document fraud rate fell 19% year…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-18T05:00:34+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T05:00:34+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "c5599644421883df",
    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
    "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
@@ -7973,6 +8047,64 @@
    "first_seen": "2026-11-18T00:15:28+00:00",
    "also_in": [],
    "seen_count": 1
+  },
+  {
+   "id": "7e81e02c48f57075",
+   "title": "CVE-2024-10441 added to CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
+   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
+   "source": "CISA KEV",
+   "category": "exploit",
+   "badge": "Actively exploited",
+   "kev": true,
+   "cves": [
+    "CVE-2024-10441"
+   ],
+   "date": "2026-11-18T00:00:00+00:00",
+   "first_seen": "2026-11-18T00:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2024-10441": {
+     "epss": 0.0313,
+     "kev": true,
+     "kev_date": "2026-11-18",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.0313,
+   "exploitation": "active"
+  },
+  {
+   "id": "0e7c700b1934181d",
+   "title": "CVE-2026-40217 added to CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
+   "source": "CISA KEV",
+   "category": "exploit",
+   "badge": "Actively exploited",
+   "kev": true,
+   "cves": [
+    "CVE-2026-40217"
+   ],
+   "date": "2026-11-18T00:00:00+00:00",
+   "first_seen": "2026-11-18T00:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-40217": {
+     "epss": 0.78,
+     "kev": true,
+     "kev_date": "2026-11-18",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.78,
+   "exploitation": "active"
   },
   {
    "id": "0b824d10b2b3a20b",
@@ -8274,20 +8406,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-17T19:57:34.246000+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "6b76a35deee9b607",
-   "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-   "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-   "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork.",
-   "source": "BleepingComputer",
-   "category": "threat",
-   "date": "2026-11-17T19:24:07+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T19:24:07+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -8740,20 +8858,6 @@
    "seen_count": 1
   },
   {
-   "id": "ad0a36a96b95d49d",
-   "title": "Envoy Visitors Critical turns visitor policies into approval workflows",
-   "url": "https://www.helpnetsecurity.com/2026/11/17/envoy-visitors-critical/",
-   "summary": "Envoy today launched Visitors Critical, an infrastructure-grade visitor security offering that brings identity verification, screening and approval workflows together on a shared security architecture that keeps the record protected and audit-ready. It’s built for…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-17T14:28:49+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T14:28:49+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "ada4eb2a4b5215fa",
    "title": "Who Has Access to Claude? Bring AI Identity and Access Context Into Surface Command",
    "url": "https://www.rapid7.com/blog/post/em-claude-access-brings-ai-context-into-surface-command-asm-easm",
@@ -9021,36 +9125,6 @@
    "seen_count": 1
   },
   {
-   "id": "6ad116b5c12b40e0",
-   "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
-   "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
-   "summary": "More than 40 servers received over 688,000 requests exploiting CVE-2026-84869 to execute guest-pushed files.",
-   "source": "SecurityWeek",
-   "category": "exploit",
-   "date": "2026-11-17T13:24:43+00:00",
-   "cves": [
-    "CVE-2026-84869"
-   ],
-   "first_seen": "2026-11-17T13:24:43+00:00",
-   "kev": true,
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-84869": {
-     "epss": 0.0117,
-     "kev": true,
-     "kev_date": "2026-09-11",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0117,
-   "exploitation": "active",
-   "badge": "Actively exploited",
-   "brief_tries": 2
-  },
-  {
    "id": "46f2978c7d8e8db0",
    "title": "Grok Bots Attempt to Access Corporate Data Without User Approval",
    "url": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
@@ -9089,20 +9163,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-17T13:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "389f46b9e9d9c085",
-   "title": "Access Dental Management Data Breach Impacts Over 340,000",
-   "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
-   "summary": "Hackers breached Access Dental’s network and stole personal, health, and insurance information.",
-   "source": "SecurityWeek",
-   "category": "breach",
-   "date": "2026-11-17T12:59:04+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T12:59:04+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -9558,34 +9618,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-17T04:45:44+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "20a6495fc6f9426e",
-   "title": "Customer Personal Information Leak at Legoland… Even Annual Pass Barcodes Stolen",
-   "url": "https://databreaches.net/2026/11/16/customer-personal-information-leak-at-legoland-even-annual-pass-barcodes-stolen/",
-   "summary": "The following is an automated translation of an article that appeared in Japanese. Choi Jeong-seok reports: A hacking and leakage incident involving customer personal information occurred at Legoland. A total of six items were leaked, including customer names, home addresses,…",
-   "source": "DataBreaches.net",
-   "category": "breach",
-   "date": "2026-11-17T03:04:19+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T03:04:19+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ab3a694d5cb0c3b1",
-   "title": "Bank outage reports spike: JPMorgan says issues are resolved, blames internal software bug for transaction delays",
-   "url": "https://databreaches.net/2026/11/16/bank-outage-reports-spike-jpmorgan-says-issues-are-resolved-blames-internal-software-bug-for-transaction-delays/",
-   "summary": "David Hollerith and Grace O’Donnell report: Reports of problems with banking apps and payment services surged across major US banks Monday, though several institutions said their systems were operating as usual while some customers experienced transaction delays. Customers’…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-17T03:03:59+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T03:03:59+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -11808,48 +11840,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-13T01:45:10+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "cc18d5e0f23ef368",
-   "title": "Open WebUI: the Windows installer mints the master key from the install second — CVE-2025-15603 was rejected; here is the measurement",
-   "url": "https://seclists.org/fulldisclosure/2026/Nov/21",
-   "summary": "Posted by theknell--- via Fulldisclosure on Nov 12 Open WebUI's Windows installer (start_windows.bat) generates WEBUI_SECRET_KEY — the master secret that signs every session token — from the C library's rand(), a linear congruential generator seeded once with the current time…",
-   "source": "Full Disclosure",
-   "category": "vuln",
-   "date": "2026-11-13T01:45:08+00:00",
-   "cves": [
-    "CVE-2025-15603"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-13T01:45:08+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2025-15603": {
-     "epss": 0.0,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0,
-   "exploitation": "none"
-  },
-  {
-   "id": "a93d12143f62ee93",
-   "title": "APPLE-SA-11-12-2026-1 HomeView Software Version 27.2",
-   "url": "https://seclists.org/fulldisclosure/2026/Nov/33",
-   "summary": "Posted by Apple Product Security via Fulldisclosure on Nov 12 APPLE-SA-11-12-2026-1 HomeView Software Version 27.2 HomeView Software Version 27.2 addresses the following issues. Information about the security content is also available at https://support.apple.com/149851 . Apple…",
-   "source": "Full Disclosure",
-   "category": "vuln",
-   "date": "2026-11-13T01:29:16+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-13T01:29:16+00:00",
    "also_in": [],
    "seen_count": 1
   }
