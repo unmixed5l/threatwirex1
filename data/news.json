@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-24T13:31:15.381681+00:00",
+ "updated": "2026-11-24T15:17:28.105362+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -16,7 +16,7 @@
   "Help Net Security": "ok (10)",
   "Infosecurity Magazine": "ok (250)",
   "SC Media": "ok (10)",
-  "Graham Cluley": "ok (20)",
+  "Graham Cluley": "failed: ParseError",
   "Troy Hunt": "ok (15)",
   "Malwarebytes Labs": "ok (20)",
   "Schneier on Security": "ok (10)",
@@ -74,6 +74,533 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "0309b5062a83e7a1",
+   "title": "Cato Networks offers $10,000 bounty for hacking new AI security tool",
+   "url": "https://www.scworld.com/brief/cato-networks-offers-10000-bounty-for-hacking-new-ai-security-tool",
+   "summary": "As reported by Tech Radar, Cato Networks has launched a bug bounty program offering $10,000 to the first three researchers who successfully compromise its new AI monitoring tool, AgentSense.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:04:58+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:04:58+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "d530b5a0b7e1e7a7",
+   "title": "OpenRouter removes three AI providers following data exposure incidents",
+   "url": "https://www.scworld.com/brief/openrouter-removes-three-ai-providers-following-data-exposure-incidents",
+   "summary": "Based on information from Bleeping Computer, OpenRouter has removed three artificial intelligence providers from its platform after an investigation revealed they violated data-handling policies and exposed sensitive information.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:04:36+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:04:36+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "296333ceb1e968e0",
+   "title": "Amazon Web Services launches automated internet firewall for virtual private clouds",
+   "url": "https://www.scworld.com/brief/amazon-web-services-launches-automated-internet-firewall-for-virtual-private-clouds",
+   "summary": "Amazon Web Services has introduced an automated service designed to centrally enforce network security rules across all virtual private cloud traffic, as first reported by SDx Central.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:04:08+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:04:08+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "a903b208e0b06d44",
+   "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+   "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+   "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability noise…",
+   "source": "BleepingComputer",
+   "category": "vuln",
+   "date": "2026-11-24T15:01:11+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:01:11+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "d6b273c93305f51e",
+   "title": "Water utilities seek cybersecurity support following recent attacks",
+   "url": "https://www.scworld.com/brief/water-utilities-seek-cybersecurity-support-following-recent-attacks",
+   "summary": "Water utilities across 26 states are enrolling in a new program to receive free cybersecurity monitoring and support following a series of high-profile digital attacks, based on information published by Nextgov.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:00:29+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:00:29+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "bef9cf015c5cf062",
+   "title": "Recent Trends and Tactics of Agentic AI Attacks",
+   "url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+   "summary": "We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces.",
+   "source": "Unit 42",
+   "category": "threat",
+   "date": "2026-11-24T15:00:19+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:00:19+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "2af42a7d5a9825bf",
+   "title": "Tower Records reports massive data breach affecting 11 million users",
+   "url": "https://www.scworld.com/brief/tower-records-reports-massive-data-breach-affecting-11-million-users",
+   "summary": "As outlined in Tech Radar, Tower Records, a prominent Japanese music retailer, has disclosed a significant cyberattack that compromised the personal information of approximately 11 million customers.",
+   "source": "SC Media",
+   "category": "breach",
+   "date": "2026-11-24T15:00:14+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:00:14+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "8476cf372163af3b",
+   "title": "CISA warns of exploited N-able bug as company restores email platform",
+   "url": "https://therecord.media/cisa-nable-cybersecurity-bug",
+   "summary": "The U.S. cyber agency is giving government departments until Thanksgiving to patch a vulnerability impacting a critical email security platform that blocks spam, malware and other threats.",
+   "source": "The Record",
+   "category": "exploit",
+   "date": "2026-11-24T15:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "1df098998f9727bc",
+   "title": "Korea Electric Power Corporation reports data breach affecting 1.5 million individuals",
+   "url": "https://www.scworld.com/brief/korea-electric-power-corporation-reports-data-breach-affecting-1-5-million-individuals",
+   "summary": "",
+   "source": "SC Media",
+   "category": "breach",
+   "date": "2026-11-24T14:55:42+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:55:42+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "49ffdb23ff7e2176",
+   "title": "FCC proposes three-year renewal cycle for cyber trust mark program",
+   "url": "https://www.scworld.com/brief/fcc-proposes-three-year-renewal-cycle-for-cyber-trust-mark-program",
+   "summary": "As outlined in Nextgov, the Federal Communications Commission is moving forward with a proposal to require manufacturers to renew security certifications for connected household devices every three years to maintain the U.S. Cyber Trust Mark.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T14:53:05+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:53:05+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "d2294fb10fbbbd5e",
+   "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+   "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+   "summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.",
+   "source": "SecurityWeek",
+   "category": "breach",
+   "date": "2026-11-24T14:49:59+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:49:59+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "4f9e708136ae1189",
+   "title": "Matters.AI secures $12 million to expand enterprise data security platform",
+   "url": "https://www.scworld.com/brief/matters-ai-secures-12-million-to-expand-enterprise-data-security-platform",
+   "summary": "",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T14:42:50+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:42:50+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "549ce3660e941543",
+   "title": "Researchers Disrupt Massive BADBOX 3.0 Ad Fraud and Proxy Botnet",
+   "url": "https://hackread.com/badbox-3-0-ad-fraud-botnet-disrupted-android-tv-boxes/",
+   "summary": "HUMAN disrupted BADBOX 3.0, an Android botnet that generated about 40 billion ad bid requests per day at its peak and sold access to home connections.",
+   "source": "Hackread",
+   "category": "threat",
+   "date": "2026-11-24T14:34:34+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:34:34+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "5fb0c92e3a3af83b",
+   "title": "Cloudera helps enterprises deploy sovereign AI without proprietary lock-in",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/cloudera-digital-sovereignty/",
+   "summary": "Cloudera has announced Cloudera for Digital Sovereignty, a solution and partner ecosystem designed to give organizations jurisdictional, operational, and technical control across their data, cloud, and AI lifecycle. Bringing together Cloudera Anywhere Cloud, Cloudera’s Open…",
+   "source": "Help Net Security",
+   "category": "threat",
+   "date": "2026-11-24T14:33:35+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:33:35+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "69a861c63be37f59",
+   "title": "Cisco Expressway RCE (CVE-2026-76466) Exploited for Root Access",
+   "url": "https://socradar.io/blog/cisco-expressway-rce-cve-2026-76466-exploited/",
+   "summary": "Attackers are exploiting CVE-2026-76466, a critical Cisco Expressway flaw that gives unauthenticated attackers root command execution on clustered devices. In the first public case, they moved from two internet-facing nodes into the internal network, and CISA added the flaw to…",
+   "source": "SOCRadar",
+   "category": "exploit",
+   "date": "2026-11-24T14:29:08+00:00",
+   "cves": [
+    "CVE-2026-76466"
+   ],
+   "first_seen": "2026-11-24T14:29:08+00:00",
+   "also_in": [
+    {
+     "source": "Dark Web Informer",
+     "url": "https://darkwebinformer.com/hackers-exploit-critical-cisco-expressway-rce-flaw/"
+    },
+    {
+     "source": "Infosecurity Magazine",
+     "url": "https://www.infosecurity-magazine.com/news/critical-cisco-expressway-flaw/"
+    }
+   ],
+   "seen_count": 3,
+   "badge": "Actively exploited",
+   "cve_detail": {
+    "CVE-2026-76466": {
+     "epss": 0.0219,
+     "kev": true,
+     "kev_date": "2026-11-20",
+     "cvss": null,
+     "ssvc": "Act"
+    }
+   },
+   "ssvc": "Act",
+   "epss": 0.0219,
+   "exploitation": "active",
+   "kev": true
+  },
+  {
+   "id": "92aa37221163a1af",
+   "title": "Chrome Beta for Android Update",
+   "url": "http://chromereleases.googleblog.com/feeds/2610899227926426278/comments/default",
+   "summary": "Hi everyone! We've just released Chrome Beta 159 (159.0.8154.33) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features, check out the Chromium blog , and for details on web platform updates, check…",
+   "source": "Chrome Releases",
+   "category": "patch",
+   "date": "2026-11-24T14:28:32.163000+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:28:32.163000+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "ecb734b1dc1c9d9f",
+   "title": "Astelia blocks attack paths to vulnerabilities without waiting for patches",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/astelia-autonomous-network-mitigation/",
+   "summary": "Astelia has announced autonomous network mitigation, a new capability that defends against AI-driven exploits by blocking attack paths to reachable vulnerabilities at the network level. Organizations can now eliminate the 1% of vulnerabilities attackers can reach without…",
+   "source": "Help Net Security",
+   "category": "exploit",
+   "date": "2026-11-24T14:24:11+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:24:11+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "22bf6552c3225118",
+   "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+   "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+   "summary": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-24T14:21:56+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:21:56+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "65acadd0d0db4549",
+   "title": "ScreenConnect Flaw CVE-2026-84869 Exploited",
+   "url": "https://socradar.io/blog/screenconnect-cve-2026-84869-exploitation/",
+   "summary": "Attackers are exploiting CVE-2026-84869, a critical flaw in the ConnectWise ScreenConnect host client, to run files on Managed Service Provider (MSP) technicians’ computers by joining their support sessions as guests. Huntress confirmed one November 12, 2026 compromise in which…",
+   "source": "SOCRadar",
+   "category": "exploit",
+   "date": "2026-11-24T14:21:10+00:00",
+   "cves": [
+    "CVE-2026-84869"
+   ],
+   "first_seen": "2026-11-24T14:21:10+00:00",
+   "also_in": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Actively exploited",
+   "cve_detail": {
+    "CVE-2026-84869": {
+     "epss": 0.0117,
+     "kev": true,
+     "kev_date": "2026-09-11",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.0117,
+   "exploitation": "active",
+   "kev": true
+  },
+  {
+   "id": "5d09561e7229eb1e",
+   "title": "Volant Manticore: Flying Under the Radar",
+   "url": "https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/",
+   "summary": "Key Points Introduction Check Point Research is tracking a previously undocumented Iran-nexus threat group who we named Volant Manticore. What started in July 2026 as a single backdoor delivered to a Cyprus-based airline through a fake CV has since expanded into a broader…",
+   "source": "Check Point Research",
+   "category": "threat",
+   "date": "2026-11-24T14:13:55+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:13:55+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "a53518b1addbd96b",
+   "title": "Lawsuits target SpaceX over Grok deepfake capabilities",
+   "url": "https://www.scworld.com/brief/lawsuits-target-spacex-over-grok-deepfake-capabilities",
+   "summary": "",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T14:10:46+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:10:46+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "230a967c24e64f71",
+   "title": "McDonald's Japan data breach exposes customer location information",
+   "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+   "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app.",
+   "source": "BleepingComputer",
+   "category": "breach",
+   "date": "2026-11-24T14:09:37+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:09:37+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "261fc9e910282215",
+   "title": "HK: Gleneagles Hospital suspends app after data breach",
+   "url": "https://databreaches.net/2026/11/24/hk-gleneagles-hospital-suspends-app-after-data-breach/",
+   "summary": "The Standard reports: Gleneagles Hospital Hong Kong has suspended its patient mobile app after detecting unauthorized access to personal data, including patients’ names, identity document numbers and contact details. In a statement posted on its website on Tuesday, the hospital…",
+   "source": "DataBreaches.net",
+   "category": "breach",
+   "date": "2026-11-24T14:00:34+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:00:34+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "c790a2af9d1e0a39",
+   "title": "Two unrelated database leaks expose 3.5 billion Uusernames, passwords, and documents",
+   "url": "https://databreaches.net/2026/11/24/two-unrelated-database-leaks-expose-3-5-billion-uusernames-passwords-and-documents/",
+   "summary": "Matt Burgess and Lily Hay Newman report two large entries for the “No need to hack when it’s leaking” files: More than 3.5 billion usernames, passwords, national identity numbers, and documents were left exposed to anyone online in two unrelated databases, according to new…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-24T14:00:22+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:00:22+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "a1f36d355026915b",
+   "title": "State shuts down myColorado app after data breach; up to 150,000 people may be affected",
+   "url": "https://databreaches.net/2026/11/24/state-shuts-down-mycolorado-app-after-data-breach-up-to-150000-people-may-be-affected/",
+   "summary": "Kiowa County Press reports: The state’s myColorado app will stay offline while officials investigate a data breach that may have exposed information belonging to as many as 150,000 people. The Governor’s Office of Information Technology found on November 18 that an unauthorized…",
+   "source": "DataBreaches.net",
+   "category": "breach",
+   "date": "2026-11-24T14:00:06+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:00:06+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "d0a4f3ad61d8f872",
+   "title": "Researchers identify vulnerabilities in Meta Muse AI assistant",
+   "url": "https://www.scworld.com/brief/researchers-identify-vulnerabilities-in-meta-muse-ai-assistant",
+   "summary": "",
+   "source": "SC Media",
+   "category": "vuln",
+   "date": "2026-11-24T13:55:07+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T13:55:07+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "f11098c507607eb0",
+   "title": "UK cyber agency seeing ‘marked rise’ in AI-driven attacks",
+   "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
+   "summary": "Britain’s National Cyber Security Centre said it has observed “a marked rise” since September in cyberattacks assisted by artificial intelligence and warned the technology was increasing attackers’ speed, scale and persistence.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-24T13:45:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T13:45:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e8e6c985877b75be",
+   "title": "Address AI Agent Risks or Face Action, FCA Warns Financial Firms",
+   "url": "https://www.infosecurity-magazine.com/news/ai-agent-risks-face-action-fca/",
+   "summary": "The FCA said financial organizations must provide effective oversight and governance controls for AI agents, amid rising deployment in the sector",
+   "source": "Infosecurity Magazine",
+   "category": "threat",
+   "date": "2026-11-24T13:45:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T13:45:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "7ac97e42315d67b9",
+   "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the  Details  section of this…",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-24T13:44:57+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-18T16:00:00+00:00",
+   "also_in": [
+    {
+     "source": "Cisco Security Advisories",
+     "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated"
+  },
+  {
+   "id": "78138acb2d0a1975",
+   "title": "GTA 6 hacker sentenced to seven years and released the same day",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/",
+   "summary": "The Lapsus$ member who leaked footage of Grand Theft Auto VI (GTA 6) was sentenced to seven years in prison on Monday and released from custody on licence the same day, City of London Police announced. Arion Kurtaj, 21, formerly of Oxfordshire, pleaded guilty to six charges,…",
+   "source": "Help Net Security",
+   "category": "breach",
+   "date": "2026-11-24T13:35:37+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T13:35:37+00:00",
+   "also_in": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated"
+  },
+  {
+   "id": "e94ac3e9d5200e65",
+   "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+   "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+   "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services.",
+   "source": "BleepingComputer",
+   "category": "exploit",
+   "date": "2026-11-24T13:34:23+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T13:34:23+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "a6ac99d677c50975",
+   "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+   "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+   "summary": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud.",
+   "source": "SecurityWeek",
+   "category": "threat",
+   "date": "2026-11-24T13:30:23+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T13:30:23+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "db22ce6bdf496569",
+   "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+   "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+   "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8…",
+   "source": "The Hacker News",
+   "category": "exploit",
+   "date": "2026-11-24T13:28:26+00:00",
+   "cves": [
+    "CVE-2026-123903"
+   ],
+   "first_seen": "2026-11-24T13:28:26+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-123903": {
+     "epss": 0.0,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0,
+   "exploitation": "none"
+  },
+  {
+   "id": "0c4445d4ccaf59f7",
+   "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+   "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+   "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of…",
+   "source": "The Hacker News",
+   "category": "ransomware",
+   "date": "2026-11-24T13:28:21+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T13:28:21+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "d7a6dfefe09db1dd",
    "title": "One Infostealer Infection at an Iraqi Print Shop Exposed Classified Police and Military Files From Five Institutions – Including a 189-Name ISIS List",
    "url": "https://www.infostealers.com/article/one-infostealer-infection-at-an-iraqi-print-shop-exposed-classified-police-and-military-files-from-five-institutions-including-a-189-name-isis-list/",
@@ -82,10 +609,44 @@
    "category": "threat",
    "date": "2026-11-24T13:26:17+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T13:26:17+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
+  },
+  {
+   "id": "8c5b93afc1b1388b",
+   "title": "Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
+   "url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890",
+   "summary": "Overview An unauthenticated attacker can retrieve the session key for an in-progress administrator login to VMware vCenter's directory service. The attacker then uses that key to complete the login without knowing the account's password. The vulnerable interface is exposed…",
+   "source": "Rapid7 Blog",
+   "category": "exploit",
+   "date": "2026-11-24T13:01:25+00:00",
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "first_seen": "2026-11-24T13:01:25+00:00",
+   "also_in": [
+    {
+     "source": "Cyble",
+     "url": "https://cyble.com/blog/cve-2026-123890-vcenter-zero-day-patching/"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Actively exploited",
+   "cve_detail": {
+    "CVE-2026-123890": {
+     "epss": 0.0353,
+     "kev": true,
+     "kev_date": "2026-11-20",
+     "cvss": null,
+     "ssvc": "Act"
+    }
+   },
+   "ssvc": "Act",
+   "epss": 0.0353,
+   "exploitation": "active",
+   "kev": true
   },
   {
    "id": "17faeada10e472c5",
@@ -96,10 +657,10 @@
    "category": "threat",
    "date": "2026-11-24T13:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T13:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "2f8cd8afa8069277",
@@ -110,10 +671,10 @@
    "category": "vuln",
    "date": "2026-11-24T13:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T13:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "c8b424af74caa488",
@@ -124,10 +685,23 @@
    "category": "threat",
    "date": "2026-11-24T12:51:04+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T12:51:04+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
+  },
+  {
+   "id": "44f44f128f5c4a28",
+   "title": "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
+   "url": "https://securityaffairs.com/203882/hacking/u-s-cisa-adds-n-able-mailassure-and-project-monai-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+   "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added N-able MailAssure and Project MONAI vulnerabilities…",
+   "source": "Security Affairs",
+   "category": "exploit",
+   "date": "2026-11-24T12:48:09+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T12:48:09+00:00",
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "887479947b9c5d54",
@@ -138,10 +712,10 @@
    "category": "threat",
    "date": "2026-11-24T12:47:07+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T12:47:07+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "6085ef54790f43b5",
@@ -152,10 +726,10 @@
    "category": "threat",
    "date": "2026-11-24T12:42:09+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T12:42:09+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "ca1277f0d6397260",
@@ -166,10 +740,10 @@
    "category": "threat",
    "date": "2026-11-24T12:34:02+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T12:34:02+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "c717d04d5f559b69",
@@ -180,10 +754,10 @@
    "category": "ransomware",
    "date": "2026-11-24T12:27:45+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T12:27:45+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "f8f388caca53544a",
@@ -194,10 +768,10 @@
    "category": "threat",
    "date": "2026-11-24T12:22:17+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T12:22:17+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "70ffa0cfd81dd026",
@@ -208,6 +782,7 @@
    "category": "exploit",
    "date": "2026-11-24T12:20:41+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T12:20:41+00:00",
    "also_in": [
     {
@@ -216,8 +791,7 @@
     }
    ],
    "seen_count": 2,
-   "badge": "Corroborated",
-   "brief_tries": 1
+   "badge": "Corroborated"
   },
   {
    "id": "1f5f949117f5dc51",
@@ -602,36 +1176,6 @@
    "seen_count": 1
   },
   {
-   "id": "0b2a13dd91a2ed08",
-   "title": "Patching vCenter Zero-Day Is Only Step One",
-   "url": "https://cyble.com/blog/cve-2026-123890-vcenter-zero-day-patching/",
-   "summary": "CVE-2026-123890 is a critical authentication bypass in VMware vCenter's directory service, rated 9.8 out of 10. An attacker who can reach vCenter on the network can become administrator@vsphere.local without a password. A suspected China-nexus espionage group, ARMORY CASTLE,…",
-   "source": "Cyble",
-   "category": "exploit",
-   "date": "2026-11-24T08:06:53+00:00",
-   "cves": [
-    "CVE-2026-123890"
-   ],
-   "brief_tries": 1,
-   "first_seen": "2026-11-24T08:06:53+00:00",
-   "kev": true,
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-123890": {
-     "epss": 0.0353,
-     "kev": true,
-     "kev_date": "2026-11-20",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0353,
-   "exploitation": "active",
-   "badge": "Actively exploited"
-  },
-  {
    "id": "059dd9a5e5c4cc3c",
    "title": "Aoqin claims attack on Coneco Engineers & Scientists",
    "url": "https://www.ransomware.live/group/Aoqin",
@@ -832,6 +1376,328 @@
    "seen_count": 1
   },
   {
+   "id": "ea192d81222fb65a",
+   "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 21,273,739 records, listed Apr 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.583658+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "594b4d233a9ea11e",
+   "title": "CarGurus.com: 26,326,362 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 26,326,362 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.583658+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "80bb9916f750dedd",
+   "title": "Odido: 15,058,063 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 15,058,063 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.583658+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0ecde22c04a470b8",
+   "title": "PaneraBread.com: 9,189,762 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 9,189,762 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.583658+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "1be6b236c49fd49b",
+   "title": "Instagram: 17,017,038 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 17,017,038 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.583658+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "36618eebd9639158",
+   "title": "SoundCloud: 29,892,460 records in the DeHashed index",
+   "url": "https://dehashed.com/",
+   "summary": "Breach catalogue entry: 29,892,460 records, listed Dec 2025. DeHashed holds the searchable records; this site stores the metadata only.",
+   "source": "DeHashed",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.583658+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "506b0b188be54fee",
+   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.352281+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0605d9432b66f404",
+   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.352281+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "349f9013bb8b6e4a",
+   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.352281+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e25396af911d2368",
+   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.352281+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "2ff978abd6712dff",
+   "title": "se.com: 52,861 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.352281+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "e2a80984c014f211",
+   "title": "books24.gr: 43,851 records in the BreachDirectory index",
+   "url": "https://breachdirectory.org/",
+   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
+   "source": "BreachDirectory",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.352281+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.387572+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bc19616b086e5989",
+   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.317483+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "606d53923f4c9019",
+   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.317483+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "90b594e9b4c76d5c",
+   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.317483+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b0c469036c8f8c41",
+   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.317483+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "74208a7acb26dbbb",
+   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.317483+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b997dafa2d8fa046",
+   "title": "http://bbgpoint.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.176175+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "4c4ff139d55aa58e",
+   "title": "http://deepsearch.onion: 1,694 records in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: 1,694 records, hacking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.176175+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "0dd7237b7194007f",
+   "title": "http://koeitecmoeurope.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.176175+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "ea93f55bed1a3d2b",
+   "title": "http://sonicbirds.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, booking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.176175+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "02f91575b8cd5eab",
+   "title": "http://peatix.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, events sector, listed Nov 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.176175+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "627b2553f5b8e456",
+   "title": "http://animaljam.com: record count not stated in the Snusbase index",
+   "url": "https://snusbase.com/",
+   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Oct 2020. Snusbase holds the searchable records; this site stores the metadata only.",
+   "source": "Snusbase",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T03:16:08.176175+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "730c843f3ccaa42e",
    "title": "SoulGroup claims attack on A government website for a county in a U.S. state",
    "url": "https://www.ransomware.live/group/SoulGroup",
@@ -889,328 +1755,6 @@
    "seen_count": 1
   },
   {
-   "id": "ea192d81222fb65a",
-   "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 21,273,739 records, listed Apr 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.585332+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "594b4d233a9ea11e",
-   "title": "CarGurus.com: 26,326,362 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 26,326,362 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.585332+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "80bb9916f750dedd",
-   "title": "Odido: 15,058,063 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 15,058,063 records, listed Feb 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.585332+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0ecde22c04a470b8",
-   "title": "PaneraBread.com: 9,189,762 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 9,189,762 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.585332+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "1be6b236c49fd49b",
-   "title": "Instagram: 17,017,038 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 17,017,038 records, listed Jan 2026. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.585332+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "36618eebd9639158",
-   "title": "SoundCloud: 29,892,460 records in the DeHashed index",
-   "url": "https://dehashed.com/",
-   "summary": "Breach catalogue entry: 29,892,460 records, listed Dec 2025. DeHashed holds the searchable records; this site stores the metadata only.",
-   "source": "DeHashed",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.585332+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.606118+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "506b0b188be54fee",
-   "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 1,312,764 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.446856+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0605d9432b66f404",
-   "title": "germandonerkebab.com: 166,930 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 166,930 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.446856+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "349f9013bb8b6e4a",
-   "title": "lensdeal.com: 115,093 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 115,093 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.446856+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e25396af911d2368",
-   "title": "poincampus.com: 89,306 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 89,306 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.446856+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "2ff978abd6712dff",
-   "title": "se.com: 52,861 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 52,861 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.446856+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e2a80984c014f211",
-   "title": "books24.gr: 43,851 records in the BreachDirectory index",
-   "url": "https://breachdirectory.org/",
-   "summary": "Breach catalogue entry: 43,851 records, listed Mar 2025. BreachDirectory holds the searchable records; this site stores the metadata only.",
-   "source": "BreachDirectory",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.446856+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "bc19616b086e5989",
-   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.425019+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "606d53923f4c9019",
-   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.425019+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "90b594e9b4c76d5c",
-   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.425019+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0c469036c8f8c41",
-   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.425019+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "74208a7acb26dbbb",
-   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.425019+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b997dafa2d8fa046",
-   "title": "http://bbgpoint.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.348334+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "4c4ff139d55aa58e",
-   "title": "http://deepsearch.onion: 1,694 records in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: 1,694 records, hacking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.348334+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0dd7237b7194007f",
-   "title": "http://koeitecmoeurope.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.348334+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ea93f55bed1a3d2b",
-   "title": "http://sonicbirds.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, booking sector, listed Dec 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.348334+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "02f91575b8cd5eab",
-   "title": "http://peatix.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, events sector, listed Nov 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.348334+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "627b2553f5b8e456",
-   "title": "http://animaljam.com: record count not stated in the Snusbase index",
-   "url": "https://snusbase.com/",
-   "summary": "Breach catalogue entry: record count not stated, gaming sector, listed Oct 2020. Snusbase holds the searchable records; this site stores the metadata only.",
-   "source": "Snusbase",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T01:29:57.348334+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.206104+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "f5dd6bf18a682426",
    "title": "anubis claims attack on VHV Company",
    "url": "https://www.ransomware.live/group/anubis",
@@ -1247,19 +1791,6 @@
    "summary": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
    "source": "The Record",
    "category": "threat",
-   "date": "2026-11-24T00:00:00+00:00",
-   "cves": [],
-   "first_seen": "2026-11-24T00:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "3e9064fe72c037e1",
-   "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
-   "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
-   "summary": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
-   "source": "The Record",
-   "category": "breach",
    "date": "2026-11-24T00:00:00+00:00",
    "cves": [],
    "first_seen": "2026-11-24T00:00:00+00:00",
@@ -1548,17 +2079,11 @@
    ],
    "brief_tries": 2,
    "first_seen": "2026-11-20T20:37:16+00:00",
-   "also_in": [
-    {
-     "source": "Cisco Security Advisories",
-     "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Corroborated",
+   "also_in": [],
+   "seen_count": 1,
    "cve_detail": {
     "CVE-2026-114938": {
-     "epss": 0.5732,
+     "epss": 0.5927,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -1566,7 +2091,7 @@
     }
    },
    "ssvc": "Track*",
-   "epss": 0.5732,
+   "epss": 0.5927,
    "exploitation": "poc"
   },
   {
@@ -1802,11 +2327,11 @@
    "seen_count": 1
   },
   {
-   "id": "6edcda57ebaecc84",
-   "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
-   "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-   "summary": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
-   "source": "The Record",
+   "id": "1b6ff172619baa2d",
+   "title": "Indicted Kosovo credit card theft suspect extradited to US",
+   "url": "https://cyberscoop.com/hektor-avdyli-kosovo-credit-card-fraud-extradition/",
+   "summary": "Authorities say a hard drive in the possession of Hektor Avdyli contained millions of payment card numbers.",
+   "source": "CyberScoop",
    "category": "threat",
    "date": "2026-11-23T18:37:00+00:00",
    "cves": [],
@@ -1816,11 +2341,11 @@
    "seen_count": 1
   },
   {
-   "id": "1b6ff172619baa2d",
-   "title": "Indicted Kosovo credit card theft suspect extradited to US",
-   "url": "https://cyberscoop.com/hektor-avdyli-kosovo-credit-card-fraud-extradition/",
-   "summary": "Authorities say a hard drive in the possession of Hektor Avdyli contained millions of payment card numbers.",
-   "source": "CyberScoop",
+   "id": "6edcda57ebaecc84",
+   "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+   "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+   "summary": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
+   "source": "The Record",
    "category": "threat",
    "date": "2026-11-23T18:37:00+00:00",
    "cves": [],
@@ -1870,41 +2395,6 @@
    "first_seen": "2026-11-23T18:18:20+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "72bc2ea01b26cac5",
-   "title": "Hackers Exploit Critical Cisco Expressway RCE Flaw",
-   "url": "https://darkwebinformer.com/hackers-exploit-critical-cisco-expressway-rce-flaw/",
-   "summary": "Hackers are actively exploiting a critical Cisco Expressway vulnerability to gain full root access to affected systems without authentication; CVE-2026-76466.",
-   "source": "Dark Web Informer",
-   "category": "exploit",
-   "date": "2026-11-23T18:11:10+00:00",
-   "cves": [
-    "CVE-2026-76466"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-23T18:11:10+00:00",
-   "kev": true,
-   "also_in": [
-    {
-     "source": "Infosecurity Magazine",
-     "url": "https://www.infosecurity-magazine.com/news/critical-cisco-expressway-flaw/"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Actively exploited",
-   "cve_detail": {
-    "CVE-2026-76466": {
-     "epss": 0.0219,
-     "kev": true,
-     "kev_date": "2026-11-20",
-     "cvss": null,
-     "ssvc": "Act"
-    }
-   },
-   "ssvc": "Act",
-   "epss": 0.0219,
-   "exploitation": "active"
   },
   {
    "id": "84bc1f76994f4e0e",
@@ -2898,36 +3388,6 @@
    "seen_count": 1
   },
   {
-   "id": "33d65726f50ee8a4",
-   "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-   "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and…",
-   "source": "The Hacker News",
-   "category": "exploit",
-   "date": "2026-11-23T12:41:04+00:00",
-   "cves": [
-    "CVE-2026-84869"
-   ],
-   "brief_tries": 1,
-   "first_seen": "2026-11-23T12:41:04+00:00",
-   "kev": true,
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-84869": {
-     "epss": 0.0117,
-     "kev": true,
-     "kev_date": "2026-09-11",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0117,
-   "exploitation": "active",
-   "badge": "Actively exploited"
-  },
-  {
    "id": "12b4ad14dd49d8e8",
    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
    "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -2959,14 +3419,14 @@
    "badge": "Actively exploited",
    "cve_detail": {
     "CVE-2026-133968": {
-     "epss": 0.0366,
+     "epss": 0.498,
      "kev": true,
      "kev_date": "2026-11-23",
      "cvss": null,
      "ssvc": "Attend"
     },
     "CVE-2026-134624": {
-     "epss": 0.0035,
+     "epss": 0.0062,
      "kev": true,
      "kev_date": "2026-11-23",
      "cvss": null,
@@ -2974,7 +3434,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0366,
+   "epss": 0.498,
    "exploitation": "active"
   },
   {
@@ -3242,7 +3702,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-124251": {
-     "epss": 0.0018,
+     "epss": 0.0021,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -3257,7 +3717,7 @@
     }
    },
    "ssvc": "Track",
-   "epss": 0.002,
+   "epss": 0.0021,
    "exploitation": "none"
   },
   {
@@ -3313,13 +3773,8 @@
    "cves": [],
    "brief_tries": 1,
    "first_seen": "2026-11-23T10:34:01+00:00",
-   "also_in": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
-    }
-   ],
-   "seen_count": 2,
+   "also_in": [],
+   "seen_count": 1,
    "badge": "Corroborated"
   },
   {
@@ -4421,26 +4876,6 @@
    "seen_count": 1
   },
   {
-   "id": "ec3643e6e571f139",
-   "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
-   "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
-   "summary": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance.",
-   "source": "Unit 42",
-   "category": "ransomware",
-   "date": "2026-11-20T22:00:25+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T22:00:25+00:00",
-   "also_in": [
-    {
-     "source": "DataBreaches.net",
-     "url": "https://databreaches.net/2026/11/22/dialing-for-data-inside-the-coms-high-profile-heists/"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Corroborated"
-  },
-  {
    "id": "b0be1fab790401da",
    "title": "Information and Privacy Commissioner confirms health authority updates following snooping incidents related to Lapu Lapu Day Festival",
    "url": "https://databreaches.net/2026/11/22/information-and-privacy-commissioner-confirms-health-authority-updates-following-snooping-incidents-related-to-lapu-lapu-day-festival/",
@@ -5007,20 +5442,6 @@
    "seen_count": 1
   },
   {
-   "id": "09bc8da7ef2e77f7",
-   "title": "Dutch regulator warns against using AI-powered smart glasses",
-   "url": "https://www.scworld.com/brief/dutch-regulator-warns-against-using-ai-powered-smart-glasses",
-   "summary": "The Dutch Data Protection Authority has issued a formal warning advising consumers against purchasing AI-powered smart glasses due to significant safety and privacy concerns, according to a recent report by The Register.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-21T00:43:46+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:43:46+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "658edd0f5c0a38ca",
    "title": "Ransomware: What we know about the arrests of Chaos affiliates",
    "url": "https://databreaches.net/2026/11/20/ransomware-what-we-know-about-the-arrests-of-chaos-affiliates/",
@@ -5033,34 +5454,6 @@
    "first_seen": "2026-11-20T23:50:20+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "5a0c89178dd14672",
-   "title": "CyberPower power management software exploited in network intrusion",
-   "url": "https://www.scworld.com/brief/cyberpower-power-management-software-exploited-in-network-intrusion",
-   "summary": "Infosecurity Magazine reports that attackers have exploited CyberPower PowerPanel Business software to execute malicious scripts on domain controllers, effectively repurposing power management features into remote command channels.",
-   "source": "SC Media",
-   "category": "exploit",
-   "date": "2026-11-20T23:15:26+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T23:15:26+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "fc083ba66fb2627a",
-   "title": "African nations face cybersecurity challenges in expanding digital public infrastructure",
-   "url": "https://www.scworld.com/brief/african-nations-face-cybersecurity-challenges-in-expanding-digital-public-infrastructure",
-   "summary": "Following insights from Biometric Update, African governments are rapidly expanding digital identity and digital public infrastructure systems, yet they face significant hurdles in establishing the cybersecurity capacity required to protect these critical assets.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T23:15:06+00:00",
-   "cves": [],
-   "first_seen": "2026-11-20T23:15:06+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
   },
   {
    "id": "af9d595968719fe1",
@@ -5098,14 +5491,14 @@
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-123007": {
-     "epss": 0.2778,
+     "epss": 0.447,
      "kev": false,
      "kev_date": null,
      "cvss": null,
      "ssvc": "Track*"
     },
     "CVE-2026-123633": {
-     "epss": 0.1752,
+     "epss": 0.2211,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -5113,7 +5506,7 @@
     }
    },
    "ssvc": "Track*",
-   "epss": 0.2778,
+   "epss": 0.447,
    "exploitation": "poc"
   },
   {
@@ -5179,30 +5572,16 @@
    "seen_count": 1
   },
   {
-   "id": "7401c500c651a799",
-   "title": "Linux Porn, Lawyers, Chaos, Ur, PHP2Shell, Java4Shell, VMware, KVM , Josh Marpet - SWN #635",
-   "url": "https://www.scworld.com/podcast-segment/15338-linux-porn-lawyers-chaos-ur-php2shell-java4shell-vmware-kvm-josh-marpet-swn-635",
-   "summary": "",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T22:00:00+00:00",
+   "id": "ec3643e6e571f139",
+   "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
+   "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+   "summary": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance.",
+   "source": "Unit 42",
+   "category": "ransomware",
+   "date": "2026-11-20T22:00:25+00:00",
    "cves": [],
    "brief_tries": 2,
-   "first_seen": "2026-11-20T22:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "d3418e321f7ff473",
-   "title": "Closing the trust gap: How to properly implement AI shopping agents",
-   "url": "https://www.scworld.com/resource/closing-the-trust-gap-how-to-properly-implement-ai-shopping-agents",
-   "summary": "Here's why even as AI agents execute transactions, customers must retain ultimate control.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T21:59:36+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T21:59:36+00:00",
+   "first_seen": "2026-11-20T22:00:25+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -5318,34 +5697,6 @@
    "seen_count": 1
   },
   {
-   "id": "0aa38d645a0e49af",
-   "title": "Following outages, security industry focuses on availability and resilience",
-   "url": "https://www.scworld.com/news/following-outages-security-industry-focuses-on-availability-and-resilience",
-   "summary": "Widespread outages expose fragile digital infrastructure and raise concerns about recovery readiness.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T19:10:15+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T19:10:15+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "fcf92f4d0b10aee3",
-   "title": "Following outages, security industry focuses on availability and resilience",
-   "url": "https://www.scworld.com/news/following-the-outages-the-industry-focuses-on-availability-and-resilience",
-   "summary": "Security pros expect more AI-induced outages, so they’re now focused on keeping systems up-and-running.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T19:10:15+00:00",
-   "cves": [],
-   "first_seen": "2026-11-20T19:10:15+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
-  },
-  {
    "id": "688d34085c16818f",
    "title": "n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers",
    "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/n0n-extortion-leaks-data-jpmorgan-chase-visa-mastercard",
@@ -5413,48 +5764,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-20T17:58:33.217000+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "1263ec830ad9ea83",
-   "title": "How to remove your personal information from FastPeopleSearch",
-   "url": "https://www.scworld.com/brief/how-to-remove-your-personal-information-from-fastpeoplesearch",
-   "summary": "HackRead disclosed that FastPeopleSearch exposes sensitive personal information, including home addresses, phone numbers and relative details, which poses significant security risks to users.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T17:44:36+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T17:44:36+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ce1cac5b558106fb",
-   "title": "Metano launches with $12 million to secure enterprise AI agents",
-   "url": "https://www.scworld.com/brief/metano-launches-with-12-million-to-secure-enterprise-ai-agents",
-   "summary": "Metano Inc. has launched with $12 million in funding to provide security for artificial intelligence agents operating across enterprise endpoints, cloud infrastructure and software-as-a-service applications, based on information published by Silicon Angle.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T17:42:08+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T17:42:08+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "dd9b4e198b2a58aa",
-   "title": "Microsoft develops lockdown mode for edge browser to enhance security",
-   "url": "https://www.scworld.com/brief/microsoft-develops-lockdown-mode-for-edge-browser-to-enhance-security",
-   "summary": "Microsoft is developing a new security feature for the Edge browser called Lockdown Mode, which aims to reduce the attack surface by disabling specific graphics APIs, with further coverage provided by Bleeping Computer.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-20T17:33:03+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T17:33:03+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -6433,7 +6742,7 @@
    "seen_count": 1,
    "cve_detail": {
     "CVE-2026-129448": {
-     "epss": 0.0546,
+     "epss": 0.4007,
      "kev": true,
      "kev_date": "2026-11-20",
      "cvss": null,
@@ -6441,7 +6750,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.0546,
+   "epss": 0.4007,
    "exploitation": "active"
   },
   {
@@ -7622,20 +7931,6 @@
    "seen_count": 1
   },
   {
-   "id": "4c56a06821c6e7ed",
-   "title": "SonicWall urges customers to replace Gen 6 firewalls now",
-   "url": "https://www.helpnetsecurity.com/2026/11/19/sonicwall-gen-6-firewalls-reach-end-of-support/",
-   "summary": "SonicWall is urging customers still running Gen 6 firewalls to replace them immediately and to stop using them at the internet edge. All Gen 6 and Gen 6.5 appliances running SonicOS 6.x have now reached end of support. That means no more firmware updates or security patches,…",
-   "source": "Help Net Security",
-   "category": "patch",
-   "date": "2026-11-19T10:44:29+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T10:44:29+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "2aa6fa29c77afd23",
    "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
    "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
@@ -7646,20 +7941,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-19T10:41:05+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "5f82a4128e79e273",
-   "title": "Bitwarden expands passkey support with new Windows and macOS integrations",
-   "url": "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/",
-   "summary": "Bitwarden announced expanded passkey integrations across Windows and macOS, making it easier to access Bitwarden and use passkeys through native operating system authentication. Users can log in to Bitwarden and unlock their vaults using passkeys verified through Windows Hello…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-19T10:39:33+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T10:39:33+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -7716,20 +7997,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-19T10:22:51+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ef1efe3fe2fb70c6",
-   "title": "GTA 6 scams are after your Google password, money, and crypto wallet",
-   "url": "https://www.helpnetsecurity.com/2026/11/19/gta-6-scams-threats/",
-   "summary": "Scammers are using the GTA 6 launch to steal Google passwords, sell game keys that may never arrive, and get players to connect crypto wallets. Stefan Dasic, a senior malware research engineer at Malwarebytes, tracked the lures. They range from fake giveaways to a phone app…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-19T10:09:31+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T10:09:31+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -7832,34 +8099,6 @@
    "seen_count": 1
   },
   {
-   "id": "ef3cecb6fd503aee",
-   "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-   "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-   "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove…",
-   "source": "The Hacker News",
-   "category": "exploit",
-   "date": "2026-11-19T08:42:11+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T08:42:11+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "3d3c58459056e381",
-   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-   "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-   "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the…",
-   "source": "The Hacker News",
-   "category": "exploit",
-   "date": "2026-11-19T08:14:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T08:14:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "59d3b792db480830",
    "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
    "url": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
@@ -7943,7 +8182,7 @@
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-114938": {
-     "epss": 0.5732,
+     "epss": 0.5927,
      "kev": false,
      "kev_date": null,
      "cvss": null,
@@ -7951,7 +8190,7 @@
     }
    },
    "ssvc": "Track*",
-   "epss": 0.5732,
+   "epss": 0.5927,
    "exploitation": "poc"
   },
   {
@@ -8291,20 +8530,6 @@
    "seen_count": 1
   },
   {
-   "id": "2ad954584119feac",
-   "title": "Early Stable Update for Desktop",
-   "url": "http://chromereleases.googleblog.com/feeds/2393803926580133070/comments/default",
-   "summary": "The Stable channel has been updated to 159.0.8154.13/.14 for Windows , Mac as part of our early stable release to a small percentage of users. A full list of changes in this build is available in the log . You can find more details about early Stable releases here . Interested…",
-   "source": "Chrome Releases",
-   "category": "patch",
-   "date": "2026-11-18T18:58:35.648000+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T18:58:35.648000+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "ad35669340d43217",
    "title": "It’s NGINX’s turn to cause vulnpocalypse headaches",
    "url": "https://cyberscoop.com/nginx-critical-vulnerabilities-exploits/",
@@ -8414,20 +8639,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T16:19:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "7ac97e42315d67b9",
-   "title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the  Details  section of this…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-11-18T16:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T16:00:00+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -8824,20 +9035,6 @@
    "seen_count": 1
   },
   {
-   "id": "57cf485fa9212e04",
-   "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-   "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-   "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators.",
-   "source": "BleepingComputer",
-   "category": "threat",
-   "date": "2026-11-18T11:50:25+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T11:50:25+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "787f32d48daf3d01",
    "title": "Russian Espionage Actor Star Blizzard Focuses on Cloud Identities for Mass Data Theft",
    "url": "https://www.infosecurity-magazine.com/news/russian-star-blizzard-cloud-data/",
@@ -8894,20 +9091,6 @@
    "brief_tries": 2
   },
   {
-   "id": "aa9ca93e66e2e06b",
-   "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
-   "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
-   "summary": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts.",
-   "source": "SecurityWeek",
-   "category": "threat",
-   "date": "2026-11-18T11:05:39+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T11:05:39+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "e3a24527dd73e527",
    "title": "The challenge of defending against bulletproof dead drops on public blockchains",
    "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
@@ -8946,20 +9129,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T11:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "4f4cc6f190747ed0",
-   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-   "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers.",
-   "source": "BleepingComputer",
-   "category": "exploit",
-   "date": "2026-11-18T10:35:05+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T10:35:05+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -9006,20 +9175,6 @@
    "seen_count": 1
   },
   {
-   "id": "0dd01d7b39139cc5",
-   "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
-   "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
-   "summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws.",
-   "source": "SecurityWeek",
-   "category": "exploit",
-   "date": "2026-11-18T08:47:18+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T08:47:18+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "f0ed0fdc40d96a21",
    "title": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/",
@@ -9030,20 +9185,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T06:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "c5f6c87fa0f7f386",
-   "title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
-   "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
-   "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work",
-   "source": "SecurityWeek",
-   "category": "vuln",
-   "date": "2026-11-18T07:43:34+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T07:43:34+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -9851,20 +9992,6 @@
    "seen_count": 1
   },
   {
-   "id": "3dd23ca798a15ea7",
-   "title": "Autistic teen hacker pleads guilty to leak of Grand Theft Auto VI footage",
-   "url": "https://therecord.media/autistic-teen-hacker-guilty-plea-britain-gta6-leak",
-   "summary": "Now 21, Artion Kurtaj pleaded guilty to a 2022 spree that included leaking clips of Grand Theft Auto VI while it was still years away from release.",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-17T14:09:00+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T14:09:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
-  },
-  {
    "id": "3e9cda91313ca71d",
    "title": "2027 Cybersecurity Excellence Awards Launch With Six New AI Security Categories",
    "url": "https://hackread.com/2027-cybersecurity-excellence-awards-launch-with-six-new-ai-security-categories/",
@@ -9933,34 +10060,6 @@
    "first_seen": "2026-11-17T13:45:00+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "de5227182454c149",
-   "title": "It’s the Golden State, not the Wild West: Attorney General Bonta Sues OpenAI Over Cybersecurity Incidents",
-   "url": "https://databreaches.net/2026/11/17/its-the-golden-state-not-the-wild-west-attorney-general-bonta-sues-openai-over-cybersecurity-incidents/",
-   "summary": "SAN FRANCISCO, November 16 — California Attorney General Rob Bonta today filed a lawsuit against OpenAI alleging the company misled and endangered the public by knowingly developing and testing advanced artificial intelligence (AI) models without the safeguards and monitoring…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-17T13:44:33+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T13:44:33+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
-  },
-  {
-   "id": "c2e0b3a5a6a51a7d",
-   "title": "Top scorer in tax accountant exam surrenders to police over AI cheating as probe widens",
-   "url": "https://databreaches.net/2026/11/17/top-scorer-in-tax-accountant-exam-surrenders-to-police-over-ai-cheating-as-probe-widens/",
-   "summary": "Lee Ah-Mi, Noh Yu-Rim, and Han Chan-Woo report: The top scorer on this year’s tax accountant certification exam — who confessed to using AI to cheat — appeared before police for questioning as a suspect on Tuesday, as a growing number of similar online claims about AI-assisted…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-17T13:44:28+00:00",
-   "cves": [],
-   "first_seen": "2026-11-17T13:44:28+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
   },
   {
    "id": "66b7b5620cc6b3cc",
@@ -10154,7 +10253,7 @@
    "badge": "Actively exploited",
    "cve_detail": {
     "CVE-2026-111497": {
-     "epss": 0.9993,
+     "epss": 0.9999,
      "kev": true,
      "kev_date": "2026-10-27",
      "cvss": null,
@@ -10162,7 +10261,7 @@
     }
    },
    "ssvc": "Attend",
-   "epss": 0.9993,
+   "epss": 0.9999,
    "exploitation": "active"
   },
   {
@@ -10668,20 +10767,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-16T21:54:14+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "a9e3754443636956",
-   "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
-   "url": "https://therecord.media/california-sues-openai-hugging-face",
-   "summary": "\"OpenAI thwarted the Attorney General’s efforts to investigate these incidents, including by refusing to provide detailed information about the full universe of incidents known to the company,” California alleges in a new lawsuit.",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-16T21:40:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-16T21:40:00+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -11688,118 +11773,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-15T19:02:55+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "989c0561410e90b3",
-   "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
-   "url": "https://isc.sans.edu/diary/rss/33496",
-   "summary": "YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
-   "source": "SANS Internet Storm Center",
-   "category": "threat",
-   "date": "2026-11-15T18:17:27+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T18:17:27+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "9c6a34470d66886a",
-   "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
-   "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html",
-   "summary": "Italy fines Meta €805 million over Facebook’s access to Android users’ photo galleries without specific consent, affecting around 20 million people. Italy’s data protection authority, the Garante, has fined Meta Platforms Ireland Limited €805 million. The reason is that the…",
-   "source": "Security Affairs",
-   "category": "threat",
-   "date": "2026-11-15T18:11:56+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T18:11:56+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "beaad1b980bb5867",
-   "title": "FortiClient, FortiShield_74.sys kernel driver oob",
-   "url": "https://www.reddit.com/r/cybersecurity/comments/1xwzs0l/forticlient_fortishield_74sys_kernel_driver_oob/",
-   "summary": "hi, this is my new research repo, support pls   submitted by   /u/nanaynunay [link]   [comments]",
-   "source": "Reddit r/cybersecurity",
-   "category": "threat",
-   "date": "2026-11-15T16:29:28+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T16:29:28+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "17f0563e97138ce4",
-   "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 8",
-   "url": "https://securityaffairs.com/203165/ai/security-affairs-ai-cybersecurity-newsletter-round-8.html",
-   "summary": "Security Affairs AI-CYBERSECURITY newsletter includes a collection of the best articles and research on AI in the international landscape Artificial intelligence is rapidly changing cybersecurity, reshaping both the techniques used by attackers and the tools available to…",
-   "source": "Security Affairs",
-   "category": "threat",
-   "date": "2026-11-15T16:06:11+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T16:06:11+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "1a28e03ea6191181",
-   "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 123",
-   "url": "https://securityaffairs.com/203156/malware/security-affairs-malware-newsletter-round-123.html",
-   "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Exchange for breakfast: Turla’s Cereal tricks are not for kids Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner,…",
-   "source": "Security Affairs",
-   "category": "threat",
-   "date": "2026-11-15T15:49:04+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T15:49:04+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "f43330ee36ee5d10",
-   "title": "​\"Case Study: Multi-platform automated session hijacking wave across multiple emails (Infostealer confirmation & mitigation)\"",
-   "url": "https://www.reddit.com/r/cybersecurity/comments/1xwyn9b/case_study_multiplatform_automated_session/",
-   "summary": "Title: Detailed Case Study: Multi-platform automated session hijacking wave across multiple emails. Looking for expert confirmation on Infostealer behavior. ​Body: Hi r/cybersecurity community, ​I'm writing to share a recent security incident I experienced and would appreciate…",
-   "source": "Reddit r/cybersecurity",
-   "category": "threat",
-   "date": "2026-11-15T15:44:02+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T15:44:02+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e1c3de1d10b9bf72",
-   "title": "Need Guidance for CTF Round of Application security Engineer",
-   "url": "https://www.reddit.com/r/cybersecurity/comments/1xwykoh/need_guidance_for_ctf_round_of_application/",
-   "summary": "Hi guys, Kindly share the guidance for CTF Round for Application security Engineer no idea about the round right now   submitted by   /u/Zealousideal-Fail-98 [link]   [comments]",
-   "source": "Reddit r/cybersecurity",
-   "category": "threat",
-   "date": "2026-11-15T15:41:08+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T15:41:08+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "ecdd48979571dab5",
-   "title": "Microsoft Warns of Phishing Attack Exploiting 365 Outage as Hackers Threaten to Delete Emails Within 24 Hours",
-   "url": "https://www.reddit.com/r/cybersecurity/comments/1xwxfrv/microsoft_warns_of_phishing_attack_exploiting_365/",
-   "summary": "submitted by   /u/beingmodest [link]   [comments]",
-   "source": "Reddit r/cybersecurity",
-   "category": "exploit",
-   "date": "2026-11-15T14:53:43+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T14:53:43+00:00",
    "also_in": [],
    "seen_count": 1
   }
