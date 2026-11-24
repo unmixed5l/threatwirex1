@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-24T19:14:35.417080+00:00",
+ "updated": "2026-11-24T20:15:17.312796+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -25,9 +25,9 @@
   "CISA News": "ok (10)",
   "NCSC UK": "ok (20)",
   "CERT/CC Vulnerability Notes": "ok (15)",
-  "Microsoft Security Response Center": "ok (5788)",
+  "Microsoft Security Response Center": "ok (5776)",
   "Cisco Security Advisories": "ok (50)",
-  "Fortinet PSIRT": "ok (50)",
+  "Fortinet PSIRT": "failed: URLError",
   "Palo Alto Advisories": "ok (25)",
   "Ubuntu Security Notices": "ok (10)",
   "Chrome Releases": "ok (25)",
@@ -74,6 +74,96 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "ff43e152311a9ef3",
+   "title": "Free vs. Paid Security Tools: Where Free Options Fall Short",
+   "url": "https://hackread.com/free-vs-paid-security-tools-free-options-fall-short/",
+   "summary": "Compare free and paid cybersecurity tools for small businesses with a look at where free options fall short on monitoring, investigation and response.",
+   "source": "Hackread",
+   "category": "threat",
+   "date": "2026-11-24T20:05:05+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T20:05:05+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "57568f801dbe8402",
+   "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "summary": "On November 19, 2026, the PHP Foundation announced the availability of security fixes that address a critical vulnerability that could lead to remote code execution. This vulnerability is identified by CVE-2026-126714. For information about this vulnerability, see the advisory …",
+   "source": "Cisco Security Advisories",
+   "category": "vuln",
+   "date": "2026-11-24T19:47:02+00:00",
+   "cves": [
+    "CVE-2026-126714"
+   ],
+   "first_seen": "2026-11-24T19:47:02+00:00",
+   "also_in": [
+    {
+     "source": "Cisco Security Advisories",
+     "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated",
+   "cve_detail": {
+    "CVE-2026-126714": {
+     "epss": 0.133,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track*"
+    }
+   },
+   "ssvc": "Track*",
+   "epss": 0.133,
+   "exploitation": "poc",
+   "brief_tries": 1
+  },
+  {
+   "id": "fbb98a79065701b7",
+   "title": "Colorado Shuts Down myColorado App After Cyberattack",
+   "url": "https://darkwebinformer.com/colorado-shuts-down-mycolorado-app-after-cyberattack/",
+   "summary": "Colorado shuts down its mobile ID app after a cyberattack potentially exposes personal information belonging to up to 150,000 people.",
+   "source": "Dark Web Informer",
+   "category": "threat",
+   "date": "2026-11-24T19:33:40+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T19:33:40+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "8a279dc693833480",
+   "title": "California privacy agency director Kemp to leave after two-year tenure",
+   "url": "https://therecord.media/california-privacy-agency-kemp",
+   "summary": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
+   "source": "The Record",
+   "category": "threat",
+   "date": "2026-11-24T19:30:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T19:30:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "e9fc92f2bb6bc4ea",
+   "title": "Remus Stealer Uses a Fake Google Sheets Extension to Steal Gmail Messages",
+   "url": "https://www.infostealers.com/article/remus-stealer-uses-a-fake-google-sheets-extension-to-steal-gmail-messages/",
+   "summary": "HUDSON ROCKInfostealers.com / Threat research Remus Stealer Uses a Fake Google Sheets Extension to Steal Gmail Messages Research from Invoke RE and Gen Threat Labs identifies a malicious…",
+   "source": "Hudson Rock Infostealers",
+   "category": "threat",
+   "date": "2026-11-24T19:19:11+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T19:19:11+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
    "id": "bd2895d245f5f06d",
    "title": "Google Patches Critical Chrome Remote Code Execution Flaw",
    "url": "https://darkwebinformer.com/google-patches-critical-chrome-remote-code-execution-flaw/",
@@ -84,6 +174,7 @@
    "cves": [
     "CVE-2026-134401"
    ],
+   "brief_tries": 2,
    "first_seen": "2026-11-24T19:10:05+00:00",
    "also_in": [],
    "seen_count": 1,
@@ -98,7 +189,20 @@
    },
    "ssvc": "Track",
    "epss": 0.0041,
-   "exploitation": "none",
+   "exploitation": "none"
+  },
+  {
+   "id": "3c6e81ed07edca9b",
+   "title": "Becoming fast and flexible: How to defend against AI-driven attacks",
+   "url": "https://www.scworld.com/resource/becoming-fast-and-flexible-how-to-defend-against-ai-driven-attacks",
+   "summary": "Repelling AI-powered attacks demands AI-powered security controls and proactive patching.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T19:06:49+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T19:06:49+00:00",
+   "also_in": [],
+   "seen_count": 1,
    "brief_tries": 1
   },
   {
@@ -146,10 +250,10 @@
    "category": "threat",
    "date": "2026-11-24T18:59:52+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-24T18:59:52+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "9ad5372b50be1188",
@@ -160,10 +264,10 @@
    "category": "threat",
    "date": "2026-11-24T18:54:30+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-24T18:54:30+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "853c45e9cb07ba72",
@@ -174,10 +278,10 @@
    "category": "threat",
    "date": "2026-11-24T18:52:59+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-24T18:52:59+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "4d09bb0133e42fc5",
@@ -188,10 +292,10 @@
    "category": "patch",
    "date": "2026-11-24T18:36:59.123000+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-24T18:36:59.123000+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "0882675af261ccfe",
@@ -202,10 +306,10 @@
    "category": "patch",
    "date": "2026-11-24T18:28:33.237000+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-24T18:28:33.237000+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "d9b365c2530b5ce6",
@@ -216,10 +320,10 @@
    "category": "patch",
    "date": "2026-11-24T18:12:30.107000+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T18:12:30.107000+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "adb18ca6aea028ca",
@@ -449,6 +553,33 @@
    "first_seen": "2026-11-24T16:00:00+00:00",
    "also_in": [],
    "seen_count": 1
+  },
+  {
+   "id": "3151827705a81727",
+   "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
+   "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
+   "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do…",
+   "source": "Microsoft Security Response Center",
+   "category": "patch",
+   "date": "2026-11-24T16:00:00+00:00",
+   "cves": [
+    "CVE-2026-112732"
+   ],
+   "first_seen": "2026-11-24T16:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-112732": {
+     "epss": 0.0,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0,
+   "exploitation": "none"
   },
   {
    "id": "12ea0ee59850cd1f",
@@ -1094,14 +1225,8 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T16:00:00+00:00",
-   "also_in": [
-    {
-     "source": "Cisco Security Advisories",
-     "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Corroborated"
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "78138acb2d0a1975",
@@ -1231,12 +1356,12 @@
    "exploitation": "active"
   },
   {
-   "id": "17faeada10e472c5",
-   "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
-   "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
-   "summary": "McDonald’s Japan disclosed a cybersecurity breach that exposed customers’ purchase histories and mobile device location data.",
-   "source": "The Record",
-   "category": "threat",
+   "id": "2f8cd8afa8069277",
+   "title": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test",
+   "url": "https://www.infosecurity-magazine.com/news/chinese-ai-models-top/",
+   "summary": "In a vulnerability discovery test, DeepSeek outperformed five American closed-source AI models while costing far less to run",
+   "source": "Infosecurity Magazine",
+   "category": "vuln",
    "date": "2026-11-24T13:00:00+00:00",
    "cves": [],
    "brief_tries": 1,
@@ -1245,12 +1370,12 @@
    "seen_count": 1
   },
   {
-   "id": "2f8cd8afa8069277",
-   "title": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test",
-   "url": "https://www.infosecurity-magazine.com/news/chinese-ai-models-top/",
-   "summary": "In a vulnerability discovery test, DeepSeek outperformed five American closed-source AI models while costing far less to run",
-   "source": "Infosecurity Magazine",
-   "category": "vuln",
+   "id": "17faeada10e472c5",
+   "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
+   "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
+   "summary": "McDonald’s Japan disclosed a cybersecurity breach that exposed customers’ purchase histories and mobile device location data.",
+   "source": "The Record",
+   "category": "threat",
    "date": "2026-11-24T13:00:00+00:00",
    "cves": [],
    "brief_tries": 1,
@@ -1826,21 +1951,6 @@
    "seen_count": 1
   },
   {
-   "id": "059dd9a5e5c4cc3c",
-   "title": "Aoqin claims attack on Coneco Engineers & Scientists",
-   "url": "https://www.ransomware.live/group/Aoqin",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Aoqin",
-   "date": "2026-11-24T07:50:30.375719+00:00",
-   "cves": [],
-   "first_seen": "2026-11-24T07:50:30.375719+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "506b0b188be54fee",
    "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
    "url": "https://breachdirectory.org/",
@@ -1848,7 +1958,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.897840+00:00",
+   "date": "2026-11-24T08:13:59.296305+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1862,7 +1972,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.897840+00:00",
+   "date": "2026-11-24T08:13:59.296305+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1876,7 +1986,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.897840+00:00",
+   "date": "2026-11-24T08:13:59.296305+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1890,7 +2000,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.897840+00:00",
+   "date": "2026-11-24T08:13:59.296305+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1904,7 +2014,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.897840+00:00",
+   "date": "2026-11-24T08:13:59.296305+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1918,79 +2028,9 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.897840+00:00",
+   "date": "2026-11-24T08:13:59.296305+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "bc19616b086e5989",
-   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.885134+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "606d53923f4c9019",
-   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.885134+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "90b594e9b4c76d5c",
-   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.885134+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0c469036c8f8c41",
-   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.885134+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "74208a7acb26dbbb",
-   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.885134+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -2002,7 +2042,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.856857+00:00",
+   "date": "2026-11-24T08:13:59.268012+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -2016,7 +2056,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.856857+00:00",
+   "date": "2026-11-24T08:13:59.268012+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -2030,7 +2070,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.856857+00:00",
+   "date": "2026-11-24T08:13:59.268012+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -2044,7 +2084,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.856857+00:00",
+   "date": "2026-11-24T08:13:59.268012+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -2058,7 +2098,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.856857+00:00",
+   "date": "2026-11-24T08:13:59.268012+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -2072,7 +2112,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.856857+00:00",
+   "date": "2026-11-24T08:13:59.268012+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -2086,7 +2126,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.512209+00:00",
+   "date": "2026-11-24T08:13:59.111757+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -2100,7 +2140,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.512209+00:00",
+   "date": "2026-11-24T08:13:59.111757+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -2114,7 +2154,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.512209+00:00",
+   "date": "2026-11-24T08:13:59.111757+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -2128,7 +2168,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.512209+00:00",
+   "date": "2026-11-24T08:13:59.111757+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -2142,7 +2182,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.512209+00:00",
+   "date": "2026-11-24T08:13:59.111757+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -2156,9 +2196,107 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T07:13:12.512209+00:00",
+   "date": "2026-11-24T08:13:59.111757+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bc19616b086e5989",
+   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T08:13:59.106547+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "606d53923f4c9019",
+   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T08:13:59.106547+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "90b594e9b4c76d5c",
+   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T08:13:59.106547+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b0c469036c8f8c41",
+   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T08:13:59.106547+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "74208a7acb26dbbb",
+   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-24T08:13:59.106547+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "cbf383c5a42e1074",
+   "title": "Reprioritizing Automated Leads with CrowdStrike Signal",
+   "url": "https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/",
+   "summary": "",
+   "source": "CrowdStrike",
+   "category": "threat",
+   "date": "2026-11-24T08:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T08:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "059dd9a5e5c4cc3c",
+   "title": "Aoqin claims attack on Coneco Engineers & Scientists",
+   "url": "https://www.ransomware.live/group/Aoqin",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "Aoqin",
+   "date": "2026-11-24T07:50:30.375719+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T07:50:30.375719+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -2802,34 +2940,6 @@
    "first_seen": "2026-11-23T20:36:23+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "5e770780f62defe8",
-   "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
-   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded…",
-   "source": "Cisco Security Advisories",
-   "category": "vuln",
-   "date": "2026-11-23T20:32:33+00:00",
-   "cves": [
-    "CVE-2026-114938"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T20:37:16+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-114938": {
-     "epss": 0.5927,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track*"
-    }
-   },
-   "ssvc": "Track*",
-   "epss": 0.5927,
-   "exploitation": "poc"
   },
   {
    "id": "93a87cb1317a060e",
@@ -5262,20 +5372,6 @@
    "seen_count": 1
   },
   {
-   "id": "ee271c5265adc633",
-   "title": "Army partners with OpenAI to accelerate software accreditation",
-   "url": "https://www.scworld.com/brief/army-partners-with-openai-to-accelerate-software-accreditation",
-   "summary": "As outlined in Defensescoop, the Army is collaborating with OpenAI to streamline the accreditation process for commercial software vendors seeking to provide products to the military.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-23T02:25:22+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-23T02:25:22+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "4a7e4b34034f604c",
    "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
    "url": "https://isc.sans.edu/diary/rss/33548",
@@ -6250,10 +6346,6 @@
      "url": "https://socradar.io/blog/java4shell-cve-2026-114938-openjdk-rce/"
     },
     {
-     "source": "Fortinet PSIRT",
-     "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278"
-    },
-    {
      "source": "Cisco Talos",
      "url": "https://blog.talosintelligence.com/java4shell/"
     },
@@ -6262,7 +6354,7 @@
      "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17"
     }
    ],
-   "seen_count": 7,
+   "seen_count": 6,
    "badge": "Corroborated",
    "cve_detail": {
     "CVE-2026-114938": {
@@ -7821,34 +7913,6 @@
    "exploitation": "none"
   },
   {
-   "id": "c991a1b77fe74bc9",
-   "title": "CVE-2026-69370 Visual Studio Code Remote Code Execution Vulnerability",
-   "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69370",
-   "summary": "Updated an acknowledgement. This is an informational change only.",
-   "source": "Microsoft Security Response Center",
-   "category": "patch",
-   "date": "2026-11-19T16:00:00+00:00",
-   "cves": [
-    "CVE-2026-69370"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T16:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-69370": {
-     "epss": 0.0088,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0088,
-   "exploitation": "none"
-  },
-  {
    "id": "54225f4d777eefef",
    "title": "What Is Preemptive MDR? A Guide For Security Leaders",
    "url": "https://www.rapid7.com/blog/post/dr-what-is-preemptive-mdr-security-leaders-guide",
@@ -8924,20 +8988,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T18:22:30+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e2c1e055832b185a",
-   "title": "France Travail Database Sale Claim Lists 1.55 Million Records With Job Seeker and Contact Data",
-   "url": "https://darkwebinformer.com/france-travail-database-sale-claim-lists-1-55-million-records-with-job-seeker-and-contact-data/",
-   "summary": "An actor using the handle \"cauchyx\" claims to be selling a database associated with France Travail.",
-   "source": "Dark Web Informer",
-   "category": "threat",
-   "date": "2026-11-18T17:32:30+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T17:32:30+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -10135,20 +10185,6 @@
    "epss": 0.0015,
    "exploitation": "none",
    "brief_tries": 2
-  },
-  {
-   "id": "7e0cfef95a8a90ca",
-   "title": "California fines Hertz $1.5 million for breaking state data privacy law",
-   "url": "https://therecord.media/california-fines-hertz-state-data-privacy-law",
-   "summary": "Hertz agreed to the fine and said it would change its business practices, according to a court filing shared by the regulator, the California Privacy Protection Agency (CPPA).",
-   "source": "The Record",
-   "category": "threat",
-   "date": "2026-11-17T17:13:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T17:13:00+00:00",
-   "also_in": [],
-   "seen_count": 1
   },
   {
    "id": "f479cb5dcfaac979",
@@ -11889,34 +11925,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-16T07:09:38+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "eb9de4818ae16063",
-   "title": "A USB worm’s second life: Retadup spreading CoffeeLoader",
-   "url": "https://securelist.com/retadup-delivers-coffeeloader/121908/",
-   "summary": "A new version of CoffeeLoader is spreading through Retadup, an old USB worm whose infrastructure was seized by law enforcement back in 2019.",
-   "source": "Securelist",
-   "category": "threat",
-   "date": "2026-11-16T07:00:37+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-16T07:00:37+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "9b3303f8995b0ee0",
-   "title": "vm2's own repo lists its next sandbox escapes: a deferred nesting fix, a \"monitoring\" entry in ATTACKS.md, and species shims for Promise and Array but not typed arrays",
-   "url": "https://www.reddit.com/r/netsec/comments/1xxibhv/vm2s_own_repo_lists_its_next_sandbox_escapes_a/",
-   "summary": "Author here. I had written up six vm2 CVEs one at a time, then read all six in a row. Read that way they stop looking like separate bugs. Short version: vm2's bridge is a hand-written wrap list, so it is always one language feature behind. Every fix is one of three moves: add…",
-   "source": "Reddit r/netsec",
-   "category": "threat",
-   "date": "2026-11-16T06:32:20+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-16T06:32:20+00:00",
    "also_in": [],
    "seen_count": 1
   }
