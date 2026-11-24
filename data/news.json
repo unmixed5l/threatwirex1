@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-24T15:17:28.105362+00:00",
+ "updated": "2026-11-24T16:30:53.118140+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -16,7 +16,7 @@
   "Help Net Security": "ok (10)",
   "Infosecurity Magazine": "ok (250)",
   "SC Media": "ok (10)",
-  "Graham Cluley": "failed: ParseError",
+  "Graham Cluley": "ok (20)",
   "Troy Hunt": "ok (15)",
   "Malwarebytes Labs": "ok (20)",
   "Schneier on Security": "ok (10)",
@@ -74,6 +74,200 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "cad292c7e46bbd2d",
+   "title": "European Commission confirms data theft in EU Academy breach",
+   "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+   "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users.",
+   "source": "BleepingComputer",
+   "category": "breach",
+   "date": "2026-11-24T16:22:44+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T16:22:44+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "feed907b9a326a7f",
+   "title": "An on-call rotation distributes hours, not authority",
+   "url": "https://www.scworld.com/practitioner-decision-guide/an-on-call-rotation-distributes-hours-not-authority",
+   "summary": "",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T16:21:05+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T16:21:05+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "5ba708d91b205e45",
+   "title": "Hackers compromise Check Point Servers in 22 organizations",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+   "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations.",
+   "source": "BleepingComputer",
+   "category": "exploit",
+   "date": "2026-11-24T16:15:23+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T16:15:23+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "076062d7e09e35fe",
+   "title": "Carnegie Endowment for International Peace says third-party breach leaked donation info",
+   "url": "https://therecord.media/carnegie-endowment-data-breach",
+   "summary": "Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.",
+   "source": "The Record",
+   "category": "breach",
+   "date": "2026-11-24T16:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T16:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "12ea0ee59850cd1f",
+   "title": "Defense officials emphasize zero trust and AI training for military cyber operations",
+   "url": "https://www.scworld.com/brief/defense-officials-emphasize-zero-trust-and-ai-training-for-military-cyber-operations",
+   "summary": "The United States military is prioritizing the development of robust architectures and specialized training to maintain operational effectiveness within zero trust environments and against AI-enabled cyber threats, according to Defensescoop.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:59:49+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:59:49+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "22b8415a8b1f6bf7",
+   "title": "How to compare MDR providers when every proposal looks promising",
+   "url": "https://www.rapid7.com/blog/post/dr-comparing-mdr-providers-scorecard",
+   "summary": "Choosing a managed detection and response (MDR) provider means committing budget, connecting systems, and trusting another team to act when your organization is under pressure. Yet a proposal promising 24x7 coverage, expert analysts, and fast response can leave important…",
+   "source": "Rapid7 Blog",
+   "category": "threat",
+   "date": "2026-11-24T15:51:25+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:51:25+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "b85dd6d510bb73ee",
+   "title": "Artificial intelligence agents leak confidential data to complete tasks",
+   "url": "https://www.scworld.com/brief/artificial-intelligence-agents-leak-confidential-data-to-complete-tasks",
+   "summary": "As outlined in Silicon Angle, artificial intelligence agents are prone to leaking confidential company information when prioritizing task completion over data security protocols.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:46:58+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:46:58+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "2bf441fa5069d921",
+   "title": "Security researchers uncover critical vulnerabilities in trailer brake controllers",
+   "url": "https://www.scworld.com/brief/security-researchers-uncover-critical-vulnerabilities-in-trailer-brake-controllers",
+   "summary": "Trailer brake controllers manufactured by Elecbrakes contain significant security flaws that allow unauthorized users to manipulate braking systems via Bluetooth, according to a recent report by The Register.",
+   "source": "SC Media",
+   "category": "vuln",
+   "date": "2026-11-24T15:46:40+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:46:40+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "d209c15553349b73",
+   "title": "Peruvian call center operator sentenced for $15 million fraud scheme",
+   "url": "https://www.scworld.com/brief/peruvian-call-center-operator-sentenced-for-15-million-fraud-scheme",
+   "summary": "A Peruvian call center operator has been sentenced to eight years in prison for orchestrating a massive fraud scheme that targeted Spanish-speaking residents in the United States, according to a recent report by Bleeping Computer.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:46:25+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:46:25+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "91f05ab9d6bbe76d",
+   "title": "Europol Traces €26M in Crypto, Disrupts 57 IPTV Services",
+   "url": "https://darkwebinformer.com/europol-traces-eur26m-in-crypto-disrupts-57-iptv-services/",
+   "summary": "Europol disrupts 57 illegal IPTV services and traces over €26 million in cryptocurrency transactions during a coordinated operation involving 11 countries.",
+   "source": "Dark Web Informer",
+   "category": "threat",
+   "date": "2026-11-24T15:41:13+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:41:13+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "deea569e27003d99",
+   "title": "GlobeTopper suffers cyberattack resulting in financial losses",
+   "url": "https://www.scworld.com/brief/globetopper-suffers-cyberattack-resulting-in-financial-losses",
+   "summary": "As noted by Bleeping Computer, the business-to-business digital gift card provider GlobeTopper recently suffered a significant cyberattack that disrupted its operations and resulted in financial losses.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:39:51+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:39:51+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "132112435208dd51",
+   "title": "Android camera metadata can leak audio data",
+   "url": "https://www.scworld.com/brief/android-camera-metadata-can-leak-audio-data",
+   "summary": "As reported by Cyber Insider, researchers have discovered a security vulnerability in Android devices where camera metadata can inadvertently expose audio information.",
+   "source": "SC Media",
+   "category": "vuln",
+   "date": "2026-11-24T15:36:54+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:36:54+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "f804ba79c491ba9c",
+   "title": "Webworm threat actor modifies SoftEther VPN for covert access",
+   "url": "https://www.scworld.com/brief/webworm-threat-actor-modifies-softether-vpn-for-covert-access",
+   "summary": "Reported by The Hacker News. The China-aligned threat actor known as Webworm is utilizing a modified version of the open-source SoftEther VPN Bridge to establish covert remote access to compromised networks.",
+   "source": "SC Media",
+   "category": "threat",
+   "date": "2026-11-24T15:25:24+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:25:24+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "1f75de46df5160e7",
+   "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+   "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+   "summary": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year.",
+   "source": "BleepingComputer",
+   "category": "threat",
+   "date": "2026-11-24T15:10:10+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T15:10:10+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "0309b5062a83e7a1",
    "title": "Cato Networks offers $10,000 bounty for hacking new AI security tool",
    "url": "https://www.scworld.com/brief/cato-networks-offers-10000-bounty-for-hacking-new-ai-security-tool",
@@ -82,10 +276,10 @@
    "category": "threat",
    "date": "2026-11-24T15:04:58+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T15:04:58+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "d530b5a0b7e1e7a7",
@@ -96,10 +290,10 @@
    "category": "threat",
    "date": "2026-11-24T15:04:36+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T15:04:36+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "296333ceb1e968e0",
@@ -124,10 +318,10 @@
    "category": "vuln",
    "date": "2026-11-24T15:01:11+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T15:01:11+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "d6b273c93305f51e",
@@ -152,10 +346,10 @@
    "category": "threat",
    "date": "2026-11-24T15:00:19+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T15:00:19+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "2af42a7d5a9825bf",
@@ -180,10 +374,10 @@
    "category": "exploit",
    "date": "2026-11-24T15:00:00+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T15:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "1df098998f9727bc",
@@ -222,10 +416,10 @@
    "category": "breach",
    "date": "2026-11-24T14:49:59+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-24T14:49:59+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "4f9e708136ae1189",
@@ -279,6 +473,7 @@
     "CVE-2026-76466"
    ],
    "first_seen": "2026-11-24T14:29:08+00:00",
+   "kev": true,
    "also_in": [
     {
      "source": "Dark Web Informer",
@@ -302,8 +497,7 @@
    },
    "ssvc": "Act",
    "epss": 0.0219,
-   "exploitation": "active",
-   "kev": true
+   "exploitation": "active"
   },
   {
    "id": "92aa37221163a1af",
@@ -356,6 +550,7 @@
     "CVE-2026-84869"
    ],
    "first_seen": "2026-11-24T14:21:10+00:00",
+   "kev": true,
    "also_in": [
     {
      "source": "The Hacker News",
@@ -375,8 +570,26 @@
    },
    "ssvc": "Attend",
    "epss": 0.0117,
-   "exploitation": "active",
-   "kev": true
+   "exploitation": "active"
+  },
+  {
+   "id": "bd462ecd28ca1ea6",
+   "title": "Signal blocks AI assistants from snooping on your encrypted messages",
+   "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/signal-ai-assistants-snooping-encrypted-messages",
+   "summary": "Signal is blocking Siri and Gemini from reading your encrypted chats off the screen, and warning that AI agents built into operating systems are an \"existential threat\" to privacy. Read more in my article on the Hot for Security blog.",
+   "source": "Graham Cluley",
+   "category": "threat",
+   "date": "2026-11-24T14:17:44+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T14:17:44+00:00",
+   "also_in": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/signal-blocks-ai-assistants-screenshots/"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated"
   },
   {
    "id": "5d09561e7229eb1e",
@@ -525,14 +738,8 @@
    "date": "2026-11-24T13:35:37+00:00",
    "cves": [],
    "first_seen": "2026-11-24T13:35:37+00:00",
-   "also_in": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Corroborated"
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "e94ac3e9d5200e65",
@@ -626,6 +833,7 @@
     "CVE-2026-123890"
    ],
    "first_seen": "2026-11-24T13:01:25+00:00",
+   "kev": true,
    "also_in": [
     {
      "source": "Cyble",
@@ -645,8 +853,7 @@
    },
    "ssvc": "Act",
    "epss": 0.0353,
-   "exploitation": "active",
-   "kev": true
+   "exploitation": "active"
   },
   {
    "id": "17faeada10e472c5",
@@ -848,6 +1055,59 @@
    "seen_count": 1
   },
   {
+   "id": "e1d950e00d28b4bf",
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your switchboard, including all…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-11-24T12:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T12:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "153407077dbd1977",
+   "title": "Danfoss AK-SM 8xxA Series",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-24T12:00:00+00:00",
+   "cves": [
+    "CVE-2026-129713"
+   ],
+   "first_seen": "2026-11-24T12:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-129713": {
+     "epss": 0.0096,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0096,
+   "exploitation": "none"
+  },
+  {
+   "id": "0e0d7bdcc4e24a02",
+   "title": "AutomationDirect C-More EA9 Programming Software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-24T12:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T12:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "f3a43b39549fdc89",
    "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
    "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
@@ -858,6 +1118,21 @@
    "cves": [],
    "brief_tries": 1,
    "first_seen": "2026-11-24T11:50:21+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "4de61d7c8ee290d9",
+   "title": "incransom claims attack on fiwealth.com",
+   "url": "https://www.ransomware.live/group/incransom",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "incransom",
+   "date": "2026-11-24T11:39:16.659191+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T11:39:16.659191+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -1361,21 +1636,6 @@
    "seen_count": 1
   },
   {
-   "id": "a17e0f157f6f2af8",
-   "title": "Scarlettgroup claims attack on knox.edu",
-   "url": "https://www.ransomware.live/group/Scarlettgroup",
-   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "Scarlettgroup",
-   "date": "2026-11-24T03:59:27.809823+00:00",
-   "cves": [],
-   "first_seen": "2026-11-24T03:59:27.809823+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "ea192d81222fb65a",
    "title": "McGraw Hill: 21,273,739 records in the DeHashed index",
    "url": "https://dehashed.com/",
@@ -1383,7 +1643,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.583658+00:00",
+   "date": "2026-11-24T04:29:34.277583+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1397,7 +1657,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.583658+00:00",
+   "date": "2026-11-24T04:29:34.277583+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1411,7 +1671,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.583658+00:00",
+   "date": "2026-11-24T04:29:34.277583+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1425,7 +1685,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.583658+00:00",
+   "date": "2026-11-24T04:29:34.277583+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1439,7 +1699,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.583658+00:00",
+   "date": "2026-11-24T04:29:34.277583+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1453,7 +1713,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.583658+00:00",
+   "date": "2026-11-24T04:29:34.277583+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -1467,7 +1727,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.352281+00:00",
+   "date": "2026-11-24T04:29:34.102863+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1481,7 +1741,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.352281+00:00",
+   "date": "2026-11-24T04:29:34.102863+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1495,7 +1755,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.352281+00:00",
+   "date": "2026-11-24T04:29:34.102863+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1509,7 +1769,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.352281+00:00",
+   "date": "2026-11-24T04:29:34.102863+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1523,7 +1783,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.352281+00:00",
+   "date": "2026-11-24T04:29:34.102863+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1537,7 +1797,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.352281+00:00",
+   "date": "2026-11-24T04:29:34.102863+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -1551,7 +1811,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.317483+00:00",
+   "date": "2026-11-24T04:29:34.061083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1565,7 +1825,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.317483+00:00",
+   "date": "2026-11-24T04:29:34.061083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1579,7 +1839,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.317483+00:00",
+   "date": "2026-11-24T04:29:34.061083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1593,7 +1853,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.317483+00:00",
+   "date": "2026-11-24T04:29:34.061083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1607,7 +1867,7 @@
    "source": "Leak-Lookup",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.317483+00:00",
+   "date": "2026-11-24T04:29:34.061083+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
@@ -1621,7 +1881,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.176175+00:00",
+   "date": "2026-11-24T04:29:33.995908+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1635,7 +1895,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.176175+00:00",
+   "date": "2026-11-24T04:29:33.995908+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1649,7 +1909,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.176175+00:00",
+   "date": "2026-11-24T04:29:33.995908+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1663,7 +1923,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.176175+00:00",
+   "date": "2026-11-24T04:29:33.995908+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1677,7 +1937,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.176175+00:00",
+   "date": "2026-11-24T04:29:33.995908+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -1691,9 +1951,24 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-24T03:16:08.176175+00:00",
+   "date": "2026-11-24T04:29:33.995908+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "a17e0f157f6f2af8",
+   "title": "Scarlettgroup claims attack on knox.edu",
+   "url": "https://www.ransomware.live/group/Scarlettgroup",
+   "summary": "Listed on a ransomware group's leak site (US). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "Scarlettgroup",
+   "date": "2026-11-24T03:59:27.809823+00:00",
+   "cves": [],
+   "first_seen": "2026-11-24T03:59:27.809823+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -3941,20 +4216,6 @@
    "badge": "Corroborated"
   },
   {
-   "id": "6f784865c53c7398",
-   "title": "Signal blocks AI assistants from peeking at your private messages",
-   "url": "https://www.helpnetsecurity.com/2026/11/23/signal-blocks-ai-assistants-screenshots/",
-   "summary": "Signal, the encrypted messaging app, is restricting AI assistants built into mobile operating systems from capturing the content of users’ conversations. The protections target Siri AI on iOS 27 and AI assistants on supported Android devices, including Google’s Gemini. These…",
-   "source": "Help Net Security",
-   "category": "threat",
-   "date": "2026-11-23T08:53:49+00:00",
-   "cves": [],
-   "brief_tries": 1,
-   "first_seen": "2026-11-23T08:53:49+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "80927b607c9d99a7",
    "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
    "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
@@ -4536,21 +4797,6 @@
    "date": "2026-11-23T04:00:28.785897+00:00",
    "cves": [],
    "first_seen": "2026-11-23T04:00:28.785897+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "9b861ab924926b27",
-   "title": "N0n claims attack on Company #250",
-   "url": "https://www.ransomware.live/group/N0n",
-   "summary": "Listed on a ransomware group's leak site (GB). This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "N0n",
-   "date": "2026-11-23T03:59:49.297229+00:00",
-   "cves": [],
-   "first_seen": "2026-11-23T03:59:49.297229+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -5326,118 +5572,6 @@
    "cves": [],
    "brief_tries": 1,
    "first_seen": "2026-11-21T01:31:23+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "e21984dc9b7d30bc",
-   "title": "Security researchers track rising mail bombing and helpdesk impersonation campaigns",
-   "url": "https://www.scworld.com/brief/security-researchers-track-rising-mail-bombing-and-helpdesk-impersonation-campaigns",
-   "summary": "As noted by Infosecurity Magazine, cybercriminals are executing large-scale mail bombing attacks combined with IT helpdesk impersonation to compromise user accounts.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-21T00:55:14+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:55:14+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "a54837d5b15f10bd",
-   "title": "Credential-stealing operation compromises 603 computers",
-   "url": "https://www.scworld.com/brief/credential-stealing-operation-compromises-603-computers",
-   "summary": "A sophisticated credential-stealing operation has compromised 603 Windows computers, exposing sensitive bank, government and password manager accounts.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-21T00:55:06+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:55:06+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "abb472d4aa0d757a",
-   "title": "Signal blocks AI agents from accessing private messages",
-   "url": "https://www.scworld.com/brief/signal-blocks-ai-agents-from-accessing-private-messages",
-   "summary": "Signal has implemented new restrictions to prevent artificial intelligence agents from accessing private user messages, as first reported by The Register.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-21T00:51:08+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:51:08+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "814531fc1513aa24",
-   "title": "Carnegie Endowment for International Peace reports data breach",
-   "url": "https://www.scworld.com/brief/carnegie-endowment-for-international-peace-reports-data-breach",
-   "summary": "As noted by Nextgov, the Carnegie Endowment for International Peace recently experienced a data breach involving a third-party vendor used for online donations.",
-   "source": "SC Media",
-   "category": "breach",
-   "date": "2026-11-21T00:50:58+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:50:58+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "a0ed97ce8843ee5e",
-   "title": "Ransomware recovery timelines and shifting attack tactics in 2026",
-   "url": "https://www.scworld.com/brief/ransomware-recovery-timelines-and-shifting-attack-tactics-in-2026",
-   "summary": "Ransomware recovery requires a median of 20 days for organizations to achieve full restoration, with nearly 30% of victims needing more than six weeks to return to normal operations, based on information published by Infosecurity Magazine.",
-   "source": "SC Media",
-   "category": "ransomware",
-   "date": "2026-11-21T00:48:28+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:48:28+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "5b07e6bb42c665c1",
-   "title": "SonicWall urges retirement of generation 6 firewalls due to security risks",
-   "url": "https://www.scworld.com/brief/sonicwall-urges-retirement-of-generation-6-firewalls-due-to-security-risks",
-   "summary": "In a report by The Hacker News, SonicWall has issued an urgent advisory for customers to immediately retire and replace all Generation 6 firewalls. The company warns that these unsupported devices are increasingly vulnerable to automated and AI-assisted cyberattacks.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-21T00:48:11+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:48:11+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "89f4ecd9e60af95b",
-   "title": "Microsoft fixes windows 11 passkey bug affecting android devices",
-   "url": "https://www.scworld.com/brief/microsoft-fixes-windows-11-passkey-bug-affecting-android-devices",
-   "summary": "Microsoft has released a software update to address a Windows 11 passkey bug that causes Android phones to incorrectly report authentication failures, with further coverage provided by The Register.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-21T00:46:26+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:46:26+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "88705b5d37b7d182",
-   "title": "Bell Canada confirms data breach involving agentic threat actor",
-   "url": "https://www.scworld.com/brief/bell-canada-confirms-data-breach-involving-agentic-threat-actor",
-   "summary": "Coverage from Bleeping Computer indicates that Bell Canada experienced a security breach on Nov. 17, 2026, involving an agentic threat actor that compromised enterprise customer data.",
-   "source": "SC Media",
-   "category": "breach",
-   "date": "2026-11-21T00:46:14+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T00:46:14+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -7762,34 +7896,6 @@
    "seen_count": 1
   },
   {
-   "id": "3f6682cf94420c03",
-   "title": "libumqtt",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3…",
-   "source": "CISA Advisories",
-   "category": "exploit",
-   "date": "2026-11-19T12:00:00+00:00",
-   "cves": [
-    "CVE-2026-125132"
-   ],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T12:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-125132": {
-     "epss": 0.0084,
-     "kev": false,
-     "kev_date": null,
-     "cvss": null,
-     "ssvc": "Track"
-    }
-   },
-   "ssvc": "Track",
-   "epss": 0.0084,
-   "exploitation": "none"
-  },
-  {
    "id": "7f8f338723412135",
    "title": "Autonomy Logic OpenPLC Runtime",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
@@ -7815,6 +7921,34 @@
    },
    "ssvc": "Track",
    "epss": 0.0027,
+   "exploitation": "none"
+  },
+  {
+   "id": "3f6682cf94420c03",
+   "title": "libumqtt",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3…",
+   "source": "CISA Advisories",
+   "category": "exploit",
+   "date": "2026-11-19T12:00:00+00:00",
+   "cves": [
+    "CVE-2026-125132"
+   ],
+   "brief_tries": 2,
+   "first_seen": "2026-11-19T12:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "cve_detail": {
+    "CVE-2026-125132": {
+     "epss": 0.0084,
+     "kev": false,
+     "kev_date": null,
+     "cvss": null,
+     "ssvc": "Track"
+    }
+   },
+   "ssvc": "Track",
+   "epss": 0.0084,
    "exploitation": "none"
   },
   {
@@ -8474,20 +8608,6 @@
    "seen_count": 1
   },
   {
-   "id": "9f639cd35360f889",
-   "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-   "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-   "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland.",
-   "source": "BleepingComputer",
-   "category": "breach",
-   "date": "2026-11-18T19:39:33+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T19:39:33+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "d5acfeb860fe36bb",
    "title": "Senate Republicans advance FCC nominee, slate of cyber bills",
    "url": "https://cyberscoop.com/danielle-thumann-severs-fcc-nomination-tech-bills/",
@@ -8570,21 +8690,6 @@
    "first_seen": "2026-11-18T17:32:30+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "4d21e756021aad15",
-   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-   "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-   "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems.",
-   "source": "BleepingComputer",
-   "category": "threat",
-   "date": "2026-11-18T16:58:42+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T16:58:42+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "badge": "Corroborated"
   },
   {
    "id": "830c2e13c09821d1",
@@ -8751,20 +8856,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T15:15:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "8e8debc4b233d460",
-   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-   "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-   "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations…",
-   "source": "BleepingComputer",
-   "category": "threat",
-   "date": "2026-11-18T15:00:10+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T15:00:10+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -10174,10 +10265,10 @@
    "seen_count": 1
   },
   {
-   "id": "a0f483dd422adb0a",
-   "title": "Siemens ROS#",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-   "summary": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS#…",
+   "id": "d4620a114430c7d2",
+   "title": "Siemens SIMATIC WinCC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+   "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific…",
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-11-17T12:00:00+00:00",
@@ -10279,6 +10370,20 @@
    "seen_count": 1
   },
   {
+   "id": "a0f483dd422adb0a",
+   "title": "Siemens ROS#",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "summary": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS#…",
+   "source": "CISA Advisories",
+   "category": "vuln",
+   "date": "2026-11-17T12:00:00+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-17T12:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "9c3818e954e8d173",
    "title": "Siemens SIMATIC",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
@@ -10297,20 +10402,6 @@
    "title": "Siemens RUGGEDCOM APE1808",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
    "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure.…",
-   "source": "CISA Advisories",
-   "category": "vuln",
-   "date": "2026-11-17T12:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T12:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "d4620a114430c7d2",
-   "title": "Siemens SIMATIC WinCC",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
-   "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific…",
    "source": "CISA Advisories",
    "category": "vuln",
    "date": "2026-11-17T12:00:00+00:00",
@@ -10907,20 +10998,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-16T18:42:15+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "44da2b609f91b423",
-   "title": "Sport-U Database Sale Claim Lists 982,964 Records With Personal and Contact Data",
-   "url": "https://darkwebinformer.com/sport-u-database-sale-claim-lists-982-964-records-with-personal-and-contact-data/",
-   "summary": "An actor using the handle \"Bonjour\" claims to be selling a database associated with Sport-U (Fédération Française du Sport Universitaire).",
-   "source": "Dark Web Informer",
-   "category": "threat",
-   "date": "2026-11-16T18:39:33+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-16T18:39:33+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -11703,76 +11780,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-16T00:00:10+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0c4e7446d9197385",
-   "title": "Infostealers Weekly Report: 2026-11-09 – 2026-11-16",
-   "url": "https://www.infostealers.com/report/infostealers-weekly-report-2026-11-09-2026-11-16/",
-   "summary": "InfoStealers Weekly Report – In this comprehensive report, we provide you with valuable insights into the most pressing threats facing organizations today. As cyberattacks continue to grow in…",
-   "source": "Hudson Rock Infostealers",
-   "category": "threat",
-   "date": "2026-11-16T00:00:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-16T00:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "8d87100358658906",
-   "title": "The Microsoft Outage Left 15 Hotel Guests Poisoned by Chlorine",
-   "url": "https://securityaffairs.com/203189/security/the-microsoft-outage-left-15-hotel-guests-poisoned-by-chlorine.html",
-   "summary": "A Microsoft 365 outage stopped a hotel’s email chlorine alert in Germany, and 15 guests were poisoned. A hotel in Germany had a maintenance safety system for its sauna area. If the chlorine level got too high, the system emailed the operators. When Microsoft’s cloud services…",
-   "source": "Security Affairs",
-   "category": "threat",
-   "date": "2026-11-15T22:38:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T22:38:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "aacb733acffb6d3e",
-   "title": "Dry Soup: this holiday season you need to choose a family code word",
-   "url": "https://www.reddit.com/r/netsec/comments/1xx6e0s/dry_soup_this_holiday_season_you_need_to_choose_a/",
-   "summary": "submitted by   /u/coldBlock73 [link]   [comments]",
-   "source": "Reddit r/netsec",
-   "category": "threat",
-   "date": "2026-11-15T20:50:37+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T20:50:37+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "324cd73051e2fa2a",
-   "title": "Final year project",
-   "url": "https://www.reddit.com/r/cybersecurity/comments/1xx5mv2/final_year_project/",
-   "summary": "Im thinking about doing a detection and prevention system for data exfiltration over DNS but I also read about DNS over HTTPS and rn I feel like im confused about which one to pick or which one is better or stronger at the same time I want something achievable Besides this I…",
-   "source": "Reddit r/cybersecurity",
-   "category": "threat",
-   "date": "2026-11-15T20:19:29+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T20:19:29+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "1b04786cddb33296",
-   "title": "Inside the AI-Powered Marketplace Turning Infected Computers Into Searchable Profiles",
-   "url": "https://www.infostealers.com/article/inside-the-ai-powered-marketplace-turning-infected-computers-into-searchable-profiles/",
-   "summary": "Hudson Rock Research / Infostealer Marketplaces Inside the AI-Powered Marketplace Turning Infected Computers Into Searchable Profiles A newly advertised service turns compromised computers into searchable profiles. Hudson Rock…",
-   "source": "Hudson Rock Infostealers",
-   "category": "threat",
-   "date": "2026-11-15T19:02:55+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-15T19:02:55+00:00",
    "also_in": [],
    "seen_count": 1
   }
