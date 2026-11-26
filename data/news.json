@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-26T12:14:29.444823+00:00",
+ "updated": "2026-11-26T13:38:45.542142+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -74,6 +74,179 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
+   "id": "a699a31d59a19fbd",
+   "title": "15 Questions Every CISO Should Ask Before Allowing AI Pentesting in Production",
+   "url": "https://socradar.io/blog/ai-pentesting-questions-cisos-should-ask/",
+   "summary": "AI-powered penetration testing is moving from periodic assessments to continuous, autonomous security validation. But before allowing an AI agent to test production systems, organizations must answer a critical question: How do we ensure the testing itself does not become a…",
+   "source": "SOCRadar",
+   "category": "threat",
+   "date": "2026-11-26T13:32:43+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T13:32:43+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "616f66e8ebf5f366",
+   "title": "Security report reveals critical vulnerabilities in US water infrastructure",
+   "url": "https://www.scworld.com/brief/security-report-reveals-critical-vulnerabilities-in-us-water-infrastructure",
+   "summary": "",
+   "source": "SC Media",
+   "category": "vuln",
+   "date": "2026-11-26T13:20:40+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T13:20:40+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "0084f4bf0275a168",
+   "title": "FIFA says it has been victim of a cyberattack accessing ‘personal and business information’",
+   "url": "https://databreaches.net/2026/11/26/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+   "summary": "CNA reports: FIFA was the victim of a cyberattack that saw hackers gain access to what soccer’s world governing body describes as a “limited set of personal and business information,” it said on Thursday (Nov 26). “FIFA is working closely with the relevant authorities,…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-26T13:18:58+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T13:18:58+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "95ab5107820cfeab",
+   "title": "Preinstalled Keenadu malware turns up on 220,000+ Android devices",
+   "url": "https://databreaches.net/2026/11/26/preinstalled-keenadu-malware-turns-up-on-220000-android-devices/",
+   "summary": "Sinisa Markovic reports: A new Android phone can come out of the box with malware already in its firmware, and the number of such devices detected each month has grown more than 2.5 times over the past year, according to Kaspersky. Keenadu, one of the two families behind most…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-26T13:18:53+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T13:18:53+00:00",
+   "also_in": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated",
+   "brief_tries": 1
+  },
+  {
+   "id": "1559caed12e86231",
+   "title": "Australia’s Flight Centre Data Breach Exposes Customer Records and Passport Details",
+   "url": "https://databreaches.net/2026/11/26/australias-flight-centre-data-breach-exposes-customer-records-and-passport-details/",
+   "summary": "Pierluigi Paganini reports: Australia’s Flight Centre Travel Group is investigating a cyber incident involving a third-party accommodation booking system that may have exposed a significant number of customer records. The company disclosed the incident on November 26, saying it…",
+   "source": "DataBreaches.net",
+   "category": "breach",
+   "date": "2026-11-26T13:18:46+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T13:18:46+00:00",
+   "also_in": [
+    {
+     "source": "Security Affairs",
+     "url": "https://securityaffairs.com/204049/data-breach/australias-flight-centre-data-breach-exposes-customer-records-and-passport-details.html"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated",
+   "brief_tries": 1
+  },
+  {
+   "id": "51c4c7d388fa4f21",
+   "title": "Google Cloud Requires AI Agents to Access Workspace Through Approved Methods",
+   "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/",
+   "summary": "Google Cloud users will soon be required to use Workspace MCP servers or command line interface to connect AI agents to tools like Gmail, Google Drive or Docs",
+   "source": "Infosecurity Magazine",
+   "category": "threat",
+   "date": "2026-11-26T13:15:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T13:15:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "c69074b4c129aca6",
+   "title": "CVE-2026-103406 added to CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
+   "source": "CISA KEV",
+   "category": "exploit",
+   "badge": "Actively exploited",
+   "kev": true,
+   "cves": [
+    "CVE-2026-103406"
+   ],
+   "date": "2026-11-25T00:00:00+00:00",
+   "first_seen": "2026-11-25T00:00:00+00:00",
+   "also_in": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/"
+    }
+   ],
+   "seen_count": 2,
+   "cve_detail": {
+    "CVE-2026-103406": {
+     "epss": 0.0086,
+     "kev": true,
+     "kev_date": "2026-11-25",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.0086,
+   "exploitation": "active",
+   "brief_tries": 1
+  },
+  {
+   "id": "5135e640aeddb2e5",
+   "title": "RedOps: WeaveLotus Targets Southeast Asian Governments for South China Sea Intelligence",
+   "url": "https://socradar.io/blog/redops-weavelotus-southeast-asian-governments/",
+   "summary": "The SOCRadar Threat Research Unit (STRU) identified RedOps, a cyber espionage campaign conducted by a Vietnam-sponsored threat actor tracked as WeaveLotus. Between August and September 2026, the actor targeted military, government and legislative organizations in Southeast Asia…",
+   "source": "SOCRadar",
+   "category": "threat",
+   "date": "2026-11-26T13:00:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T13:00:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "0109f789cb007359",
+   "title": "Phishers Abuse Hugging Face's AI Site Builder to Spoof Big Brands",
+   "url": "https://www.infosecurity-magazine.com/news/hugging-face-ai-builder-phishing/",
+   "summary": "Aikido found 42 phishing pages on Hugging Face Spaces, two-thirds made with its AI site builder",
+   "source": "Infosecurity Magazine",
+   "category": "threat",
+   "date": "2026-11-26T12:30:00+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T12:30:00+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "c1505f8746ace765",
+   "title": "Why New York is banning AI chatbot toys",
+   "url": "https://www.malwarebytes.com/blog/ai/2026/11/why-new-york-is-banning-ai-chatbot-toys",
+   "summary": "New York’s five-year ban on making, distributing, and selling AI chatbot toys starts February 22, after the holiday shopping season.",
+   "source": "Malwarebytes Labs",
+   "category": "threat",
+   "date": "2026-11-26T12:20:27+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T12:20:27+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
    "id": "23ec231ca044747f",
    "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
    "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
@@ -82,10 +255,10 @@
    "category": "threat",
    "date": "2026-11-26T11:50:17+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-26T11:50:17+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "a0ae3cb09c406305",
@@ -104,10 +277,6 @@
    "kev": true,
    "also_in": [
     {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/"
-    },
-    {
      "source": "SOCRadar",
      "url": "https://socradar.io/blog/drupal-fail2install-cve-2026-132165-exploited/"
     },
@@ -120,7 +289,7 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
     }
    ],
-   "seen_count": 5,
+   "seen_count": 4,
    "badge": "Actively exploited",
    "cve_detail": {
     "CVE-2026-131914": {
@@ -151,10 +320,10 @@
    "category": "ransomware",
    "date": "2026-11-26T11:35:25+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-26T11:35:25+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "98404916e851bfd9",
@@ -213,10 +382,10 @@
    "category": "threat",
    "date": "2026-11-26T10:57:55+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-26T10:57:55+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "420627cd7e6f59c1",
@@ -247,10 +416,10 @@
    "category": "threat",
    "date": "2026-11-26T10:57:25+00:00",
    "cves": [],
+   "brief_tries": 1,
    "first_seen": "2026-11-26T10:57:25+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "82568982e7fbcf68",
@@ -364,6 +533,19 @@
    "seen_count": 1
   },
   {
+   "id": "6c5ca138516ed5f1",
+   "title": "USN-9209-1: Simple DirectMedia Layer vulnerability",
+   "url": "https://ubuntu.com/security/notices/USN-9209-1",
+   "summary": "It was discovered that Simple DirectMedia Layer incorrectly handled memory when encountering errors during OpenGL ES streaming texture creation. An attacker could possibly use this issue to cause applications using Simple DirectMedia Layer to consume resources, resulting in a…",
+   "source": "Ubuntu Security Notices",
+   "category": "patch",
+   "date": "2026-11-26T09:14:33+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T09:14:33+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
    "id": "37e152d36e89d0cb",
    "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
    "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
@@ -374,6 +556,21 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-26T09:12:26+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "7b514c9cd1121cc5",
+   "title": "HYFLOCK claims attack on Indonesia's national passport database",
+   "url": "https://www.ransomware.live/group/HYFLOCK",
+   "summary": "Listed on a ransomware group's leak site (ID). This is the group's claim and is not independently verified.",
+   "source": "ransomware.live",
+   "category": "ransomware",
+   "badge": "Dark web listing",
+   "group": "HYFLOCK",
+   "date": "2026-11-26T08:53:07.657955+00:00",
+   "cves": [],
+   "first_seen": "2026-11-26T08:53:07.657955+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -664,7 +861,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.742566+00:00",
+   "date": "2026-11-26T01:37:27.313020+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -678,7 +875,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.742566+00:00",
+   "date": "2026-11-26T01:37:27.313020+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -692,7 +889,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.742566+00:00",
+   "date": "2026-11-26T01:37:27.313020+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -706,7 +903,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.742566+00:00",
+   "date": "2026-11-26T01:37:27.313020+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -720,7 +917,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.742566+00:00",
+   "date": "2026-11-26T01:37:27.313020+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -734,79 +931,9 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.742566+00:00",
+   "date": "2026-11-26T01:37:27.313020+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "bc19616b086e5989",
-   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.725980+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "606d53923f4c9019",
-   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.725980+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "90b594e9b4c76d5c",
-   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.725980+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0c469036c8f8c41",
-   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.725980+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "74208a7acb26dbbb",
-   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.725980+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -818,7 +945,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.670200+00:00",
+   "date": "2026-11-26T01:37:27.245813+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -832,7 +959,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.670200+00:00",
+   "date": "2026-11-26T01:37:27.245813+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -846,7 +973,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.670200+00:00",
+   "date": "2026-11-26T01:37:27.245813+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -860,7 +987,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.670200+00:00",
+   "date": "2026-11-26T01:37:27.245813+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -874,7 +1001,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.670200+00:00",
+   "date": "2026-11-26T01:37:27.245813+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -888,9 +1015,79 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.670200+00:00",
+   "date": "2026-11-26T01:37:27.245813+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bc19616b086e5989",
+   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-26T01:37:27.012283+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "606d53923f4c9019",
+   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-26T01:37:27.012283+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "90b594e9b4c76d5c",
+   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-26T01:37:27.012283+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b0c469036c8f8c41",
+   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-26T01:37:27.012283+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "74208a7acb26dbbb",
+   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-26T01:37:27.012283+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -902,7 +1099,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.355369+00:00",
+   "date": "2026-11-26T01:37:26.833864+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -916,7 +1113,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.355369+00:00",
+   "date": "2026-11-26T01:37:26.833864+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -930,7 +1127,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.355369+00:00",
+   "date": "2026-11-26T01:37:26.833864+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -944,7 +1141,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.355369+00:00",
+   "date": "2026-11-26T01:37:26.833864+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -958,7 +1155,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.355369+00:00",
+   "date": "2026-11-26T01:37:26.833864+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -972,7 +1169,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-26T00:13:09.355369+00:00",
+   "date": "2026-11-26T01:37:26.833864+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -3600,35 +3797,6 @@
    "seen_count": 1
   },
   {
-   "id": "c69074b4c129aca6",
-   "title": "CVE-2026-103406 added to CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
-   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
-   "source": "CISA KEV",
-   "category": "exploit",
-   "badge": "Actively exploited",
-   "kev": true,
-   "cves": [
-    "CVE-2026-103406"
-   ],
-   "date": "2026-11-25T00:00:00+00:00",
-   "first_seen": "2026-11-25T00:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "cve_detail": {
-    "CVE-2026-103406": {
-     "epss": 0.0086,
-     "kev": true,
-     "kev_date": "2026-11-25",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0086,
-   "exploitation": "active"
-  },
-  {
    "id": "031f8607018e10da",
    "title": "CVE-2026-133469 added to CISA KEV",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
@@ -4163,21 +4331,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-24T20:52:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b04f8d7ba6a820ba",
-   "title": "SilentRansomGroup claims attack on Greenbaum, Rowe, Smith, & Davis",
-   "url": "https://www.ransomware.live/group/SilentRansomGroup",
-   "summary": "Listed on a ransomware group's leak site. This is the group's claim and is not independently verified.",
-   "source": "ransomware.live",
-   "category": "ransomware",
-   "badge": "Dark web listing",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T20:43:09.775117+00:00",
-   "cves": [],
-   "first_seen": "2026-11-24T20:43:09.775117+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -4834,20 +4987,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-24T15:10:10+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "0309b5062a83e7a1",
-   "title": "Cato Networks offers $10,000 bounty for hacking new AI security tool",
-   "url": "https://www.scworld.com/brief/cato-networks-offers-10000-bounty-for-hacking-new-ai-security-tool",
-   "summary": "As reported by Tech Radar, Cato Networks has launched a bug bounty program offering $10,000 to the first three researchers who successfully compromise its new AI monitoring tool, AgentSense.",
-   "source": "SC Media",
-   "category": "threat",
-   "date": "2026-11-24T15:04:58+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-24T15:04:58+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -5642,20 +5781,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-24T08:56:13+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "f997327e540e9efa",
-   "title": "USN-9192-1: Linux kernel (NVIDIA) vulnerabilities",
-   "url": "https://ubuntu.com/security/notices/USN-9192-1",
-   "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of…",
-   "source": "Ubuntu Security Notices",
-   "category": "patch",
-   "date": "2026-11-24T08:42:57+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-24T08:42:57+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -8623,45 +8748,6 @@
    "seen_count": 1
   },
   {
-   "id": "c24bfdbc6c125b10",
-   "title": "CVE-2026-123890 added to CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
-   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
-   "source": "CISA KEV",
-   "category": "exploit",
-   "badge": "Actively exploited",
-   "kev": true,
-   "cves": [
-    "CVE-2026-123890"
-   ],
-   "date": "2026-11-20T00:00:00+00:00",
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T00:00:00+00:00",
-   "also_in": [
-    {
-     "source": "SOCRadar",
-     "url": "https://socradar.io/blog/cve-2026-123890-vcenter-0day-armory-castle/"
-    },
-    {
-     "source": "Rapid7 Blog",
-     "url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter"
-    }
-   ],
-   "seen_count": 3,
-   "cve_detail": {
-    "CVE-2026-123890": {
-     "epss": 0.0501,
-     "kev": true,
-     "kev_date": "2026-11-20",
-     "cvss": null,
-     "ssvc": "Attend"
-    }
-   },
-   "ssvc": "Attend",
-   "epss": 0.0501,
-   "exploitation": "active"
-  },
-  {
    "id": "57375f482cd69943",
    "title": "Cyber Director Cairncross out as White House resets cyber leadership",
    "url": "https://therecord.media/sean-cairncross-out-as-national-cyber-director",
@@ -9244,6 +9330,41 @@
    "exploitation": "active"
   },
   {
+   "id": "c24bfdbc6c125b10",
+   "title": "CVE-2026-123890 added to CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+   "summary": "CISA confirms this vulnerability is exploited in the wild and requires federal remediation. Treat as actively exploited.",
+   "source": "CISA KEV",
+   "category": "exploit",
+   "badge": "Actively exploited",
+   "kev": true,
+   "cves": [
+    "CVE-2026-123890"
+   ],
+   "date": "2026-11-20T00:00:00+00:00",
+   "brief_tries": 2,
+   "first_seen": "2026-11-20T00:00:00+00:00",
+   "also_in": [
+    {
+     "source": "Rapid7 Blog",
+     "url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter"
+    }
+   ],
+   "seen_count": 2,
+   "cve_detail": {
+    "CVE-2026-123890": {
+     "epss": 0.0501,
+     "kev": true,
+     "kev_date": "2026-11-20",
+     "cvss": null,
+     "ssvc": "Attend"
+    }
+   },
+   "ssvc": "Attend",
+   "epss": 0.0501,
+   "exploitation": "active"
+  },
+  {
    "id": "5e65458c080e9126",
    "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
    "url": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
@@ -9814,20 +9935,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-19T14:42:46+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "abef5657ebf43b0e",
-   "title": "Nvidia Responds to Gentlemen Ransomware Claim",
-   "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
-   "summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.",
-   "source": "SecurityWeek",
-   "category": "ransomware",
-   "date": "2026-11-19T14:17:32+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T14:17:32+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -10546,34 +10653,6 @@
    "seen_count": 1
   },
   {
-   "id": "467b84f5cca8fd9e",
-   "title": "Japan to postpone launch of sex offense check system over data leak risk",
-   "url": "https://databreaches.net/2026/11/18/japan-to-postpone-launch-of-sex-offense-check-system-over-data-leak-risk/",
-   "summary": "The Mainichi reports: Japan decided to postpone the planned Dec. 25 launch of a new system to check the sex offense histories of people working with children after vulnerabilities were found, the minister in charge of child policy said Wednesday. Hiroshi Nakatsuka apologized…",
-   "source": "DataBreaches.net",
-   "category": "breach",
-   "date": "2026-11-18T15:24:33+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T15:24:33+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "8d5ff285d4dca010",
-   "title": "IL: Wilmington School District 209U Reports Ransomware Attack And Possible Data Breach",
-   "url": "https://databreaches.net/2026/11/18/il-wilmington-school-district-209u-reports-ransomware-attack-and-possible-data-breach/",
-   "summary": "WJOL reports: Officials in Wilmington are investigating a possible ransomware attack and data breach at Wilmington School District 209U. There was a message sent to district staff and student families from Superintendent Kevin Feeney that said cybersecurity experts are…",
-   "source": "DataBreaches.net",
-   "category": "ransomware",
-   "date": "2026-11-18T15:24:24+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T15:24:24+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "96111808951c976e",
    "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
    "url": "https://therecord.media/russia-cyber-espionage-google",
@@ -10600,20 +10679,6 @@
    "first_seen": "2026-11-18T15:00:00+00:00",
    "also_in": [],
    "seen_count": 1
-  },
-  {
-   "id": "1d0a30cec42f79b3",
-   "title": "Norwegian Gas Giant Equinor Says It’s Under Cyberattack",
-   "url": "https://databreaches.net/2026/11/18/norwegian-gas-giant-equinor-says-its-under-cyberattack/",
-   "summary": "Pierluigi Paganini reports: Equinor, Europe’s largest gas supplier, said on 17 November it had detected an ongoing cyberattack against some IT systems. The Norwegian company said the attack had not affected operations and production, and it had taken steps to neutralise it.…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-18T14:58:52+00:00",
-   "cves": [],
-   "first_seen": "2026-11-18T14:58:52+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 2
   },
   {
    "id": "69958fa42ac429e6",
@@ -10915,20 +10980,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-18T10:00:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "9f62b2f4e8a2aa0b",
-   "title": "Watchdog Warns UK Government Is Falling Short on Risk Management",
-   "url": "https://www.infosecurity-magazine.com/news/watchdog-government-risk/",
-   "summary": "National Audit Office report claims risk management failures are leading to poor government decisions",
-   "source": "Infosecurity Magazine",
-   "category": "threat",
-   "date": "2026-11-18T09:30:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-18T09:30:00+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -11465,20 +11516,6 @@
    "seen_count": 1
   },
   {
-   "id": "6e65e608df54f4fb",
-   "title": "Anthropic Cuts Disclosure Deadline to 30 Days For Serious Bugs",
-   "url": "https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/",
-   "summary": "Anthropic will publish serious flaws found by its AI models 30 days after reporting them",
-   "source": "Infosecurity Magazine",
-   "category": "vuln",
-   "date": "2026-11-17T15:30:00+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T15:30:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "2a3576b7db96929b",
    "title": "The risks of device code authentication for AI coding agents",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
@@ -11973,48 +12010,6 @@
    "also_in": [],
    "seen_count": 1,
    "brief_tries": 2
-  },
-  {
-   "id": "6b8626fc671078b7",
-   "title": "Optimizely Attack Hits Zoom, BBC, CNN With Skimmer, iOS Kits",
-   "url": "https://socradar.io/blog/optimizely-attack-hits-zoom-bbc-cnn-with-skimmer-ios-kits/",
-   "summary": "An Optimizely supply chain attack on November 16, 2026, turned a trusted experimentation script into a malware delivery channel for some of the world’s best-known websites. For nearly 19 hours, visitors to sites such as Zoom, BBC, CNN, IKEA, HSBC and Equifax loaded code that…",
-   "source": "SOCRadar",
-   "category": "threat",
-   "date": "2026-11-17T09:50:04+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T09:50:04+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "d6f595ec37de9449",
-   "title": "OPTIMJACK: BBC, CNN and Zoom Among Targets of Optimizely Script Hijacking",
-   "url": "https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html",
-   "summary": "OPTIMJACK: Attackers hijacked Optimizely scripts on 178 organizations’ websites, spreading malware to steal crypto, payment card data and target iPhones. Visitors to 178 organizations received malicious JavaScript through Optimizely Web Experimentation, a service sites use to…",
-   "source": "Security Affairs",
-   "category": "threat",
-   "date": "2026-11-17T09:38:44+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T09:38:44+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "7fd778dc75a1a03b",
-   "title": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
-   "url": "https://www.reddit.com/r/netsec/comments/1xyfaen/glasswing_overwhelms_maintainers_with/",
-   "summary": "submitted by   /u/sonicLodge91 [link]   [comments]",
-   "source": "Reddit r/netsec",
-   "category": "threat",
-   "date": "2026-11-17T08:37:55+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-17T08:37:55+00:00",
-   "also_in": [],
-   "seen_count": 1
   }
  ]
 }
