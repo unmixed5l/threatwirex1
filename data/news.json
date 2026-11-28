@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updated": "2026-11-28T13:16:18.817906+00:00",
+ "updated": "2026-11-28T14:17:59.019483+00:00",
  "sources": {
   "CISA KEV": "ok (catalogue)",
   "BleepingComputer": "ok (15)",
@@ -74,18 +74,94 @@
  "ai": "0 new, 12 failed via github:openai/gpt-4o-mini (JSONDecodeError)",
  "items": [
   {
-   "id": "a442c95c8959bb46",
+   "id": "a2d7a43ec057f570",
    "title": "Booba Ransomware Attack on Water Plant Reveals Monitoring Blind Spot",
-   "url": "https://securityaffairs.com/204166/cyber-crime/booba-ransomware-attack-on-water-plant-reveals-monitoring-blind-spot.html",
-   "summary": "Booba ransomware spread from a US water plant to local government systems, exposing a critical security gap between two networks. Booba ransomware hit an East Coast water treatment plant in November, then reached the network of the local government overseeing it. ThreatDown,…",
-   "source": "Security Affairs",
+   "url": "https://databreaches.net/2026/11/28/booba-ransomware-attack-on-water-plant-reveals-monitoring-blind-spot/",
+   "summary": "Pierluigi Paganini reports: Booba ransomware hit an East Coast water treatment plant in November, then reached the network of the local government overseeing it. ThreatDown, which reported the incident, found no evidence that it disrupted water operations. The Industrial Cyber…",
+   "source": "DataBreaches.net",
    "category": "ransomware",
-   "date": "2026-11-28T10:51:27+00:00",
+   "date": "2026-11-28T13:34:03+00:00",
    "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-28T10:51:27+00:00",
+   "first_seen": "2026-11-28T13:34:03+00:00",
+   "also_in": [
+    {
+     "source": "Security Affairs",
+     "url": "https://securityaffairs.com/204166/cyber-crime/booba-ransomware-attack-on-water-plant-reveals-monitoring-blind-spot.html"
+    }
+   ],
+   "seen_count": 2,
+   "badge": "Corroborated",
+   "brief_tries": 1
+  },
+  {
+   "id": "31fa0cee04433960",
+   "title": "Hong Kong’s Octopus cyberattack exposes data of nearly 30K customers and merchants",
+   "url": "https://databreaches.net/2026/11/28/hong-kongs-octopus-cyberattack-exposes-data-of-nearly-30k-customers-and-merchants/",
+   "summary": "Paul Parashchak reports: Hong Kong’s Octopus smart payment system suffered a cyberattack potentially affecting nearly 30,000 customers and merchants, following separate cybersecurity incidents involving consumer finance company Aeon Credit Service (Asia) and the Leisure and…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-28T13:28:22+00:00",
+   "cves": [],
+   "first_seen": "2026-11-28T13:28:22+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "99b2a1993414ee20",
+   "title": "Hong Kong’s SmartPLAY data breach potentially exposes 90K users",
+   "url": "https://databreaches.net/2026/11/28/hong-kongs-smartplay-data-breach-potentially-exposes-90k-users/",
+   "summary": "Paul Parashchak reports: Hong Kong’s Office of the Privacy Commissioner for Personal Data (PCPD) has launched an investigation into a suspected data breach involving SmartPLAY, the government’s online booking system for public sports and recreational facilities, potentially…",
+   "source": "DataBreaches.net",
+   "category": "breach",
+   "date": "2026-11-28T13:24:31+00:00",
+   "cves": [],
+   "first_seen": "2026-11-28T13:24:31+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "636c132a36142604",
+   "title": "Korea Post’s mobile service hacked, with personal data of at least 113,000 customers leaked",
+   "url": "https://databreaches.net/2026/11/28/korea-posts-mobile-service-hacked-with-personal-data-of-at-least-113000-customers-leaked/",
+   "summary": "Yonhap News reports: A hacking attack on the internet post office has exposed the personal information of at least 113,855 customers, with the full scope of the breach still under investigation, the postal service said on Saturday. The Korea Post, under the Ministry of Science…",
+   "source": "DataBreaches.net",
+   "category": "breach",
+   "date": "2026-11-28T13:18:01+00:00",
+   "cves": [],
+   "first_seen": "2026-11-28T13:18:01+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "953a98d262e6c304",
+   "title": "HK: App breach may expose 500,000 construction workers",
+   "url": "https://databreaches.net/2026/11/28/hk-app-breach-may-expose-500000-construction-workers/",
+   "summary": "rthk.hk reports: The personal data of some 500,000 registered construction workers was potentially exposed on Saturday after unauthorized access was discovered on the Construction Industry Council (CIC) app server. The information that may have been accessed includes names,…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-28T13:17:56+00:00",
+   "cves": [],
+   "first_seen": "2026-11-28T13:17:56+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
+  },
+  {
+   "id": "f8e7c93de7372ee3",
+   "title": "Boston Scientific Data Breach – Hackers Steal Personal Information via Voice Phishing Attack",
+   "url": "https://databreaches.net/2026/11/28/boston-scientific-data-breach-hackers-steal-personal-information-via-voice-phishing-attack/",
+   "summary": "Eswar reports: Boston Scientific has confirmed that a voice phishing (vishing) intrusion exposed personal and medical-related data from its cloud-based IT business applications. The medical technology company began sending breach notices to individuals across multiple U.S.…",
+   "source": "DataBreaches.net",
+   "category": "breach",
+   "date": "2026-11-28T13:17:36+00:00",
+   "cves": [],
+   "first_seen": "2026-11-28T13:17:36+00:00",
+   "also_in": [],
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "cf1e8257b22a9623",
@@ -132,20 +208,6 @@
    "seen_count": 1
   },
   {
-   "id": "fc27df21d79fa552",
-   "title": "Cyber incident disrupting services for Pacific Blue Cross members",
-   "url": "https://databreaches.net/2026/11/27/cyber-incident-disrupting-services-for-pacific-blue-cross-members/",
-   "summary": "CBC reports: Pacific Blue Cross says it’s dealing with a “cyber incident” that has disrupted some of its systems, leaving members unable to access certain services, including its website and contact centre. The Burnaby-based health benefits provider, which serves approximately…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-28T01:18:52+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-28T01:18:52+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "506b0b188be54fee",
    "title": "quickkitty.com: 1,312,764 records in the BreachDirectory index",
    "url": "https://breachdirectory.org/",
@@ -153,7 +215,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.874702+00:00",
+   "date": "2026-11-28T02:16:38.103905+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -167,7 +229,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.874702+00:00",
+   "date": "2026-11-28T02:16:38.103905+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -181,7 +243,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.874702+00:00",
+   "date": "2026-11-28T02:16:38.103905+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -195,7 +257,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.874702+00:00",
+   "date": "2026-11-28T02:16:38.103905+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -209,7 +271,7 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.874702+00:00",
+   "date": "2026-11-28T02:16:38.103905+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
    "also_in": [],
@@ -223,79 +285,9 @@
    "source": "BreachDirectory",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.874702+00:00",
+   "date": "2026-11-28T02:16:38.103905+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.387572+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "bc19616b086e5989",
-   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.781000+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "606d53923f4c9019",
-   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.781000+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "90b594e9b4c76d5c",
-   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.781000+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "b0c469036c8f8c41",
-   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.781000+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "74208a7acb26dbbb",
-   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
-   "url": "https://leak-lookup.com/",
-   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
-   "source": "Leak-Lookup",
-   "category": "breach",
-   "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.781000+00:00",
-   "cves": [],
-   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -307,7 +299,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.750653+00:00",
+   "date": "2026-11-28T02:16:38.065085+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -321,7 +313,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.750653+00:00",
+   "date": "2026-11-28T02:16:38.065085+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -335,7 +327,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.750653+00:00",
+   "date": "2026-11-28T02:16:38.065085+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -349,7 +341,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.750653+00:00",
+   "date": "2026-11-28T02:16:38.065085+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -363,7 +355,7 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.750653+00:00",
+   "date": "2026-11-28T02:16:38.065085+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
    "also_in": [],
@@ -377,9 +369,79 @@
    "source": "DeHashed",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.750653+00:00",
+   "date": "2026-11-28T02:16:38.065085+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.606118+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "bc19616b086e5989",
+   "title": "cocacolaep.com: 13,370,207 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 13,370,207 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-28T02:16:38.012938+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "606d53923f4c9019",
+   "title": "urssaf.fr: 689,415 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 689,415 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-28T02:16:38.012938+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "90b594e9b4c76d5c",
+   "title": "sisacloud.com: 992,887 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 992,887 records, listed Jun 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-28T02:16:38.012938+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "b0c469036c8f8c41",
+   "title": "discoverycraft.de: 262 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 262 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-28T02:16:38.012938+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "74208a7acb26dbbb",
+   "title": "minedisney.com: 48,268 records in the Leak-Lookup index",
+   "url": "https://leak-lookup.com/",
+   "summary": "Breach catalogue entry: 48,268 records, listed May 2026. Leak-Lookup holds the searchable records; this site stores the metadata only.",
+   "source": "Leak-Lookup",
+   "category": "breach",
+   "badge": "Breach catalogue",
+   "date": "2026-11-28T02:16:38.012938+00:00",
+   "cves": [],
+   "first_seen": "2026-11-08T05:22:05.353389+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -391,7 +453,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.568058+00:00",
+   "date": "2026-11-28T02:16:37.711063+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -405,7 +467,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.568058+00:00",
+   "date": "2026-11-28T02:16:37.711063+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -419,7 +481,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.568058+00:00",
+   "date": "2026-11-28T02:16:37.711063+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -433,7 +495,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.568058+00:00",
+   "date": "2026-11-28T02:16:37.711063+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -447,7 +509,7 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.568058+00:00",
+   "date": "2026-11-28T02:16:37.711063+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
    "also_in": [],
@@ -461,9 +523,23 @@
    "source": "Snusbase",
    "category": "breach",
    "badge": "Breach catalogue",
-   "date": "2026-11-28T01:14:55.568058+00:00",
+   "date": "2026-11-28T02:16:37.711063+00:00",
    "cves": [],
    "first_seen": "2026-11-08T05:22:05.206104+00:00",
+   "also_in": [],
+   "seen_count": 1
+  },
+  {
+   "id": "fc27df21d79fa552",
+   "title": "Cyber incident disrupting services for Pacific Blue Cross members",
+   "url": "https://databreaches.net/2026/11/27/cyber-incident-disrupting-services-for-pacific-blue-cross-members/",
+   "summary": "CBC reports: Pacific Blue Cross says it’s dealing with a “cyber incident” that has disrupted some of its systems, leaving members unable to access certain services, including its website and contact centre. The Burnaby-based health benefits provider, which serves approximately…",
+   "source": "DataBreaches.net",
+   "category": "threat",
+   "date": "2026-11-28T01:18:52+00:00",
+   "cves": [],
+   "brief_tries": 2,
+   "first_seen": "2026-11-28T01:18:52+00:00",
    "also_in": [],
    "seen_count": 1
   },
@@ -2516,14 +2592,8 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-26T17:06:55+00:00",
-   "also_in": [
-    {
-     "source": "DataBreaches.net",
-     "url": "https://databreaches.net/2026/11/26/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Corroborated"
+   "also_in": [],
+   "seen_count": 1
   },
   {
    "id": "2070936c197de69f",
@@ -8649,10 +8719,10 @@
    "category": "vuln",
    "date": "2026-11-23T08:00:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-23T08:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "2e92de5c4e423ff8",
@@ -8733,10 +8803,10 @@
    "category": "threat",
    "date": "2026-11-23T00:00:00+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-23T00:00:00+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "f6ee8bdc262f5053",
@@ -9047,26 +9117,6 @@
    "seen_count": 1
   },
   {
-   "id": "55e143d758f8f401",
-   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
-   "url": "https://databreaches.net/2026/11/21/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-   "summary": "Following up on a story first reported by 404 Media, Brian Krebs dug into the indictment and history of the Chief Technical Officer of RansomwareHelp. The website RansomwareHelp urged victims “Do not pay the ransom!,” claiming its advanced cryptographic tools could restore 100…",
-   "source": "DataBreaches.net",
-   "category": "ransomware",
-   "date": "2026-11-21T12:36:47+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-21T12:36:47+00:00",
-   "also_in": [
-    {
-     "source": "Krebs on Security",
-     "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
-    }
-   ],
-   "seen_count": 2,
-   "badge": "Corroborated"
-  },
-  {
    "id": "6231e48f3bee97e2",
    "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
    "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
@@ -9109,18 +9159,18 @@
    "seen_count": 1
   },
   {
-   "id": "658edd0f5c0a38ca",
-   "title": "Ransomware: What we know about the arrests of Chaos affiliates",
-   "url": "https://databreaches.net/2026/11/20/ransomware-what-we-know-about-the-arrests-of-chaos-affiliates/",
-   "summary": "Valéry Rieß-Marchive reports: The Ukraininan authorities have released further details regarding four individuals arrested as part of a wider ransomware investigation into the cyber criminal ransomware underground. The four detainees linked to the so-called Chaos ransomware…",
-   "source": "DataBreaches.net",
+   "id": "93138fbb4db250e2",
+   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply…",
+   "source": "Krebs on Security",
    "category": "ransomware",
-   "date": "2026-11-20T23:50:20+00:00",
+   "date": "2026-11-21T00:36:39+00:00",
    "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T23:50:20+00:00",
+   "first_seen": "2026-11-21T00:36:39+00:00",
    "also_in": [],
-   "seen_count": 1
+   "seen_count": 1,
+   "brief_tries": 1
   },
   {
    "id": "931f9a9053dff1e2",
@@ -9230,10 +9280,10 @@
    "category": "threat",
    "date": "2026-11-20T20:43:45+00:00",
    "cves": [],
+   "brief_tries": 2,
    "first_seen": "2026-11-20T20:43:45+00:00",
    "also_in": [],
-   "seen_count": 1,
-   "brief_tries": 1
+   "seen_count": 1
   },
   {
    "id": "e010061a1eb7f0ca",
@@ -9306,35 +9356,6 @@
    "seen_count": 1
   },
   {
-   "id": "a5a082552bfdec56",
-   "title": "Bell Canada says ‘agentic’ hacker stole enterprise customer data",
-   "url": "https://databreaches.net/2026/11/20/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-   "summary": "Lawrence Abrams reports: Bell Canada has confirmed that an “agentic” threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. Bell is one of Canada’s…",
-   "source": "DataBreaches.net",
-   "category": "breach",
-   "date": "2026-11-20T18:56:50+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T18:56:50+00:00",
-   "also_in": [],
-   "seen_count": 1,
-   "badge": "Corroborated"
-  },
-  {
-   "id": "755bf327b1298bc8",
-   "title": "U.S. Department of Agriculture grapples with security breach as IT staff take multiple systems offline",
-   "url": "https://databreaches.net/2026/11/20/u-s-department-of-agriculture-grapples-with-security-breach-as-it-staff-take-multiple-systems-offline/",
-   "summary": "David DiMolfetta and Jory Heckman report: Numerous Department of Agriculture applications have been taken offline over a multi-day period in response to a cybersecurity incident internally disclosed earlier this week, according to three people familiar with the matter and an…",
-   "source": "DataBreaches.net",
-   "category": "threat",
-   "date": "2026-11-20T18:44:27+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-20T18:44:27+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
    "id": "95e1986b820d2a34",
    "title": "In Security, Words Matter as Much as Tools — Maybe More",
    "url": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
@@ -9387,6 +9408,7 @@
    "cves": [
     "CVE-2026-114938"
    ],
+   "brief_tries": 2,
    "first_seen": "2026-11-20T17:00:00+00:00",
    "also_in": [
     {
@@ -9423,8 +9445,7 @@
    },
    "ssvc": "Track*",
    "epss": 0.7254,
-   "exploitation": "poc",
-   "brief_tries": 1
+   "exploitation": "poc"
   },
   {
    "id": "705577b57ecf22bf",
@@ -9896,6 +9917,7 @@
     "CVE-2026-123007",
     "CVE-2026-123633"
    ],
+   "brief_tries": 2,
    "first_seen": "2026-11-20T08:00:00+00:00",
    "also_in": [
     {
@@ -9930,8 +9952,7 @@
    },
    "ssvc": "Track*",
    "epss": 0.4613,
-   "exploitation": "poc",
-   "brief_tries": 1
+   "exploitation": "poc"
   },
   {
    "id": "0045183029e1d601",
@@ -10177,20 +10198,6 @@
    "cves": [],
    "brief_tries": 2,
    "first_seen": "2026-11-19T17:25:00+00:00",
-   "also_in": [],
-   "seen_count": 1
-  },
-  {
-   "id": "2ff5d2ac87e8dee7",
-   "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-   "url": "https://databreaches.net/2026/11/19/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers/",
-   "summary": "Ben Glickman and Alexander Saeedy report: Data from thousands of customers of Visa, Mastercard, and JPMorgan Chase have unnerved consumers in the last week. A Visa spokesman said no payments data, such as card numbers, were affected and Visa’s own systems weren’t involved or…",
-   "source": "DataBreaches.net",
-   "category": "breach",
-   "date": "2026-11-19T17:16:31+00:00",
-   "cves": [],
-   "brief_tries": 2,
-   "first_seen": "2026-11-19T17:16:31+00:00",
    "also_in": [],
    "seen_count": 1
   },
